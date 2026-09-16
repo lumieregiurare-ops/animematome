@@ -20,7 +20,7 @@ export async function fetchFeed(feed) {
       url: cleanUrl(e.link || ""),
       summary: truncate(summary, 160),
       publishedAt: e.date ? new Date(e.date).toISOString() : null,
-      image: firstImage(e.content || e.description || ""),
+      image: e.media || firstImage(e.content || e.description || ""),
       tags: e.categories || [],
       // モンハン専門のフィードを足したときは、キーワード判定を通さずそのまま載せる
       always: !!feed.always,

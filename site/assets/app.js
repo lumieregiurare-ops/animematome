@@ -60,6 +60,47 @@
   function labelOfSeries(id) {
     return data.series.find((s) => s.id === id)?.label || "";
   }
+  // ---------- サムネイル ----------
+  // 画像が取れなかった記事・放送予定には、見出しから作った色つきのプレースホルダーを出す
+  const CAT_EMOJI = {
+    new: "✨", onair: "📺", pv: "🎬", cast2: "🎤", music2: "🎵",
+    movie2: "🎦", goods2: "🎁", manga: "📖", biz2: "📈", other: "📰",
+  };
+  function hashHue(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+    return h % 360;
+  }
+  function firstGlyph(str) {
+    return [...(str || "").trim()].find((c) => !/[「『【\[(（"'"'\s]/.test(c)) || "?";
+  }
+  function applyPlaceholder(box, seed, glyph) {
+    const hue = hashHue(seed);
+    box.classList.add("thumb-ph");
+    box.style.background = `linear-gradient(135deg, hsl(${hue} 68% 62%), hsl(${(hue + 46) % 360} 68% 46%))`;
+    box.textContent = glyph;
+  }
+  // url があれば画像、なければプレースホルダー。画像の読み込みに失敗したらプレースホルダーに差し替える
+  function thumbNode(url, seed, glyph, className) {
+    const box = document.createElement("div");
+    box.className = className;
+    if (url) {
+      const img = document.createElement("img");
+      img.src = url;
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.referrerPolicy = "no-referrer";
+      img.addEventListener("error", () => {
+        img.remove();
+        applyPlaceholder(box, seed, glyph);
+      });
+      box.appendChild(img);
+    } else {
+      applyPlaceholder(box, seed, glyph);
+    }
+    return box;
+  }
   function spinnerNode() {
     const sp = document.createElement("span");
     sp.className = "spinner";
@@ -117,6 +158,8 @@
     const row = document.createElement("article");
     row.className = "row" + (it.isNew ? " is-new" : "");
 
+    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "row-thumb");
+
     const body = document.createElement("div");
     body.className = "row-body";
 
@@ -160,7 +203,7 @@
       renderFav();
     });
 
-    row.append(body, star);
+    row.append(thumb, body, star);
     return row;
   }
 
@@ -238,6 +281,8 @@
       const card = document.createElement("article");
       card.className = "topic";
 
+      const thumb = thumbNode(t.image, t.title, CAT_EMOJI[(t.categories || [])[0]] || CAT_EMOJI.other, "topic-thumb");
+
       const top = document.createElement("div");
       top.className = "topic-top";
       const stars = document.createElement("span");
@@ -269,7 +314,7 @@
 
       const links = document.createElement("ul");
       links.className = "topic-links";
-      for (const it of (t.items || []).slice(0, 4)) {
+      for (const it of (t.articles || []).slice(0, 4)) {
         const li = document.createElement("li");
         const s = document.createElement("span");
         s.className = "src";
@@ -279,13 +324,13 @@
         la.target = "_blank";
         la.rel = "noopener noreferrer";
         la.textContent = it.title;
-        la.addEventListener("click", () => markRead(it.id));
+        la.addEventListener("click", () => markRead(it.id || it.url));
         li.append(s, la);
         links.appendChild(li);
       }
 
       body.append(h, sum, links);
-      card.append(top, body);
+      card.append(thumb, top, body);
       grid.appendChild(card);
     }
     const more = $("#topicMore");
@@ -380,13 +425,17 @@
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.addEventListener("click", () => markRead(it.id));
+    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "gacha-thumb");
+    const info = document.createElement("div");
+    info.className = "gacha-info";
     const meta = document.createElement("div");
     meta.className = "gacha-meta";
     meta.textContent = `${it.source} ・ ${hhmm(it.publishedAt)}`;
     const t = document.createElement("div");
     t.className = "gacha-title";
     t.textContent = it.title;
-    a.append(meta, t);
+    info.append(meta, t);
+    a.append(thumb, info);
     box.appendChild(a);
   }
 
@@ -423,6 +472,8 @@
     a.rel = "noopener noreferrer";
     a.title = p.fullTitle || p.title;
 
+    const thumb = thumbNode("", p.title, firstGlyph(p.title), "prog-thumb");
+
     const time = document.createElement("div");
     time.className = "prog-time";
     time.innerHTML = `<span class="t">${timeOf(p.st)}</span>${showDay ? `<span class="d">${dayTabLabel(p.st.slice(0, 10))}</span>` : ""}`;
@@ -451,7 +502,7 @@
       meta.appendChild(s);
     }
     body.append(t, meta);
-    a.append(time, body);
+    a.append(thumb, time, body);
     return a;
   }
 
@@ -467,11 +518,8 @@
       .slice(0, 8);
     if (!list.length) {
       box.innerHTML = `<p class="empty-mini">このあと放送予定の番組はありません。</p>`;
-      $("#upcomingNote").textContent = "";
       return;
     }
-    const soon = Math.round((new Date(list[0].st).getTime() - now) / 60000);
-    $("#upcomingNote").textContent = soon < 60 ? `次は約 ${Math.max(1, soon)} 分後です。` : `次は ${timeOf(list[0].st)} からです。`;
 
     const wrap = document.createElement("div");
     wrap.className = "prog-list";
@@ -548,24 +596,6 @@
     }
   }
 
-  function renderTitleRanking() {
-    const box = $("#titleList");
-    box.innerHTML = "";
-    const list = (sched.titles || []).slice(0, 10);
-    const max = Math.max(1, ...list.map((t) => t.count));
-    for (const t of list) {
-      const li = document.createElement("li");
-      li.innerHTML = `<div class="bar-row"><span>${t.title}</span><span class="c">${t.count}</span></div>
-        <div class="bar"><span style="width:${Math.round((t.count / max) * 100)}%"></span></div>`;
-      li.querySelector("span").style.cursor = "pointer";
-      li.addEventListener("click", () => {
-        $("#q").value = t.title;
-        set({ q: t.title });
-      });
-      box.appendChild(li);
-    }
-  }
-
   // 今夜これ観ませんか（これから放送される番組からランダム）
   let tonightPid = "";
   function renderTonight() {
@@ -599,7 +629,6 @@
       $("#upcomingBody").innerHTML = `<p class="empty-mini">放送予定を読み込めませんでした。</p>`;
       $("#timetableSection").hidden = true;
       $("#chMod").hidden = true;
-      $("#titleMod").hidden = true;
       return;
     }
     const today = jstDayKey();
@@ -608,7 +637,6 @@
     renderDayTabs();
     renderTimetable();
     renderChannels();
-    renderTitleRanking();
     renderTonight();
     // 時計が進むと「これから放送」の中身が変わる
     setInterval(renderUpcoming, 60000);

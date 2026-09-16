@@ -419,7 +419,9 @@ main.wrap {
 
 /* ガチャ・おみくじの中身 */
 .gacha-item {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 9px;
   margin-top: 8px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -429,6 +431,10 @@ main.wrap {
 
 .gacha-item:hover {
   border-color: var(--ember);
+}
+
+.gacha-info {
+  min-width: 0;
 }
 
 .gacha-meta {
@@ -441,6 +447,61 @@ main.wrap {
   font-weight: 700;
   line-height: 1.5;
   margin-top: 2px;
+}
+
+/* ---------- サムネイル ---------- */
+.thumb-ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+}
+
+.row-thumb,
+.gacha-thumb {
+  flex: none;
+  width: 76px;
+  height: 76px;
+  border-radius: 9px;
+  overflow: hidden;
+  background: var(--bg-2);
+}
+
+.row-thumb img,
+.gacha-thumb img,
+.topic-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.row-thumb.thumb-ph,
+.gacha-thumb.thumb-ph {
+  font-size: 26px;
+}
+
+.gacha-thumb {
+  width: 52px;
+  height: 52px;
+}
+
+.gacha-thumb.thumb-ph {
+  font-size: 18px;
+}
+
+.topic-thumb {
+  width: 100%;
+  height: 128px;
+  overflow: hidden;
+  background: var(--bg-2);
+  flex: none;
+}
+
+.topic-thumb.thumb-ph {
+  font-size: 36px;
 }
 
 /* ---------- 放送予定 ---------- */
@@ -467,6 +528,15 @@ main.wrap {
 
 .prog.is-past {
   opacity: .5;
+}
+
+.prog-thumb {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  align-self: center;
+  font-size: 16px;
 }
 
 .prog-time {
@@ -850,7 +920,7 @@ main.wrap {
 
 .row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   background: var(--surface);
   border: 2px solid var(--border);

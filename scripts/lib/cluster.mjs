@@ -76,12 +76,14 @@ export function buildTopics(items, cfg = {}, entities = []) {
     // 代表記事は、プレスリリースでないもの・説明があるものを優先
     const lead =
       g.members.find((m) => !m.isPR && m.summary) || g.members.find((m) => !m.isPR) || g.members[0];
+    // 代表記事に画像がなくても、同じ話題の別記事が画像を持っていればそれを使う
+    const image = lead.image || g.members.find((m) => m.image)?.image || "";
     topics.push({
       id: lead.id,
       title: lead.title,
       summary: lead.summary || "",
       url: lead.url,
-      image: lead.image || "",
+      image,
       leadSource: lead.source,
       publishedAt: g.members.reduce((a, m) => (m.publishedAt > a ? m.publishedAt : a), g.members[0].publishedAt),
       sourceCount: sources.length,

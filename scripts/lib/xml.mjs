@@ -64,6 +64,7 @@ function parseAtom(xml) {
     date: tag(e, "published") || tag(e, "updated"),
     content: tag(e, "content") || tag(e, "summary"),
     categories: [...e.matchAll(/<category\b[^>]*\bterm=["']([^"']+)["']/gi)].map((m) => decodeEntities(m[1])),
+    media: mediaImage(e),
   }));
 }
 
@@ -77,10 +78,27 @@ function parseRss(xml) {
     content: tag(it, "content:encoded") || tag(it, "description"),
     description: tag(it, "description"),
     categories: tags(it, "category"),
+    media: mediaImage(it),
   }));
 }
 
 export function firstImage(html) {
   const m = (html || "").match(/<img\b[^>]*\bsrc=["']([^"']+)["']/i);
   return m ? decodeEntities(m[1]) : "";
+}
+
+// media:content / media:thumbnail / enclosure (画像のときだけ) からサムネイル URL を拾う
+function mediaImage(block) {
+  const mc = attr(block, "media:content", "url");
+  if (mc) return mc;
+  const mt = attr(block, "media:thumbnail", "url");
+  if (mt) return mt;
+  const m = block.match(/<enclosure\b([^>]*)\/?>/i);
+  if (m) {
+    const attrs = m[1];
+    const type = (attrs.match(/type=["']([^"']+)["']/i) || [])[1] || "";
+    const url = (attrs.match(/url=["']([^"']+)["']/i) || [])[1] || "";
+    if (url && (!type || /^image\//i.test(type))) return decodeEntities(url);
+  }
+  return "";
 }
