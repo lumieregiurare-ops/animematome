@@ -5,11 +5,11 @@ import { dirname } from "node:path";
 export const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36";
 
-export async function fetchText(url, { timeoutMs = 20000, headers = {} } = {}) {
+export async function fetchText(url, { timeoutMs = 20000, headers = {}, method = "GET", body } = {}) {
   const ac = new AbortController();
   const t = setTimeout(() => ac.abort(), timeoutMs);
   try {
-    const r = await fetch(url, { headers: { "user-agent": UA, ...headers }, signal: ac.signal });
+    const r = await fetch(url, { method, body, headers: { "user-agent": UA, ...headers }, signal: ac.signal });
     if (!r.ok) throw new Error(`HTTP ${r.status} ${url}`);
     return await r.text();
   } finally {

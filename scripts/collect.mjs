@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { readJson, writeJson, idOf, hostOf, log, truncate } from "./lib/util.mjs";
 import { fetchAll } from "./lib/sources.mjs";
+import { enrichImages } from "./lib/enrich.mjs";
 import { buildTopics } from "./lib/cluster.mjs";
 import { buildSchedule } from "./build-schedule.mjs";
 
@@ -151,6 +152,16 @@ for (const r of raw) {
 
 const items = [...byId.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 log(`kept ${items.length} (対象外 ${dropped.offTopic} / 古い ${dropped.tooOld} / 除外 ${dropped.blocked} / 重複 ${dropped.dup})`);
+
+// ---------- 2.5 画像の補完 ----------
+// Google ニュース経由の記事は RSS に画像も元記事の URL も入っていないので、
+// 記事ページから実 URL を割り出して og:image を取りに行く（失敗しても無視する）
+try {
+  const enriched = await enrichImages(items);
+  log(`images enriched: ${enriched}`);
+} catch (e) {
+  log("画像の補完に失敗:", e.message);
+}
 
 // ---------- 3. 同じ話題をまとめる ----------
 let topics = [];
