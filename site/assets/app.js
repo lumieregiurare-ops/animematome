@@ -472,7 +472,7 @@
     a.rel = "noopener noreferrer";
     a.title = p.fullTitle || p.title;
 
-    const thumb = thumbNode("", p.title, firstGlyph(p.title), "prog-thumb");
+    const thumb = thumbNode(p.image || "", p.title, firstGlyph(p.title), "prog-thumb");
 
     const time = document.createElement("div");
     time.className = "prog-time";

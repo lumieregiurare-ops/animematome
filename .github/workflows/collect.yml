@@ -73,8 +73,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # state.json は次回の「新着」判定と更新間隔の計算に使うので一緒にコミットする
-          git add docs data/state.json
+          # state.json は次回の「新着」判定と更新間隔の計算に使う。
+          # anime-images.json は番組表のサムネイル（AniList）のキャッシュで、無いと毎回同じ検索をやり直すことになるので一緒にコミットする
+          git add docs data/state.json data/anime-images.json
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "chore: collect $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')"
           git push

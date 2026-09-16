@@ -4,10 +4,46 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { readJson, writeJson, log } from "./lib/util.mjs";
 import { fetchChannels, fetchPrograms, fetchTitles } from "./lib/syoboi.mjs";
+import { searchCoverImage } from "./lib/anilist.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "docs", "data", "schedule.json");
 const CH_CACHE = join(ROOT, "data", "channels.json");
+const IMG_CACHE = join(ROOT, "data", "anime-images.json");
+
+// 番組のサムネイルを AniList から取って tid ごとにキャッシュする。
+// しょぼいカレンダーの ID とは体系が違うので、タイトルの文字列検索でマッチさせるしかない
+// （見つからない／違う作品に当たることもある。その場合は次回 30 日後に再挑戦する）。
+async function attachImages(titleList, { limit = 60, minGapMs = 2100, budgetMs = 5 * 60000 } = {}) {
+  const cache = (await readJson(IMG_CACHE, null)) || { images: {} };
+  const now = Date.now();
+  const STALE_MS = 30 * 86400000;
+  const targets = titleList.filter((t) => {
+    const c = cache.images[t.tid];
+    return !c || (!c.image && now - new Date(c.at).getTime() > STALE_MS);
+  });
+  if (targets.length) {
+    const start = Date.now();
+    let got = 0;
+    for (const t of targets.slice(0, limit)) {
+      if (Date.now() - start > budgetMs) {
+        log(`AniList 画像取得: 時間切れのため中断（残りは次回）`);
+        break;
+      }
+      try {
+        const image = await searchCoverImage(t.title);
+        cache.images[t.tid] = { image, at: new Date().toISOString() };
+        if (image) got++;
+      } catch (e) {
+        log(`AniList 検索に失敗 (${t.title}): ${e.message}`);
+      }
+      await new Promise((r) => setTimeout(r, minGapMs));
+    }
+    await writeJson(IMG_CACHE, cache);
+    log(`AniList 画像: ${got}/${targets.length} 件取得`);
+  }
+  for (const t of titleList) t.image = cache.images[t.tid]?.image || "";
+}
 
 export async function buildSchedule(config) {
   const cfg = config.schedule || {};
@@ -81,6 +117,17 @@ export async function buildSchedule(config) {
     .map(([tid, count]) => ({ tid, title: titles.get(tid)?.shortTitle || titles.get(tid)?.title || "", count }))
     .filter((t) => t.title)
     .sort((a, b) => b.count - a.count || a.title.localeCompare(b.title));
+
+  // ---------- 番組表のサムネイル（AniList） ----------
+  // 失敗しても放送予定自体は出したいので、ここで止まらないようにする
+  try {
+    const imgCfg = config.schedule?.images || {};
+    if (imgCfg.enabled !== false) await attachImages(titleList, imgCfg);
+  } catch (e) {
+    log("番組画像の取得に失敗:", e.message);
+  }
+  const imageByTid = new Map(titleList.map((t) => [t.tid, t.image || ""]));
+  for (const d of daysOut) for (const p of d.programs) p.image = imageByTid.get(p.tid) || "";
 
   const out = {
     updatedAt: new Date().toISOString(),
