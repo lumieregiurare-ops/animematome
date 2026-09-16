@@ -1,0 +1,20 @@
+{
+  "name": "animematome",
+  "version": "1.0.0",
+  "description": "アニメの放送予定とニュースを集めてまとめる静的サイト",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "collect": "node scripts/collect.mjs",
+    "start": "npm run build && node server.mjs",
+    "schedule": "node scripts/build-schedule.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "sharp": "^0.33.5"
+  }
+}

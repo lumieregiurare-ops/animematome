@@ -1,0 +1,111 @@
+{
+  "port": 3280,
+  "host": "127.0.0.1",
+  "watchdogMinutes": 15,
+  "maxArticleAgeDays": 5,
+
+  "site": {
+    "title": "今日のアニメ",
+    "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
+    "url": "https://anime.gamelab.website/",
+    "contactUrl": ""
+  },
+
+  "schedule": {
+    "days": 3,
+    "note": "載せる局。しょぼいカレンダーには 289 局あり、全部出すと埋もれるので主要局に絞る。増やしたいときはここに足す。",
+    "channels": [
+      "^NHK総合$", "^NHKEテレ", "^日本テレビ$", "^テレビ朝日$", "^TBS$", "^テレビ東京$", "^フジテレビ$",
+      "^TOKYO MX", "^tvk$", "^チバテレ", "^テレ玉", "^サンテレビ", "^KBS京都", "^テレビ愛知",
+      "^BS11", "^BS日テレ", "^BSテレ東", "^BS朝日", "^BS-TBS", "^BSフジ", "^BS松竹東急", "^BSよしもと", "^NHKBS",
+      "^AT-X", "^アニマックス", "^キッズステーション", "^日テレプラス",
+      "^ABEMA", "^dアニメストア", "^ニコニコ", "^Prime Video", "^Netflix", "^U-NEXT", "^DMM TV", "^YouTube"
+    ]
+  },
+
+  "feeds": [
+    { "name": "アニメ！アニメ！", "url": "https://animeanime.jp/rss20/index.rdf" },
+    { "name": "コミックナタリー", "url": "https://natalie.mu/comic/feed/news" },
+    { "name": "音楽ナタリー", "url": "https://natalie.mu/music/feed/news" },
+    { "name": "電撃ホビーウェブ", "url": "https://hobby.dengeki.com/feed/" },
+    { "name": "インサイド", "url": "https://www.inside-games.jp/rss20/index.rdf" },
+    { "name": "電ファミニコゲーマー", "url": "https://news.denfaminicogamer.jp/feed" }
+  ],
+
+  "steamNews": { "enabled": false, "apps": [] },
+
+  "googleNews": {
+    "enabled": true,
+    "within": "2d",
+    "perQuery": 40,
+    "queries": [
+      "アニメ 放送",
+      "アニメ 新作",
+      "アニメ化",
+      "声優",
+      "劇場版 アニメ",
+      "アニメ 主題歌",
+      "続編 制作決定",
+      "アニメ 円盤"
+    ]
+  },
+
+  "keywords": [
+    "アニメ",
+    "アニメ化",
+    "声優",
+    "劇場版",
+    "放送",
+    "配信",
+    "制作決定",
+    "主題歌",
+    "PV",
+    "キービジュアル",
+    "第\\d+期",
+    "コミカライズ",
+    "原作"
+  ],
+
+  "series": [
+    { "id": "tv", "label": "TVアニメ", "keywords": ["TVアニメ", "テレビアニメ", "放送", "第\\d+話", "クール"] },
+    { "id": "movie", "label": "劇場版・映画", "keywords": ["劇場版", "映画", "公開", "上映", "興行"] },
+    { "id": "cast", "label": "声優・キャスト", "keywords": ["声優", "キャスト", "出演", "追加キャスト", "オーディション"] },
+    { "id": "music", "label": "主題歌・音楽", "keywords": ["主題歌", "OP", "ED", "オープニング", "エンディング", "アーティスト", "ライブ", "サントラ"] },
+    { "id": "adapt", "label": "アニメ化・続編", "keywords": ["アニメ化", "制作決定", "続編", "第\\d+期", "新シリーズ"] },
+    { "id": "goods", "label": "グッズ・イベント", "keywords": ["グッズ", "フィギュア", "一番くじ", "コラボ", "カフェ", "イベント", "展示", "受注"] },
+    { "id": "stream", "label": "配信", "keywords": ["配信", "見放題", "独占", "Netflix", "Prime Video", "U-NEXT", "ABEMA", "dアニメ"] }
+  ],
+
+  "categories": [
+    { "id": "new", "label": "新作・発表", "keywords": ["発表", "制作決定", "新作", "ティザー", "始動", "情報解禁"] },
+    { "id": "onair", "label": "放送・配信", "keywords": ["放送", "配信", "スタート", "開始", "第\\d+話", "先行"] },
+    { "id": "pv", "label": "PV・ビジュアル", "keywords": ["PV", "予告", "映像", "キービジュアル", "ビジュアル", "場面カット"] },
+    { "id": "cast2", "label": "キャスト", "keywords": ["声優", "キャスト", "出演", "起用"] },
+    { "id": "music2", "label": "音楽", "keywords": ["主題歌", "オープニング", "エンディング", "楽曲", "ライブ", "アーティスト"] },
+    { "id": "movie2", "label": "劇場版", "keywords": ["劇場版", "映画", "公開", "上映", "興行収入", "入場者特典"] },
+    { "id": "goods2", "label": "グッズ・イベント", "keywords": ["グッズ", "フィギュア", "一番くじ", "コラボ", "カフェ", "イベント", "展示会", "受注生産"] },
+    { "id": "manga", "label": "原作・漫画", "keywords": ["原作", "漫画", "コミック", "単行本", "連載", "最終回", "小説"] },
+    { "id": "biz2", "label": "業界・記録", "keywords": ["興行収入", "売上", "ランキング", "記録", "スタジオ", "制作会社", "決算"] }
+  ],
+  "fallbackCategory": { "id": "other", "label": "その他" },
+
+  "prSources": ["PR TIMES", "プレスリリース", "@Press", "ValuePress"],
+
+  "blockTitlePatterns": [
+    "^[＜<]?\\s*画像\\s*\\d+\\s*[/／]\\s*\\d+\\s*[＞>]",
+    "^\\s*\\d+\\s*[/／]\\s*\\d+\\s*[＞>]"
+  ],
+
+  "cluster": {
+    "enabled": true,
+    "windowHours": 40,
+    "minSources": 2,
+    "threshold": 0.34,
+    "stopwords": [
+      "アニメ", "テレビ", "放送", "配信", "情報", "発表", "公開", "記事", "今日", "本日", "作品",
+      "com", "www", "https", "シリーズ", "対応", "実施", "開始", "予定", "登場", "紹介", "最新", "話題", "決定"
+    ]
+  },
+
+  "entities": ["劇場版", "TVアニメ", "制作決定", "キービジュアル", "主題歌", "Netflix", "ABEMA", "dアニメストア"]
+}
