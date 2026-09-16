@@ -1,43 +1,43 @@
 {
-  "updatedAt": "2026-09-16T23:00:17.431Z",
+  "updatedAt": "2026-09-16T23:30:50.909Z",
   "site": {
     "title": "今日のアニメ",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://anime.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 220,
-  "todayCount": 17,
+  "total": 224,
+  "todayCount": 25,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 38
+      "count": 37
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 74
+      "count": 77
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 34
+      "count": 35
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 44
+      "count": 48
     },
     {
       "id": "music2",
       "label": "音楽",
-      "count": 27
+      "count": 28
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 49
+      "count": 48
     },
     {
       "id": "goods2",
@@ -47,73 +47,77 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 8
+      "count": 9
     },
     {
       "id": "biz2",
       "label": "業界・記録",
-      "count": 7
+      "count": 8
     },
     {
       "id": "other",
       "label": "その他",
-      "count": 28
+      "count": 27
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 75
+      "count": 76
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 74
+      "count": 71
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 47
+      "count": 51
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 35
+      "count": 34
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 42
+      "count": 41
     },
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 22
+      "count": 24
     },
     {
       "id": "stream",
       "label": "配信",
-      "count": 34
+      "count": 37
     }
   ],
   "weapons": [],
   "sources": [
     {
-      "name": "Yahoo!ニュース",
-      "count": 29
-    },
-    {
       "name": "アニメ！アニメ！",
-      "count": 25
+      "count": 27
     },
     {
-      "name": "eeo",
-      "count": 15
+      "name": "news.yahoo.co.jp",
+      "count": 26
     },
     {
       "name": "電ファミニコゲーマー",
       "count": 14
+    },
+    {
+      "name": "eeo",
+      "count": 14
+    },
+    {
+      "name": "アニメイトタイムズ",
+      "count": 7
     },
     {
       "name": "オリコンニュース",
@@ -124,11 +128,11 @@
       "count": 7
     },
     {
-      "name": "アニメイトタイムズ",
+      "name": "PR TIMES",
       "count": 6
     },
     {
-      "name": "PR TIMES",
+      "name": "アニメハック",
       "count": 5
     },
     {
@@ -136,11 +140,15 @@
       "count": 5
     },
     {
+      "name": "ナタリー",
+      "count": 4
+    },
+    {
       "name": "インサイド",
       "count": 4
     },
     {
-      "name": "はてなブログ",
+      "name": "anisaki.hatenadiary.com",
       "count": 4
     },
     {
@@ -148,15 +156,7 @@
       "count": 4
     },
     {
-      "name": "e.usen.com",
-      "count": 4
-    },
-    {
-      "name": "アニメハック",
-      "count": 4
-    },
-    {
-      "name": "ナタリー",
+      "name": "USENの音楽情報サイト",
       "count": 4
     },
     {
@@ -176,11 +176,15 @@
       "count": 3
     },
     {
-      "name": "アットエス",
+      "name": "WEBザテレビジョン",
       "count": 3
     },
     {
-      "name": "エンタメ特化型情報メディア スパイス",
+      "name": "佐賀新聞",
+      "count": 3
+    },
+    {
+      "name": "アットエス",
       "count": 3
     },
     {
@@ -188,19 +192,15 @@
       "count": 3
     },
     {
+      "name": "ｄメニューニュース",
+      "count": 2
+    },
+    {
       "name": "note",
       "count": 2
     },
     {
-      "name": "佐賀新聞",
-      "count": 2
-    },
-    {
-      "name": "WEBザテレビジョン",
-      "count": 2
-    },
-    {
-      "name": "TOKYO MX",
+      "name": "spice.eplus.jp",
       "count": 2
     },
     {
@@ -209,6 +209,14 @@
     },
     {
       "name": "TSUTAYA",
+      "count": 2
+    },
+    {
+      "name": "Billboard JAPAN",
+      "count": 2
+    },
+    {
+      "name": "Mantan Web",
       "count": 2
     },
     {
@@ -224,11 +232,15 @@
       "count": 2
     },
     {
-      "name": "ｄメニューニュース",
+      "name": "virtualgorillaplus.com",
       "count": 1
     },
     {
-      "name": "appbank.net",
+      "name": "BARKS",
+      "count": 1
+    },
+    {
+      "name": "AppBank",
       "count": 1
     },
     {
@@ -256,19 +268,15 @@
       "count": 1
     },
     {
-      "name": "nikkinonline.com",
-      "count": 1
-    },
-    {
       "name": "西日本新聞me",
       "count": 1
     },
     {
-      "name": "横浜FCオフィシャルウェブサイト",
+      "name": "yokohamafc.com",
       "count": 1
     },
     {
-      "name": "danmee.jp",
+      "name": "Danmee ダンミ",
       "count": 1
     },
     {
@@ -280,7 +288,11 @@
       "count": 1
     },
     {
-      "name": "朝日新聞",
+      "name": "asahi.com",
+      "count": 1
+    },
+    {
+      "name": "TOKYO MX",
       "count": 1
     },
     {
@@ -300,15 +312,15 @@
       "count": 1
     },
     {
-      "name": "dozle.jp",
+      "name": "ドズル社",
       "count": 1
     },
     {
-      "name": "山形新聞",
+      "name": "yamagata-np.jp",
       "count": 1
     },
     {
-      "name": "Newscast.jp",
+      "name": "newscast.jp",
       "count": 1
     },
     {
@@ -329,10 +341,6 @@
     },
     {
       "name": "福井新聞社",
-      "count": 1
-    },
-    {
-      "name": "Billboard JAPAN",
       "count": 1
     },
     {
@@ -360,15 +368,11 @@
       "count": 1
     },
     {
-      "name": "OHK 岡山放送",
+      "name": "ohk.co.jp",
       "count": 1
     },
     {
       "name": "v-storage.jp",
-      "count": 1
-    },
-    {
-      "name": "Mantan Web",
       "count": 1
     },
     {
@@ -384,10 +388,6 @@
       "count": 1
     },
     {
-      "name": "ファミ通",
-      "count": 1
-    },
-    {
       "name": "otakuma.net",
       "count": 1
     },
@@ -398,15 +398,15 @@
   ],
   "topics": [
     {
-      "id": "918fae004359",
-      "title": "『紛争でしたら八田まで』アニメ化決定 世界の情勢がわかる地政学漫画",
+      "id": "b75a143b0bd0",
+      "title": "『紛争でしたら八田まで』アニメ化決定 世界の情勢がわかる地政学漫画 - yamagata-np.jp",
       "summary": "",
       "url": "https://www.yamagata-np.jp/oricon/photo.php?id",
       "image": "https://www.yamagata-np.jp/",
-      "leadSource": "山形新聞",
+      "leadSource": "yamagata-np.jp",
       "publishedAt": "2026-09-16T06:53:38.000Z",
-      "sourceCount": 6,
-      "articleCount": 6,
+      "sourceCount": 7,
+      "articleCount": 7,
       "categories": [
         "manga",
         "other"
@@ -420,8 +420,15 @@
         {
           "title": "「紛争でしたら八田まで」TVアニメ化決定 モーニング連載人気漫画 ウクライナ情勢で一躍有名に（スポニチアネックス）",
           "url": "https://news.yahoo.co.jp/articles/c5e9469707a384e3a00938f2644c6bd0899baeaa",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-15T23:41:43.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『紛争でしたら八田まで』アニメ化決定 世界の情勢がわかる地政学漫画",
+          "url": "https://www.saga-s.co.jp/articles/gallery/1791356?ph",
+          "source": "佐賀新聞",
+          "publishedAt": "2026-09-15T14:12:53.000Z",
           "isPR": false
         },
         {
@@ -447,7 +454,7 @@
         },
         {
           "title": "『紛争でしたら八田まで』がTVアニメ化発表と同時に第30話まで無料にした理由",
-          "url": "https://hashout.jp/anime/10748/",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE03bFRfWlJpdHVqTmJQRVJCRWo5NXBZbEtvcXlOcnlyN0hlTlB4ZVQ5SkEzREhZTHRJbjNuRWVqSzlSdk95Z1E?oc=5",
           "source": "shiritomo",
           "publishedAt": "2026-09-15T04:37:05.000Z",
           "isPR": false
@@ -463,7 +470,7 @@
       "leadSource": "西日本新聞me",
       "publishedAt": "2026-09-16T10:11:13.000Z",
       "sourceCount": 4,
-      "articleCount": 7,
+      "articleCount": 8,
       "categories": [
         "cast2",
         "goods2"
@@ -477,21 +484,21 @@
         {
           "title": "声優の上坂すみれさん、京都のアニメイベント出演辞退 脅迫行為受け [京都府]",
           "url": "https://www.asahi.com/articles/ASV9J2R8QV9JPLZB00HM.html",
-          "source": "朝日新聞",
+          "source": "asahi.com",
           "publishedAt": "2026-09-16T09:00:00.000Z",
           "isPR": false
         },
         {
           "title": "声優・上坂すみれ 『京都国際マンガ・アニメフェア2026』出演見合わせ 15日に「悪質な殺害予告を確認」と事務所が発表",
           "url": "https://news.yahoo.co.jp/articles/f677cd395646452ba3f5fc1366eb091c33f25ed2",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-16T06:06:16.000Z",
           "isPR": false
         },
         {
           "title": "声優 上坂すみれ、「京都国際マンガ・アニメフェア 2026」出演を見合わせ 悪質な殺害予告により4ステージをキャンセル",
           "url": "https://news.yahoo.co.jp/articles/fde54a1f52daf679a9479172f7ff2a5c922bd6dc/images/000",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-16T05:40:00.000Z",
           "isPR": false
         },
@@ -505,15 +512,79 @@
         {
           "title": "人気声優・上坂すみれさん、PR大使務める「京まふ」出演辞退 「悪質な殺害予告」受け (京都新聞)",
           "url": "https://news.yahoo.co.jp/articles/52f6b5e8c0c8aaaa1a82f45ea7c3a9b0ad8f4477/images/000",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-16T04:09:16.000Z",
           "isPR": false
         },
         {
           "title": "声優・上坂すみれ イベント出演見合わせを発表 脅迫文影響 「京都国際マンガ・アニメフェア」辞退（スポニチアネックス）",
           "url": "https://news.yahoo.co.jp/articles/feb947fa0f02eb3278c3a6b85b9922d97ea09c85",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-16T04:03:21.000Z",
+          "isPR": false
+        },
+        {
+          "title": "人気声優・上坂すみれに悪質な殺害予告 イベント等出演可否を慎重に検討へ 「安全確保を最優先とした対応にご理解を」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WU0Z6N1p0XzhQdVJxeEhfamx1TVRBMVI4OW53UWNmbTdzVzNwalpJaFNTTnhNMVhIX2dVMWdGWklFWThfTjlmeFFMeTRJd0FkYkVQbWZMcVpwczlHaHdyRlp6VXFPaFV2a2k1ci04YmFuUE9YOWdSRVprcmpvcEk?oc=5",
+          "source": "news.yahoo.co.jp",
+          "publishedAt": "2026-09-15T04:21:16.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "3619ce73ac81",
+      "title": "アニメ『パンどろぼう』メインPV第2弾公開！きゃりーぱみゅぱみゅ主題歌や新キャスト情報も解禁!!なぞのフランスパン役は種﨑敦美さん、ナレーションは花澤香菜さんが担当（動画あり）",
+      "summary": "アニメ『パンどろぼう』メインPV＆ビジュアル第2弾公開！きゃりーぱみゅぱみゅが歌うED主題歌「Pang Pang Pang」も解禁!!さらに新キャストとして、なぞのフランスパン役に種﨑敦美さん、ナレーションに花澤香菜さんが出演決定！ #アニメパンどろぼう",
+      "url": "https://hobby.dengeki.com/news/3164039/",
+      "image": "https://hobby.dengeki.com/ss/hobby/2026/09/ed7d29c13aa139e3b8ac3e7163aa8740_O0-OfI1F-U0D09ghbaM3gkze3YuF-9Xk_W5mUk-hgsKFpST9vtGxvfBNbLZ-mrrUH.jpg",
+      "leadSource": "電撃ホビーウェブ",
+      "publishedAt": "2026-09-16T23:00:14.000Z",
+      "sourceCount": 4,
+      "articleCount": 6,
+      "categories": [
+        "pv",
+        "cast2"
+      ],
+      "keywords": [
+        "解禁",
+        "追加",
+        "メイン"
+      ],
+      "articles": [
+        {
+          "title": "アニメ『パンどろぼう』メインPV＆メインビジュアル第2弾解禁 新キャストに種﨑敦美＆花澤香菜",
+          "url": "https://virtualgorillaplus.com/anime/pandorobo/",
+          "source": "virtualgorillaplus.com",
+          "publishedAt": "2026-09-16T23:00:14.000Z",
+          "isPR": false
+        },
+        {
+          "title": "秋アニメ『パンどろぼう』メインPV&メインビジュアル第2弾解禁｜追加声優に種﨑敦美、花澤香菜",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
+          "publishedAt": "2026-09-16T23:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "秋アニメ『デモクレ』キャラクタービジュアル解禁｜追加声優に小林裕介ら",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
+          "publishedAt": "2026-09-16T09:01:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『魔女と傭兵』2027年4月アニメ放送！追加キャストも解禁",
+          "url": "https://koubo.jp/article/122075",
+          "source": "Koubo",
+          "publishedAt": "2026-09-16T07:21:38.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『魔女と傭兵』2027年4月放送｜追加声優に白石晴香、のぐちゆりら",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
+          "publishedAt": "2026-09-16T03:02:00.000Z",
           "isPR": false
         }
       ]
@@ -555,15 +626,58 @@
         {
           "title": "声優・上坂すみれに「複数名で誘拐・殺害」予告…安全優先でSNS本人発信を停止、過去には逮捕者が出た理不尽すぎる被害",
           "url": "https://news.yahoo.co.jp/articles/3c7df3bb4e96440ce12815be4f9f3e3e6f47a511",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-16T06:45:40.000Z",
           "isPR": false
         },
         {
           "title": "声優の上坂すみれに脅迫メール「誘拐し、殺害する」…イベントなどの出演可否を検討（テレビ朝日系（ANN））",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YSFlZYTBiWmhVZ3BXeTdsYUhmaHdySlpwajN6aHBIdWJrWGIxQVhteDdHNGV2ZWFzdFF5UFhBejF6Q3UtVWREUUpqRGllRU1BWnBLOGRIZWc3NENRODdidVljaDN4akhXTFhTek5ZQUNVem54Y3dtR0tDVnRnMUU?oc=5",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-15T03:30:37.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "42c9b26b8d27",
+      "title": "きゃりーぱみゅぱみゅ、NHK Eテレアニメ「パンどろぼう」のエンディング主題歌10.2配信リリース（サンケイスポーツ）",
+      "summary": "",
+      "url": "https://news.yahoo.co.jp/articles/b0218bf5b51964d085e1b6345d5d323e91262641",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260917-00000026-sanspo-000-1-view.jpg?exp=10800",
+      "leadSource": "news.yahoo.co.jp",
+      "publishedAt": "2026-09-16T23:17:27.000Z",
+      "sourceCount": 4,
+      "articleCount": 4,
+      "categories": [
+        "music2",
+        "onair"
+      ],
+      "keywords": [
+        "主題歌",
+        "リリース",
+        "エンディング"
+      ],
+      "articles": [
+        {
+          "title": "きゃりーぱみゅぱみゅ、TVアニメ『パンどろぼう』エンディング主題歌「Pang Pang Pang」を10月2日配信リリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000886.000017258.html",
+          "source": "PR TIMES",
+          "publishedAt": "2026-09-16T23:00:01.000Z",
+          "isPR": true
+        },
+        {
+          "title": "きゃりーぱみゅぱみゅ、アニメ「パンどろぼう」エンディング主題歌「Pang Pang Pang」を配信リリース",
+          "url": "https://natalie.mu/music/news/689886",
+          "source": "ナタリー",
+          "publishedAt": "2026-09-16T23:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "きゃりーぱみゅぱみゅ、TVアニメ『パンどろぼう』ED主題歌 「Pang Pang Pang」を配信リリース",
+          "url": "https://barks.jp/news/1088752",
+          "source": "BARKS",
+          "publishedAt": "2026-09-16T23:00:00.000Z",
           "isPR": false
         }
       ]
@@ -577,7 +691,7 @@
       "leadSource": "ぴあエンタメ情報",
       "publishedAt": "2026-09-16T13:00:51.000Z",
       "sourceCount": 4,
-      "articleCount": 5,
+      "articleCount": 4,
       "categories": [
         "onair",
         "music2"
@@ -596,15 +710,8 @@
           "isPR": false
         },
         {
-          "title": "10-FEET、アニメ『アオアシ Season2』第1クールOPテーマ「Fortress Defense」配信リリース",
-          "url": "https://news.yahoo.co.jp/articles/e86264c522fdfa9b04e71107a014ccc9520009fe",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-15T07:35:04.000Z",
-          "isPR": false
-        },
-        {
           "title": "10-FEET、アニメ「アオアシ Season2」オープニングテーマ配信",
-          "url": "https://natalie.mu/music/news/689584",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWQXFKdjZXOF9TeC0tb0lrNlllRDhOYkQ5cndPS2luOHVRb0hydldqbkxTUUpmYTlYYlVWRUlzNDFDSnN3YllrY0VhSGo?oc=5",
           "source": "ナタリー",
           "publishedAt": "2026-09-15T04:39:00.000Z",
           "isPR": false
@@ -612,7 +719,7 @@
         {
           "title": "ふみの、新曲がTVアニメのオープニングテーマに「もどかしい気持ちを自分なりに楽曲へ落とし込みました」＜らんま1/2＞",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZcFJFWWszNVkzeHowcGlCTmtySWJDTWpHd2Y2LThmRmdrZG9rNUlBcXBUS255VGlXeXM2c2dxbnB5WFdCa1RTR3FjQVdlMUZfVDZhREl4OVNleFFIVDFzYUVUX2EwdWczN3dUalFRN0dQMHBLM0l2N1hMUkxjM1k?oc=5",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-15T01:20:37.000Z",
           "isPR": false
         }
@@ -640,14 +747,14 @@
       "articles": [
         {
           "title": "「ハルとゲン ～70歳、はじめての子育て～」TVアニメ化、2027年1月にtvkで放送開始 (コミックナタリー)",
-          "url": "https://news.yahoo.co.jp/articles/5af06cfe82f2dde86109fd440441055542c59b9c/images/000",
-          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNkp2MjVZUnJjQnlXbzkzN2xOelgzMG84ZkRZVy1DLVZETW1YNEkyN1MxV2dwZWVPZzZpblROMEsxWXBTNmh2b01qWU1sY1RrYXZuNW5vTnQyeXlmMVdPSzlBUm92WFpHbGJtb0tBUDNodHk2X1dmNVlvNk50QWlHcUNhdURnOU9XQlA3Vmd3?oc=5",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-15T04:43:13.000Z",
           "isPR": false
         },
         {
           "title": "『ハルとゲン ～70歳、はじめての子育て～』が2027年1月よりTVアニメ化！",
-          "url": "https://www.animatetimes.com/news/details.php?id",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UVVkyQVFsVFBUYUNNQlA1SzhxYXFZWURWWktRa3FmRGFQNTZSWGdFMkcyRS1xV2piWktIWEM3Mm9CVjFiMkpGN1g1SkktUl9ycE5GeTZCQXJVbnJXR29lQVVtQTdyenZ1UEhj?oc=5",
           "source": "アニメイトタイムズ",
           "publishedAt": "2026-09-15T03:50:00.000Z",
           "isPR": false
@@ -681,10 +788,10 @@
       ],
       "articles": [
         {
-          "title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉＞梶浦由記の圧倒的な音楽 悠木碧は“揺るぎない座長” 音響監督・鶴岡陽太インタビュー（MANTANWEB）",
-          "url": "https://news.yahoo.co.jp/articles/dbeba10d2067cc9e8ae304ead9557cc0b53570a7",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-15T22:05:00.000Z",
+          "title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉：梶浦由記の圧倒的な音楽 悠木碧は“揺るぎない座長” 音響監督・鶴岡陽太インタビュー",
+          "url": "https://mantan-web.jp/article/20260915dog00m200065000a.html",
+          "source": "Mantan Web",
+          "publishedAt": "2026-09-15T22:02:44.000Z",
           "isPR": false
         },
         {
@@ -709,7 +816,7 @@
       "summary": "",
       "url": "https://e.usen.com/news/news-release/tvmeet-with-opgo-go-railway1118cd920sp.html",
       "image": "https://e.usen.com/image/e36dee2cb4168012284dc3e859e66d5d01cfd080.jpg",
-      "leadSource": "e.usen.com",
+      "leadSource": "USENの音楽情報サイト",
       "publishedAt": "2026-09-16T08:26:45.000Z",
       "sourceCount": 3,
       "articleCount": 4,
@@ -740,51 +847,8 @@
         {
           "title": "ねぐせ。新曲「LOVE & LIKE」が、 TVアニメ「うちの弟どもがすみません」OP主題歌に決定！",
           "url": "https://e.usen.com/news/news-release/love-like-tvop.html",
-          "source": "e.usen.com",
+          "source": "USENの音楽情報サイト",
           "publishedAt": "2026-09-15T05:24:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "10e7d032d377",
-      "title": "アニメ『魔女と傭兵』2027年4月放送開始！ PV第1弾、ティザービジュアル第2弾を公開。白石晴香・のぐちゆり・峯田大夢の出演も決定",
-      "summary": "",
-      "url": "https://dengekionline.com/article/202609/88139",
-      "image": "https://cimg.kgl-systems.io/camion/files/88139/thumbnail_gRZq.jpg?x=1280",
-      "leadSource": "電撃オンライン",
-      "publishedAt": "2026-09-16T06:09:00.000Z",
-      "sourceCount": 3,
-      "articleCount": 4,
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "keywords": [
-        "魔女",
-        "傭兵",
-        "放送開始"
-      ],
-      "articles": [
-        {
-          "title": "TVアニメ『魔女と傭兵』2027年4月から放送開始！ ジグとシアーシャが静謐かつ華やかな雰囲気で描かれたティザービジュアル第2弾も公開",
-          "url": "https://eeo.today/media/2026/09/16/394558/",
-          "source": "eeo",
-          "publishedAt": "2026-09-16T03:09:15.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『魔女と傭兵』2027年4月放送｜追加声優に白石晴香、のぐちゆりら",
-          "url": "https://www.animatetimes.com/news/details.php?id",
-          "source": "アニメイトタイムズ",
-          "publishedAt": "2026-09-16T03:02:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "TVアニメ『惚れ魔女』10月5日から放送開始！ ロゼと優しい表情を浮かべるハリージュが描かれたメインビジュアルも公開",
-          "url": "https://eeo.today/media/2026/09/15/394291/",
-          "source": "eeo",
-          "publishedAt": "2026-09-15T09:00:51.000Z",
           "isPR": false
         }
       ]
@@ -831,7 +895,7 @@
       "summary": "",
       "url": "https://news.yahoo.co.jp/articles/4862f74ecf6b1a45affb7effedca450299e4bf45/images/000",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgDXk8X9_gbEEk9AZ_4sFg5FM0LegPujR83f77Z-dB4Xb_nEiV2zsHLYKSeh92B5K2XDyen8_WdO8oWLLMAzXxt745I-lkmAwdOvN07uJwX0p9iU8HBMD0mINT9whFcWolg==",
-      "leadSource": "Yahoo!ニュース",
+      "leadSource": "news.yahoo.co.jp",
       "publishedAt": "2026-09-15T14:16:29.000Z",
       "sourceCount": 3,
       "articleCount": 3,
@@ -924,52 +988,108 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "017aa9df3400",
-      "title": "「どうも、好きな人に惚れ薬を依頼された魔女です。」に下野紘と関根明良が出演 主題歌はセンチミリメンタル、レイニが担当",
-      "summary": "",
-      "url": "https://anime.eiga.com/news/127458/",
-      "image": "https://media.eiga.com/images/anime/news/127458/photo/ef7d41ab199294d1/640.jpg",
-      "leadSource": "アニメハック",
-      "publishedAt": "2026-09-16T03:00:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 3,
-      "categories": [
-        "cast2",
-        "music2"
-      ],
-      "keywords": [
-        "主題歌",
-        "依頼",
-        "魔女"
-      ],
-      "articles": [
-        {
-          "title": "レイニ 10月5日から放送となるTVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』のエンディング主題歌が、レイニの新曲「まだ嘘にならない」に決定！",
-          "url": "https://e.usen.com/news/news-release/105tv.html",
-          "source": "e.usen.com",
-          "publishedAt": "2026-09-15T14:29:33.000Z",
-          "isPR": false
-        },
-        {
-          "title": "センチミリメンタル、新曲「かなわない、」がTVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』オープニング主題歌に決定、11月18日(水)に両A面シングルをリリース！",
-          "url": "https://e.usen.com/news/news-release/tv1118a.html",
-          "source": "e.usen.com",
-          "publishedAt": "2026-09-15T05:42:37.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-09-16T22:30:16.111Z",
-    "previousCount": 218,
-    "newCount": 12
+    "previousAt": "2026-09-16T23:00:17.431Z",
+    "previousCount": 220,
+    "newCount": 14
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-16T23:30:17.431Z",
+  "nextUpdateAt": "2026-09-17T00:00:50.909Z",
   "items": [
+    {
+      "id": "c6a167a6e883",
+      "title": "声優の上坂すみれが脅迫行為を受けイベント等が見合わせ、過去にも横行した芸能人への殺害予告や犯罪行為",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQTJOQkxRRUJiZXh1eWhVaURSLTNwdFk3d2pTc2Z6MElTanpMTzQzYUdQbnEyTkNHeFpzZU8tNDBDWjVlSUxHenZOT0V4c0VlVXhVWTF6Rk5zVUNLYmptZWthT1NaTGFNMlpWbk1FeWNBa1JTSjNCS01KblRCbjNxcmFmLXZubnExTUJkcFZQOWxFUmwtYS1XUWIyR1F0NkxDV2xxYW1TWk95RWVUcmpDYmQ1NDh2V29YNEdQbGY2aFpzX2xPSXk00gF3QVVfeXFMT0hKbFlpTzE1eFlmQmJtWFBuVUJBTFpuMHJXeFBpa2FEa3FmaUswaTZEWVVlRTVTWUY4Q2hUdkhQTTBXZTg1VmQ5LWtZb0tIZXlFME9yd1BaeHVkRTVrWFR1WDJkYmhZeVdZUHRVTEMwd0hWTVJ4WlU?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
+      "summary": "",
+      "publishedAt": "2026-09-16T23:20:55.000Z",
+      "image": "",
+      "categories": [
+        "pv",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "42c9b26b8d27",
+      "title": "きゃりーぱみゅぱみゅ、NHK Eテレアニメ「パンどろぼう」のエンディング主題歌10.2配信リリース（サンケイスポーツ）",
+      "url": "https://news.yahoo.co.jp/articles/b0218bf5b51964d085e1b6345d5d323e91262641",
+      "host": "news.yahoo.co.jp",
+      "source": "news.yahoo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-09-16T23:17:27.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260917-00000026-sanspo-000-1-view.jpg?exp=10800",
+      "categories": [
+        "music2",
+        "onair"
+      ],
+      "series": [
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b6b9446d04fb",
+      "title": "アニメ『パンどろぼう』メインPV＆メインビジュアル第2弾解禁 新キャストに種﨑敦美＆花澤香菜",
+      "url": "https://virtualgorillaplus.com/anime/pandorobo/",
+      "host": "virtualgorillaplus.com",
+      "source": "virtualgorillaplus.com",
+      "summary": "",
+      "publishedAt": "2026-09-16T23:00:14.000Z",
+      "image": "https://virtualgorillaplus.com/wp-content/uploads/2026/09/pandorobo-thumb-1200x600.jpg",
+      "categories": [
+        "pv",
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "dec7f8700df3",
+      "title": "きゃりーぱみゅぱみゅ、TVアニメ『パンどろぼう』エンディング主題歌「Pang Pang Pang」を10月2日配信リリース",
+      "url": "https://prtimes.jp/main/html/rd/p/000000886.000017258.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-09-16T23:00:01.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/17258/886/17258-886-5d4fa95f14527bcb141ec9beb41c64a2-1080x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "music2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "3619ce73ac81",
       "title": "アニメ『パンどろぼう』メインPV第2弾公開！きゃりーぱみゅぱみゅ主題歌や新キャスト情報も解禁!!なぞのフランスパン役は種﨑敦美さん、ナレーションは花澤香菜さんが担当（動画あり）",
@@ -987,6 +1107,75 @@
         "movie",
         "cast",
         "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d9d40eb5bb55",
+      "title": "秋アニメ『パンどろぼう』メインPV&メインビジュアル第2弾解禁｜追加声優に種﨑敦美、花澤香菜",
+      "url": "https://www.animatetimes.com/news/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-09-16T23:00:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "pv",
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "278728df22ee",
+      "title": "きゃりーぱみゅぱみゅ、アニメ「パンどろぼう」エンディング主題歌「Pang Pang Pang」を配信リリース",
+      "url": "https://natalie.mu/music/news/689886",
+      "host": "natalie.mu",
+      "source": "ナタリー",
+      "summary": "",
+      "publishedAt": "2026-09-16T23:00:00.000Z",
+      "image": "",
+      "categories": [
+        "music2",
+        "onair"
+      ],
+      "series": [
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "57490f54e1a9",
+      "title": "きゃりーぱみゅぱみゅ、TVアニメ『パンどろぼう』ED主題歌 「Pang Pang Pang」を配信リリース",
+      "url": "https://barks.jp/news/1088752",
+      "host": "barks.jp",
+      "source": "BARKS",
+      "summary": "",
+      "publishedAt": "2026-09-16T23:00:00.000Z",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/16200130/KPP_asha_2609.jpg",
+      "categories": [
+        "onair",
+        "music2"
+      ],
+      "series": [
+        "tv",
+        "music",
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1014,7 +1203,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c070867a1a3c",
@@ -1036,14 +1225,14 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c6799bfd4b00",
       "title": "『キャッ党忍伝てやんでえ』新作ゲーム、東京ゲームショウ2026で世界初公開！ 声優陣＆あかほりさとる氏からコメント到着 9月17日から",
       "url": "https://www.appbank.net/2026/09/17/game/3106538.php",
       "host": "appbank.net",
-      "source": "appbank.net",
+      "source": "AppBank",
       "summary": "",
       "publishedAt": "2026-09-16T22:30:09.000Z",
       "image": "https://www.appbank.net/wp-content/uploads/2026/09/20260916_124505_739_01.webp",
@@ -1059,7 +1248,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "16101fcaebb1",
@@ -1106,7 +1295,7 @@
       "title": "正反対な君と僕3期はある？第2期の最終回と原作完結後を考察",
       "url": "https://anisaki.hatenadiary.com/entry/seihantai-season3",
       "host": "anisaki.hatenadiary.com",
-      "source": "はてなブログ",
+      "source": "anisaki.hatenadiary.com",
       "summary": "",
       "publishedAt": "2026-09-16T21:24:43.000Z",
       "image": "https://cdn.image.st-hatena.com/image/scale/21afc277fce938c9181f8e27b1b5e845bb09c38e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fsh-anime.shochiku.co.jp%2Fseihantai_anime%2Fwordpress%2Fwp-content%2Fuploads%2Fb98ead6c2c8966a78de6e50a3957c3f1-1216x1720.jpg",
@@ -1166,6 +1355,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "541d40bad029",
+      "title": "画像・写真 櫻坂46・山崎天、声優初挑戦のアフレコを回想「このもどかしいなんとも言えない感情、あった」＜我々は宇宙人＞(1/3)",
+      "url": "https://thetv.jp/news/detail/1440748/18513773/",
+      "host": "thetv.jp",
+      "source": "WEBザテレビジョン",
+      "summary": "",
+      "publishedAt": "2026-09-16T20:43:48.000Z",
+      "image": "https://thetv.jp/i/nw/1440748/ogp_HmweomxQ.jpg?w=1284",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "c8124923db27",
@@ -1474,7 +1684,7 @@
       "title": "声優・上坂すみれ、SNS発信を当面休止 脅迫行為で警察署へ相談も「本人の安全確保を最優先とする観点から」 (オリコン)",
       "url": "https://news.yahoo.co.jp/articles/51eefc4a914e3270971e51b51c8322aa39cb29dd/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T13:17:46.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgF-r07bBxjvVP-zGbHTB5X6cyH3b4MeTBMHEy54jtG2uog4gcSNDINTQfoVTakI9Me3HIJ6YCJ7dnaNWWd_Fb-Mnwe6I6QUyHZQlibvooaoG",
@@ -1644,32 +1854,11 @@
       "isNew": false
     },
     {
-      "id": "059bb976b674",
-      "title": "【預金キャンペーン】ローソン銀、「いらっしゃいま声優ATM」キャンペーン",
-      "url": "https://www.nikkinonline.com/report-toushin/article/424099",
-      "host": "nikkinonline.com",
-      "source": "nikkinonline.com",
-      "summary": "",
-      "publishedAt": "2026-09-16T12:16:04.000Z",
-      "image": "",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "7665ccd0079d",
       "title": "関西の長寿番組『よ～いドン！』史上初のアニメ放送決定 MC・円広志「アカミとAboちゃんが恋愛して…っていったい何を」【キャラ・声優紹介】 (オリコン)",
       "url": "https://news.yahoo.co.jp/articles/4c6579120b82096f8967f318fa54ab5e41a234ba/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T12:03:43.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgAw91YVAJQkwJsTrYl16ueYLc9EUO8s9gnkHgO-MuUoJKVoEpmTl5F_U9xZTCudBeqfgdG_VhqCx9MKh0WOpQ-KrpXBEQS7ESkQhXRs5nkvK",
@@ -1846,6 +2035,27 @@
       "isNew": false
     },
     {
+      "id": "2dd2768f3b82",
+      "title": "【今期TVアニメランキング】「転スラ」連続首位 「黄泉のツガイ」「逃げ上手の若君」が高順位 : ニュース",
+      "url": "https://anime.eiga.com/news/column/konki_ranking/127468/",
+      "host": "anime.eiga.com",
+      "source": "アニメハック",
+      "summary": "",
+      "publishedAt": "2026-09-16T11:00:00.000Z",
+      "image": "https://media.eiga.com/images/anime/news/127468/photo/59ce5f976ad56da1/640.jpg",
+      "categories": [
+        "biz2"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "ee169fe583b2",
       "title": "TVアニメ『呪術廻戦』禪院直哉の回想シーンにて描かれた禪院甚爾がプライズフィギュア「GigantiX」より今冬頃登場！アイテム画像が公開！",
       "url": "https://hobby.dengeki.com/news/3164126/",
@@ -1918,7 +2128,7 @@
       "title": "9/19(土)今治戦 声優アイドルグループ「22/7（ナナブンノニジュウニ）」の来場が決定！",
       "url": "https://yokohamafc.com/2026/09/16/0919imabari_guest/",
       "host": "yokohamafc.com",
-      "source": "横浜FCオフィシャルウェブサイト",
+      "source": "yokohamafc.com",
       "summary": "",
       "publishedAt": "2026-09-16T10:02:24.000Z",
       "image": "https://yokohamafc.com/common/ogp.png",
@@ -1996,11 +2206,35 @@
       "isNew": false
     },
     {
+      "id": "2cc5018c1004",
+      "title": "TVアニメ「攻殻機動隊 THE GHOST IN THE SHELL」2026の配信はどこ？声優・放送日と見放題サブスク比較",
+      "url": "https://animeanime.jp/article/2026/07/16/101126.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "",
+      "publishedAt": "2026-09-16T09:43:01.000Z",
+      "image": "https://animeanime.jp/imgs/ogp_f/906351.jpg",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "tv",
+        "cast",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "391a200eb055",
       "title": "あの韓ドラ、どうなった？「制作決定」から放送・配信の続報を待つ5作品",
       "url": "https://danmee.jp/knews/koreandrama/stillwaiting-kdrama/",
       "host": "danmee.jp",
-      "source": "danmee.jp",
+      "source": "Danmee ダンミ",
       "summary": "",
       "publishedAt": "2026-09-16T09:17:09.000Z",
       "image": "https://danmee.jp/wp-content/uploads/2026/09/tp-KACTOR-1.jpg",
@@ -2175,7 +2409,7 @@
       "title": "TVアニメ『シャングリラ・フロンティア』3rd Seasonキービジュアル公開！観覧無料のスペシャルファミリーショー再開も決定",
       "url": "https://spice.eplus.jp/articles/349065",
       "host": "spice.eplus.jp",
-      "source": "エンタメ特化型情報メディア スパイス",
+      "source": "spice.eplus.jp",
       "summary": "",
       "publishedAt": "2026-09-16T09:00:00.000Z",
       "image": "https://spice.eplus.jp/images/WEWvYzoBSwridFc5rKagqQr2S92VmOpliy7nXcRDKwD4MFBFTW5FwzznZsfzrdZL",
@@ -2244,7 +2478,7 @@
       "title": "声優の上坂すみれさん、京都のアニメイベント出演辞退 脅迫行為受け [京都府]",
       "url": "https://www.asahi.com/articles/ASV9J2R8QV9JPLZB00HM.html",
       "host": "asahi.com",
-      "source": "朝日新聞",
+      "source": "asahi.com",
       "summary": "",
       "publishedAt": "2026-09-16T09:00:00.000Z",
       "image": "",
@@ -2280,27 +2514,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "0ba7ee1e56ff",
-      "title": "蒼き伝承 - Welsh ＆ Shedar｜アニメ",
-      "url": "https://s.mxtv.jp/anime/welsh-shedar/",
-      "host": "s.mxtv.jp",
-      "source": "TOKYO MX",
-      "summary": "",
-      "publishedAt": "2026-09-16T08:50:00.000Z",
-      "image": "https://s.mxtv.jp/anime/welsh-shedar/img/mcas_l_welsh-shedar.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "e9ba4f22278e",
@@ -2374,7 +2587,7 @@
       "title": "TVアニメ「てつりょー！meet with 鉄道むすめ」OPテーマが亜咲花の新曲「GO! GO! RAILWAY!!」に決定！11月18日(水)CD発売＆9月20日(日)放送直前SPイベントのチケットも好評発売中！",
       "url": "https://e.usen.com/news/news-release/tvmeet-with-opgo-go-railway1118cd920sp.html",
       "host": "e.usen.com",
-      "source": "e.usen.com",
+      "source": "USENの音楽情報サイト",
       "summary": "",
       "publishedAt": "2026-09-16T08:26:45.000Z",
       "image": "https://e.usen.com/image/e36dee2cb4168012284dc3e859e66d5d01cfd080.jpg",
@@ -2484,7 +2697,7 @@
       "title": "『蒼き伝承 ウェルシュ＆シェダー』10月TVアニメ放送決定！キャストに安田陸矢・梶裕貴決定！キービジュアル公開",
       "url": "https://spice.eplus.jp/articles/349069",
       "host": "spice.eplus.jp",
-      "source": "エンタメ特化型情報メディア スパイス",
+      "source": "spice.eplus.jp",
       "summary": "",
       "publishedAt": "2026-09-16T08:00:00.000Z",
       "image": "https://spice.eplus.jp/images/Q1ksKMkE1S0R8Ryl4whKSxDNQSdUGimLLw7nWcVtC99r4qtbEBqNVRHfcfDzLig3",
@@ -2640,7 +2853,7 @@
       "title": "映画『バイオハザード』にてドズル社メンバーが映画声優に起用決定！",
       "url": "https://www.dozle.jp/news/260916_bio2026/",
       "host": "dozle.jp",
-      "source": "dozle.jp",
+      "source": "ドズル社",
       "summary": "",
       "publishedAt": "2026-09-16T07:05:34.000Z",
       "image": "",
@@ -2722,7 +2935,7 @@
       "title": "渋谷にアニメ「名探偵コナン」常設飲食店 放送30周年記念で（みんなの経済新聞ネットワーク）",
       "url": "https://news.yahoo.co.jp/articles/8581e9c862f7d263e1245d50cef24ef5e05126b7",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T06:56:56.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00000051-minkei-000-2-view.png?fmt=jpeg&q=85&exp=10800",
@@ -2739,11 +2952,11 @@
       "isNew": false
     },
     {
-      "id": "918fae004359",
-      "title": "『紛争でしたら八田まで』アニメ化決定 世界の情勢がわかる地政学漫画",
+      "id": "b75a143b0bd0",
+      "title": "『紛争でしたら八田まで』アニメ化決定 世界の情勢がわかる地政学漫画 - yamagata-np.jp",
       "url": "https://www.yamagata-np.jp/oricon/photo.php?id",
       "host": "yamagata-np.jp",
-      "source": "山形新聞",
+      "source": "yamagata-np.jp",
       "summary": "",
       "publishedAt": "2026-09-16T06:53:38.000Z",
       "image": "https://www.yamagata-np.jp/",
@@ -2757,14 +2970,14 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "e0b99d205c19",
       "title": "声優・上坂すみれに「複数名で誘拐・殺害」予告…安全優先でSNS本人発信を停止、過去には逮捕者が出た理不尽すぎる被害",
       "url": "https://news.yahoo.co.jp/articles/3c7df3bb4e96440ce12815be4f9f3e3e6f47a511",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T06:45:40.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00000034-flash-000-2-view.jpg?exp=10800",
@@ -2810,7 +3023,7 @@
       "title": "アニメ市場―2026年～2032年の世界市場予測",
       "url": "https://newscast.jp/smart/news/4424700",
       "host": "newscast.jp",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "summary": "",
       "publishedAt": "2026-09-16T06:07:00.000Z",
       "image": "https://www.atpress.ne.jp/attachments/9r1zeZaAEjNdjI1dpr8d.jpg",
@@ -2829,7 +3042,7 @@
       "title": "声優・上坂すみれ 『京都国際マンガ・アニメフェア2026』出演見合わせ 15日に「悪質な殺害予告を確認」と事務所が発表",
       "url": "https://news.yahoo.co.jp/articles/f677cd395646452ba3f5fc1366eb091c33f25ed2",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T06:06:16.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-10273286-abemav-000-1-view.jpg?exp=10800",
@@ -2870,7 +3083,7 @@
       "title": "声優 上坂すみれ、「京都国際マンガ・アニメフェア 2026」出演を見合わせ 悪質な殺害予告により4ステージをキャンセル",
       "url": "https://news.yahoo.co.jp/articles/fde54a1f52daf679a9479172f7ff2a5c922bd6dc/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T05:40:00.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgGFj4AHkVtOmN8FHon8o1r7DVStbyYxGcEAztlZxVtiXr4FGMI2XHCrSqo8m5EBmdLOUhMhunNCGUv86tnn285JK_yxENYRnMA9Uy8koABDq0I2qt4hGceMte-mRlJRxLA==",
@@ -3088,7 +3301,7 @@
       "title": "人気声優・上坂すみれさん、PR大使務める「京まふ」出演辞退 「悪質な殺害予告」受け (京都新聞)",
       "url": "https://news.yahoo.co.jp/articles/52f6b5e8c0c8aaaa1a82f45ea7c3a9b0ad8f4477/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T04:09:16.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgHlfTqCTHPqoo-c5SbIHoNNRUzxbo_Chq5LR5SJZX-WWsZ1_4EyUr6-aK0U9fFxV36UMo6Y7C8qzy4NdNblZbfFoqmT3Bi5s-7QTdahLZnOg",
@@ -3110,7 +3323,7 @@
       "title": "声優・上坂すみれ イベント出演見合わせを発表 脅迫文影響 「京都国際マンガ・アニメフェア」辞退（スポニチアネックス）",
       "url": "https://news.yahoo.co.jp/articles/feb947fa0f02eb3278c3a6b85b9922d97ea09c85",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T04:03:21.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00000175-spnannex-000-15-view.jpg?exp=10800",
@@ -3398,35 +3611,11 @@
       "isNew": false
     },
     {
-      "id": "246b36e0afdc",
-      "title": "adieu新曲「ささくれ」配信リリース、映画「我々は宇宙人」主題歌として書き下ろし",
-      "url": "https://natalie.mu/music/news/689708",
-      "host": "natalie.mu",
-      "source": "ナタリー",
-      "summary": "",
-      "publishedAt": "2026-09-16T03:00:00.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "music2"
-      ],
-      "series": [
-        "movie",
-        "music",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "7e2077c2ad12",
       "title": "よ～いドン！＞19年目で初のアニメ放送 酢飯の女の子が主人公の青春物語 「マゼンチュ」10月7日スタート（MANTANWEB）",
       "url": "https://news.yahoo.co.jp/articles/89a7996b8d105ae36e0019f8768a2ae7411a710b",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-16T02:30:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00000027-mantan-000-1-view.jpg?exp=10800",
@@ -3530,28 +3719,6 @@
       "isNew": false
     },
     {
-      "id": "e75cf9b30197",
-      "title": "FLOW、TVアニメ2作品ダブルタイアップ主題歌「UNSTOPPABLE」「Sorrow」同時解禁",
-      "url": "https://news.yahoo.co.jp/articles/1c0388f1cae18e021db79d3ab6724781b30fb6a3",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-16T01:05:06.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00165568-exp-000-1-view.jpg?exp=10800",
-      "categories": [
-        "music2"
-      ],
-      "series": [
-        "tv",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "19bc0bc2087a",
       "title": "亜咲花、TVアニメ『てつりょー！meet with 鉄道むすめ』OP主題歌「GO! GO! RAILWAY!!」書き下ろし",
       "url": "https://www.billboard-japan.com/d_news/detail/165570",
@@ -3574,22 +3741,20 @@
       "isNew": false
     },
     {
-      "id": "71130c3810a0",
-      "title": "「ホロライブ」がスタジオKAIの制作でTVアニメ化決定！“おでホロ”の正体が解禁される特別番組が9月23日に放送",
-      "url": "https://eeo.today/media/2026/09/08/391945/",
-      "host": "eeo.today",
-      "source": "eeo",
+      "id": "e75cf9b30197",
+      "title": "FLOW、TVアニメ2作品ダブルタイアップ主題歌「UNSTOPPABLE」「Sorrow」同時解禁",
+      "url": "https://www.billboard-japan.com/d_news/detail/165568",
+      "host": "billboard-japan.com",
+      "source": "Billboard JAPAN",
       "summary": "",
-      "publishedAt": "2026-09-16T00:16:33.000Z",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/09/0908hororaibu.jpg",
+      "publishedAt": "2026-09-16T00:50:00.000Z",
+      "image": "https://www.billboard-japan.com/scale/news/00000165/165568/x200_image.jpg",
       "categories": [
-        "onair",
         "music2"
       ],
       "series": [
         "tv",
-        "music",
-        "adapt"
+        "music"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3602,7 +3767,7 @@
       "title": "「紛争でしたら八田まで」TVアニメ化決定 モーニング連載人気漫画 ウクライナ情勢で一躍有名に（スポニチアネックス）",
       "url": "https://news.yahoo.co.jp/articles/c5e9469707a384e3a00938f2644c6bd0899baeaa",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T23:41:43.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00000108-spnannex-000-11-view.jpg?exp=10800",
@@ -3639,14 +3804,14 @@
       "isNew": false
     },
     {
-      "id": "dfe5a5c87b56",
-      "title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉＞梶浦由記の圧倒的な音楽 悠木碧は“揺るぎない座長” 音響監督・鶴岡陽太インタビュー（MANTANWEB）",
-      "url": "https://news.yahoo.co.jp/articles/dbeba10d2067cc9e8ae304ead9557cc0b53570a7",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "a58430ac7cf8",
+      "title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉：梶浦由記の圧倒的な音楽 悠木碧は“揺るぎない座長” 音響監督・鶴岡陽太インタビュー",
+      "url": "https://mantan-web.jp/article/20260915dog00m200065000a.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
       "summary": "",
-      "publishedAt": "2026-09-15T22:05:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00000008-mantan-000-1-view.jpg?exp=10800",
+      "publishedAt": "2026-09-15T22:02:44.000Z",
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/09/15/20260915dog00m200065000a/001.jpg",
       "categories": [
         "movie2"
       ],
@@ -3708,7 +3873,7 @@
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-09-15T20:25:59.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/c/3/0/f/c30fc525a25a8d6f920747e7bdc61965_1.jpg",
+      "image": "",
       "categories": [
         "pv",
         "movie2"
@@ -3727,7 +3892,7 @@
       "title": "人気声優・上坂すみれ、「誘拐、殺害予告」で当面の間、本人のＳＮＳ発信を休止 イベント＆公演出演可否も検討中",
       "url": "https://news.yahoo.co.jp/articles/7fe3308839bf0cdf9d46b0b2a3de32f5930d7b0e",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T19:46:53.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-09161008-sph-000-2-view.jpg?exp=10800",
@@ -3752,8 +3917,8 @@
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-09-15T17:57:07.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/f/f/9/3/ff9365fb017659c2138b2ea5621156f5_1.jpg",
+      "publishedAt": "2026-09-15T18:59:10.000Z",
+      "image": "",
       "categories": [
         "music2"
       ],
@@ -3796,7 +3961,7 @@
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-09-15T16:01:19.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/5/f/4/3/5f43d0aad427a8359ba02e45ecc96099_1.jpg",
+      "image": "",
       "categories": [
         "movie2",
         "manga"
@@ -3926,7 +4091,7 @@
       "title": "レイニ 10月5日から放送となるTVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』のエンディング主題歌が、レイニの新曲「まだ嘘にならない」に決定！",
       "url": "https://e.usen.com/news/news-release/105tv.html",
       "host": "e.usen.com",
-      "source": "e.usen.com",
+      "source": "USENの音楽情報サイト",
       "summary": "",
       "publishedAt": "2026-09-15T14:29:33.000Z",
       "image": "https://e.usen.com/image/d93e528ab203adaa19c153ca2c5580e6168518d2.jpg",
@@ -3949,7 +4114,7 @@
       "title": "Netflix×セガが映像化におけるパートナーシップ締結 『ソニック』アニメ化、『STRANGER THAN HEAVEN』実写映画化などを発表 (KAI-YOU)",
       "url": "https://news.yahoo.co.jp/articles/4862f74ecf6b1a45affb7effedca450299e4bf45/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T14:16:29.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgDXk8X9_gbEEk9AZ_4sFg5FM0LegPujR83f77Z-dB4Xb_nEiV2zsHLYKSeh92B5K2XDyen8_WdO8oWLLMAzXxt745I-lkmAwdOvN07uJwX0p9iU8HBMD0mINT9whFcWolg==",
@@ -3969,11 +4134,32 @@
       "isNew": false
     },
     {
+      "id": "918fae004359",
+      "title": "『紛争でしたら八田まで』アニメ化決定 世界の情勢がわかる地政学漫画",
+      "url": "https://www.saga-s.co.jp/articles/gallery/1791356?ph",
+      "host": "saga-s.co.jp",
+      "source": "佐賀新聞",
+      "summary": "",
+      "publishedAt": "2026-09-15T14:12:53.000Z",
+      "image": "https://saga.ismcdn.jp/mwimgs/4/3/1200m/img_43c08f154d091343c751ca96327307ff102259.jpg",
+      "categories": [
+        "manga"
+      ],
+      "series": [
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "ecf49b9bc980",
       "title": "声優上坂すみれ SNS発信当面休止",
       "url": "https://news.yahoo.co.jp/pickup/6595420",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T14:04:23.000Z",
       "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/9/15/5c55c9a8afe106a4b9616a03ee3b579d422eacbe643e10649c1a4dde6c5d08bb.jpg",
@@ -3994,7 +4180,7 @@
       "title": "声優・上坂すみれ SNS活動を当面休止 脅迫行為受け「安全確保を最優先とする観点から」（スポニチアネックス）",
       "url": "https://news.yahoo.co.jp/articles/9b986beaf9c25cf4893aad82cfd561500253dc17",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T13:23:38.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260915-00000406-spnannex-000-9-view.jpg?exp=10800",
@@ -4015,7 +4201,7 @@
       "title": "氷属性男子とクールな同僚女子2期はある？続編の可能性と放送時期を考察",
       "url": "https://anisaki.hatenadiary.com/entry/koorizokusei-danshi-season2_2",
       "host": "anisaki.hatenadiary.com",
-      "source": "はてなブログ",
+      "source": "anisaki.hatenadiary.com",
       "summary": "",
       "publishedAt": "2026-09-15T13:16:55.000Z",
       "image": "https://cdn.image.st-hatena.com/image/scale/c6f83d0f394839da3278979da9deba03838ae722/backend=imagemagick;version=1;width=1300/https%3A%2F%2Ficpc-anime.com%2Fdist%2Fimg%2Ftop%2Fkv.jpg%3Fver%3D1.0.2",
@@ -4037,7 +4223,7 @@
       "title": "もういっぽん！2期はある？続編の可能性と放送時期を最新情報から考察",
       "url": "https://anisaki.hatenadiary.com/entry/mou-ippon-season2_2",
       "host": "anisaki.hatenadiary.com",
-      "source": "はてなブログ",
+      "source": "anisaki.hatenadiary.com",
       "summary": "",
       "publishedAt": "2026-09-15T12:14:13.000Z",
       "image": "https://cdn.image.st-hatena.com/image/scale/b67263ceab93a51e9da5b5270d234f38c76825a7/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fipponagain.com%2Fimg%2Fhome%2Fvisual_03.jpg",
@@ -4081,7 +4267,7 @@
       "title": "夏アニメ終盤に『リゼロ』が今期初の週間トップ！人気シリーズの本領発揮…上位常連の新作も続く【ABEMA週間ランキング】",
       "url": "https://news.yahoo.co.jp/articles/0fb53fe5a2810f8b4a57bcfcf44168d574946351?source",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T11:55:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260915-00205500-otakulab-000-10996-view.jpg?exp=10800",
@@ -4097,27 +4283,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "c6fb3677c97f",
-      "title": "アイナ・ジ・エンド お腹見せガーリーロックコーデにポニテなびかせロッキン登場!『革命道中』やアニメ『ONE PIECE』主題歌など6曲披露【ROCK IN JAPAN FESTIVAL 2026 ライブレポ】（めざましmedia）",
-      "url": "https://news.yahoo.co.jp/articles/63ad2e5a8f6a9e90320a0f8e313526cfa5a05bbc",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-15T11:00:36.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260915-00346195-fujitv-000-2-view.jpg?exp=10800",
-      "categories": [
-        "music2"
-      ],
-      "series": [
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "df8f26d39ffa",
@@ -4253,7 +4418,7 @@
       "title": "映画ファンにこそ観てほしい「傑作アニメ映画」（5）わずか36分で心をえぐる…少年を襲う過酷な現実とは？（映画チャンネル）",
       "url": "https://news.yahoo.co.jp/articles/d539329d72426fef862db455d8494af323e4ee2f",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T09:50:23.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260915-00010022-eigach-000-1-view.jpg?exp=10800",
@@ -4425,7 +4590,7 @@
       "title": "「今、令和ですよね?」35年前の平成アニメが「新作ゲーム」に!「試遊デモ公開」に往年のファン大興奮（ふたまん＋）",
       "url": "https://news.yahoo.co.jp/articles/4430be7f780d37538c9613c9a61a73f6f54bd6be",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T08:45:31.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260915-00132345-futaman-000-1-view.jpg?exp=10800",
@@ -4578,29 +4743,6 @@
       "isNew": false
     },
     {
-      "id": "381fb5c9c2e4",
-      "title": "TVアニメ『ダイヤのA actⅡ-Second Season-』第2クールメインPV公開！GLAYの新曲「NEVER SAY NEVER AGAIN」一部解禁",
-      "url": "https://spice.eplus.jp/articles/349038",
-      "host": "spice.eplus.jp",
-      "source": "エンタメ特化型情報メディア スパイス",
-      "summary": "",
-      "publishedAt": "2026-09-15T08:00:00.000Z",
-      "image": "https://spice.eplus.jp/images/ude8XxxX9GcCC32kmfYlhaoRs0vys2TCt1oKSZPro5k4BSlz1Pnbn20bImADMkkH",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "a10dbb0641c6",
       "title": "セガ、ネットフリックスと協業 「ソニック」アニメ化へ",
       "url": "https://www.nikkei.com/article/DGXZQOUC154D10V10C26A9000000/",
@@ -4659,29 +4801,6 @@
       "series": [
         "tv",
         "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f264a25ef597",
-      "title": "10-FEET、アニメ『アオアシ Season2』第1クールOPテーマ「Fortress Defense」配信リリース",
-      "url": "https://news.yahoo.co.jp/articles/e86264c522fdfa9b04e71107a014ccc9520009fe",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-15T07:35:04.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260915-00165543-exp-000-1-view.jpg?exp=10800",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "music",
-        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4796,6 +4915,27 @@
       "isNew": false
     },
     {
+      "id": "e789d6e2da01",
+      "title": "アニメ「攻殻機動隊 STAND ALONE COMPLEX」の配信はどこで見れる？サブスクまとめ",
+      "url": "https://animeanime.jp/article/2026/04/21/98229.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "",
+      "publishedAt": "2026-09-15T07:00:00.000Z",
+      "image": "https://animeanime.jp/imgs/ogp_f/866783.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b5cb7f15cc6e",
       "title": "アニメ『新こち亀』新キャスト発表会の公式レポートが公開！ 両津勘吉役・落合福嗣「こち亀大好きなみんなで作りました」",
       "url": "https://eeo.today/media/2026/09/11/392828/",
@@ -4823,7 +4963,7 @@
       "title": "森久保祥太郎さんら人気声優の「イケボ」で星や施設情報を紹介 岡山県内６施設で「天文王国おかやま」開催",
       "url": "https://www.ohk.co.jp/data/26-20260910-00000012/pages/",
       "host": "ohk.co.jp",
-      "source": "OHK 岡山放送",
+      "source": "ohk.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T07:00:00.000Z",
       "image": "https://www.ohk.co.jp/ImportData/news/file/20260910-00000012-ohk-2-00-thumb.jpg",
@@ -4837,7 +4977,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "42e009ed7c74",
@@ -5001,7 +5141,7 @@
       "title": "センチミリメンタル、新曲「かなわない、」がTVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』オープニング主題歌に決定、11月18日(水)に両A面シングルをリリース！",
       "url": "https://e.usen.com/news/news-release/tv1118a.html",
       "host": "e.usen.com",
-      "source": "e.usen.com",
+      "source": "USENの音楽情報サイト",
       "summary": "",
       "publishedAt": "2026-09-15T05:42:37.000Z",
       "image": "https://e.usen.com/image/5535881676925405a516c8dee8afb95aac45ce0c.jpg",
@@ -5105,7 +5245,7 @@
       "title": "ねぐせ。新曲「LOVE & LIKE」が、 TVアニメ「うちの弟どもがすみません」OP主題歌に決定！",
       "url": "https://e.usen.com/news/news-release/love-like-tvop.html",
       "host": "e.usen.com",
-      "source": "e.usen.com",
+      "source": "USENの音楽情報サイト",
       "summary": "",
       "publishedAt": "2026-09-15T05:24:00.000Z",
       "image": "https://e.usen.com/image/20ee66e0412fcde77afd8178d6bbf869f0b780d6.jpg",
@@ -5167,12 +5307,12 @@
     {
       "id": "af12736036c6",
       "title": "「ハルとゲン ～70歳、はじめての子育て～」TVアニメ化、2027年1月にtvkで放送開始 (コミックナタリー)",
-      "url": "https://news.yahoo.co.jp/articles/5af06cfe82f2dde86109fd440441055542c59b9c/images/000",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNkp2MjVZUnJjQnlXbzkzN2xOelgzMG84ZkRZVy1DLVZETW1YNEkyN1MxV2dwZWVPZzZpblROMEsxWXBTNmh2b01qWU1sY1RrYXZuNW5vTnQyeXlmMVdPSzlBUm92WFpHbGJtb0tBUDNodHk2X1dmNVlvNk50QWlHcUNhdURnOU9XQlA3Vmd3?oc=5",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T04:43:13.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgMtmrvLxwcBDQPB851ybwrmEdoQvAo8Exu_edAyj6KJVacgY7MqDyktBV1RYQfKvUXCN93BQSDH2kwQ4EedMvLpLRuqeBHzq4Vm_cUiwjZA7loBEiyHG3aSMJsFUfqFadQ==",
+      "image": "",
       "categories": [
         "onair",
         "manga"
@@ -5183,14 +5323,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "b82dc404e19d",
       "title": "10-FEET、アニメ「アオアシ Season2」オープニングテーマ配信",
-      "url": "https://natalie.mu/music/news/689584",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWQXFKdjZXOF9TeC0tb0lrNlllRDhOYkQ5cndPS2luOHVRb0hydldqbkxTUUpmYTlYYlVWRUlzNDFDSnN3YllrY0VhSGo?oc=5",
       "host": "natalie.mu",
       "source": "ナタリー",
       "summary": "",
@@ -5206,19 +5346,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "26dcefbe2062",
       "title": "『紛争でしたら八田まで』がTVアニメ化発表と同時に第30話まで無料にした理由",
-      "url": "https://hashout.jp/anime/10748/",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE03bFRfWlJpdHVqTmJQRVJCRWo5NXBZbEtvcXlOcnlyN0hlTlB4ZVQ5SkEzREhZTHRJbjNuRWVqSzlSdk95Z1E?oc=5",
       "host": "hashout.jp",
       "source": "shiritomo",
       "summary": "",
       "publishedAt": "2026-09-15T04:37:05.000Z",
-      "image": "https://hashout.jp/wp-content/uploads/2026/09/2099437823816585397-img-1200x675.png",
+      "image": "",
       "categories": [
         "new",
         "onair"
@@ -5229,19 +5369,42 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
+      "id": "8648cf628cf0",
+      "title": "人気声優・上坂すみれに悪質な殺害予告 イベント等出演可否を慎重に検討へ 「安全確保を最優先とした対応にご理解を」",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WU0Z6N1p0XzhQdVJxeEhfamx1TVRBMVI4OW53UWNmbTdzVzNwalpJaFNTTnhNMVhIX2dVMWdGWklFWThfTjlmeFFMeTRJd0FkYkVQbWZMcVpwczlHaHdyRlp6VXFPaFV2a2k1ci04YmFuUE9YOWdSRVprcmpvcEk?oc=5",
+      "host": "news.yahoo.co.jp",
+      "source": "news.yahoo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-09-15T04:21:16.000Z",
+      "image": "",
+      "categories": [
+        "cast2",
+        "pv"
+      ],
+      "series": [
+        "cast",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "95143f5c2eb0",
       "title": "薫る花は凛と咲く2期はいつ？続編の可能性と放送時期を予想",
-      "url": "https://anisaki.hatenadiary.com/entry/kaoruhana-season2",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzY1ZUUEhnNC15bUhmenJSWlVHelBqWjBnRnpxZ256Sk9RTXhyXzVPcFR6UE14czM1aFlCVG5GNTRNQnpRSFJuWUR2aEh3SE5SeEhIODV3cl9zb0FSNk1Hb3BLSXo2UQ?oc=5",
       "host": "anisaki.hatenadiary.com",
-      "source": "はてなブログ",
+      "source": "anisaki.hatenadiary.com",
       "summary": "",
       "publishedAt": "2026-09-15T04:09:46.000Z",
-      "image": "https://cdn.image.st-hatena.com/image/scale/10a7bd0dd03b61ad80d6a1af8e4b74f3ce7cb446/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshikisoku%2F20260408%2F20260408225226.png",
+      "image": "",
       "categories": [
         "onair"
       ],
@@ -5251,19 +5414,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "356433879b17",
       "title": "『ハルとゲン ～70歳、はじめての子育て～』が2027年1月よりTVアニメ化！",
-      "url": "https://www.animatetimes.com/news/details.php?id",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UVVkyQVFsVFBUYUNNQlA1SzhxYXFZWURWWktRa3FmRGFQNTZSWGdFMkcyRS1xV2piWktIWEM3Mm9CVjFiMkpGN1g1SkktUl9ycE5GeTZCQXJVbnJXR29lQVVtQTdyenZ1UEhj?oc=5",
       "host": "animatetimes.com",
       "source": "アニメイトタイムズ",
       "summary": "",
       "publishedAt": "2026-09-15T03:50:00.000Z",
-      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -5273,7 +5436,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5282,7 +5445,7 @@
       "title": "「30年待ってた！」「最高の妹」『らんま1/2』PVで判明した“未アニメ化キャラ”に絶賛の嵐（マグミクス）",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xQzhXWXNGNFZDQk9xdF9Md2VXNmVyTXR1bUJ5UDFQbTZKNWkyTnZRLVhiVTdkMHQ1UEU3Tk9OQkJRQnNoYm9keXZrcHFQZjVkeDJtVklvWl9ob0JJMnBZbnZqZHlwS1BIQkVxQ1NFY05FV0ZWSkZBbFhKTFMyRHc?oc=5",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T03:40:00.000Z",
       "image": "",
@@ -5324,7 +5487,7 @@
       "title": "声優の上坂すみれに脅迫メール「誘拐し、殺害する」…イベントなどの出演可否を検討（テレビ朝日系（ANN））",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YSFlZYTBiWmhVZ3BXeTdsYUhmaHdySlpwajN6aHBIdWJrWGIxQVhteDdHNGV2ZWFzdFF5UFhBejF6Q3UtVWREUUpqRGllRU1BWnBLOGRIZWc3NENRODdidVljaDN4akhXTFhTek5ZQUNVem54Y3dtR0tDVnRnMUU?oc=5",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T03:30:37.000Z",
       "image": "",
@@ -5347,7 +5510,7 @@
       "title": "鎧真伝サムライトルーパー＞37年ぶり新作テレビアニメ 第23話「シン」 真の覇皇帝をめぐる最後の戦い (MANTANWEB)",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb0ZjcV81VmViYTRGNDlMSE5OS0RITjJ6RXI1U0RPQUU0VzdEcmZMN2VFUk1qOElFcEY4Vko2bjF5eVYwS3JVWHVIanlFUnRjeUdaU2JYcGRWNHp3MUkzdEJLVmRLSmY0VEhHTUszMTBOWmg3QjBqeThDU2VaY0ZDYVhIdE0taWVST3oxQ01n?oc=5",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T03:27:00.000Z",
       "image": "",
@@ -5617,7 +5780,7 @@
       "title": "ふみの、新曲がTVアニメのオープニングテーマに「もどかしい気持ちを自分なりに楽曲へ落とし込みました」＜らんま1/2＞",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZcFJFWWszNVkzeHowcGlCTmtySWJDTWpHd2Y2LThmRmdrZG9rNUlBcXBUS255VGlXeXM2c2dxbnB5WFdCa1RTR3FjQVdlMUZfVDZhREl4OVNleFFIVDFzYUVUX2EwdWczN3dUalFRN0dQMHBLM0l2N1hMUkxjM1k?oc=5",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T01:20:37.000Z",
       "image": "",
@@ -5639,7 +5802,7 @@
       "title": "山崎天（櫻坂46）が声を担当、アニメ映画『我々は宇宙人』小夏にフォーカスした予告＆新ビジュアルが公開",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRXFWRTA2Z0NraXVudFZNU0NrcGlTWW9KXzhrQzVDa0JkaVhRWlpYQXVqN2hSUFRmN0NfQVFUN3c4QVJUalZlelhsSUtSQmdvZ0Vfblk1MkZQQnV4anF1V2dreU56aE9GSzRiWUpoR3FsLVVLSXlSQnlDUUJxX3IwS3ZqLW8zNzFxalRIN1V3?oc=5",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T01:20:04.000Z",
       "image": "",
@@ -5680,7 +5843,7 @@
       "title": "SILENT SIREN新曲「ニコイチ！」が「タヌキとキツネ」主題歌に決定、8年ぶりアニメタイアップ（音楽ナタリー）",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUTNNdU14X1k4UzN0TXNCNzRZYnNwU1lhUFBwakNQY3J3aXA5OWdITWZsVFlacGh0S05objJYZzFDNEFHR1NZdzhoaTMyNmphRTdndkY0OFYtRVBNZ0RkR19Dbk5kQkEwcmliaDNldzAyLVZ6MzRpTENGeGhOemp0OG4zaGdhV0xfYjc4OWtn?oc=5",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-15T00:46:10.000Z",
       "image": "",
@@ -5695,30 +5858,6 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "fef8e4fc3196",
-      "title": "『クレイジータクシー』『ストレンジャー・ザン・ヘヴン』実写映画化決定。セガ×Netflix協業で複数タイトルの映像化が発表。『ソニック』は新アニメ化",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZVlVqQzdWUENxMW5xd2VrcFV5bG9PN3BaWDRVXzdoWWktTXAzdGE2LV9Jc0sxUzA1LWFHOVRFYzdHVWRiNFByTS1PenNtbmx3Q1M0UjdYTQ?oc=5",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-09-15T00:40:00.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "series": [
-        "movie",
-        "adapt",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "663711d6cbc1",
@@ -5756,28 +5895,6 @@
       ],
       "series": [
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "ffab28f96340",
-      "title": "【全文】人気女性声優に対する脅迫事案発生 事務所が声明文「危害を加える旨の予告を含む…」（日刊スポーツ）",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ma1RFczNWTVZMRW9HU3g1UldzWUpjTHk0MjdSbHp6YjRROGFTaWRYbURvVUFUVTFxdGNCMHBGWF9xaTAtTTZkSjhGOHpudFlJWkd1b2YxVGlHeFBmM3pTSkl6ZngyeGduUXVzVGw4bm15NzdvRUE0eWQ5cmo2XzQ?oc=5",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-14T23:10:22.000Z",
-      "image": "",
-      "categories": [
-        "pv",
-        "cast2"
-      ],
-      "series": [
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
