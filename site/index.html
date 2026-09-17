@@ -114,11 +114,13 @@
 
         <section class="fav-view" id="favView" hidden>
           <div class="sec-head">
-            <button type="button" class="back-btn" id="favBack">
-              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-              トップに戻る
-            </button>
-            <h2 class="sec-title">あとで読む</h2>
+            <div class="sec-head-row">
+              <h2 class="sec-title">あとで読む</h2>
+              <button type="button" class="back-btn" id="favBack">
+                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+                トップに戻る
+              </button>
+            </div>
             <p class="sec-desc">記事の ☆ を押すと保存できます。このブラウザにだけ保存しています。</p>
           </div>
           <div id="favViewBody"></div>
