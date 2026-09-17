@@ -268,10 +268,6 @@ main.wrap {
   color: var(--ink-muted);
 }
 
-.mod-quiet {
-  background: var(--surface-2);
-}
-
 .mod-btn {
   width: 100%;
   margin-top: 9px;
@@ -287,19 +283,6 @@ main.wrap {
 .mod-btn:hover {
   background: var(--ember);
   color: #fff;
-}
-
-.mod-link {
-  display: block;
-  margin-top: 9px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--ember);
-}
-
-.mod-link:hover {
-  text-decoration: underline;
 }
 
 .mod-gacha {
@@ -409,26 +392,6 @@ main.wrap {
   border-color: var(--plum);
   background: var(--plum-soft);
   color: var(--plum);
-}
-
-/* 収集元 */
-.src-list {
-  margin-top: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  font-size: 11.5px;
-  color: var(--ink-muted);
-}
-
-.src-list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.src-list .c {
-  font-variant-numeric: tabular-nums;
 }
 
 /* ガチャ・おみくじの中身 */
@@ -704,41 +667,33 @@ main.wrap {
   margin-bottom: 4px;
 }
 
-/* あとで読む */
-.fav-list {
-  margin-top: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.fav-list li {
-  display: flex;
-  gap: 6px;
-  font-size: 12px;
-  line-height: 1.45;
-}
-
-.fav-list a {
-  flex: 1;
-  min-width: 0;
-}
-
-.fav-list a:hover {
-  color: var(--ember);
-}
-
-.fav-del {
-  border: 0;
-  background: transparent;
-  color: var(--ink-muted);
-  padding: 0 2px;
-  flex: none;
-}
-
 /* ---------- セクション見出し ---------- */
 .sec-head {
   margin-bottom: 11px;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  border: 2px solid var(--border-strong);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 5px 15px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+
+.back-btn:hover {
+  border-color: var(--ember);
+  background: var(--ember-soft);
+  color: var(--ember);
+}
+
+.fav-view {
+  min-height: 50vh;
 }
 
 .sec-title {

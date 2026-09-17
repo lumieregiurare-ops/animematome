@@ -29,7 +29,7 @@
       </h1>
       <p class="tagline">放送予定とアニメニュースまとめ</p>
       <div class="header-tools">
-        <a class="fav-link" href="favorites.html">
+        <a class="fav-link" href="#favorites" id="favNavLink">
           <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M12 2l2.9 6.5L22 9.6l-5.2 4.8 1.4 7.6L12 18.1l-6.2 3.9 1.4-7.6L2 9.6l7.1-1.1z"/></svg>
           <span>あとで読む</span>
           <span class="fav-count" id="favCount" hidden>0</span>
@@ -65,11 +65,6 @@
         <section class="mod" id="wordMod" hidden>
           <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>ホットなキーワード</h2>
           <div class="word-cloud" id="wordCloud"></div>
-        </section>
-
-        <section class="mod mod-quiet">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>収集元</h2>
-          <ul class="src-list" id="srcList"></ul>
         </section>
       </aside>
 
@@ -116,6 +111,19 @@
           <button class="more-btn" id="listMore" hidden></button>
           <p class="empty" id="empty" hidden>該当するニュースがありません。絞り込みを変えてみてください。</p>
         </section>
+
+        <section class="fav-view" id="favView" hidden>
+          <div class="sec-head">
+            <button type="button" class="back-btn" id="favBack">
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+              トップに戻る
+            </button>
+            <h2 class="sec-title">あとで読む</h2>
+            <p class="sec-desc">記事の ☆ を押すと保存できます。このブラウザにだけ保存しています。</p>
+          </div>
+          <div id="favViewBody"></div>
+          <p class="empty" id="favViewEmpty" hidden>まだ何も保存されていません。記事の ☆ を押すとここに貯まります。</p>
+        </section>
       </div>
 
       <aside class="side side-right">
@@ -131,13 +139,6 @@
           <p class="mod-desc">まだ読んでいない記事から 1 本引きます。</p>
           <div id="gachaBody"></div>
           <button class="mod-btn" id="gachaAgain" type="button">もう一度引く</button>
-        </section>
-
-        <section class="mod" id="favMod">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>あとで読む</h2>
-          <p class="mod-desc" id="favDesc">記事の ☆ を押すとここに貯まります。</p>
-          <ul class="fav-list" id="favList"></ul>
-          <a class="mod-link" href="favorites.html">すべて見る</a>
         </section>
       </aside>
 
