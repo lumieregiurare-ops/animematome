@@ -28,6 +28,36 @@
   box-sizing: border-box;
 }
 
+a,
+button,
+input,
+select,
+textarea {
+  transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease,
+    opacity 0.18s ease, transform 0.12s ease, box-shadow 0.18s ease;
+}
+
+button:active {
+  transform: scale(0.94);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.board,
+.feed,
+.fav-view {
+  animation: fadeInUp 0.28s ease;
+}
+
 [hidden] {
   display: none !important;
 }
@@ -994,6 +1024,7 @@ main.wrap {
 }
 
 .fav-btn {
+  position: relative;
   border: 0;
   background: transparent;
   color: var(--border-strong);
@@ -1006,6 +1037,56 @@ main.wrap {
 .fav-btn:hover,
 .fav-btn.on {
   color: var(--amber);
+}
+
+.fav-btn.pop {
+  animation: fav-pop 0.35s ease;
+}
+
+@keyframes fav-pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.35);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fav-burst {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.fav-burst-star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin: -3px 0 0 -3px;
+  background: var(--amber);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  opacity: 0;
+  transform: rotate(var(--angle, 0deg)) translateY(0) scale(0.6);
+  animation: fav-burst-fly 0.55s ease-out forwards;
+}
+
+@keyframes fav-burst-fly {
+  0% {
+    opacity: 1;
+    transform: rotate(var(--angle, 0deg)) translateY(0) scale(0.6);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(var(--angle, 0deg)) translateY(-20px) scale(1);
+  }
 }
 
 /* バッジ */

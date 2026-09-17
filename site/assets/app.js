@@ -197,13 +197,33 @@
     star.title = "あとで読む";
     star.addEventListener("click", () => {
       toggleFav(it.id);
-      star.classList.toggle("on", fav.includes(it.id));
-      star.textContent = fav.includes(it.id) ? "★" : "☆";
+      const isOn = fav.includes(it.id);
+      star.classList.toggle("on", isOn);
+      star.textContent = isOn ? "★" : "☆";
+      if (isOn) burstStar(star);
       onFavChanged();
     });
 
     row.append(thumb, body, star);
     return row;
+  }
+
+  function burstStar(el) {
+    el.classList.remove("pop");
+    void el.offsetWidth;
+    el.classList.add("pop");
+    const burst = document.createElement("span");
+    burst.className = "fav-burst";
+    const n = 6;
+    for (let i = 0; i < n; i++) {
+      const p = document.createElement("i");
+      p.className = "fav-burst-star";
+      p.style.setProperty("--angle", `${(360 / n) * i}deg`);
+      p.style.animationDelay = `${i * 12}ms`;
+      burst.appendChild(p);
+    }
+    el.appendChild(burst);
+    setTimeout(() => burst.remove(), 700);
   }
 
   function badge(text, cls) {
