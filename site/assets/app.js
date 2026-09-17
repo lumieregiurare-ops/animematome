@@ -665,8 +665,7 @@
       const el = document.getElementById(id);
       if (el) el.hidden = true;
     }
-    $(".side-left").hidden = true;
-    $(".side-right").hidden = true;
+    $(".side-left").classList.add("fav-hide");
     $("#favView").hidden = false;
     renderFavView();
     document.title = `あとで読む｜${BASE_TITLE}`;
@@ -682,8 +681,7 @@
     $("#chMod").hidden = false;
     $("#catMod").hidden = false;
     $("#wordMod").hidden = $("#wordCloud").children.length === 0;
-    $(".side-left").hidden = false;
-    $(".side-right").hidden = false;
+    $(".side-left").classList.remove("fav-hide");
     document.title = BASE_TITLE;
   }
   function syncFavView() {

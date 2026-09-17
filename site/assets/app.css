@@ -241,6 +241,20 @@ main.wrap {
   top: 132px;
 }
 
+/* あとで読む表示中は、左カラムを非表示にしつつ幅は保つ
+   （display:none にすると3カラムグリッドの列がずれて中央が詰まって見えるため） */
+.fav-hide {
+  display: none;
+}
+
+@media (min-width: 1101px) {
+  .fav-hide {
+    display: flex;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
 /* ---------- モジュール（左右の賑やかし） ---------- */
 .mod {
   background: var(--surface);
