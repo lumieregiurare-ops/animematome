@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T16:00:17.993Z",
+  "updatedAt": "2026-09-17T16:30:23.664Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
@@ -7,42 +7,42 @@
     "contactUrl": ""
   },
   "total": 205,
-  "todayCount": 15,
+  "todayCount": 16,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 36
+      "count": 37
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 65
+      "count": 67
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 29
+      "count": 32
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 45
+      "count": 43
     },
     {
       "id": "music2",
       "label": "音楽",
-      "count": 27
+      "count": 29
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 50
+      "count": 48
     },
     {
       "id": "goods2",
       "label": "グッズ・イベント",
-      "count": 11
+      "count": 10
     },
     {
       "id": "manga",
@@ -57,29 +57,29 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 20
+      "count": 19
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 69
+      "count": 71
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 69
+      "count": 68
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 49
+      "count": 47
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 37
+      "count": 39
     },
     {
       "id": "adapt",
@@ -94,7 +94,7 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 37
+      "count": 38
     }
   ],
   "weapons": [],
@@ -137,14 +137,18 @@
     },
     {
       "name": "ｄメニューニュース",
-      "count": 4
-    },
-    {
-      "name": "fukuishimbun.co.jp",
-      "count": 4
+      "count": 5
     },
     {
       "name": "山陽新聞",
+      "count": 5
+    },
+    {
+      "name": "ニコニコニュース",
+      "count": 4
+    },
+    {
+      "name": "福井新聞社",
       "count": 4
     },
     {
@@ -152,7 +156,7 @@
       "count": 3
     },
     {
-      "name": "ニコニコニュース",
+      "name": "eiga.com",
       "count": 3
     },
     {
@@ -160,23 +164,11 @@
       "count": 3
     },
     {
-      "name": "映画.com",
-      "count": 3
-    },
-    {
       "name": "アニしま",
       "count": 3
     },
     {
-      "name": "Mantan Web",
-      "count": 2
-    },
-    {
       "name": "PASH! PLUS",
-      "count": 2
-    },
-    {
-      "name": "スポニチ Sponichi Annex",
       "count": 2
     },
     {
@@ -204,7 +196,7 @@
       "count": 2
     },
     {
-      "name": "kai-you.net",
+      "name": "KAI-YOU",
       "count": 2
     },
     {
@@ -216,11 +208,11 @@
       "count": 2
     },
     {
-      "name": "リアルサウンド",
+      "name": "shiritomo",
       "count": 2
     },
     {
-      "name": "shiritomo",
+      "name": "Newscast.jp",
       "count": 2
     },
     {
@@ -244,11 +236,23 @@
       "count": 1
     },
     {
+      "name": "クランクイン！",
+      "count": 1
+    },
+    {
       "name": "アラブニュース",
       "count": 1
     },
     {
-      "name": "スポーツナビ",
+      "name": "スポニチ Sponichi Annex",
+      "count": 1
+    },
+    {
+      "name": "パ・リーグ.com",
+      "count": 1
+    },
+    {
+      "name": "TVer",
       "count": 1
     },
     {
@@ -264,7 +268,7 @@
       "count": 1
     },
     {
-      "name": "TVer",
+      "name": "THE FIRST TIMES",
       "count": 1
     },
     {
@@ -272,15 +276,11 @@
       "count": 1
     },
     {
-      "name": "THE FIRST TIMES",
-      "count": 1
-    },
-    {
-      "name": "ファッションプレス",
-      "count": 1
-    },
-    {
       "name": "音楽業界総合情報サイト",
+      "count": 1
+    },
+    {
+      "name": "Mantan Web",
       "count": 1
     },
     {
@@ -301,10 +301,6 @@
     },
     {
       "name": "朝日新聞",
-      "count": 1
-    },
-    {
-      "name": "北國新聞",
       "count": 1
     },
     {
@@ -348,6 +344,10 @@
       "count": 1
     },
     {
+      "name": "リアルサウンド",
+      "count": 1
+    },
+    {
       "name": "tv-tokyo.co.jp",
       "count": 1
     },
@@ -384,99 +384,24 @@
       "count": 1
     },
     {
-      "name": "Newscast.jp",
-      "count": 1
-    },
-    {
       "name": "TRILL",
       "count": 1
     }
   ],
   "topics": [
     {
-      "id": "96f8aee09e17",
-      "title": "葛葉「え、マジで俺でいいんですか？」ついに映画声優デビュー！「ストリートファイター／ザ・ムービー」で“クセのある”諜報員役に",
-      "summary": "葛葉が『ストリートファイター／ザ・ムービー』で日本語吹替デビュー。インターポールの諜報員マービン役を演じる。",
-      "url": "https://animeanime.jp/article/2026/09/17/103025.html",
-      "image": "https://animeanime.jp/imgs/rss/932754.png",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-09-17T12:15:56.000Z",
-      "sourceCount": 8,
-      "articleCount": 8,
-      "categories": [
-        "cast2",
-        "movie2"
-      ],
-      "keywords": [
-        "ストリートファイター",
-        "葛葉",
-        "映画"
-      ],
-      "articles": [
-        {
-          "title": "にじさんじVTuber・葛葉、映画声優デビュー 映画『ストリートファイター/ザ・ムービー』日本語吹替キャストとして参戦決定",
-          "url": "https://www.pashplus.jp/stage_movie/495965/",
-          "source": "PASH! PLUS",
-          "publishedAt": "2026-09-17T11:11:34.000Z",
-          "isPR": false
-        },
-        {
-          "title": "にじさんじ葛葉、映画『ストリートファイター』に声優出演 諜報員マービンを演じる - kai-you.net",
-          "url": "https://kai-you.net/article/96587",
-          "source": "kai-you.net",
-          "publishedAt": "2026-09-17T09:03:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "実写映画『ストリートファイター／ザ・ムービー』日本語吹替ににじさんじ所属・葛葉さんが出演決定！インターポールの諜報員・マービン役を演じる",
-          "url": "https://news.denfaminicogamer.jp/news/260917j",
-          "source": "電ファミニコゲーマー",
-          "publishedAt": "2026-09-17T09:00:51.000Z",
-          "isPR": false
-        },
-        {
-          "title": "映画『ストリートファイター／ザ・ムービー』でにじさんじ所属・葛葉が映画声優デビュー。インターポールの諜報員・マービン役で日本語吹替版に参戦",
-          "url": "https://www.famitsu.com/article/202609/88304",
-          "source": "ファミ通",
-          "publishedAt": "2026-09-17T09:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "VTuber葛葉が声優デビュー！ハリウッド実写版『ストリートファイター／ザ・ムービー』で諜報員役に",
-          "url": "https://www.cinematoday.jp/news/N0156925",
-          "source": "シネマトゥデイ",
-          "publishedAt": "2026-09-17T09:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "にじさんじ・葛葉が映画声優デビュー 『ストリートファイター／ザ・ムービー』日本語吹替版に参加",
-          "url": "https://realsound.jp/tech/2026/09/post-2527330.html",
-          "source": "リアルサウンド",
-          "publishedAt": "2026-09-17T08:27:43.000Z",
-          "isPR": false
-        },
-        {
-          "title": "にじさんじ所属・葛葉、ついに映画声優デビュー！ 『ストリートファイター6』を愛する人気VTuberが日本語吹替版に参戦決定！！",
-          "url": "https://prtimes.jp/main/html/rd/p/000006032.000013450.html",
-          "source": "PR TIMES",
-          "publishedAt": "2026-09-17T08:00:02.000Z",
-          "isPR": true
-        }
-      ]
-    },
-    {
-      "id": "f5ec060ac0cf",
-      "title": "『神さま学校の落ちこぼれ』アニメ化！ 『薬屋のひとりごと』日向夏×『兄友』赤瓦もどむが贈るスピリチュアルスクール作",
+      "id": "91d30badc721",
+      "title": "日向夏×赤瓦もどむ「神さま学校の落ちこぼれ」TVアニメ化！ティザービジュアル公開（コミックナタリー）",
       "summary": "",
-      "url": "https://news.yahoo.co.jp/articles/83048becfb14dabe74996be07990be27f9f7c7e9",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260918-00191464-crankinn-000-1-view.jpg?exp=10800",
+      "url": "https://news.yahoo.co.jp/articles/64f53e54f608fa3a2bb671e3abe3ee01e7f2e841?source",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260918-00000001-nataliec-000-1-view.jpg?exp=10800",
       "leadSource": "Yahoo!ニュース",
-      "publishedAt": "2026-09-17T15:09:07.000Z",
+      "publishedAt": "2026-09-17T15:57:26.000Z",
       "sourceCount": 7,
-      "articleCount": 9,
+      "articleCount": 10,
       "categories": [
-        "other",
-        "manga"
+        "new",
+        "pv"
       ],
       "keywords": [
         "学校",
@@ -527,18 +452,82 @@
           "isPR": false
         },
         {
+          "title": "『薬屋のひとりごと』の日向夏と『兄友』の赤瓦もどむによる『神さま学校の落ちこぼれ』TVアニメ化決定！ティザービジュアル解禁",
+          "url": "https://news.nicovideo.jp/watch/nw19785280?news_ref",
+          "source": "ニコニコニュース",
+          "publishedAt": "2026-09-17T15:00:27.000Z",
+          "isPR": false
+        },
+        {
           "title": "人気漫画『神さま学校の落ちこぼれ』がテレビアニメ化！ナギらが描かれたティザービジュアルを公開",
           "url": "https://news.infoseek.co.jp/article/abematimes_10273535/",
           "source": "news.infoseek.co.jp",
           "publishedAt": "2026-09-17T15:00:00.000Z",
           "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "96f8aee09e17",
+      "title": "葛葉「え、マジで俺でいいんですか？」ついに映画声優デビュー！「ストリートファイター／ザ・ムービー」で“クセのある”諜報員役に",
+      "summary": "葛葉が『ストリートファイター／ザ・ムービー』で日本語吹替デビュー。インターポールの諜報員マービン役を演じる。",
+      "url": "https://animeanime.jp/article/2026/09/17/103025.html",
+      "image": "https://animeanime.jp/imgs/rss/932754.png",
+      "leadSource": "アニメ！アニメ！",
+      "publishedAt": "2026-09-17T12:15:56.000Z",
+      "sourceCount": 7,
+      "articleCount": 7,
+      "categories": [
+        "cast2",
+        "movie2"
+      ],
+      "keywords": [
+        "ストリートファイター",
+        "葛葉",
+        "映画"
+      ],
+      "articles": [
+        {
+          "title": "にじさんじVTuber・葛葉、映画声優デビュー 映画『ストリートファイター/ザ・ムービー』日本語吹替キャストとして参戦決定",
+          "url": "https://www.pashplus.jp/stage_movie/495965/",
+          "source": "PASH! PLUS",
+          "publishedAt": "2026-09-17T11:11:34.000Z",
+          "isPR": false
         },
         {
-          "title": "日向夏×赤瓦もどむ「神さま学校の落ちこぼれ」TVアニメ化！ティザービジュアル公開",
-          "url": "https://natalie.mu/comic/news/689980",
-          "source": "ナタリー",
-          "publishedAt": "2026-09-17T15:00:00.000Z",
+          "title": "にじさんじ葛葉、映画『ストリートファイター』に声優出演 諜報員マービンを演じる - KAI-YOU",
+          "url": "https://kai-you.net/article/96587",
+          "source": "KAI-YOU",
+          "publishedAt": "2026-09-17T09:03:00.000Z",
           "isPR": false
+        },
+        {
+          "title": "実写映画『ストリートファイター／ザ・ムービー』日本語吹替ににじさんじ所属・葛葉さんが出演決定！インターポールの諜報員・マービン役を演じる",
+          "url": "https://news.denfaminicogamer.jp/news/260917j",
+          "source": "電ファミニコゲーマー",
+          "publishedAt": "2026-09-17T09:00:51.000Z",
+          "isPR": false
+        },
+        {
+          "title": "映画『ストリートファイター／ザ・ムービー』でにじさんじ所属・葛葉が映画声優デビュー。インターポールの諜報員・マービン役で日本語吹替版に参戦",
+          "url": "https://www.famitsu.com/article/202609/88304",
+          "source": "ファミ通",
+          "publishedAt": "2026-09-17T09:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "VTuber葛葉が声優デビュー！ハリウッド実写版『ストリートファイター／ザ・ムービー』で諜報員役に",
+          "url": "https://www.cinematoday.jp/news/N0156925",
+          "source": "シネマトゥデイ",
+          "publishedAt": "2026-09-17T09:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "にじさんじ所属・葛葉、ついに映画声優デビュー！ 『ストリートファイター6』を愛する人気VTuberが日本語吹替版に参戦決定！！",
+          "url": "https://prtimes.jp/main/html/rd/p/000006032.000013450.html",
+          "source": "PR TIMES",
+          "publishedAt": "2026-09-17T08:00:02.000Z",
+          "isPR": true
         }
       ]
     },
@@ -551,15 +540,15 @@
       "leadSource": "Yahoo!ニュース",
       "publishedAt": "2026-09-17T11:20:10.000Z",
       "sourceCount": 5,
-      "articleCount": 6,
+      "articleCount": 7,
       "categories": [
         "onair",
         "music2"
       ],
       "keywords": [
         "主題歌",
-        "pang",
-        "リリース"
+        "リリース",
+        "pang"
       ],
       "articles": [
         {
@@ -596,6 +585,13 @@
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-09-16T23:00:00.000Z",
           "isPR": false
+        },
+        {
+          "title": "adieu新曲「ささくれ」配信リリース、映画「我々は宇宙人」主題歌として書き下ろし",
+          "url": "https://natalie.mu/music/news/689708",
+          "source": "ナタリー",
+          "publishedAt": "2026-09-16T03:00:00.000Z",
+          "isPR": false
         }
       ]
     },
@@ -606,7 +602,7 @@
       "url": "https://news.denfaminicogamer.jp/news/2609182p",
       "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/09/18cb625a61ddf2c5611b21dc71e07400-724x1024.jpg",
       "leadSource": "電ファミニコゲーマー",
-      "publishedAt": "2026-09-17T15:03:57.000Z",
+      "publishedAt": "2026-09-17T15:09:06.000Z",
       "sourceCount": 5,
       "articleCount": 5,
       "categories": [
@@ -620,10 +616,10 @@
       ],
       "articles": [
         {
-          "title": "神さま学校の落ちこぼれ：テレビアニメ化 「薬屋のひとりごと」日向夏原作の少女マンガ 超能力×学園×陰謀",
-          "url": "https://mantan-web.jp/article/20260917dog00m200015000a.html",
-          "source": "Mantan Web",
-          "publishedAt": "2026-09-17T15:03:57.000Z",
+          "title": "神さま学校の落ちこぼれ＞テレビアニメ化 「薬屋のひとりごと」日向夏原作の少女マンガ 超能力×学園×陰謀（MANTANWEB）",
+          "url": "https://news.yahoo.co.jp/articles/9e6fade0805dd9e32c23fb88dd52cf443895e341",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-17T15:09:06.000Z",
           "isPR": false
         },
         {
@@ -708,7 +704,7 @@
       "leadSource": "スポニチ Sponichi Annex",
       "publishedAt": "2026-09-17T13:20:16.000Z",
       "sourceCount": 4,
-      "articleCount": 6,
+      "articleCount": 4,
       "categories": [
         "cast2",
         "goods2"
@@ -721,9 +717,9 @@
       "articles": [
         {
           "title": "「ダイヤのA」声優の逢坂良太、櫻井孝宏、浅沼晋太郎がセレモニアルピッチ",
-          "url": "https://sports.yahoo.co.jp/official/detail/2026091700215-spnaviow",
-          "source": "スポーツナビ",
-          "publishedAt": "2026-09-17T13:05:00.000Z",
+          "url": "https://pacificleague.com/news/amp/86319",
+          "source": "パ・リーグ.com",
+          "publishedAt": "2026-09-17T12:59:00.000Z",
           "isPR": false
         },
         {
@@ -734,24 +730,10 @@
           "isPR": false
         },
         {
-          "title": "【ロッテ】「ダイヤのA act II -Second Season-」とコラボイベントで3人の声優がセレモニアルピッチ（週刊ベースボールONLINE）",
-          "url": "https://news.yahoo.co.jp/articles/0b4ca5996d84741f373f236f4cb319fbdc20c2b4",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-17T09:39:00.000Z",
-          "isPR": false
-        },
-        {
           "title": "ロッテ×ダイヤのA 声優の逢坂良太、櫻井孝宏、浅沼晋太郎がセレモニアルピッチ（スポニチアネックス）",
           "url": "https://news.yahoo.co.jp/articles/15cf37345ff5bd5d2f6a36e2a58a0f79bf1cc08d",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-09-17T09:13:33.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【記事全文】ロッテ×ダイヤのA 声優の逢坂良太、櫻井孝宏、浅沼晋太郎がセレモニアルピッチ",
-          "url": "https://www.sponichi.co.jp/baseball/news/2026/09/17/articles/20260917s00001173286000c.html",
-          "source": "スポニチ Sponichi Annex",
-          "publishedAt": "2026-09-17T08:53:00.000Z",
           "isPR": false
         }
       ]
@@ -951,13 +933,37 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-17T15:30:19.677Z",
-    "previousCount": 203,
-    "newCount": 9
+    "previousAt": "2026-09-17T16:00:17.993Z",
+    "previousCount": 205,
+    "newCount": 8
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-17T16:30:17.993Z",
+  "nextUpdateAt": "2026-09-17T17:00:23.664Z",
   "items": [
+    {
+      "id": "91d30badc721",
+      "title": "日向夏×赤瓦もどむ「神さま学校の落ちこぼれ」TVアニメ化！ティザービジュアル公開（コミックナタリー）",
+      "url": "https://news.yahoo.co.jp/articles/64f53e54f608fa3a2bb671e3abe3ee01e7f2e841?source",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-09-17T15:57:26.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260918-00000001-nataliec-000-1-view.jpg?exp=10800",
+      "categories": [
+        "new",
+        "pv"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "e04cff18f0fe",
       "title": "『黒執事』連載20周年を記念した展覧会が開催決定！コミックス全35巻が「LINEマンガ」などにて“本日限定”で無料公開",
@@ -979,7 +985,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e9287369b36f",
@@ -1002,19 +1008,19 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
-      "id": "f5ec060ac0cf",
-      "title": "『神さま学校の落ちこぼれ』アニメ化！ 『薬屋のひとりごと』日向夏×『兄友』赤瓦もどむが贈るスピリチュアルスクール作",
-      "url": "https://news.yahoo.co.jp/articles/83048becfb14dabe74996be07990be27f9f7c7e9",
+      "id": "0c7b07fd533e",
+      "title": "神さま学校の落ちこぼれ＞テレビアニメ化 「薬屋のひとりごと」日向夏原作の少女マンガ 超能力×学園×陰謀（MANTANWEB）",
+      "url": "https://news.yahoo.co.jp/articles/9e6fade0805dd9e32c23fb88dd52cf443895e341",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-09-17T15:09:07.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260918-00191464-crankinn-000-1-view.jpg?exp=10800",
+      "publishedAt": "2026-09-17T15:09:06.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260918-00000001-mantan-000-1-view.jpg?exp=10800",
       "categories": [
-        "other"
+        "manga"
       ],
       "series": [
         "tv",
@@ -1024,7 +1030,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "b4970db9a4dd",
@@ -1088,28 +1094,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2012b6e9531a",
-      "title": "神さま学校の落ちこぼれ：テレビアニメ化 「薬屋のひとりごと」日向夏原作の少女マンガ 超能力×学園×陰謀",
-      "url": "https://mantan-web.jp/article/20260917dog00m200015000a.html",
-      "host": "mantan-web.jp",
-      "source": "Mantan Web",
-      "summary": "",
-      "publishedAt": "2026-09-17T15:03:57.000Z",
-      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/09/17/20260917dog00m200015000a/001.jpg",
-      "categories": [
-        "manga"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1202,6 +1186,29 @@
       "isNew": false
     },
     {
+      "id": "474e15ea7f90",
+      "title": "『薬屋のひとりごと』の日向夏と『兄友』の赤瓦もどむによる『神さま学校の落ちこぼれ』TVアニメ化決定！ティザービジュアル解禁",
+      "url": "https://news.nicovideo.jp/watch/nw19785280?news_ref",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-09-17T15:00:27.000Z",
+      "image": "",
+      "categories": [
+        "new",
+        "pv"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0701f019169d",
       "title": "「薬屋のひとりごと」日向夏が原作！“超能力×学園×陰謀”スピリチュアルスクールドラマ「神さま学校の落ちこぼれ」アニメ化決定",
       "url": "https://animeanime.jp/article/2026/09/18/103028.html",
@@ -1270,21 +1277,19 @@
       "isNew": false
     },
     {
-      "id": "91d30badc721",
-      "title": "日向夏×赤瓦もどむ「神さま学校の落ちこぼれ」TVアニメ化！ティザービジュアル公開",
-      "url": "https://natalie.mu/comic/news/689980",
-      "host": "natalie.mu",
-      "source": "ナタリー",
+      "id": "f5ec060ac0cf",
+      "title": "『神さま学校の落ちこぼれ』アニメ化！ 『薬屋のひとりごと』日向夏×『兄友』赤瓦もどむが贈るスピリチュアルスクール作",
+      "url": "https://www.crank-in.net/news/191464",
+      "host": "crank-in.net",
+      "source": "クランクイン！",
       "summary": "",
       "publishedAt": "2026-09-17T15:00:00.000Z",
-      "image": "",
+      "image": "https://www.crank-in.net/img/db/267090174135084_1200.jpg",
       "categories": [
-        "new",
-        "pv"
+        "other"
       ],
       "series": [
         "tv",
-        "movie",
         "adapt"
       ],
       "isOfficial": false,
@@ -1311,6 +1316,27 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "781114eda3b3",
+      "title": "“声優界No.1グラビアン”井口裕香、ベッドの上の白ビキニショットにファン歓喜「ナイスバディ」「国宝級」",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGtIOXd2dHNFbjM0dWQ5dTRTaXVOY0F6VFpiUDl0SW9rMzI5a0tkbnl2MkYyamxjbG15ZUtGQVh6TmhQQ09TMEItZ2FFbGpmVE4yWEw0VmxNV1d4M0xlZ0xfOUpMYjlVUi1IYTNOVG9XRWRjNE9JRm5mVFFZSFdaVl9ra0V3Mk5mdXdrOWphWFVidmg2cEJuVdIBngFBVV95cUxOZWMwNVBtdzdLMjZFMHREUWpXMkVNMnFGYXd3UkZHQWduaGZYcW9Pb21DbG9GTy1CUzFIa0JVT09PWThEallTeXFXV3lZeFNRRjdQcTd3X3RfM3BlWEFzbFY1b0hVSS1HZmg2TkhMcjVKbjd2WHlXR2duZnRNS1p5TTBmdU1xay1LNjR5RUpWM3UydXBjSFJYTTNTamluZw?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
+      "summary": "",
+      "publishedAt": "2026-09-17T14:30:00.000Z",
+      "image": "",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6e9c54c36f55",
@@ -1393,7 +1419,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "339c012716dd",
@@ -1464,17 +1490,39 @@
     {
       "id": "ca3924396e10",
       "title": "「ダイヤのA」声優の逢坂良太、櫻井孝宏、浅沼晋太郎がセレモニアルピッチ",
-      "url": "https://sports.yahoo.co.jp/official/detail/2026091700215-spnaviow",
-      "host": "sports.yahoo.co.jp",
-      "source": "スポーツナビ",
+      "url": "https://pacificleague.com/news/amp/86319",
+      "host": "pacificleague.com",
+      "source": "パ・リーグ.com",
       "summary": "",
-      "publishedAt": "2026-09-17T13:05:00.000Z",
-      "image": "https://sports-pctr.c.yimg.jp/dk/iwiz-sports/text/images/2026/0917/2026091700215-spnaviow_1789650231_view.jpeg",
+      "publishedAt": "2026-09-17T12:59:00.000Z",
+      "image": "https://media.insight.pacificleague.com/webp/hZDuZe6UQWX8mZLlndWAKYGeSeNaXBQv7WjiM3A6.webp",
       "categories": [
         "cast2"
       ],
       "series": [
         "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4b7fca531d34",
+      "title": "BabyBus －ベビーバス－ 9月17日(木)放送分 #157｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題",
+      "url": "https://tver.jp/episodes/epf4ciq996",
+      "host": "tver.jp",
+      "source": "TVer",
+      "summary": "",
+      "publishedAt": "2026-09-17T12:42:06.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1619,7 +1667,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c6d2c30fd846",
@@ -1866,19 +1914,20 @@
       "isNew": false
     },
     {
-      "id": "4b7fca531d34",
-      "title": "BabyBus －ベビーバス－ 9月17日(木)放送分 #157｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題",
-      "url": "https://tver.jp/episodes/epf4ciq996",
-      "host": "tver.jp",
-      "source": "TVer",
+      "id": "c370dad2a449",
+      "title": "krage、TVアニメ『帰還者の魔法は特別です』第二期・EDテーマ「Everlasting」リリース決定！アニメ放送に先駆けて先行配信もスタート",
+      "url": "https://www.thefirsttimes.jp/news/0000883825/",
+      "host": "thefirsttimes.jp",
+      "source": "THE FIRST TIMES",
       "summary": "",
-      "publishedAt": "2026-09-17T10:18:49.000Z",
-      "image": "",
+      "publishedAt": "2026-09-17T10:17:24.000Z",
+      "image": "https://www.thefirsttimes.jp/admin/wp-content/uploads/5026/09/20260917-eri-1659003-1200x630.jpg",
       "categories": [
         "onair"
       ],
       "series": [
         "tv",
+        "music",
         "stream"
       ],
       "isOfficial": false,
@@ -1998,29 +2047,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "c370dad2a449",
-      "title": "krage、TVアニメ『帰還者の魔法は特別です』第二期・EDテーマ「Everlasting」リリース決定！アニメ放送に先駆けて先行配信もスタート",
-      "url": "https://www.thefirsttimes.jp/news/0000883825/",
-      "host": "thefirsttimes.jp",
-      "source": "THE FIRST TIMES",
-      "summary": "",
-      "publishedAt": "2026-09-17T10:02:27.000Z",
-      "image": "https://www.thefirsttimes.jp/admin/wp-content/uploads/5026/09/20260917-eri-1659003-1200x630.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "music",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -2104,27 +2130,6 @@
       ],
       "series": [
         "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b2c3c3dfaa1b",
-      "title": "映画『聲の形』公開10周年でリバイバル上映、京都アニメーション制作の人間ドラマ",
-      "url": "https://www.fashion-press.net/news/151235",
-      "host": "fashion-press.net",
-      "source": "ファッションプレス",
-      "summary": "",
-      "publishedAt": "2026-09-17T10:00:00.000Z",
-      "image": "https://www.fashion-press.net/img/news/151235/top.jpg?1789636256",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2227,7 +2232,7 @@
       "title": "『ソニック・ザ・ヘッジホッグ』新アニメ化 子ども向けシリーズでNetflixと協力",
       "url": "https://www.fukuishimbun.co.jp/articles/gallery/2698776?ph",
       "host": "fukuishimbun.co.jp",
-      "source": "fukuishimbun.co.jp",
+      "source": "福井新聞社",
       "summary": "",
       "publishedAt": "2026-09-17T09:42:18.000Z",
       "image": "https://fki.ismcdn.jp/mwimgs/3/d/-/img_3da034fd14344090a29ece540b884ada96519.jpg",
@@ -2237,29 +2242,6 @@
       "series": [
         "adapt",
         "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "120b1eb923ba",
-      "title": "【ロッテ】「ダイヤのA act II -Second Season-」とコラボイベントで3人の声優がセレモニアルピッチ（週刊ベースボールONLINE）",
-      "url": "https://news.yahoo.co.jp/articles/0b4ca5996d84741f373f236f4cb319fbdc20c2b4",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-17T09:39:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260917-00000008-baseballo-000-6-view.jpg?exp=10800",
-      "categories": [
-        "goods2",
-        "cast2"
-      ],
-      "series": [
-        "cast",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2331,7 +2313,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6e82fef28c20",
@@ -2495,10 +2477,10 @@
     },
     {
       "id": "0f015dab8d0f",
-      "title": "にじさんじ葛葉、映画『ストリートファイター』に声優出演 諜報員マービンを演じる - kai-you.net",
+      "title": "にじさんじ葛葉、映画『ストリートファイター』に声優出演 諜報員マービンを演じる - KAI-YOU",
       "url": "https://kai-you.net/article/96587",
       "host": "kai-you.net",
-      "source": "kai-you.net",
+      "source": "KAI-YOU",
       "summary": "",
       "publishedAt": "2026-09-17T09:03:00.000Z",
       "image": "https://img.kai-you.net/storage/2026/09/5024e5b7-2144-4566-a44a-49c7a76795dc/jpg/kuzuha_sf_movie.jpg",
@@ -2807,25 +2789,27 @@
       "isNew": false
     },
     {
-      "id": "7f9e1a40e9c9",
-      "title": "【記事全文】ロッテ×ダイヤのA 声優の逢坂良太、櫻井孝宏、浅沼晋太郎がセレモニアルピッチ",
-      "url": "https://www.sponichi.co.jp/baseball/news/2026/09/17/articles/20260917s00001173286000c.html",
-      "host": "sponichi.co.jp",
-      "source": "スポニチ Sponichi Annex",
+      "id": "0d3c7e7fc40b",
+      "title": "声優・上坂すみれに「殺害予告」イベント中止の実害…“匿名メール”でも逃げ切れない「多額賠償」のリスク【弁護士解説】",
+      "url": "https://news.yahoo.co.jp/articles/5f774c3a85dfecadb1c888c33026752a6117548f/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-09-17T08:53:00.000Z",
-      "image": "https://www.sponichi.co.jp/baseball/news/2026/09/17/jpeg/20260917s10001173308000p_view.webp",
+      "publishedAt": "2026-09-17T08:50:16.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgM4WW2x_u1DyRp_rxRHwaggOQsqJC06tA89KZfmZLQes6c3hg70unNuzx88-25uqH2Bqq7xfQ9W_Dy6OGV-NW1GDN9hi0xH35-GWhBCCaxyr",
       "categories": [
+        "pv",
         "cast2"
       ],
       "series": [
-        "cast"
+        "cast",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "6ebe192102cf",
@@ -2885,29 +2869,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "db3e34de55f1",
-      "title": "にじさんじ・葛葉が映画声優デビュー 『ストリートファイター／ザ・ムービー』日本語吹替版に参加",
-      "url": "https://realsound.jp/tech/2026/09/post-2527330.html",
-      "host": "realsound.jp",
-      "source": "リアルサウンド",
-      "summary": "",
-      "publishedAt": "2026-09-17T08:27:43.000Z",
-      "image": "https://realsound.jp/wp-content/uploads/2026/09/20260917-kuzuha-99.jpg",
-      "categories": [
-        "cast2",
-        "movie2"
-      ],
-      "series": [
-        "movie",
-        "cast"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3043,7 +3004,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3302fd6580c0",
@@ -3131,25 +3092,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "d588a34c86e7",
-      "title": "岡本信彦、蒼井翔太、杉田智和が“歌”でサプライズお祝い♪「いつも歌は断るんだけど…」山下大輝の「肉ッキング」リアルイベのレポート到着！（アニメ！アニメ！）",
-      "url": "https://news.yahoo.co.jp/articles/17c1945bbcb1fcc47be2ec326e1b5be3b7845824",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-17T07:45:03.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260917-00000012-anmanmv-000-2-view.jpg?exp=10800",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "b8c4de1da5cc",
@@ -3251,27 +3193,6 @@
       ],
       "series": [
         "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "177f99fd3bef",
-      "title": "脅迫受け声優出演見合わせ｜社会｜全国のニュース",
-      "url": "https://www.hokkoku.co.jp/articles/-/2232656",
-      "host": "hokkoku.co.jp",
-      "source": "北國新聞",
-      "summary": "",
-      "publishedAt": "2026-09-17T07:00:00.000Z",
-      "image": "https://hokkoku.ismcdn.jp/mwimgs/0/3/1200wm/img_036240b2c465457141c1c36a90034b3333368.png",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3412,7 +3333,7 @@
       "title": "神山健治×円城塔「機動戦士ガンダムRG XARX-ZERO」はTVアニメ、27年4月放送開始 関連ゲームの発売日も発表",
       "url": "https://eiga.com/l/vaKEm",
       "host": "eiga.com",
-      "source": "映画.com",
+      "source": "eiga.com",
       "summary": "",
       "publishedAt": "2026-09-17T06:00:00.000Z",
       "image": "https://media.eiga.com/images/buzz/129206/8292f097ed0dea0b.jpg",
@@ -3516,7 +3437,7 @@
       "title": "山﨑天、初声優で幼少期からつながる声を模索「未知の世界すぎて難しかった」 『我々は宇宙人』展の開催も決定",
       "url": "https://www.fukuishimbun.co.jp/articles/gallery/2698814",
       "host": "fukuishimbun.co.jp",
-      "source": "fukuishimbun.co.jp",
+      "source": "福井新聞社",
       "summary": "",
       "publishedAt": "2026-09-17T04:47:46.000Z",
       "image": "https://fki.ismcdn.jp/mwimgs/c/0/-/img_c050979a99d5bc3c98d20d06e21b891868499.jpg",
@@ -3773,6 +3694,28 @@
       "isNew": false
     },
     {
+      "id": "0b85edd22abd",
+      "title": "『「骸骨騎士様、只今異世界へお出掛け中 Ⅱ」アニメ放送応援御礼フェア♪』としてオーバーラップから刊行されているライトノベルとコミックス対象作品が各電子ストアにて無料＆割引になるキャンペーンを9月17日(木)～9月30日(水)まで実施！",
+      "url": "https://newscast.jp/smart/news/5506806",
+      "host": "newscast.jp",
+      "source": "Newscast.jp",
+      "summary": "",
+      "publishedAt": "2026-09-17T03:03:40.000Z",
+      "image": "https://www.atpress.ne.jp/attachments/LjGbGZxdFLb796QXx2Fa.jpeg",
+      "categories": [
+        "onair",
+        "manga"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "d8fc23ffe2ef",
       "title": "「ラブライブ！スーパースター!!」TVアニメ放送5周年を記念して、Liella!コンセプトジュエリーが登場！10/21（水）12:00より予約受付開始！ - lovelive-anime.jp",
       "url": "https://www.lovelive-anime.jp/news/01_6585.html",
@@ -3905,10 +3848,10 @@
     },
     {
       "id": "d87471d60d8c",
-      "title": "ホロライブ博衣こより主演のノベルゲーム『コヨリニウム』制作決定 本人が監修 - kai-you.net",
+      "title": "ホロライブ博衣こより主演のノベルゲーム『コヨリニウム』制作決定 本人が監修 - KAI-YOU",
       "url": "https://kai-you.net/article/96577",
       "host": "kai-you.net",
-      "source": "kai-you.net",
+      "source": "KAI-YOU",
       "summary": "",
       "publishedAt": "2026-09-17T03:00:00.000Z",
       "image": "https://img.kai-you.net/storage/2026/09/2a102598-e02a-4a30-876e-18a30ffa36dd/jpg/koyorinium.jpg",
@@ -3931,7 +3874,7 @@
       "title": "関西の長寿番組『よ～いドン！』史上初のアニメ放送決定 MC・円広志「アカミとAboちゃんが恋愛して…っていったい何を」【キャラ・声優紹介】",
       "url": "https://www.fukuishimbun.co.jp/articles/gallery/2699774",
       "host": "fukuishimbun.co.jp",
-      "source": "fukuishimbun.co.jp",
+      "source": "福井新聞社",
       "summary": "",
       "publishedAt": "2026-09-17T02:45:16.000Z",
       "image": "https://fki.ismcdn.jp/mwimgs/7/0/-/img_70e57832b36867c7ee0c4998a298aff097820.jpg",
@@ -4258,7 +4201,7 @@
       "title": "『ケロロ軍曹』新作アニメのキャスト発表 PV公開で冬樹役は榊原優希・夏美役は藤寺美徳",
       "url": "https://www.fukuishimbun.co.jp/articles/gallery/2698173",
       "host": "fukuishimbun.co.jp",
-      "source": "fukuishimbun.co.jp",
+      "source": "福井新聞社",
       "summary": "",
       "publishedAt": "2026-09-16T23:51:16.000Z",
       "image": "https://fki.ismcdn.jp/mwimgs/8/c/-/img_8cc924542ddb799928de3a4c6e9e752171485.jpg",
@@ -4596,7 +4539,7 @@
       "title": "アニメ「リラックマ」シーズン3「気ままにまんぷく日和」放送決定 食欲の秋を満喫するPV、キービジュアル公開",
       "url": "https://eiga.com/l/RhmHj",
       "host": "eiga.com",
-      "source": "映画.com",
+      "source": "eiga.com",
       "summary": "",
       "publishedAt": "2026-09-16T21:00:00.000Z",
       "image": "https://media.eiga.com/images/buzz/129211/e3c4676a4616b494.jpg",
@@ -4724,7 +4667,7 @@
       "title": "「ハードルが高過ぎる」劇場版 魔法少女まどか☆マギカ ワルプルギスの廻天 のびたさんの映画レビュー（感想・評価）",
       "url": "https://eiga.com/movie/94928/review/06975798/",
       "host": "eiga.com",
-      "source": "映画.com",
+      "source": "eiga.com",
       "summary": "",
       "publishedAt": "2026-09-16T13:21:56.000Z",
       "image": "https://media.eiga.com/images/movie/94928/photo/71a6cf3425985f2c.jpg",
@@ -4848,7 +4791,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ae5616f25a82",
@@ -5279,6 +5222,30 @@
       "isNew": false
     },
     {
+      "id": "246b36e0afdc",
+      "title": "adieu新曲「ささくれ」配信リリース、映画「我々は宇宙人」主題歌として書き下ろし",
+      "url": "https://natalie.mu/music/news/689708",
+      "host": "natalie.mu",
+      "source": "ナタリー",
+      "summary": "",
+      "publishedAt": "2026-09-16T03:00:00.000Z",
+      "image": "",
+      "categories": [
+        "onair",
+        "music2"
+      ],
+      "series": [
+        "movie",
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "74bffa0408f1",
       "title": "【レンタル新作】伏瀬原作による人気異世界ファンタジーアニメの劇場版第2弾『劇場版 転生したらスライムだった件 蒼海の涙編』2026年9月25日（金）リリース",
       "url": "https://tsutaya.tsite.jp/articles/movie-5852",
@@ -5410,42 +5377,62 @@
       "isNew": false
     },
     {
-      "id": "e52fa3a9cbab",
-      "title": "２年前に放送終了した『大ヒットアニメ』から“続編”のお知らせ→「やったあああ」「生きれる」SNS大歓喜",
-      "url": "https://trilltrill.jp/articles/4974982",
-      "host": "trilltrill.jp",
-      "source": "TRILL",
+      "id": "2eed7baefd83",
+      "title": "劇場版『メダリスト』2027年公開 PV＆ビジュアル解禁「全日本ノービス大会」開幕",
+      "url": "https://www.sanyonews.jp/article/1892665?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-09-15T16:35:00.000Z",
-      "image": "https://media.trilltrill.jp/articles/4974982/cover-image.b8ac9069d22125a397c21371b53466d2?w=1200",
+      "publishedAt": "2026-09-15T20:25:59.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/3/0/f/c30fc525a25a8d6f920747e7bdc61965_1.jpg",
       "categories": [
-        "onair"
+        "pv",
+        "movie2"
       ],
       "series": [
-        "tv",
-        "adapt"
+        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
-      "id": "603e424d3765",
-      "title": "日本自閉症協会『みいちゃんと山田さん』アニメ化に苦言 漫画の問題点など意見書公開「強い危惧を抱くものです」",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11bkd1aWhhaDl2ODIxRF9EdGhjLUZ0ZVN2N3J4Ymh6M2JfaEtVNHRGYTlxd1dCd2FpSmo3MHM1ajdoeHFkRkJRZmtOVmVQMEZ4Y2c?oc=5",
+      "id": "fedc425501a7",
+      "title": "JO1、2年ぶり“ロッキン”カムバック アニメ『東リベ』OP主題歌を特攻服で披露「日和ってるやついる？」",
+      "url": "https://www.sanyonews.jp/article/1988110?rct",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-09-15T16:01:19.000Z",
-      "image": "",
+      "publishedAt": "2026-09-15T18:59:10.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/f/f/9/3/ff9365fb017659c2138b2ea5621156f5_1.jpg",
       "categories": [
-        "movie2",
-        "manga"
+        "music2"
       ],
       "series": [
-        "movie",
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "e52fa3a9cbab",
+      "title": "２年前に放送終了した『大ヒットアニメ』から“続編”のお知らせ→「やったあああ」「生きれる」SNS大歓喜",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lVFdNZ2ZqSmVfMGpKUDRZY3Bfb2luMXF1NUhPTlExSXNBOVpfSFNWSVRWZzJqZXRPS3BHNngtcXRBLWpseWxfelJKQ01qd0U?oc=5",
+      "host": "trilltrill.jp",
+      "source": "TRILL",
+      "summary": "",
+      "publishedAt": "2026-09-15T16:35:00.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
         "adapt"
       ],
       "isOfficial": false,
