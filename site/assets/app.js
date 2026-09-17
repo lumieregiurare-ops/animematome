@@ -32,7 +32,7 @@
 
   let fav = store.get(FAV_KEY, []);
   let read = store.get(READ_KEY, []);
-  const state = Object.assign({ series: "all", cat: "all", q: "", hidePR: false, sort: "new" }, store.get(STATE_KEY, {}));
+  const state = Object.assign({ cat: "all", q: "", hidePR: false, sort: "new" }, store.get(STATE_KEY, {}));
 
   // ---------- 小物 ----------
   function hhmm(iso) {
@@ -138,7 +138,6 @@
   function visible() {
     const q = state.q.trim().toLowerCase();
     return data.items.filter((it) => {
-      if (state.series !== "all" && !(it.series || []).includes(state.series)) return false;
       if (state.cat !== "all" && !it.categories.includes(state.cat)) return false;
       if (state.hidePR && it.isPR) return false;
       if (q && !`${it.title} ${it.summary || ""} ${it.source}`.toLowerCase().includes(q)) return false;
@@ -232,7 +231,18 @@
     const box = $("#list");
     box.innerHTML = "";
 
-    $("#count").textContent = `${all.length} 件${state.q ? `「${state.q}」で絞り込み中` : ""}`;
+    const countEl = $("#count");
+    countEl.innerHTML = "";
+    countEl.append(`${all.length} 件`);
+    if (state.q) {
+      countEl.append(`「${state.q}」で絞り込み中 `);
+      const clear = document.createElement("button");
+      clear.type = "button";
+      clear.className = "q-clear";
+      clear.textContent = "✕ 解除";
+      clear.addEventListener("click", () => set({ q: "" }));
+      countEl.appendChild(clear);
+    }
     $("#empty").hidden = all.length > 0;
 
     if (state.sort === "shuffle") {
@@ -340,18 +350,6 @@
 
   // ---------- 左カラム ----------
   function renderFilters() {
-    const nav = $("#seriesNav");
-    nav.innerHTML = "";
-    const seriesTabs = [{ id: "all", label: "すべて", count: data.total }, ...data.series.filter((s) => s.count > 0)];
-    for (const s of seriesTabs) {
-      const b = document.createElement("button");
-      b.type = "button";
-      b.setAttribute("aria-pressed", String(state.series === s.id));
-      b.innerHTML = `${s.label}<span class="n">${s.count}</span>`;
-      b.addEventListener("click", () => set({ series: s.id }));
-      nav.appendChild(b);
-    }
-
     const cl = $("#catList");
     cl.innerHTML = "";
     const cats = [{ id: "all", label: "すべて", count: data.total }, ...data.categories.filter((c) => c.count > 0)];
@@ -399,8 +397,8 @@
       b.type = "button";
       b.textContent = `${w} ${n}`;
       b.addEventListener("click", () => {
-        $("#q").value = w;
         set({ q: w });
+        $("#feedSection")?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
       box.appendChild(b);
     }
@@ -642,7 +640,14 @@
     setInterval(renderUpcoming, 60000);
   }
 
+  function updateFavCount() {
+    const el = $("#favCount");
+    el.hidden = fav.length === 0;
+    el.textContent = String(fav.length);
+  }
+
   function renderFav() {
+    updateFavCount();
     const box = $("#favList");
     box.innerHTML = "";
     const items = fav.map((id) => data.items.find((it) => it.id === id)).filter(Boolean);
@@ -700,7 +705,6 @@
   // ---------- 起動 ----------
   async function boot() {
     $("#year").textContent = new Date().getFullYear();
-    $("#q").value = state.q;
 
     try {
       const r = await fetch(`data/news.json?t=${Math.floor(Date.now() / 300000)}`);
@@ -727,11 +731,6 @@
   }
 
   // ---------- 操作 ----------
-  let qTimer = 0;
-  $("#q").addEventListener("input", (e) => {
-    clearTimeout(qTimer);
-    qTimer = setTimeout(() => set({ q: e.target.value }), 200);
-  });
   $("#hidePR").addEventListener("change", (e) => set({ hidePR: e.target.checked }));
   for (const b of document.querySelectorAll("#sortSeg button")) {
     b.addEventListener("click", () => {
@@ -749,12 +748,6 @@
   });
   $("#gachaAgain").addEventListener("click", () => swapWithSpinner($("#gachaBody"), renderGacha));
   $("#tonightAgain").addEventListener("click", () => swapWithSpinner($("#tonightBody"), renderTonight, { min: 96, max: 200 }));
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "/" && document.activeElement !== $("#q")) {
-      e.preventDefault();
-      $("#q").focus();
-    }
-  });
   const toTop = $("#toTop");
   const onScroll = () => (toTop.hidden = window.scrollY < 500);
   window.addEventListener("scroll", onScroll, { passive: true });

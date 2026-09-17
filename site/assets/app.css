@@ -128,35 +128,35 @@ button {
   margin-left: auto;
 }
 
-.search {
+.fav-link {
   display: flex;
   align-items: center;
   gap: 6px;
   background: var(--surface);
   border: 2px solid var(--border-strong);
   border-radius: 999px;
-  padding: 0 13px;
+  padding: 7px 16px;
   color: var(--ink-muted);
-  width: min(300px, 44vw);
+  font-weight: 700;
+  font-size: 12.5px;
+  white-space: nowrap;
 }
 
-.search:focus-within {
+.fav-link:hover {
   border-color: var(--ember);
+  color: var(--ember);
 }
 
-.search input {
-  flex: 1;
-  min-width: 0;
-  border: 0;
-  background: transparent;
-  color: var(--ink);
-  padding: 6px 0;
-  font: inherit;
-  outline: none;
+.fav-link .fav-count {
+  background: var(--ember);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0 7px;
+  font-size: 11px;
 }
 
-/* ニュースの種類タブ */
-.series-nav {
+/* ページ内ナビゲーション（クリックでスムーススクロール） */
+.global-nav {
   display: flex;
   gap: 5px;
   overflow-x: auto;
@@ -165,7 +165,7 @@ button {
   padding: 0 18px 7px;
 }
 
-.series-nav button {
+.global-nav a {
   border: 2px solid var(--border-strong);
   background: var(--surface);
   border-radius: 999px;
@@ -176,21 +176,17 @@ button {
   white-space: nowrap;
 }
 
-.series-nav button:hover {
+.global-nav a:hover {
   border-color: var(--ember);
+  background: var(--ember-soft);
   color: var(--ember);
 }
 
-.series-nav button[aria-pressed="true"] {
-  background: var(--ember);
-  border-color: var(--ember);
-  color: #fff;
-}
-
-.series-nav .n {
-  margin-left: 5px;
-  font-size: 11px;
-  opacity: .75;
+#upcomingSection,
+#timetableSection,
+#topicsSection,
+#feedSection {
+  scroll-margin-top: 150px;
 }
 
 .header-meta {
@@ -218,6 +214,11 @@ button {
 main.wrap {
   padding-top: 20px;
   padding-bottom: 80px;
+}
+
+.fav-page {
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 .layout {
@@ -286,6 +287,19 @@ main.wrap {
 .mod-btn:hover {
   background: var(--ember);
   color: #fff;
+}
+
+.mod-link {
+  display: block;
+  margin-top: 9px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ember);
+}
+
+.mod-link:hover {
+  text-decoration: underline;
 }
 
 .mod-gacha {
@@ -898,6 +912,21 @@ main.wrap {
   font-size: 11.5px;
   color: var(--ink-muted);
   margin-bottom: 8px;
+}
+
+.q-clear {
+  margin-left: 6px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 1px 9px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ember);
+}
+
+.q-clear:hover {
+  background: var(--ember-soft);
 }
 
 .day {

@@ -29,13 +29,19 @@
       </h1>
       <p class="tagline">放送予定とアニメニュースまとめ</p>
       <div class="header-tools">
-        <div class="search">
-          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></svg>
-          <input type="search" id="q" placeholder="作品名・キーワード（/）" autocomplete="off" aria-label="検索">
-        </div>
+        <a class="fav-link" href="favorites.html">
+          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M12 2l2.9 6.5L22 9.6l-5.2 4.8 1.4 7.6L12 18.1l-6.2 3.9 1.4-7.6L2 9.6l7.1-1.1z"/></svg>
+          <span>あとで読む</span>
+          <span class="fav-count" id="favCount" hidden>0</span>
+        </a>
       </div>
     </div>
-    <nav class="series-nav" id="seriesNav" aria-label="ニュースの種類"></nav>
+    <nav class="global-nav" aria-label="ページ内ナビゲーション">
+      <a href="#upcomingSection">これから放送</a>
+      <a href="#timetableSection">番組表</a>
+      <a href="#topicsSection">注目の話題</a>
+      <a href="#feedSection">新着ニュース</a>
+    </nav>
     <div class="wrap header-meta">
       <span id="meta">読み込み中…</span>
       <span class="churn" id="churn" hidden></span>
@@ -93,7 +99,7 @@
           <button class="more-btn" id="topicMore" hidden></button>
         </section>
 
-        <section class="feed">
+        <section class="feed" id="feedSection">
           <div class="sec-head">
             <h2 class="sec-title">新着ニュース</h2>
             <div class="feed-tools">
@@ -131,6 +137,7 @@
           <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>あとで読む</h2>
           <p class="mod-desc" id="favDesc">記事の ☆ を押すとここに貯まります。</p>
           <ul class="fav-list" id="favList"></ul>
+          <a class="mod-link" href="favorites.html">すべて見る</a>
         </section>
       </aside>
 
