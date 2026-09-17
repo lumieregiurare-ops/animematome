@@ -771,5 +771,28 @@
   onScroll();
   toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
 
+  // スマホ幅では「放送局でしぼる」を番組表の直前に、「ニュースの種別」「ホットなキーワード」を
+  // 新着ニュースの直前に移す（デスクトップは左カラムのまま）
+  const mobileQuery = window.matchMedia("(max-width: 820px)");
+  function layoutSideMods() {
+    const chMod = $("#chMod");
+    const catMod = $("#catMod");
+    const wordMod = $("#wordMod");
+    const sideLeft = $(".side-left");
+    const timetableSection = $("#timetableSection");
+    const feedSection = $("#feedSection");
+    if (mobileQuery.matches) {
+      if (chMod.nextElementSibling !== timetableSection) timetableSection.before(chMod);
+      if (wordMod.nextElementSibling !== feedSection) feedSection.before(wordMod);
+      if (catMod.nextElementSibling !== wordMod) wordMod.before(catMod);
+    } else {
+      sideLeft.prepend(wordMod);
+      sideLeft.prepend(catMod);
+      sideLeft.prepend(chMod);
+    }
+  }
+  mobileQuery.addEventListener("change", layoutSideMods);
+  layoutSideMods();
+
   boot();
 })();

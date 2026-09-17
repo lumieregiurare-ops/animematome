@@ -129,7 +129,8 @@ button {
 }
 
 .fav-link {
-  display: flex;
+  display: inline-flex;
+  flex: none;
   align-items: center;
   gap: 6px;
   background: var(--surface);
@@ -1144,8 +1145,18 @@ main.wrap {
     grid-template-columns: minmax(0, 1fr) 280px;
   }
 
+  /* 話題・番組表・ニュースを先に見せて、フィルタ類は下に回す */
+  .col-main {
+    order: 1;
+  }
+
+  .side-right {
+    order: 2;
+  }
+
   .side-left {
     grid-column: 1 / -1;
+    order: 3;
     position: static;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1174,7 +1185,6 @@ main.wrap {
   .header-inner {
     height: auto;
     padding: 9px 0;
-    flex-wrap: wrap;
     gap: 8px;
   }
 
@@ -1182,13 +1192,44 @@ main.wrap {
     display: none;
   }
 
-  .search {
-    width: 100%;
+  .fav-link {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    gap: 3px;
+    color: var(--ember);
   }
 
-  .header-tools {
-    width: 100%;
-    margin-left: 0;
+  .fav-link svg {
+    display: none;
+  }
+
+  .fav-link::after {
+    content: "→";
+  }
+
+  .fav-link .fav-count {
+    background: none;
+    color: var(--ember);
+    padding: 0;
+  }
+
+  /* 放送局でしぼる・ニュースの種別は、JSで各セクションの直前に移動したうえで
+     折り返さず横スクロールにする（縦の高さを無駄にしないため） */
+  #chMod,
+  #catMod,
+  #wordMod {
+    margin-bottom: 14px;
+  }
+
+  .cat-list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+
+  .cat-list button {
+    flex: none;
   }
 }
 
