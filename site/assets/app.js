@@ -661,10 +661,12 @@
   const BASE_TITLE = document.title;
   function showFavView() {
     favViewOpen = true;
-    for (const id of ["upcomingSection", "timetableSection", "topicsSection", "feedSection"]) {
+    for (const id of ["upcomingSection", "timetableSection", "topicsSection", "feedSection", "chMod", "catMod", "wordMod"]) {
       const el = document.getElementById(id);
       if (el) el.hidden = true;
     }
+    $(".side-left").hidden = true;
+    $(".side-right").hidden = true;
     $("#favView").hidden = false;
     renderFavView();
     document.title = `あとで読む｜${BASE_TITLE}`;
@@ -677,6 +679,11 @@
     $("#timetableSection").hidden = false;
     $("#topicsSection").hidden = !(data?.topics?.length);
     $("#feedSection").hidden = false;
+    $("#chMod").hidden = false;
+    $("#catMod").hidden = false;
+    $("#wordMod").hidden = $("#wordCloud").children.length === 0;
+    $(".side-left").hidden = false;
+    $(".side-right").hidden = false;
     document.title = BASE_TITLE;
   }
   function syncFavView() {
