@@ -295,7 +295,7 @@
       count.textContent = `${t.sourceCount} 媒体`;
       const time = document.createElement("span");
       time.className = "topic-time";
-      time.textContent = hhmm(t.newestAt || t.items?.[0]?.publishedAt || data.updatedAt);
+      time.textContent = hhmm(t.publishedAt || data.updatedAt);
       top.append(stars, count, time);
 
       const body = document.createElement("div");
