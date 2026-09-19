@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T18:30:18.132Z",
+  "updatedAt": "2026-09-19T19:00:16.661Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
@@ -7,32 +7,32 @@
     "contactUrl": ""
   },
   "total": 214,
-  "todayCount": 9,
+  "todayCount": 10,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 47
+      "count": 48
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 86
+      "count": 85
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 32
+      "count": 30
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 41
+      "count": 42
     },
     {
       "id": "music2",
       "label": "音楽",
-      "count": 32
+      "count": 31
     },
     {
       "id": "movie2",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 14
+      "count": 15
     }
   ],
   "series": [
@@ -69,17 +69,17 @@
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 71
+      "count": 70
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 48
+      "count": 49
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 49
+      "count": 48
     },
     {
       "id": "adapt",
@@ -89,7 +89,7 @@
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 14
+      "count": 15
     },
     {
       "id": "stream",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "Yahoo!ニュース",
-      "count": 36
+      "count": 35
     },
     {
       "name": "アニメ！アニメ！",
@@ -112,15 +112,15 @@
       "count": 13
     },
     {
+      "name": "オリコンニュース",
+      "count": 10
+    },
+    {
       "name": "ナタリー",
       "count": 9
     },
     {
-      "name": "オリコンニュース",
-      "count": 9
-    },
-    {
-      "name": "prtimes.jp",
+      "name": "PR TIMES",
       "count": 8
     },
     {
@@ -136,15 +136,19 @@
       "count": 5
     },
     {
-      "name": "Mantan Web",
-      "count": 5
-    },
-    {
       "name": "TVer",
       "count": 4
     },
     {
+      "name": "Mantan Web",
+      "count": 4
+    },
+    {
       "name": "アニメハック",
+      "count": 4
+    },
+    {
+      "name": "eeo",
       "count": 4
     },
     {
@@ -169,10 +173,6 @@
     },
     {
       "name": "ファッションプレス",
-      "count": 3
-    },
-    {
-      "name": "eeo",
       "count": 3
     },
     {
@@ -308,10 +308,6 @@
       "count": 1
     },
     {
-      "name": "PASH! PLUS",
-      "count": 1
-    },
-    {
       "name": "pref.gunma.jp",
       "count": 1
     },
@@ -337,6 +333,10 @@
     },
     {
       "name": "BS12",
+      "count": 1
+    },
+    {
+      "name": "日経クロストレンド",
       "count": 1
     },
     {
@@ -960,9 +960,9 @@
         {
           "title": "声優・小倉唯さんの30代初の写真集『ゆいま～る』が本日発売！",
           "url": "https://prtimes.jp/main/html/rd/p/000001798.000007785.html",
-          "source": "prtimes.jp",
+          "source": "PR TIMES",
           "publishedAt": "2026-09-18T07:37:51.000Z",
-          "isPR": false
+          "isPR": true
         }
       ]
     },
@@ -1011,12 +1011,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-19T18:00:16.135Z",
-    "previousCount": 197,
-    "newCount": 36
+    "previousAt": "2026-09-19T18:30:18.132Z",
+    "previousCount": 214,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-19T19:00:18.132Z",
+  "nextUpdateAt": "2026-09-19T19:30:16.661Z",
   "items": [
     {
       "id": "613f71618d9c",
@@ -1038,7 +1038,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "97569d2c1044",
@@ -1126,6 +1126,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "69575b6af0bb",
+      "title": "パーフェクトアディクション 9月16日(水)放送分 play.11｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題",
+      "url": "https://tver.jp/episodes/ep285pu6ov",
+      "host": "tver.jp",
+      "source": "TVer",
+      "summary": "",
+      "publishedAt": "2026-09-19T15:25:29.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "8a08bcf5f9bc",
@@ -1243,28 +1265,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "483722d5f5ba",
-      "title": "幼女戦記Ⅱ 9月16日(水)放送分 第11話 砂時計｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題",
-      "url": "https://tver.jp/episodes/ep9nc26hqe",
-      "host": "tver.jp",
-      "source": "TVer",
-      "summary": "",
-      "publishedAt": "2026-09-19T14:19:34.000Z",
-      "image": "",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "65e0ef0cddae",
@@ -1532,7 +1532,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c0ec2f447b40",
@@ -1555,7 +1555,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dd80b3e662cc",
@@ -1600,14 +1600,14 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e146929a4a69",
       "title": "声優・中島由貴が地元の和歌山で撮り下ろしたデジタルフォトブックが今秋配信決定！",
       "url": "https://prtimes.jp/main/html/rd/p/000001796.000007785.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-19T11:40:28.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/7785/1796/7785-1796-d1c0e56cd872351662509aa0840fb8bc-1667x2500.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -1620,7 +1620,7 @@
         "stream"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -1714,7 +1714,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24421f634d56",
@@ -2251,7 +2251,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7d9624ec7da2",
@@ -2546,7 +2546,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ec5bda1184d3",
@@ -2773,7 +2773,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "47d81121fb24",
@@ -2866,7 +2866,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d173c4011f7d",
@@ -3190,7 +3190,7 @@
       "title": "前代未聞の替え玉声優による青春声優ストーリーがコミカライズ！『午後4時。透明、ときどき声優』の連載が【キミコミ】でスタート！地味なわたしが神声優の代役に!?",
       "url": "https://prtimes.jp/main/html/rd/p/000001017.000049835.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-19T04:10:01.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/49835/1017/49835-1017-019c034598f802ef61c50528a41fdef3-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -3202,7 +3202,7 @@
         "cast"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -3249,7 +3249,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10b80d91a328",
@@ -3451,7 +3451,7 @@
       "title": "【毎年恒例】主人公・シャミ子誕生日記念企画！9/28、アニメ『まちカドまぞく』全12話をニコ生で無料一挙放送",
       "url": "https://prtimes.jp/main/html/rd/p/000001001.000096446.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-19T03:00:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/96446/1001/96446-1001-c39b099aad188b2ec41fef1321dede89-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -3462,7 +3462,7 @@
         "tv"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -3508,7 +3508,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "52767b5cd4ba",
@@ -3775,29 +3775,6 @@
       "isNew": false
     },
     {
-      "id": "e6b0770948d2",
-      "title": "アニメ『幻想水滸伝』Koji NakamuraさんによるED主題歌『closed eye sun (feat. たかはしほのか)』の楽曲も一部解禁の第3弾PVが公開！",
-      "url": "https://www.pashplus.jp/anime/496124/",
-      "host": "pashplus.jp",
-      "source": "PASH! PLUS",
-      "summary": "",
-      "publishedAt": "2026-09-19T01:00:57.000Z",
-      "image": "https://www.pashplus.jp/wp-content/uploads/02-2294.jpg",
-      "categories": [
-        "music2",
-        "pv"
-      ],
-      "series": [
-        "movie",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "f276cd4280b8",
       "title": "サウジ建国記念の新作ショートアニメが公開 監督は中村亮介、キャラデザは細居美恵子",
       "url": "https://natalie.mu/comic/news/690179",
@@ -3902,7 +3879,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "58423d838d7e",
@@ -3923,7 +3900,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0fdcd7750ad5",
@@ -4007,7 +3984,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "22bb612f2c9e",
@@ -4053,7 +4030,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3294bb621536",
@@ -4074,7 +4051,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "97145607a4a7",
@@ -4093,7 +4070,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2d707f333404",
@@ -4112,7 +4089,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7df107ebf07b",
@@ -4133,7 +4110,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0e68a1926fed",
@@ -4222,7 +4199,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f8b66fc7fa78",
@@ -4291,7 +4268,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e8b158cd890c",
@@ -4312,7 +4289,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d64a5e6a6337",
@@ -4360,7 +4337,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1f1247cdfb84",
@@ -4469,11 +4446,34 @@
       "isNew": false
     },
     {
+      "id": "083bfbd2bac8",
+      "title": "劇場版『ゾンビランドサガ ゆめぎんがパラダイス』新作グッズが登場！ ゾンビィたちが“水着”に着替えたミニキャライラストは“やーらしか”!!",
+      "url": "https://eeo.today/media/2026/09/18/395318/",
+      "host": "eeo.today",
+      "source": "eeo",
+      "summary": "",
+      "publishedAt": "2026-09-18T08:01:54.000Z",
+      "image": "https://eeo.today/media/wp-content/uploads/2026/09/20260918_zonsaga_ichiran.jpg",
+      "categories": [
+        "new",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "ed1319557e3b",
       "title": "TVアニメ『岩元先輩ノ推薦』から、趣深さを感じる着物姿の描き下ろしイラスト＆公式ビジュアルなどを使用した新作グッズが登場！",
       "url": "https://prtimes.jp/main/html/rd/p/000001227.000012048.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-18T08:00:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/12048/1227/12048-1227-991829d6396202a0fb8041140af035fb-1414x2000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -4486,10 +4486,10 @@
         "goods"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c7bb7c2fe733",
@@ -4512,7 +4512,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fe04f43b0841",
@@ -4612,7 +4612,7 @@
       "title": "声優・小倉唯さんの30代初の写真集『ゆいま～る』が本日発売！",
       "url": "https://prtimes.jp/main/html/rd/p/000001798.000007785.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-18T07:37:51.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/7785/1798/7785-1798-a2eed07c7562b19e0a3db0d61674a408-566x800.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -4623,7 +4623,7 @@
         "cast"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -4650,7 +4650,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d2786af8f1a6",
@@ -4801,7 +4801,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8ab976c58bde",
@@ -4847,6 +4847,47 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "5f8f69c648b6",
+      "title": "ポルノグラフィティ、有村架純ら国内外のトップスターが語るアニメとの縁と世界への広がり",
+      "url": "https://xtrend.nikkei.com/atcl/contents/18/01426/00003/",
+      "host": "xtrend.nikkei.com",
+      "source": "日経クロストレンド",
+      "summary": "",
+      "publishedAt": "2026-09-18T04:39:46.000Z",
+      "image": "https://xtrend.nikkei.com/atcl/contents/18/01426/00003/nxr_m.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b165aaf44298",
+      "title": "林原めぐみ『踊る大捜査線』新作に声の出演 劇中アニメのナレーションを担当",
+      "url": "https://www.oricon.co.jp/news/2481295/full/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-09-18T04:02:00.000Z",
+      "image": "",
+      "categories": [
+        "new",
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ea446919fe85",
@@ -5050,7 +5091,7 @@
       "title": "超待望のアニメ化決定！『神さま学校の落ちこぼれ』が「花とゆめ＋」で5巻無料キャンペーン実施中！",
       "url": "https://prtimes.jp/main/html/rd/p/000002463.000046848.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-18T03:00:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/46848/2463/46848-2463-d1b97e746aba615f4462258d281199e4-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -5061,7 +5102,7 @@
         "adapt"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -5071,7 +5112,7 @@
       "title": "「神さま学校の落ちこぼれ」TVアニメ化＆コミックス第 15 巻発売記念！無料話増量キャンペーン「マンガPark」で 9/18(金)から！",
       "url": "https://prtimes.jp/main/html/rd/p/000002460.000046848.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-18T03:00:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/46848/2460/46848-2460-cd0bb72936cd8866863239e7cbb51162-750x450.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -5083,7 +5124,7 @@
         "adapt"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -5134,26 +5175,6 @@
       "isNew": false
     },
     {
-      "id": "9c14244fff4c",
-      "title": "おしりたんてい：新作アニメ 10月3日スタート 秘宝を巡りプロレス対決！ おしりダンディのヤングな頃の冒険も",
-      "url": "https://mantan-web.jp/article/20260917dog00m200016000a.html",
-      "host": "mantan-web.jp",
-      "source": "Mantan Web",
-      "summary": "",
-      "publishedAt": "2026-09-18T02:34:18.000Z",
-      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/09/17/20260917dog00m200016000a/001.jpg",
-      "categories": [
-        "new",
-        "onair"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "5a49b4242b2d",
       "title": "おしりたんてい＞新作アニメ 10月3日スタート 秘宝を巡りプロレス対決！ おしりダンディのヤングな頃の冒険も (MANTANWEB)",
       "url": "https://news.yahoo.co.jp/articles/8ffc5379cc66e5243cc9df48ff903c75ae20db61/images/000",
@@ -5171,7 +5192,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0fa386c46e0b",
@@ -5325,7 +5346,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d9ff43bcb2f0",
@@ -5347,7 +5368,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dc37e708a8ce",
@@ -5366,7 +5387,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1a07a060b4df",
@@ -5497,12 +5518,12 @@
     {
       "id": "93aa79c62076",
       "title": "ビジュアルノベルゲーム「魔法使いの夜」アニメ映画化「鬼滅の刃」ufotableがアニメーション制作",
-      "url": "https://www.fashion-press.net/news/143617",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Xb000dTRxRHV5b1ppR01SRHRTVWJhQW5HZk5mVXBOZ3dKTU5uZ04xdl8wWVl3bVRscUw0Q285emNOZVBnZFgwT1U0MHdIeWdmM1dJ?oc=5",
       "host": "fashion-press.net",
       "source": "ファッションプレス",
       "summary": "",
       "publishedAt": "2026-09-17T22:51:59.000Z",
-      "image": "https://www.fashion-press.net/img/news/143617/top.jpg?1771897982",
+      "image": "",
       "categories": [
         "pv",
         "movie2"
@@ -5512,7 +5533,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5673,7 +5694,7 @@
       "title": "アニメ映画『超かぐや姫！』Blu-rayが「オリコン週間Blu-rayランキング」1位を獲得！",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5WlVyNERZV2ZfSGR2V3NnMmt5RlFjMXptNTJNdmJkM0hQbVhiZGI1Wk5UaktsaHZuSU5iZnpxZ0NEQ1RmTHdCZ000MnVScW1LX2NjNjBXZHZVbXpxZVFaVE0xMkRSSmJ4RkE?oc=5",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-17T20:00:02.000Z",
       "image": "",
@@ -5685,7 +5706,7 @@
         "movie"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
@@ -5710,29 +5731,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "e6c9e2be3855",
-      "title": "「第39回東京国際映画祭」予告編が完成！ガラ・セレクション部門＆アニメーション部門の全作品が決定",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzQ05reFl3ak9OZHlhTDBTR01yS3Z0S0V6WV95dlNLS2s3YWMwczdZM2l0VjhVS3N2cld3SDFvVmZpT0RXM2o2VVJINGxOeUNFZ2xwMFg3a1UtanRIQW5sX2QyWUVwcjlJOGlHWEFtQXFWdks2YzVVamE3RElqcnc?oc=5",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-17T19:03:41.000Z",
-      "image": "",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
