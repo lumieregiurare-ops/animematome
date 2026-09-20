@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-20T10:00:20.595Z",
+  "updatedAt": "2026-09-20T10:30:16.534Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 198,
-  "todayCount": 110,
+  "total": 194,
+  "todayCount": 107,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 48
+      "count": 46
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 75
+      "count": 74
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 31
+      "count": 29
     },
     {
       "id": "cast2",
@@ -32,12 +32,12 @@
     {
       "id": "music2",
       "label": "音楽",
-      "count": 27
+      "count": 26
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 27
+      "count": 26
     },
     {
       "id": "goods2",
@@ -64,12 +64,12 @@
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 93
+      "count": 94
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 54
+      "count": 49
     },
     {
       "id": "cast",
@@ -79,12 +79,12 @@
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 49
+      "count": 47
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 38
+      "count": 34
     },
     {
       "id": "goods",
@@ -94,7 +94,7 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 29
+      "count": 28
     }
   ],
   "weapons": [],
@@ -105,7 +105,7 @@
     },
     {
       "name": "アニメ！アニメ！",
-      "count": 25
+      "count": 24
     },
     {
       "name": "電ファミニコゲーマー",
@@ -116,23 +116,27 @@
       "count": 10
     },
     {
-      "name": "oricon.co.jp",
-      "count": 8
+      "name": "オリコンニュース",
+      "count": 7
     },
     {
       "name": "アニメイトタイムズ",
-      "count": 6
+      "count": 7
     },
     {
-      "name": "Koubo",
+      "name": "WEBザテレビジョン",
+      "count": 5
+    },
+    {
+      "name": "Mantan Web",
       "count": 4
     },
     {
-      "name": "topics.smt.docomo.ne.jp",
+      "name": "ABEMA",
       "count": 4
     },
     {
-      "name": "prtimes.jp",
+      "name": "PR TIMES",
       "count": 4
     },
     {
@@ -140,27 +144,15 @@
       "count": 4
     },
     {
-      "name": "WEBザテレビジョン",
-      "count": 4
+      "name": "Koubo",
+      "count": 3
+    },
+    {
+      "name": "topics.smt.docomo.ne.jp",
+      "count": 3
     },
     {
       "name": "sanyonews.jp",
-      "count": 4
-    },
-    {
-      "name": "ABEMA",
-      "count": 3
-    },
-    {
-      "name": "Mantan Web",
-      "count": 3
-    },
-    {
-      "name": "アットエス",
-      "count": 3
-    },
-    {
-      "name": "リアルサウンド",
       "count": 3
     },
     {
@@ -184,10 +176,6 @@
       "count": 2
     },
     {
-      "name": "千葉テレビ放送",
-      "count": 2
-    },
-    {
       "name": "Infoseek",
       "count": 2
     },
@@ -201,6 +189,14 @@
     },
     {
       "name": "福井新聞社",
+      "count": 2
+    },
+    {
+      "name": "skream.jp",
+      "count": 2
+    },
+    {
+      "name": "リアルサウンド",
       "count": 2
     },
     {
@@ -248,15 +244,19 @@
       "count": 1
     },
     {
+      "name": "千葉テレビ放送",
+      "count": 1
+    },
+    {
+      "name": "アットエス",
+      "count": 1
+    },
+    {
       "name": "GameWith",
       "count": 1
     },
     {
       "name": "産経ニュース",
-      "count": 1
-    },
-    {
-      "name": "interfm.co.jp",
       "count": 1
     },
     {
@@ -285,10 +285,6 @@
     },
     {
       "name": "Billboard JAPAN",
-      "count": 1
-    },
-    {
-      "name": "skream.jp",
       "count": 1
     },
     {
@@ -324,6 +320,10 @@
       "count": 1
     },
     {
+      "name": "TBS NEWS DIG",
+      "count": 1
+    },
+    {
       "name": "推し楽",
       "count": 1
     },
@@ -344,7 +344,7 @@
       "count": 1
     },
     {
-      "name": "朝日新聞",
+      "name": "asahi.com",
       "count": 1
     }
   ],
@@ -412,9 +412,9 @@
           "isPR": false
         },
         {
-          "title": "『魔法騎士レイアース』メインPV第2弾公開で主題歌解禁 追加キャストに能登麻美子、村瀬歩ら4人",
-          "url": "https://www.oricon.co.jp/news/2480986/",
-          "source": "oricon.co.jp",
+          "title": "『魔法騎士レイアース』メインPV第2弾公開で主題歌解禁 追加キャストに能登麻美子、村瀬歩ら4人（オリコン）",
+          "url": "https://news.yahoo.co.jp/articles/c2638d417fdc0dfffb95e01e0cdd1170a414d008",
+          "source": "Yahoo!ニュース",
           "publishedAt": "2026-09-20T04:30:00.000Z",
           "isPR": false
         },
@@ -513,7 +513,7 @@
       "image": "https://animeanime.jp/imgs/rss/933871.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-09-20T02:40:39.000Z",
-      "sourceCount": 7,
+      "sourceCount": 8,
       "articleCount": 9,
       "categories": [
         "cast2",
@@ -561,17 +561,17 @@
           "isPR": false
         },
         {
-          "title": "北山宏光の新曲「BACKLASH」がアニメ『桃源暗鬼』OP主題歌に、本人作詞で“秘めた衝動の爆発”を表現 (Bezzy)",
-          "url": "https://news.yahoo.co.jp/articles/4bf4a68d8bed5834aba5a98d9ec8f7ce7ba753df/images/000",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-19T11:31:01.000Z",
-          "isPR": false
-        },
-        {
           "title": "北山宏光の新曲がアニメ『桃源暗鬼』OP主題歌に決定、本人作詞で秘めた衝動の爆発を表現",
           "url": "https://bezzy.jp/2026/09/92368/",
           "source": "bezzy.jp",
           "publishedAt": "2026-09-19T11:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "秋アニメ『桃源暗鬼』～日光・華厳の滝編～10/2放送決定、追加声優に鈴村健一ら3名",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
+          "publishedAt": "2026-09-19T07:20:00.000Z",
           "isPR": false
         },
         {
@@ -663,14 +663,7 @@
         {
           "title": "『転生エルフ』来年1月に放送決定 第1話の冒頭映像公開",
           "url": "https://www.oricon.co.jp/news/2481045/full/",
-          "source": "oricon.co.jp",
-          "publishedAt": "2026-09-20T08:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『転生エルフ』2027年1月より放送｜第1話冒頭映像が公開",
-          "url": "https://www.animatetimes.com/news/details.php?id",
-          "source": "アニメイトタイムズ",
+          "source": "オリコンニュース",
           "publishedAt": "2026-09-20T08:00:00.000Z",
           "isPR": false
         },
@@ -678,6 +671,13 @@
           "title": "TVアニメ「転生エルフ」放送時期は2027年1月 第1話の冒頭映像公開",
           "url": "https://natalie.mu/comic/news/690426",
           "source": "ナタリー",
+          "publishedAt": "2026-09-20T08:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『転生エルフ』2027年1月より放送｜第1話冒頭映像が公開",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
           "publishedAt": "2026-09-20T08:00:00.000Z",
           "isPR": false
         },
@@ -784,49 +784,6 @@
       ]
     },
     {
-      "id": "9560524c77b6",
-      "title": "「黄泉のツガイ」TVアニメ第2期制作決定！ユルらメインキャラ＆キーパーソンが登場する特報映像も公開",
-      "summary": "TVアニメ『黄泉のツガイ』の第2期制作が決定。あわせて、第2期特報映像が公開された。",
-      "url": "https://animeanime.jp/article/2026/09/20/103088.html",
-      "image": "https://animeanime.jp/imgs/rss/933821.jpg",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-09-19T22:35:00.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "keywords": [
-        "ツガイ",
-        "黄泉",
-        "制作"
-      ],
-      "articles": [
-        {
-          "title": "『黄泉のツガイ』第2期制作決定 キャラ続々登場の特報映像公開",
-          "url": "https://www.oricon.co.jp/news/2481578/full/",
-          "source": "oricon.co.jp",
-          "publishedAt": "2026-09-19T22:35:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『黄泉のツガイ』第2期制作決定！スーパーティザービジュアル＆特報公開",
-          "url": "https://www.animatetimes.com/news/details.php?id",
-          "source": "アニメイトタイムズ",
-          "publishedAt": "2026-09-19T15:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "TVアニメ「黄泉のツガイ」第2期の制作が決定、特報映像＆ビジュアル公開",
-          "url": "https://natalie.mu/comic/news/690373",
-          "source": "ナタリー",
-          "publishedAt": "2026-09-19T15:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "e287d45d791c",
       "title": "「転生ゴブリン」新キャスト続々！豪華声優陣14体解禁",
       "summary": "",
@@ -849,15 +806,83 @@
         {
           "title": "TVアニメ「転生ゴブリンだけど質問ある？」■ゴブリン（14体）を演じる豪華キャスト陣＆イラスト（4体）解禁！＆4名からキャストコメント到着！■10/5（月）21時から放送直前特番が独占無料配信決定！",
           "url": "https://prtimes.jp/main/html/rd/p/000000155.000084062.html",
-          "source": "prtimes.jp",
+          "source": "PR TIMES",
           "publishedAt": "2026-09-20T08:00:01.000Z",
-          "isPR": false
+          "isPR": true
         },
         {
           "title": "秋アニメ『転生ゴブリンだけど質問ある？』追加声優に竹内順子ら14名発表！",
           "url": "https://www.animatetimes.com/news/details.php?id",
           "source": "アニメイトタイムズ",
           "publishedAt": "2026-09-20T08:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "6d09bbb8b676",
+      "title": "「名探偵コナン」堀川りょう＆宮村優子が熱い想い明かす！「和佳奈さんが見守ってくださっている気が…」「30号殺人事件」本予告などお披露目の「京まふ」レポ",
+      "summary": "京都国際マンガ・アニメフェア（京まふ）2026」にて、服部平次役の堀川りょう、遠山和葉役の宮村優子が登壇した「TVアニメ『名探偵コナン』30周年記念ステージ ～ドキドキ！茜色の幕開け！～」が開催された。堀川と宮村が着物姿で登場すると、会場からは大きな拍手が起こる。宮村は自身が演じる和葉にちなみ、黄色の着物にポニーテー…",
+      "url": "https://animeanime.jp/article/2026/09/19/103086.html",
+      "image": "https://animeanime.jp/imgs/rss/933938.jpg",
+      "leadSource": "アニメ！アニメ！",
+      "publishedAt": "2026-09-20T08:13:43.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "keywords": [],
+      "articles": [
+        {
+          "title": "TVアニメ『薬屋のひとりごと』 第3期 放送直前SPステージ",
+          "url": "https://abema.tv/channels/anime-matsuri/slots/DH8JKeAHPxCG7Z",
+          "source": "ABEMA",
+          "publishedAt": "2026-09-20T08:13:43.000Z",
+          "isPR": false
+        },
+        {
+          "title": "京都国際マンガ・アニメフェアが開幕 声優の梶裕貴さんが登壇（毎日新聞）",
+          "url": "https://news.yahoo.co.jp/articles/8ff6a6dde008044f9af1f7a56cdbcd8d8b522178",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-19T09:04:50.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "8119e8c6ae49",
+      "title": "十明、TVアニメ『魔法騎士レイアース』OPテーマ「乙女の剣」配信リリース決定",
+      "summary": "",
+      "url": "https://news.yahoo.co.jp/articles/0d63f079d8eafadbb366567d92df1971b157cefa",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-00165724-exp-000-1-view.jpg?exp=10800",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-09-20T07:05:03.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "onair",
+        "other"
+      ],
+      "keywords": [
+        "TVアニメ",
+        "テーマ",
+        "レイアース"
+      ],
+      "articles": [
+        {
+          "title": "十明、TVアニメ『魔法騎士レイアース』OPテーマに新曲「乙女の剣」を書き下ろし",
+          "url": "https://barks.jp/news/1089820",
+          "source": "BARKS",
+          "publishedAt": "2026-09-20T05:46:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ハンブレッダーズ、TVアニメ\"夜桜さんちの大作戦\"第2期第2クールOPテーマの新曲「フォーエバーソング」10/12配信リリース決定",
+          "url": "https://skream.jp/news/2026/09/humbreaders_foreversong.php",
+          "source": "skream.jp",
+          "publishedAt": "2026-09-19T12:00:00.000Z",
           "isPR": false
         }
       ]
@@ -894,38 +919,6 @@
           "url": "https://www.inside-games.jp/article/2026/09/20/188067.html",
           "source": "インサイド",
           "publishedAt": "2026-09-20T06:30:03.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "6d09bbb8b676",
-      "title": "「名探偵コナン」堀川りょう＆宮村優子が熱い想い明かす！「和佳奈さんが見守ってくださっている気が…」「30号殺人事件」本予告などお披露目の「京まふ」レポ",
-      "summary": "京都国際マンガ・アニメフェア（京まふ）2026」にて、服部平次役の堀川りょう、遠山和葉役の宮村優子が登壇した「TVアニメ『名探偵コナン』30周年記念ステージ ～ドキドキ！茜色の幕開け！～」が開催された。堀川と宮村が着物姿で登場すると、会場からは大きな拍手が起こる。宮村は自身が演じる和葉にちなみ、黄色の着物にポニーテー…",
-      "url": "https://animeanime.jp/article/2026/09/19/103086.html",
-      "image": "https://animeanime.jp/imgs/rss/933938.jpg",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-09-20T05:09:41.000Z",
-      "sourceCount": 3,
-      "articleCount": 3,
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "keywords": [],
-      "articles": [
-        {
-          "title": "TVアニメ『薬屋のひとりごと』 第3期 放送直前SPステージ",
-          "url": "https://abema.tv/channels/anime-matsuri/slots/DH8JKeAHPxCG7Z",
-          "source": "ABEMA",
-          "publishedAt": "2026-09-20T05:09:41.000Z",
-          "isPR": false
-        },
-        {
-          "title": "京都国際マンガ・アニメフェアが開幕 声優の梶裕貴さんが登壇（毎日新聞）",
-          "url": "https://news.yahoo.co.jp/articles/8ff6a6dde008044f9af1f7a56cdbcd8d8b522178",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-19T09:04:50.000Z",
           "isPR": false
         }
       ]
@@ -968,13 +961,35 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-20T09:30:15.562Z",
-    "previousCount": 192,
-    "newCount": 16
+    "previousAt": "2026-09-20T10:00:20.595Z",
+    "previousCount": 198,
+    "newCount": 8
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-20T10:30:20.595Z",
+  "nextUpdateAt": "2026-09-20T11:00:16.534Z",
   "items": [
+    {
+      "id": "3ed769fbb001",
+      "title": "アニメ1週間＞「ガンダム」新作2027年4月放送 「宇宙戦艦ヤマト 黎明篇」第3部で完結（MANTANWEB）",
+      "url": "https://news.yahoo.co.jp/articles/2b74484d4fde7f633e5a892c3361af32bc49b0be",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-09-20T10:05:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-00000047-mantan-000-1-view.jpg?exp=10800",
+      "categories": [
+        "new",
+        "onair"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "b3b9c959020a",
       "title": "2026年夏アニメ、一目惚れした女性キャラは？ 「攻殻機動隊」草薙素子、「バンドリ！」仲町あられ、「令和のダラさん」ダラさん…個性派ヒロイン5キャラが同率トップ！",
@@ -992,7 +1007,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "552b75ea8aea",
@@ -1011,7 +1026,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ad9c7f99e27b",
@@ -1034,17 +1049,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
-      "id": "0acfd5caf712",
-      "title": "今週の新刊＞劇場版アニメ制作も話題の「ごちうさ」 「ミルモでポン！」新シリーズも（MANTANWEB）",
-      "url": "https://news.yahoo.co.jp/articles/0e6f5ac17dc52371fa59de361d637b20decb9f6f",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "7afa31aaf8c7",
+      "title": "今週の新刊：劇場版アニメ制作も話題の「ごちうさ」 「ミルモでポン！」新シリーズも",
+      "url": "https://mantan-web.jp/article/20260914dog00m200108000a.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
       "summary": "",
-      "publishedAt": "2026-09-20T09:35:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-00000044-mantan-000-1-view.jpg?exp=10800",
+      "publishedAt": "2026-09-20T09:34:25.000Z",
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/09/14/20260914dog00m200108000a/001.jpg",
       "categories": [
         "movie2"
       ],
@@ -1085,7 +1100,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-20T09:25:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-00376939-magmix-000-1-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-00376939-magmix-000-2-view.jpg?exp=10800",
       "categories": [
         "onair"
       ],
@@ -1097,7 +1112,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e491e44c7f03",
@@ -1143,6 +1158,29 @@
       "isNew": false
     },
     {
+      "id": "1b88a9f31b46",
+      "title": "『新テニスの王子様』アニメ&ミュージカル特番2番組放送 テニミュ俳優陣&スタッフ陣インタビューも【出演者】",
+      "url": "https://www.oricon.co.jp/news/2480884/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-09-20T09:11:14.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2481000/2480884/20260916_195746_p_o_51732021.jpg",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "tv",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "413bf42d49ac",
       "title": "「京まふ」来場者の絵馬を梶裕貴さんが平安神宮に奉納 「声優になる」「作品ヒット」願いさまざま",
       "url": "https://www.kyoto-np.co.jp/articles/-/1794311",
@@ -1185,9 +1223,30 @@
       "isNew": false
     },
     {
+      "id": "db6cfeca8235",
+      "title": "フジテレビ系にてTVアニメ『ONE PIECE』が放送中！",
+      "url": "https://abema.tv/channels/onepiece/slots/DH8JLsD1A99KPV",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-09-20T08:43:11.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "f5e437f68cf0",
       "title": "『サザエさん』の時間に「ダンダダン、ダダン…」『ダンガードA』が!? 昭和アニメの“珍事件”が衝撃的",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPem9Md0hYR0RuLXN1cUlGTkFkR1hZN1ppaV93Q2Y0T1FaSEdyZDlTMXZiMUp0ZTByQkRPU0ViRXU2WUxsVlJCVkZJT3A2dEVWbnBUQm9RbThxSzB5bm8zX05RZnVQOTRGTXRNZExjWkw2QWhMSThpdXlpWkoxa0dTNlAxenNZWWNKVFpvWm5KUWt4dm42Zl96T2V1S01NRER4ZlRURVpiOTZheGZtTThzdUE1N3hMeWI5RjVvbUJpUDVTcTQ5aGNPdjNNTDh2VjIzYXRrZtIBhAFBVV95cUxPeS12ODduLXptOGRPa3NWSW5YUE5UR3cxRWtrMWFBcHBFNGpQOG9aQUFlczR4V0tEd1N4YTFabG5hUG5FUTgzbVFlMWdyN3FoV0pqN1pJeWw5ZHVGVEduNWs1TGIyX01UX0NpOUtJMDFjU1VRd18tUmg4SGdhX2wxT2Ewejk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeS12ODduLXptOGRPa3NWSW5YUE5UR3cxRWtrMWFBcHBFNGpQOG9aQUFlczR4V0tEd1N4YTFabG5hUG5FUTgzbVFlMWdyN3FoV0pqN1pJeWw5ZHVGVEduNWs1TGIyX01UX0NpOUtJMDFjU1VRd18tUmg4SGdhX2wxT2EwejnSAYQBQVVfeXFMT3ktdjg3bi16bThkT2tzVkluWFBOVEd3MUVrazFhQXBwRTRqUDhvWkFBZXM0eFdLRHdTeGExWmxuYVBuRVE4M21RZTFncjdxaFdKajdaSXlsOWR1RlRHbjVrNUxiMl9NVF9DaTlLSTAxY1NVUXdfLVJoOEhnYV9sMU9hMHo5?oc=5",
       "host": "topics.smt.docomo.ne.jp",
       "source": "topics.smt.docomo.ne.jp",
       "summary": "",
@@ -1218,6 +1277,49 @@
       ],
       "series": [
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "59fe428f0d7e",
+      "title": "アニメニュースや声優の旬な情報を毎日更新",
+      "url": "https://www.animatetimes.com/tag_img/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-09-20T08:14:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "285aa01f7c4f",
+      "title": "TVアニメ『薬屋のひとりごと』 第3期 放送直前SPステージ",
+      "url": "https://abema.tv/channels/anime-matsuri/slots/DH8JKeAHPxCG7Z",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-09-20T08:13:43.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1299,7 +1401,7 @@
       "title": "TVアニメ「転生ゴブリンだけど質問ある？」■ゴブリン（14体）を演じる豪華キャスト陣＆イラスト（4体）解禁！＆4名からキャストコメント到着！■10/5（月）21時から放送直前特番が独占無料配信決定！",
       "url": "https://prtimes.jp/main/html/rd/p/000000155.000084062.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-20T08:00:01.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/84062/155/84062-155-4169cd2f332e5785a28984cd63c41b41-1913x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -1313,7 +1415,7 @@
         "stream"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -1323,33 +1425,10 @@
       "title": "『転生エルフ』来年1月に放送決定 第1話の冒頭映像公開",
       "url": "https://www.oricon.co.jp/news/2481045/full/",
       "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-20T08:00:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2482000/2481045/20260917_135225_p_o_19856565.jpg",
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "04939c19899c",
-      "title": "『転生エルフ』2027年1月より放送｜第1話冒頭映像が公開",
-      "url": "https://www.animatetimes.com/news/details.php?id",
-      "host": "animatetimes.com",
-      "source": "アニメイトタイムズ",
-      "summary": "",
-      "publishedAt": "2026-09-20T08:00:00.000Z",
-      "image": "https://www.animatetimes.com/img/ogimage.png",
       "categories": [
         "onair",
         "pv"
@@ -1373,6 +1452,29 @@
       "summary": "",
       "publishedAt": "2026-09-20T08:00:00.000Z",
       "image": "",
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "04939c19899c",
+      "title": "『転生エルフ』2027年1月より放送｜第1話冒頭映像が公開",
+      "url": "https://www.animatetimes.com/news/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-09-20T08:00:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
       "categories": [
         "onair",
         "pv"
@@ -1478,28 +1580,6 @@
       "isNew": false
     },
     {
-      "id": "ffd681871a3b",
-      "title": "【新創刊】新レーベル「アース・スター文庫」本日9月18日(金)創刊！ イメージキャラクターの声優・福山潤さんが特別審査員を務める「キャラクター小説大賞」応募受付開始！",
-      "url": "https://koubo.jp/press-release/prtimes/c101562_r715",
-      "host": "koubo.jp",
-      "source": "Koubo",
-      "summary": "",
-      "publishedAt": "2026-09-20T07:30:44.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "ea4a6aec5293",
       "title": "コナン君や安室透、怪盗キッドがこんがりパン風ぬいぐるみに!? 「名探偵コナンダイナー」2026年冬に渋谷でオープン！",
       "url": "https://animeanime.jp/article/2026/09/20/103106.html",
@@ -1557,30 +1637,6 @@
         "tv",
         "music",
         "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "32f5142ce004",
-      "title": "アニメ『猫と竜』第2期制作決定 2027年放送開始＆特報PVも公開",
-      "url": "https://www.chiba-tv.com/plus/detail/2026092028237",
-      "host": "chiba-tv.com",
-      "source": "千葉テレビ放送",
-      "summary": "",
-      "publishedAt": "2026-09-20T07:01:23.000Z",
-      "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1474299856946971657/origin_1.jpg",
-      "categories": [
-        "onair",
-        "new"
-      ],
-      "series": [
-        "tv",
-        "movie",
-        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1831,7 +1887,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "156ea7ba121d",
@@ -1915,28 +1971,6 @@
       "series": [
         "tv",
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "285aa01f7c4f",
-      "title": "TVアニメ『薬屋のひとりごと』 第3期 放送直前SPステージ",
-      "url": "https://abema.tv/channels/anime-matsuri/slots/DH8JKeAHPxCG7Z",
-      "host": "abema.tv",
-      "source": "ABEMA",
-      "summary": "",
-      "publishedAt": "2026-09-20T05:09:41.000Z",
-      "image": "",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2262,13 +2296,13 @@
     },
     {
       "id": "0ff1a815376b",
-      "title": "『魔法騎士レイアース』メインPV第2弾公開で主題歌解禁 追加キャストに能登麻美子、村瀬歩ら4人",
-      "url": "https://www.oricon.co.jp/news/2480986/",
-      "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "title": "『魔法騎士レイアース』メインPV第2弾公開で主題歌解禁 追加キャストに能登麻美子、村瀬歩ら4人（オリコン）",
+      "url": "https://news.yahoo.co.jp/articles/c2638d417fdc0dfffb95e01e0cdd1170a414d008",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-20T04:30:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2481000/2480986/20260917_120016_p_o_40567497.jpg",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-00000356-oric-000-1-view.jpg?exp=10800",
       "categories": [
         "pv",
         "cast2"
@@ -2504,79 +2538,11 @@
       "isNew": false
     },
     {
-      "id": "6215396d7f24",
-      "title": "TVアニメ『猫と竜』、待望の第2期制作決定！",
-      "url": "https://www.at-s.com/media/articles/anime/neko-to-ryu-anime-season2-2027/",
-      "host": "at-s.com",
-      "source": "アットエス",
-      "summary": "",
-      "publishedAt": "2026-09-20T03:15:01.000Z",
-      "image": "",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e490496a4e0d",
-      "title": "アニメ『ふつつかな悪女ではございますが』：第11話（最終話） 先行カットを公開！",
-      "url": "https://www.at-s.com/media/articles/anime/futsutsuka-akujo-anime-ep11-final-cut/",
-      "host": "at-s.com",
-      "source": "アットエス",
-      "summary": "",
-      "publishedAt": "2026-09-20T03:15:00.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "9bbaa6b6f0a9",
-      "title": "Iカップ声優・もものすけ、1st写真集で“過去最大露出”先行カット3点公開（GetNavi web）",
-      "url": "https://topics.smt.docomo.ne.jp/article/getnavi/trend/getnavi-https_getnavi.jp_p_1114986",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "topics.smt.docomo.ne.jp",
-      "summary": "",
-      "publishedAt": "2026-09-20T03:15:00.000Z",
-      "image": "https://img.topics.smt.news.goo.ne.jp/picture/getnavi/m_getnavi-https_getnavi.jp_p_1114986.jpg",
-      "categories": [
-        "onair",
-        "cast2"
-      ],
-      "series": [
-        "movie",
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d8d38c31ab62",
       "title": "アニメ『ゆうさんち！from 遊ハち』｜放送日・あらすじ・キャストまとめ 【2026年秋アニメ】",
       "url": "https://www.oricon.co.jp/anime/1244/",
       "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-20T03:00:00.000Z",
       "image": "https://contents.oricon.co.jp/anime/img/1000/1244/base/img1200/tv-program-image-c8fe6bc921d38a642869f8f2919d0cd7f8050beec1708921339bb71a54819470.jpg",
@@ -2599,7 +2565,7 @@
       "title": "『ちいかわ』特典の中身ページ3枚／『クレしん』異例の回が放送へ【9／19よく読まれたアニメ＆ゲームニュース】",
       "url": "https://www.oricon.co.jp/special/76440/?utm_source",
       "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-20T03:00:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2482000/2481245/20260918_104953_p_o_88720998.jpg",
@@ -2643,7 +2609,7 @@
       "title": "アニメ『ゆうさんち！from 遊ハち』声優・キャスト一覧｜キャラクター・登場人物まとめ【2026年秋アニメ】",
       "url": "https://www.oricon.co.jp/anime/1244/cast/",
       "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-20T03:00:00.000Z",
       "image": "https://contents.oricon.co.jp/anime/img/1000/1244/base/img1200/tv-program-image-c8fe6bc921d38a642869f8f2919d0cd7f8050beec1708921339bb71a54819470.jpg",
@@ -2678,30 +2644,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "b9f5054f9894",
-      "title": "ハンブレッダーズ、TVアニメ『夜桜さんちの大作戦』第2期第2クールOP「フォーエバーソング」配信",
-      "url": "https://realsound.jp/2026/09/post-2530250.html",
-      "host": "realsound.jp",
-      "source": "リアルサウンド",
-      "summary": "",
-      "publishedAt": "2026-09-20T02:50:53.000Z",
-      "image": "https://realsound.jp/wp-content/uploads/2026/09/20260919-humbreaders-99.jpeg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "music",
-        "adapt",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -2726,6 +2668,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "d64a60b10f0c",
+      "title": "ビッケブランカ、アニメ\"ドラゴンボール超 ビルス\"初回放送終わり10/12 0時よりEDテーマ「完璧のペキ」配信決定",
+      "url": "https://skream.jp/news/2026/09/vickeblanka_kanpekinopeki.php",
+      "host": "skream.jp",
+      "source": "skream.jp",
+      "summary": "",
+      "publishedAt": "2026-09-20T02:45:00.000Z",
+      "image": "https://skream.jp/news/2026/09/20/images/vickeblanka.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "2640439da850",
@@ -3010,6 +2975,27 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "fea2c36f594c",
+      "title": "中尾隆聖、声優仕事の初ギャラは200円 唯一の自慢は「天才・山寺宏一に勝った」という“ばいきんまん”役のオーディション",
+      "url": "https://thetv.jp/news/detail/1441582/landing/",
+      "host": "thetv.jp",
+      "source": "WEBザテレビジョン",
+      "summary": "",
+      "publishedAt": "2026-09-20T00:28:37.000Z",
+      "image": "",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -3032,27 +3018,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "0729cf16959c",
-      "title": "歌手・声優 小林愛香登場！愛犬・ライラと小麦とのペットライフについてトーク",
-      "url": "https://www.interfm.co.jp/news/single/asamimi_postshow09202026",
-      "host": "interfm.co.jp",
-      "source": "interfm.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-20T00:17:27.000Z",
-      "image": "https://www.interfm.co.jp/gen/images/1200/0298257d2b9f886d7e7138dbaa7201bbf89db6d9.webp",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "bda6a3a6ded6",
@@ -3102,50 +3067,6 @@
       "isNew": false
     },
     {
-      "id": "46d97f9441fb",
-      "title": "『黄泉のツガイ』第2期制作決定 キャラ続々登場の特報映像公開",
-      "url": "https://www.oricon.co.jp/news/2481578/full/",
-      "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-19T22:35:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2482000/2481578/20260920_003858_p_o_28303150.jpg",
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "series": [
-        "movie",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "37082d1d142f",
-      "title": "霜降り明星・せいや『らんま1/2』ゲスト声優出演 アンバサダーに就任で喜び「光栄です」",
-      "url": "https://www.sanyonews.jp/article/1983412?kw",
-      "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
-      "summary": "",
-      "publishedAt": "2026-09-19T22:24:36.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/d/0/4/3/d04370051d814926cad3bc6de82f0807_1.jpg",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "d51abe65a7cb",
       "title": "「美味しんぼ」新作アニメなぜ今？ 背景 #エキスパートトピ（河村鳴紘） - エキスパート",
       "url": "https://news.yahoo.co.jp/expert/articles/a49516a172b08d7f377842aa9364292f1cd47c5d",
@@ -3193,7 +3114,7 @@
       "source": "マグミクス",
       "summary": "",
       "publishedAt": "2026-09-19T21:10:00.000Z",
-      "image": "https://magmix.jp/wp-content/uploads/2027/09/260916-zgundam-00.jpg",
+      "image": "",
       "categories": [
         "movie2"
       ],
@@ -3211,7 +3132,7 @@
       "title": "コメント | 声優・上坂すみれ、悪質な脅迫メール被害 事務所宛てに複数で警察署へ相談「捜査を依頼しております」",
       "url": "https://www.oricon.co.jp/news/2480371/comment/",
       "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-19T20:30:26.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2481000/2480371/20260509_160114_p_l_16143069.jpg",
@@ -3299,7 +3220,7 @@
       "source": "zaikei.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T15:39:07.000Z",
-      "image": "",
+      "image": "https://www.zaikei.co.jp/files/general/20260920003910h3t0big.png",
       "categories": [
         "manga"
       ],
@@ -3320,7 +3241,7 @@
       "source": "zaikei.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T15:39:00.000Z",
-      "image": "",
+      "image": "https://www.zaikei.co.jp/files/general/20260920003910h3t0big.png",
       "categories": [
         "manga"
       ],
@@ -3378,7 +3299,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8ac4e3b2086f",
@@ -3456,7 +3377,7 @@
       "title": "【「ABEMAアニメ祭 2026」1日目レポート】人気アニメ＆豪華声優陣が渋谷に集結！『正反対な君と僕』は“卒業式ビジュアル”初解禁！『鉄鍋のジャン！』戸谷菊之介＆天田益男は作中の衝撃料理を実食！？",
       "url": "https://prtimes.jp/main/html/rd/p/000003999.000064643.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-19T13:40:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/64643/3999/64643-3999-377074cc168c4568056ff92c71f4cd3c-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -3469,7 +3390,7 @@
         "stream"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -3482,7 +3403,7 @@
       "source": "uzurea.net",
       "summary": "",
       "publishedAt": "2026-09-19T12:59:42.000Z",
-      "image": "",
+      "image": "https://uzurea.net/cwp/wp-content/uploads/2026/09/list-of-rakugo-anime.webp",
       "categories": [
         "onair"
       ],
@@ -3628,27 +3549,6 @@
       "isNew": false
     },
     {
-      "id": "9fc26f7593be",
-      "title": "北山宏光の新曲「BACKLASH」がアニメ『桃源暗鬼』OP主題歌に、本人作詞で“秘めた衝動の爆発”を表現 (Bezzy)",
-      "url": "https://news.yahoo.co.jp/articles/4bf4a68d8bed5834aba5a98d9ec8f7ce7ba753df/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-19T11:31:01.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgAdVoUpHvhzxbrm-pRvh0kDL4ApkWQOWMsfCTTIjtIx37FIykIDn-cjrtHC17aniah7w_W8UJdckgiMXoO3xfr41Tu9QyEfohHkxjtVpINis",
-      "categories": [
-        "music2"
-      ],
-      "series": [
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "90fa7df6c9e0",
       "title": "北山宏光の新曲がアニメ『桃源暗鬼』OP主題歌に決定、本人作詞で秘めた衝動の爆発を表現",
       "url": "https://bezzy.jp/2026/09/92368/",
@@ -3656,7 +3556,7 @@
       "source": "bezzy.jp",
       "summary": "",
       "publishedAt": "2026-09-19T11:30:00.000Z",
-      "image": "",
+      "image": "https://bezzy.jp/cms/wp-content/uploads/2026/09/6babe6960b60b4d54544fe19e96222d4.jpg",
       "categories": [
         "music2"
       ],
@@ -3753,7 +3653,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6e646a8ebcb4",
@@ -4150,6 +4050,29 @@
       "isNew": false
     },
     {
+      "id": "2c75f5dd09d5",
+      "title": "秋アニメ『桃源暗鬼』～日光・華厳の滝編～10/2放送決定、追加声優に鈴村健一ら3名",
+      "url": "https://www.animatetimes.com/news/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-09-19T07:20:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "tv",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "bf29a386b1d6",
       "title": "『ダイヤのA actⅡ -Second Season-』第2クールメインPV公開！OPテーマ「NEVER SAY NEVER AGAIN」一部解禁＆GLAY、OxTからコメント到着！",
       "url": "http://www.excite.co.jp/news/article/Lisani_0000318318/",
@@ -4487,7 +4410,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2454364517e1",
@@ -4560,7 +4483,7 @@
       "title": "TVアニメ『傷だらけ聖女より報復をこめて Season2』の主題歌は、Juice=Juiceの「華麗なるリベンジャー」に決定！&コメントも到着。更に主題歌入りティザーPV、配信情報も公開",
       "url": "https://prtimes.jp/main/html/rd/p/000001792.000007785.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-19T04:30:01.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/7785/1792/7785-1792-f131d30786e394ade381beffec33e966-2756x1761.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -4575,7 +4498,7 @@
         "stream"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -4585,7 +4508,7 @@
       "title": "『電撃デイジー』来年1月から連続2クールで放送 メインPV公開で追加キャストに杉田智和ら",
       "url": "https://www.oricon.co.jp/news/2481579/photo/2/",
       "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-19T04:15:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2482000/2481579/20260919_130808_p_o_10077258.jpg",
@@ -4842,6 +4765,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "16517039dac1",
+      "title": "【 ALS闘病 】声優・津久井教生さん パソコンの復活に安堵「今回の不調はアップデートとの関連ですので 見守りながらいくしかありません」【ニャンちゅう】",
+      "url": "https://newsdig.tbs.co.jp/articles/-/2958396",
+      "host": "newsdig.tbs.co.jp",
+      "source": "TBS NEWS DIG",
+      "summary": "",
+      "publishedAt": "2026-09-19T02:49:00.000Z",
+      "image": "https://newsdig.ismcdn.jp/mwimgs/4/3/1200w/img_4323fbab5268a8ad2826c2dcd2abcc3e30951.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "54f9ebbc7ea0",
@@ -5229,7 +5173,7 @@
       "title": "TVアニメ化決定！ 全世界累計500万部超えの大ヒット少女漫画。最富キョウスケ『電撃デイジー 新装版』全8巻、刊行決定！第1,2巻は10月26日に発売！",
       "url": "https://www.asahi.com/and/pressrelease/16803534",
       "host": "asahi.com",
-      "source": "朝日新聞",
+      "source": "asahi.com",
       "summary": "",
       "publishedAt": "2026-09-18T12:28:27.000Z",
       "image": "",
@@ -5239,30 +5183,6 @@
       "series": [
         "tv",
         "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "0e68a1926fed",
-      "title": "米津玄師を24時間浴びる！「IRIS OUT」をMV・劇場版OP・紅白で、常田大希（King Gnu）との共演ライブや「Lemon」など1億回再生超えのヒット曲が続々――「Kenshi Yonezu Station」期間限定オープン",
-      "url": "https://animeanime.jp/article/2026/09/18/103062.html",
-      "host": "animeanime.jp",
-      "source": "アニメ！アニメ！",
-      "summary": "劇場版『チェンソーマン レゼ篇』のPrime Video見放題独占配信を記念し、米津玄師のMVやライブ映像などが24時間流れ続ける「Kenshi Yonezu Station」がYouTubeに期間限定オープン。「IRIS OUT」のMV・劇場版OP・紅白歌唱をはじめ、「JANE DOE」「KICK BACK」「Le…",
-      "publishedAt": "2026-09-18T11:13:44.000Z",
-      "image": "https://animeanime.jp/imgs/rss/933526.jpg",
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "series": [
-        "movie",
-        "music",
-        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -5298,7 +5218,7 @@
       "title": "Plott新作ショートアニメ『楽楽飯店』、第1話配信開始！オリジナルグッズも同時発売",
       "url": "https://prtimes.jp/main/html/rd/p/000000236.000047837.html",
       "host": "prtimes.jp",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-18T11:00:00.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/47837/236/47837-236-e105958dfa8873ff6025eaa8371a0267-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -5312,7 +5232,7 @@
         "stream"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -5335,27 +5255,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "59fe428f0d7e",
-      "title": "アニメニュースや声優の旬な情報を毎日更新",
-      "url": "https://www.animatetimes.com/tag_img/details.php?id",
-      "host": "animatetimes.com",
-      "source": "アニメイトタイムズ",
-      "summary": "",
-      "publishedAt": "2026-09-18T10:01:28.000Z",
-      "image": "https://www.animatetimes.com/img/ogimage.png",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     }
