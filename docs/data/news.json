@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-20T21:30:16.082Z",
+  "updatedAt": "2026-09-20T22:00:15.951Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 178,
-  "todayCount": 19,
+  "total": 181,
+  "todayCount": 21,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 47
+      "count": 48
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 73
+      "count": 75
     },
     {
       "id": "pv",
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 41
+      "count": 42
     },
     {
       "id": "music2",
@@ -37,7 +37,7 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 24
+      "count": 25
     },
     {
       "id": "goods2",
@@ -64,17 +64,17 @@
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 87
+      "count": 88
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 45
+      "count": 46
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 47
+      "count": 48
     },
     {
       "id": "music",
@@ -94,18 +94,18 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 28
+      "count": 30
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "Yahoo!ニュース",
-      "count": 27
+      "count": 28
     },
     {
       "name": "アニメ！アニメ！",
-      "count": 24
+      "count": 25
     },
     {
       "name": "電ファミニコゲーマー",
@@ -140,12 +140,16 @@
       "count": 3
     },
     {
-      "name": "THE FIRST TIMES",
+      "name": "ABEMA",
       "count": 3
     },
     {
-      "name": "ABEMA",
-      "count": 2
+      "name": "山陽新聞",
+      "count": 3
+    },
+    {
+      "name": "THE FIRST TIMES",
+      "count": 3
     },
     {
       "name": "PR TIMES",
@@ -176,15 +180,7 @@
       "count": 2
     },
     {
-      "name": "TBS NEWS DIG",
-      "count": 2
-    },
-    {
       "name": "tv-tokyo.co.jp",
-      "count": 2
-    },
-    {
-      "name": "山陽新聞",
       "count": 2
     },
     {
@@ -269,6 +265,10 @@
     },
     {
       "name": "InterFM",
+      "count": 1
+    },
+    {
+      "name": "TBS NEWS DIG",
       "count": 1
     },
     {
@@ -633,7 +633,7 @@
       "url": "https://animeanime.jp/article/2026/09/21/103113.html",
       "image": "https://animeanime.jp/imgs/rss/933990.jpg",
       "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-09-20T15:48:30.000Z",
+      "publishedAt": "2026-09-20T15:36:47.000Z",
       "sourceCount": 5,
       "articleCount": 7,
       "categories": [
@@ -647,10 +647,10 @@
       ],
       "articles": [
         {
-          "title": "ふつつかな悪女ではございますが＞テレビアニメ第2クール 2027年1月スタート 新キャラ声優に中村悠一、土岐隼一、小林千晃 (MANTANWEB)",
-          "url": "https://news.yahoo.co.jp/articles/1a81fe777d08f488e2b85690d8ccfc2986257d74/images/000",
+          "title": "ふつつかな悪女ではございますが＞テレビアニメ第2クール 2027年1月スタート 新キャラ声優に中村悠一、土岐隼一、小林千晃（MANTANWEB）",
+          "url": "https://news.yahoo.co.jp/articles/1a81fe777d08f488e2b85690d8ccfc2986257d74",
           "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-20T15:48:30.000Z",
+          "publishedAt": "2026-09-20T15:36:47.000Z",
           "isPR": false
         },
         {
@@ -930,12 +930,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-20T21:00:14.629Z",
-    "previousCount": 185,
-    "newCount": 6
+    "previousAt": "2026-09-20T21:30:16.082Z",
+    "previousCount": 178,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-20T22:00:16.082Z",
+  "nextUpdateAt": "2026-09-20T22:30:15.951Z",
   "items": [
     {
       "id": "732e442c6ab0",
@@ -951,6 +951,28 @@
       ],
       "series": [
         "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "048856b88e3c",
+      "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
+      "url": "https://abema.tv/now-on-air/isekai-anime-4",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-09-20T19:55:39.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1108,6 +1130,28 @@
       "isNew": false
     },
     {
+      "id": "99eb008a9a21",
+      "title": "大地真央、虫の女王役でピクサー初参加 『私がビーバーになる時』声優発表 平成フラミンゴNICOが一人三役 大谷育江・江口拓也・杉田智和も集結",
+      "url": "https://www.sanyonews.jp/article/1881750?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-20T16:28:12.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/0/8/c/7/08c77368003632383b184cf09353ac85_1.jpg",
+      "categories": [
+        "new",
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e2871f0729a9",
       "title": "【マルチ対応】あらゆる場所で“危険すぎるゴルフ”をプレイするゲーム『Really Illegal Golf』新映像が公開。Steamにて体験版が配信中",
       "url": "https://news.denfaminicogamer.jp/news/260921d",
@@ -1154,13 +1198,13 @@
     },
     {
       "id": "4221a78de6a5",
-      "title": "ふつつかな悪女ではございますが＞テレビアニメ第2クール 2027年1月スタート 新キャラ声優に中村悠一、土岐隼一、小林千晃 (MANTANWEB)",
-      "url": "https://news.yahoo.co.jp/articles/1a81fe777d08f488e2b85690d8ccfc2986257d74/images/000",
+      "title": "ふつつかな悪女ではございますが＞テレビアニメ第2クール 2027年1月スタート 新キャラ声優に中村悠一、土岐隼一、小林千晃（MANTANWEB）",
+      "url": "https://news.yahoo.co.jp/articles/1a81fe777d08f488e2b85690d8ccfc2986257d74",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-09-20T15:48:30.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgINoachIfiefVtqr_uUdZzvH_T-mLhBVdgh92qpSTWrV2KplFn_X6luMtSOQyUGPGVP60AZTF0a4oXjO7srDrQgWU6w3E-BC3Br9j1LlKI6qS5ka5Bxn4txNU6R-WNbdFg==",
+      "publishedAt": "2026-09-20T15:36:47.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260921-00000002-mantan-000-1-view.jpg?exp=10800",
       "categories": [
         "onair",
         "cast2"
@@ -1173,7 +1217,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59b90b4abe85",
@@ -1417,7 +1461,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "568820b58390",
@@ -1599,6 +1643,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ad766c23bd64",
+      "title": "「劇場版Fate/kaleid liner プリズマ☆イリヤ 雪下の誓い」の配信はどこで見れる？おすすめサブスクを紹介",
+      "url": "https://animeanime.jp/article/2026/05/13/98907.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "",
+      "publishedAt": "2026-09-20T10:44:13.000Z",
+      "image": "https://animeanime.jp/imgs/ogp_f/867462.jpg",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6711be450ebb",
@@ -3095,12 +3162,12 @@
     {
       "id": "d79d3eb4fb66",
       "title": "【 ALS闘病 】声優・津久井教生さん 病状の進行を明かすも前向き「さぁてどう工夫していこうかと思案中です」【ニャンちゅう】",
-      "url": "https://newsdig.tbs.co.jp/articles/gallery/2959288",
-      "host": "newsdig.tbs.co.jp",
-      "source": "TBS NEWS DIG",
+      "url": "https://news.yahoo.co.jp/articles/6a5735cfd5cf03b8f17d1e706467c9f53305ef42",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-09-20T02:39:01.000Z",
-      "image": "https://newsdig.ismcdn.jp/mwimgs/f/2/1200w/img_f28f8dba0c233e5bb54feea579a73ba7290235.jpg",
+      "publishedAt": "2026-09-20T02:39:16.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-22959288-jnn-000-1-view.jpg?exp=10800",
       "categories": [
         "cast2"
       ],
@@ -3242,7 +3309,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bda6a3a6ded6",
@@ -3332,7 +3399,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d51abe65a7cb",
@@ -3457,7 +3524,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c54d2f075957",
