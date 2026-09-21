@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-21T20:00:15.910Z",
+  "updatedAt": "2026-09-21T20:30:16.840Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 179,
+  "total": 177,
   "todayCount": 8,
   "categories": [
     {
@@ -17,7 +17,7 @@
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 69
+      "count": 68
     },
     {
       "id": "pv",
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 43
+      "count": 44
     },
     {
       "id": "music2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 13
+      "count": 11
     },
     {
       "id": "biz2",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 14
+      "count": 13
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 81
+      "count": 80
     },
     {
       "id": "movie",
@@ -74,17 +74,17 @@
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 50
+      "count": 51
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 37
+      "count": 36
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 25
+      "count": 23
     },
     {
       "id": "goods",
@@ -94,7 +94,7 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 29
+      "count": 27
     }
   ],
   "weapons": [],
@@ -116,10 +116,6 @@
       "count": 12
     },
     {
-      "name": "山陽新聞",
-      "count": 7
-    },
-    {
       "name": "ｄメニューニュース",
       "count": 6
     },
@@ -137,6 +133,10 @@
     },
     {
       "name": "PR TIMES",
+      "count": 4
+    },
+    {
+      "name": "山陽新聞",
       "count": 4
     },
     {
@@ -204,10 +204,6 @@
       "count": 1
     },
     {
-      "name": "朝日新聞",
-      "count": 1
-    },
-    {
       "name": "ニコニコニュース",
       "count": 1
     },
@@ -236,6 +232,10 @@
       "count": 1
     },
     {
+      "name": "ENCOUNT",
+      "count": 1
+    },
+    {
       "name": "ナタリー",
       "count": 1
     },
@@ -256,15 +256,11 @@
       "count": 1
     },
     {
-      "name": "Infoseek",
+      "name": "news.infoseek.co.jp",
       "count": 1
     },
     {
       "name": "newsdig.tbs.co.jp",
-      "count": 1
-    },
-    {
-      "name": "毎日キレイ",
       "count": 1
     },
     {
@@ -273,6 +269,10 @@
     },
     {
       "name": "スポニチ Sponichi Annex",
+      "count": 1
+    },
+    {
+      "name": "Game*Spark",
       "count": 1
     },
     {
@@ -300,7 +300,7 @@
       "count": 1
     },
     {
-      "name": "ABEMA",
+      "name": "abema.tv",
       "count": 1
     },
     {
@@ -325,6 +325,10 @@
     },
     {
       "name": "千葉テレビ放送",
+      "count": 1
+    },
+    {
+      "name": "ウォーカープラス",
       "count": 1
     },
     {
@@ -398,15 +402,16 @@
       "image": "https://tv-tokyo.imgix.net/txcms/media/plus_content/6e/f5/27b926c7da00784353310e6b2bfb.jpg?auto=format,compress",
       "leadSource": "tv-tokyo.co.jp",
       "publishedAt": "2026-09-21T12:23:41.000Z",
-      "sourceCount": 4,
-      "articleCount": 5,
+      "sourceCount": 5,
+      "articleCount": 6,
       "categories": [
-        "onair"
+        "onair",
+        "cast2"
       ],
       "keywords": [
         "中島健人",
         "地球",
-        "tv-tokyo"
+        "弾放送"
       ],
       "articles": [
         {
@@ -421,6 +426,13 @@
           "url": "https://entametalk.com/news/204535/?view",
           "source": "エンタのおはなし",
           "publishedAt": "2026-09-21T09:43:12.000Z",
+          "isPR": false
+        },
+        {
+          "title": "中島健人MC『アニメが地球を喰っている』第2弾放送決定 梶裕貴、畠中祐ら豪華ゲストも出演",
+          "url": "https://encount.press/archives/1069329/",
+          "source": "ENCOUNT",
+          "publishedAt": "2026-09-21T09:14:01.000Z",
           "isPR": false
         },
         {
@@ -805,19 +817,19 @@
           "title": "『アイシールド21』アニメ全145話の21日間ノンストップ無料放送が本日（9/21）21時より実施。アニメ放送21周年を記念して",
           "url": "https://www.famitsu.com/article/202609/88821",
           "source": "ファミ通",
-          "publishedAt": "2026-09-21T11:49:25.000Z",
+          "publishedAt": "2026-09-21T11:46:00.000Z",
           "isPR": false
         }
       ]
     }
   ],
   "churn": {
-    "previousAt": "2026-09-21T19:30:16.121Z",
-    "previousCount": 177,
-    "newCount": 3
+    "previousAt": "2026-09-21T20:00:15.910Z",
+    "previousCount": 179,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-21T20:30:15.910Z",
+  "nextUpdateAt": "2026-09-21T21:00:16.840Z",
   "items": [
     {
       "id": "8cf7668980eb",
@@ -1040,30 +1052,6 @@
       "isNew": false
     },
     {
-      "id": "d60a6ee56c55",
-      "title": "NHKワールド JAPAN新番組「SCHOOL OF J-POP」、海外で人気のアニメ系クリエイターグループ「Trash Taste」が初回放送（8/21）に出演決定",
-      "url": "https://www.asahi.com/and/pressrelease/16806690",
-      "host": "asahi.com",
-      "source": "朝日新聞",
-      "summary": "",
-      "publishedAt": "2026-09-21T13:16:35.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "cast2"
-      ],
-      "series": [
-        "tv",
-        "cast",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d4f15887ed14",
       "title": "【アニメ化35周年】「きんぎょ注意報！」9月21日から毎週1話ずつ無料配信開始 佐藤順一がシリーズディレクターを務めたドタバタ学園コメディ（映画.com）",
       "url": "https://news.yahoo.co.jp/articles/136da492b58ca9e66d841087afce99a728463838",
@@ -1202,7 +1190,7 @@
       "host": "famitsu.com",
       "source": "ファミ通",
       "summary": "",
-      "publishedAt": "2026-09-21T11:49:25.000Z",
+      "publishedAt": "2026-09-21T11:46:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/88821/thumbnail_KznD.jpg?x=1280",
       "categories": [
         "onair"
@@ -1625,6 +1613,29 @@
       "isNew": false
     },
     {
+      "id": "5358bb616035",
+      "title": "中島健人MC『アニメが地球を喰っている』第2弾放送決定 梶裕貴、畠中祐ら豪華ゲストも出演",
+      "url": "https://encount.press/archives/1069329/",
+      "host": "encount.press",
+      "source": "ENCOUNT",
+      "summary": "",
+      "publishedAt": "2026-09-21T09:14:01.000Z",
+      "image": "https://encount.press/wp-content/uploads/2026/09/21145544/a970f0b28fae0b6c58ff8198c161b44d.jpg",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "tv",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a1a75cdd83f7",
       "title": "門脇麦 人気アニメ劇場版最新作を鑑賞 過去には「全シーズン見てます」と大ファンを公言（スポニチアネックス）",
       "url": "https://news.yahoo.co.jp/articles/341d41c69fe44148ed37c5ffd1eb6fe7527af7d6",
@@ -1827,7 +1838,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-21T09:00:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2482000/2481723/20260920_140529_p_o_93653681.jpg",
       "categories": [
         "onair"
       ],
@@ -2215,7 +2226,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4df5eacf9762",
@@ -2268,7 +2279,7 @@
       "title": "『薬屋のひとりごと』原作者・日向夏氏、体調不良で入院中 海外イベントの現地参加見送る→オンライン交流に変更",
       "url": "https://news.infoseek.co.jp/article/oricon_2481833/",
       "host": "news.infoseek.co.jp",
-      "source": "Infoseek",
+      "source": "news.infoseek.co.jp",
       "summary": "",
       "publishedAt": "2026-09-21T06:55:17.000Z",
       "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2481833_0-enlarge.jpg",
@@ -2436,27 +2447,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "c11afe011140",
-      "title": "「アオアシ」アニメ2期放送記念、234話までが無料で読める「爆読み￥0」（※1）対象に 9月21日（月・祝）よりピッコマで開催",
-      "url": "https://mainichikirei.jp/prtimes/article/20260921prt00m100000080a.html",
-      "host": "mainichikirei.jp",
-      "source": "毎日キレイ",
-      "summary": "",
-      "publishedAt": "2026-09-21T05:32:50.000Z",
-      "image": "https://prtimes.jp/img/3707/957/resize/d3707-957-d18a48ab18a1920233e3-3.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "660062ec368a",
@@ -2852,6 +2842,27 @@
       "isNew": false
     },
     {
+      "id": "c11afe011140",
+      "title": "「アオアシ」アニメ2期放送記念、234話までが無料で読める「爆読み￥0」（※1）対象に 9月21日（月・祝）よりピッコマで開催",
+      "url": "https://www.gamespark.jp/release/prtimes/20260921/315943.html",
+      "host": "gamespark.jp",
+      "source": "Game*Spark",
+      "summary": "",
+      "publishedAt": "2026-09-21T02:00:00.000Z",
+      "image": "https://www.gamespark.jp/release/imgs/list/556929.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "918fae004359",
       "title": "『紛争でしたら八田まで』アニメ化決定 世界の情勢がわかる地政学漫画",
       "url": "https://www.sanyonews.jp/article/1988740?rct",
@@ -3088,7 +3099,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f565d2a5ff0a",
@@ -3781,7 +3792,7 @@
       "title": "TVアニメ「転生ゴブリンだけど質問ある？」放送直前だけど質問ある？",
       "url": "https://abema.tv/channels/abema-anime/slots/C9xPRbj7eDYNuD",
       "host": "abema.tv",
-      "source": "ABEMA",
+      "source": "abema.tv",
       "summary": "",
       "publishedAt": "2026-09-20T08:11:01.000Z",
       "image": "",
@@ -4587,6 +4598,28 @@
       "isNew": false
     },
     {
+      "id": "90625ce174fe",
+      "title": "箱根駅伝を描いた「風が強く吹いている」初アニメ化！主人公を演じる注目声優・大塚剛央「実は長距離が得意ではないんです（笑）」",
+      "url": "https://www.walkerplus.com/article/162246/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-09-20T00:36:26.000Z",
+      "image": "https://news.walkerplus.com/article/162246/942344_615.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "bda6a3a6ded6",
       "title": "北山宏光（Hiromitsu Kitayama）、新曲「BACKLASH」がTVアニメ『桃源暗鬼』第二期～日光・華厳の滝編〜のオープニング主題歌に決定！新アーティスト写真、ジャケット写真も公開！",
       "url": "https://e.usen.com/news/news-release/hiromitsu-kitayamabacklashtv.html",
@@ -4665,73 +4698,6 @@
       ],
       "series": [
         "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "163faf7842d5",
-      "title": "『おぱんちゅうさぎ』『んぽちゃむ』、3Dアニメ化 原作・可哀想に！が脚本完全書き下ろし",
-      "url": "https://www.sanyonews.jp/article/1911050?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-09-19T21:02:33.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/3/d/2/9/3d2964b112330a9a1f0ab217ed02756a_1.jpg",
-      "categories": [
-        "manga"
-      ],
-      "series": [
-        "adapt",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "5a480a8de64c",
-      "title": "漫画『ギフテッド』アニメ化で来年放送 ドラマ化もされた新感覚バディ・ミステリー",
-      "url": "https://www.sanyonews.jp/article/1932665?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-09-19T20:24:18.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/5/b/e/a/5bea234e842eb1198b6c47657347db25_1.jpg",
-      "categories": [
-        "onair",
-        "manga"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "58a50a5295f4",
-      "title": "『ソニック・ザ・ヘッジホッグ』新アニメ化 子ども向けシリーズでNetflixと協力",
-      "url": "https://www.sanyonews.jp/article/1989038",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-09-19T20:17:27.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/d/4/2/6/d426d9105066e5891ed658215c9d5ab3_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "adapt",
-        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
