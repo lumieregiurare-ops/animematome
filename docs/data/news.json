@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-21T16:00:19.994Z",
+  "updatedAt": "2026-09-21T16:30:21.236Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 187,
+  "total": 182,
   "todayCount": 6,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 42
+      "count": 41
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 72
+      "count": 71
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 20
+      "count": 19
     },
     {
       "id": "cast2",
@@ -37,12 +37,12 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 28
+      "count": 27
     },
     {
       "id": "goods2",
       "label": "グッズ・イベント",
-      "count": 16
+      "count": 15
     },
     {
       "id": "manga",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 13
+      "count": 12
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 82
+      "count": 81
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 44
+      "count": 43
     },
     {
       "id": "cast",
@@ -89,7 +89,7 @@
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 27
+      "count": 26
     },
     {
       "id": "stream",
@@ -136,7 +136,7 @@
       "count": 4
     },
     {
-      "name": "PR TIMES",
+      "name": "prtimes.jp",
       "count": 4
     },
     {
@@ -160,19 +160,11 @@
       "count": 3
     },
     {
-      "name": "banger.jp",
-      "count": 3
-    },
-    {
       "name": "Koubo",
       "count": 2
     },
     {
       "name": "ABEMA",
-      "count": 2
-    },
-    {
-      "name": "映画.com",
       "count": 2
     },
     {
@@ -185,10 +177,6 @@
     },
     {
       "name": "anisaki.hatenadiary.com",
-      "count": 2
-    },
-    {
-      "name": "福井新聞社",
       "count": 2
     },
     {
@@ -209,6 +197,10 @@
     },
     {
       "name": "BARKS",
+      "count": 2
+    },
+    {
+      "name": "banger.jp",
       "count": 2
     },
     {
@@ -248,6 +240,10 @@
       "count": 1
     },
     {
+      "name": "福井新聞社",
+      "count": 1
+    },
+    {
       "name": "ENCOUNT",
       "count": 1
     },
@@ -260,15 +256,15 @@
       "count": 1
     },
     {
-      "name": "ぴあエンタメ情報",
-      "count": 1
-    },
-    {
       "name": "47NEWS",
       "count": 1
     },
     {
       "name": "kotodaman.jp",
+      "count": 1
+    },
+    {
+      "name": "映画.com",
       "count": 1
     },
     {
@@ -300,15 +296,11 @@
       "count": 1
     },
     {
-      "name": "tbs.co.jp",
-      "count": 1
-    },
-    {
       "name": "KOREA WAVE",
       "count": 1
     },
     {
-      "name": "youtu.be",
+      "name": "YouTube",
       "count": 1
     },
     {
@@ -631,9 +623,9 @@
         {
           "title": "9月28日(月)～10月4日(日)は「テレ東アニメWEEK」！",
           "url": "https://prtimes.jp/main/html/rd/p/000002366.000002734.html",
-          "source": "PR TIMES",
+          "source": "prtimes.jp",
           "publishedAt": "2026-09-21T09:00:02.000Z",
-          "isPR": true
+          "isPR": false
         }
       ]
     },
@@ -847,12 +839,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-21T15:30:17.854Z",
-    "previousCount": 184,
-    "newCount": 9
+    "previousAt": "2026-09-21T16:00:19.994Z",
+    "previousCount": 187,
+    "newCount": 0
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-21T16:30:19.994Z",
+  "nextUpdateAt": "2026-09-21T17:00:21.236Z",
   "items": [
     {
       "id": "29d2f2072c69",
@@ -874,7 +866,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ceafe3b4ff7e",
@@ -896,7 +888,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bd4706eb284b",
@@ -919,7 +911,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24b86be1d399",
@@ -1056,17 +1048,19 @@
     },
     {
       "id": "d4f15887ed14",
-      "title": "【アニメ化35周年】「きんぎょ注意報！」9月21日から毎週1話ずつ無料配信開始 佐藤順一がシリーズディレクターを務めたドタバタ学園コメディ",
-      "url": "https://eiga.com/l/G5bhh",
-      "host": "eiga.com",
-      "source": "映画.com",
+      "title": "【アニメ化35周年】「きんぎょ注意報！」9月21日から毎週1話ずつ無料配信開始 佐藤順一がシリーズディレクターを務めたドタバタ学園コメディ（映画.com）",
+      "url": "https://news.yahoo.co.jp/articles/136da492b58ca9e66d841087afce99a728463838",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-21T13:00:00.000Z",
-      "image": "https://media.eiga.com/images/buzz/129343/70b748df89771428.jpg",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260921-00000027-eiga-000-1-view.jpg?exp=10800",
       "categories": [
-        "onair"
+        "onair",
+        "movie2"
       ],
       "series": [
+        "movie",
         "adapt",
         "stream"
       ],
@@ -1817,7 +1811,7 @@
       "title": "9月28日(月)～10月4日(日)は「テレ東アニメWEEK」！",
       "url": "https://prtimes.jp/main/html/rd/p/000002366.000002734.html",
       "host": "prtimes.jp",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "summary": "",
       "publishedAt": "2026-09-21T09:00:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/2734/2366/2734-2366-f4e19e3305fba6b96dfabba42d871ff5-660x496.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -1826,7 +1820,7 @@
       ],
       "series": [],
       "isOfficial": false,
-      "isPR": true,
+      "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -1978,28 +1972,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e1603341fc9b",
-      "title": "『劇場版ハイキュー!!』最新作のコンセプトビジュアル＆スペシャルアニメのPVなどが一挙解禁 の動画・映像（1/1） - ぴあ映画",
-      "url": "https://lp.p.pia.jp/article/news/511386/video-gallery/index.html?id",
-      "host": "lp.p.pia.jp",
-      "source": "ぴあエンタメ情報",
-      "summary": "",
-      "publishedAt": "2026-09-21T08:50:42.000Z",
-      "image": "https://lp.p.pia.jp/shared/materials/c77037e8-c2f3-495d-a91d-cefb794dc5f3/origin.jpg",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2213,7 +2185,7 @@
       "source": "kotodaman.jp",
       "summary": "",
       "publishedAt": "2026-09-21T07:59:38.000Z",
-      "image": "https://kotodaman.jp/OGP_20260717%20ogp.png.png?202609211655",
+      "image": "https://kotodaman.jp/OGP_20260717%20ogp.png.png?202609220117",
       "categories": [
         "cast2"
       ],
@@ -2512,7 +2484,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "aa55b10b5778",
@@ -2633,7 +2605,7 @@
       "title": "TVアニメ「光が死んだ夏」の公式ガイドブックが2026年9月28日（月）発売！",
       "url": "https://prtimes.jp/main/html/rd/p/000020146.000007006.html",
       "host": "prtimes.jp",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "summary": "",
       "publishedAt": "2026-09-21T04:00:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/7006/20146/7006-20146-b8b3677fe87cb439cfb1fd16a74acc02-906x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -2644,7 +2616,7 @@
         "tv"
       ],
       "isOfficial": false,
-      "isPR": true,
+      "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -2823,27 +2795,6 @@
       "isNew": false
     },
     {
-      "id": "93483512a25a",
-      "title": "不朽のおとぎ話「シンデレラ」の物語を、新たな視点で描くアニメーション映画『リリスとシンデレラのおとぎの王国』",
-      "url": "https://www.banger.jp/news/185014/",
-      "host": "banger.jp",
-      "source": "banger.jp",
-      "summary": "",
-      "publishedAt": "2026-09-21T02:32:28.000Z",
-      "image": "https://www.banger.jp/wp-content/uploads/2026/09/a167ce3ed33a3a54320f714db7a3e429.jpg",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "0aea501334a1",
       "title": "知る人ぞ知るファミコン2Dシューティング『ファイナルミッション』が36年以上の時を経て復活。『Cybernetic Attack ファイナルミッション』は、横に上下に撃ちまくる原作の味が健在だった。見た目は大きく進化しても、戦士たちはやっ…",
       "url": "https://news.denfaminicogamer.jp/kikakuthetower/2609212a",
@@ -2888,7 +2839,7 @@
       "title": "「アオアシ」アニメ2期放送記念、234話までが無料で読める「爆読み¥0」（※1）対象に 9月21日（月・祝）よりピッコマで開催",
       "url": "https://prtimes.jp/main/html/rd/p/000000957.000003707.html",
       "host": "prtimes.jp",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "summary": "",
       "publishedAt": "2026-09-21T02:00:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/3707/957/3707-957-1b2f2edd05344b3fefea2666ab8b8320-750x445.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -2899,7 +2850,7 @@
         "tv"
       ],
       "isOfficial": false,
-      "isPR": true,
+      "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -3154,46 +3105,6 @@
       ],
       "series": [
         "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ee31fc23b7b8",
-      "title": "黒猫と魔女の教室 [終] [字] [デ] ＃２４「禁断のデート」【アガルアニメ】",
-      "url": "https://www.tbs.co.jp/tv/20260920_BD63.html",
-      "host": "tbs.co.jp",
-      "source": "tbs.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-20T21:19:45.000Z",
-      "image": "https://www.tbs.co.jp/tv/img/20260920_BD63_hd1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "732e442c6ab0",
-      "title": "アニメ監督・柳瀬雄之さん死去 放送中のアニメで追悼テロップ流れる",
-      "url": "https://www.fukuishimbun.co.jp/articles/gallery/2692304?ph",
-      "host": "fukuishimbun.co.jp",
-      "source": "福井新聞社",
-      "summary": "",
-      "publishedAt": "2026-09-20T20:23:51.000Z",
-      "image": "https://fki.ismcdn.jp/mwimgs/6/d/-/img_6d2f23a5c2c24021c9036bd715e3ed8c62698.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3475,7 +3386,7 @@
       "title": "【「ABEMAアニメ祭 2026」2日目レポート】TVアニメ「黄泉のツガイ」小野賢章＆宮本侑芽は渋谷で“ギャル文化”を猛勉強！？『薬屋のひとりごと』悠木碧らが第3期＆劇場版のアフレコ秘話を語る",
       "url": "https://prtimes.jp/main/html/rd/p/000004005.000064643.html",
       "host": "prtimes.jp",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "summary": "",
       "publishedAt": "2026-09-20T13:10:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/64643/4005/64643-4005-edef7cb93be188370305a6c166e16820-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -3489,7 +3400,7 @@
         "stream"
       ],
       "isOfficial": false,
-      "isPR": true,
+      "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -3584,7 +3495,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ad766c23bd64",
@@ -3827,7 +3738,7 @@
       "title": "えむにみに「泣いた悪魔」×TVアニメ『鉄鍋のジャン！』SPECIAL MUSIC VIDEO【エンディング主題歌】",
       "url": "https://youtu.be/Tzhs_olkE4M?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T09:03:37.000Z",
       "image": "",
@@ -4176,7 +4087,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dd5064c80432",
@@ -4325,7 +4236,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-20T04:30:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2481000/2480986/20260917_120016_p_o_40567497.jpg",
       "categories": [
         "pv",
         "cast2"
@@ -4421,28 +4332,6 @@
       ],
       "series": [
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e14a6f0af252",
-      "title": "「無職転生」シルフィ、ロキシー、エリスらのスイーツ＆ドリンクも♪ グッズも盛りだくさん！新作ゲーム「クロニクル・オブ・エコーズ」コラボカフェ開催（アニメ！アニメ！）",
-      "url": "https://news.yahoo.co.jp/articles/6dc43f630fb6cc4cf8e6b66dde9a890e0275f552",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-20T03:30:03.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-00000011-anmanmv-000-1-view.jpg?exp=10800",
-      "categories": [
-        "goods2",
-        "new"
-      ],
-      "series": [
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4748,7 +4637,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-19T22:35:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2482000/2481578/20260920_003858_p_o_28303150.jpg",
       "categories": [
         "new",
         "pv"
@@ -4866,7 +4755,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5a480a8de64c",
