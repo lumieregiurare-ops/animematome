@@ -1,7 +1,7 @@
 (() => {
   const $ = (s) => document.querySelector(s);
   const PAGE = 40;
-  const TOPICS_FIRST = 4;
+  const TOPICS_FIRST = 7;
   const SPIN_MS = 320;
   const FAV_KEY = "anime:fav";
   const READ_KEY = "anime:read";
@@ -61,11 +61,8 @@
     return data.series.find((s) => s.id === id)?.label || "";
   }
   // ---------- サムネイル ----------
-  // 画像が取れなかった記事・放送予定には、見出しから作った色つきのプレースホルダーを出す
-  const CAT_EMOJI = {
-    new: "✨", onair: "📺", pv: "🎬", cast2: "🎤", music2: "🎵",
-    movie2: "🎦", goods2: "🎁", manga: "📖", biz2: "📈", other: "📰",
-  };
+  // 画像が取れなかった記事・放送予定には、見出しから決めた単色の地に頭の 1 文字を出す
+  const PH_COLORS = ["#3a4270", "#6b3a5c", "#2f5f63", "#6a5530", "#4a3a70", "#703a3a", "#35573a", "#555a66"];
   function hashHue(str) {
     let h = 0;
     for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
@@ -74,14 +71,13 @@
   function firstGlyph(str) {
     return [...(str || "").trim()].find((c) => !/[「『【\[(（"'"'\s]/.test(c)) || "?";
   }
-  function applyPlaceholder(box, seed, glyph) {
-    const hue = hashHue(seed);
+  function applyPlaceholder(box, seed) {
     box.classList.add("thumb-ph");
-    box.style.background = `linear-gradient(135deg, hsl(${hue} 68% 62%), hsl(${(hue + 46) % 360} 68% 46%))`;
-    box.textContent = glyph;
+    box.style.background = PH_COLORS[hashHue(seed) % PH_COLORS.length];
+    box.textContent = firstGlyph(seed);
   }
   // url があれば画像、なければプレースホルダー。画像の読み込みに失敗したらプレースホルダーに差し替える
-  function thumbNode(url, seed, glyph, className) {
+  function thumbNode(url, seed, className) {
     const box = document.createElement("div");
     box.className = className;
     if (url) {
@@ -93,11 +89,11 @@
       img.referrerPolicy = "no-referrer";
       img.addEventListener("error", () => {
         img.remove();
-        applyPlaceholder(box, seed, glyph);
+        applyPlaceholder(box, seed);
       });
       box.appendChild(img);
     } else {
-      applyPlaceholder(box, seed, glyph);
+      applyPlaceholder(box, seed);
     }
     return box;
   }
@@ -157,7 +153,7 @@
     const row = document.createElement("article");
     row.className = "row" + (it.isNew ? " is-new" : "");
 
-    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "row-thumb");
+    const thumb = thumbNode(it.image, it.title, "row-thumb");
 
     const body = document.createElement("div");
     body.className = "row-body";
@@ -307,29 +303,26 @@
     sec.hidden = false;
     const grid = $("#topicGrid");
     grid.innerHTML = "";
-    for (const t of list.slice(0, topicsShown)) {
+    list.slice(0, topicsShown).forEach((t, i) => {
       const card = document.createElement("article");
-      card.className = "topic";
+      // 先頭（いちばん多くの媒体が報じた話題）だけ横いっぱいにする
+      card.className = "topic" + (i === 0 ? " is-lead" : "");
 
-      const thumb = thumbNode(t.image, t.title, CAT_EMOJI[(t.categories || [])[0]] || CAT_EMOJI.other, "topic-thumb");
+      const thumb = thumbNode(t.image, t.title, "topic-thumb");
 
       const top = document.createElement("div");
       top.className = "topic-top";
-      const stars = document.createElement("span");
-      stars.className = "topic-stars";
-      // 媒体数をそのまま★にする（最大 5 つ）
-      const n = Math.min(5, t.sourceCount);
-      stars.textContent = "★".repeat(n) + "☆".repeat(Math.max(0, 5 - n));
       const count = document.createElement("span");
       count.className = "topic-count";
-      count.textContent = `${t.sourceCount} 媒体`;
+      count.innerHTML = `<b>${Number(t.sourceCount) || 0}</b>媒体`;
       const time = document.createElement("span");
       time.className = "topic-time";
       time.textContent = hhmm(t.publishedAt || data.updatedAt);
-      top.append(stars, count, time);
+      top.append(count, time);
 
       const body = document.createElement("div");
       body.className = "topic-body";
+      body.style.minWidth = "0";
       const h = document.createElement("h3");
       h.className = "topic-title";
       const a = document.createElement("a");
@@ -359,10 +352,10 @@
         links.appendChild(li);
       }
 
-      body.append(h, sum, links);
-      card.append(thumb, top, body);
+      body.append(top, h, sum, links);
+      card.append(thumb, body);
       grid.appendChild(card);
-    }
+    });
     const more = $("#topicMore");
     more.hidden = list.length <= topicsShown;
     more.textContent = `ほかの話題を見る（残り ${list.length - topicsShown} 件）`;
@@ -436,7 +429,7 @@
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.addEventListener("click", () => markRead(it.id));
-    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "gacha-thumb");
+    const thumb = thumbNode(it.image, it.title, "gacha-thumb");
     const info = document.createElement("div");
     info.className = "gacha-info";
     const meta = document.createElement("div");
@@ -454,41 +447,62 @@
   let sched = null;
   let schedDay = "";
   let chFilter = "all";
+  let showPast = false;
 
+  // 放送の 1 日は朝 5 時で区切り、深夜は 25:30 のように書く（アニメの番組表の慣習）
+  const DAY_SHIFT = 5 * 3600000;
   function jstDayKey(d = new Date()) {
     return new Date(d.getTime() + 9 * 3600000).toISOString().slice(0, 10);
   }
-  function timeOf(iso) {
-    const d = new Date(iso);
-    return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+  function bdayKey(t) {
+    return jstDayKey(new Date(new Date(t).getTime() - DAY_SHIFT));
+  }
+  function jstParts(t) {
+    const j = new Date(new Date(t).getTime() + 9 * 3600000);
+    return { h: j.getUTCHours(), m: j.getUTCMinutes() };
+  }
+  function timeOf(t) {
+    const { h, m } = jstParts(t);
+    return `${h < 5 ? h + 24 : h}:${String(m).padStart(2, "0")}`;
+  }
+  function isLate(t) {
+    const { h } = jstParts(t);
+    return h < 5;
+  }
+  function addDays(key, n) {
+    const d = new Date(`${key}T12:00:00+09:00`);
+    return jstDayKey(new Date(d.getTime() + n * 86400000));
   }
   function dayTabLabel(date) {
-    const today = jstDayKey();
-    const tomorrow = jstDayKey(new Date(Date.now() + 86400000));
+    const today = bdayKey(Date.now());
     if (date === today) return "今日";
-    if (date === tomorrow) return "明日";
+    if (date === addDays(today, 1)) return "明日";
     const [, m, d] = date.split("-");
-    const wd = ["日", "月", "火", "水", "木", "金", "土"][new Date(`${date}T00:00:00+09:00`).getDay()];
+    const wd = ["日", "月", "火", "水", "木", "金", "土"][new Date(`${date}T12:00:00+09:00`).getDay()];
     return `${Number(m)}/${Number(d)}（${wd}）`;
   }
   function allPrograms() {
     return (sched?.days || []).flatMap((d) => d.programs);
   }
-  // 放送予定のカード 1 枚
-  function programNode(p, { showDay = false } = {}) {
+  function endOf(p) {
+    return new Date(p.ed || p.st).getTime();
+  }
+  // しょぼいカレンダーの回数・サブタイトル。"^" で始まるのは番組の補足なので話数としては出さない
+  function epText(p) {
+    const parts = [];
+    if (p.count) parts.push(`#${p.count}`);
+    if (p.sub && !p.sub.startsWith("^")) parts.push(p.sub.startsWith("#") ? p.sub : `「${p.sub}」`);
+    return parts.join(" ");
+  }
+  // 放送予定の 1 行（今夜これ観ませんか で使う）
+  function programNode(p) {
     const a = document.createElement("a");
     a.className = "prog";
     a.href = p.url;
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.title = p.fullTitle || p.title;
-
-    const thumb = thumbNode(p.image || "", p.title, firstGlyph(p.title), "prog-thumb");
-
-    const time = document.createElement("div");
-    time.className = "prog-time";
-    time.innerHTML = `<span class="t">${timeOf(p.st)}</span>${showDay ? `<span class="d">${dayTabLabel(p.st.slice(0, 10))}</span>` : ""}`;
-
+    const thumb = thumbNode(p.image || "", p.title, "prog-thumb");
     const body = document.createElement("div");
     body.className = "prog-body";
     const t = document.createElement("div");
@@ -497,61 +511,144 @@
     const meta = document.createElement("div");
     meta.className = "prog-meta";
     const ch = document.createElement("span");
-    ch.className = "prog-ch";
     ch.textContent = p.ch;
     meta.appendChild(ch);
-    if (p.count) {
-      const c = document.createElement("span");
-      c.className = "prog-count";
-      c.textContent = `#${p.count}`;
-      meta.appendChild(c);
-    }
-    if (p.sub) {
+    const ep = epText(p);
+    if (ep) {
       const s = document.createElement("span");
-      s.className = "prog-sub";
-      s.textContent = p.sub;
+      s.textContent = ep;
       meta.appendChild(s);
     }
     body.append(t, meta);
-    a.append(thumb, time, body);
+    a.append(thumb, body);
     return a;
   }
 
-  // これから放送。時計が進むと中身が変わるので 1 分ごとに描き直す
+  // いま放送中 + このあと。時計が進むと中身が変わるので 1 分ごとに描き直す
   function renderUpcoming() {
     const box = $("#upcomingBody");
     box.innerHTML = "";
     if (!sched) return;
     const now = Date.now();
-    const list = allPrograms()
-      .filter((p) => new Date(p.st).getTime() > now)
-      .sort((a, b) => a.st.localeCompare(b.st))
-      .slice(0, 8);
-    if (!list.length) {
-      box.innerHTML = `<p class="empty-mini">このあと放送予定の番組はありません。</p>`;
-      return;
+    const { h, m } = jstParts(now);
+    $("#onairClock").textContent = `現在 ${h < 5 ? h + 24 : h}:${String(m).padStart(2, "0")}`;
+
+    const progs = allPrograms();
+    // 何時間も続く一挙配信より、ふつうの放送を先に出す
+    const dur = (p) => endOf(p) - new Date(p.st).getTime();
+    const live = progs.filter((p) => new Date(p.st).getTime() <= now && endOf(p) > now).sort((x, y) => dur(x) - dur(y) || x.st.localeCompare(y.st));
+    const next = progs.filter((p) => new Date(p.st).getTime() > now).sort((x, y) => x.st.localeCompare(y.st));
+    $("#onairLamp").classList.toggle("lit", live.length > 0);
+
+    if (live.length) {
+      const wrap = document.createElement("div");
+      wrap.className = "onair-now";
+      for (const p of live.slice(0, 3)) {
+        const a = document.createElement("a");
+        a.className = "live";
+        a.href = p.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        const st = new Date(p.st).getTime();
+        const pct = Math.min(100, Math.max(0, ((now - st) / (endOf(p) - st)) * 100));
+        a.innerHTML = `<span class="live-tag">ON AIR</span><span class="live-title"></span><span class="live-ch"></span>
+          <span class="live-bar"><span>${timeOf(p.st)}</span><span class="track"><i style="width:${pct}%"></i></span><span>${timeOf(p.ed || p.st)}</span></span>`;
+        const title = a.querySelector(".live-title");
+        title.textContent = p.title;
+        const ep = epText(p);
+        if (ep) {
+          const e = document.createElement("span");
+          e.className = "ep";
+          e.textContent = ep;
+          title.appendChild(e);
+        }
+        a.querySelector(".live-ch").textContent = p.ch;
+        wrap.appendChild(a);
+      }
+      if (live.length > 3) {
+        const more = document.createElement("p");
+        more.className = "onair-more";
+        more.textContent = `ほかに ${live.length - 3} 本が放送中です`;
+        wrap.appendChild(more);
+      }
+      box.appendChild(wrap);
+    } else {
+      const none = document.createElement("p");
+      none.className = "onair-none";
+      if (next.length) {
+        const left = Math.round((new Date(next[0].st).getTime() - now) / 60000);
+        none.innerHTML = `いま放送中のアニメはありません。次は <b>${timeOf(next[0].st)}</b> から（あと ${left >= 60 ? `${Math.floor(left / 60)}時間${left % 60}分` : `${Math.max(1, left)}分`}）`;
+      } else {
+        none.textContent = "いま放送中のアニメはありません。";
+      }
+      box.appendChild(none);
     }
 
-    const wrap = document.createElement("div");
-    wrap.className = "prog-list";
-    for (const p of list) {
-      const node = programNode(p, { showDay: p.st.slice(0, 10) !== jstDayKey() });
+    if (!next.length) return;
+    const sub = document.createElement("h3");
+    sub.className = "onair-sub";
+    sub.textContent = "このあと";
+    const rail = document.createElement("div");
+    rail.className = "poster-rail";
+    for (const p of next.slice(0, 12)) {
+      const a = document.createElement("a");
+      a.className = "poster";
+      a.href = p.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.title = p.fullTitle || p.title;
+      const img = thumbNode(p.image || "", p.title, "poster-img");
+      const time = document.createElement("span");
+      time.className = "poster-time";
+      const sameDay = bdayKey(p.st) === bdayKey(now);
+      time.textContent = sameDay ? timeOf(p.st) : `${dayTabLabel(bdayKey(p.st))} ${timeOf(p.st)}`;
+      img.appendChild(time);
       const left = Math.round((new Date(p.st).getTime() - now) / 60000);
       if (left <= 60) {
-        const tag = document.createElement("span");
-        tag.className = "prog-soon";
-        tag.textContent = `あと${Math.max(1, left)}分`;
-        node.querySelector(".prog-meta").appendChild(tag);
+        const soon = document.createElement("span");
+        soon.className = "poster-soon";
+        soon.textContent = `あと${Math.max(1, left)}分`;
+        img.appendChild(soon);
       }
-      wrap.appendChild(node);
+      const ch = document.createElement("div");
+      ch.className = "poster-ch";
+      ch.textContent = p.ch;
+      const t = document.createElement("div");
+      t.className = "poster-title";
+      t.textContent = p.title;
+      a.append(img, ch, t);
+      const ep = epText(p);
+      if (ep) {
+        const e = document.createElement("div");
+        e.className = "poster-ep";
+        e.textContent = ep;
+        a.appendChild(e);
+      }
+      rail.appendChild(a);
     }
-    box.appendChild(wrap);
+    box.append(sub, rail);
+  }
+
+  // 番組表のタブは「放送日」（朝 5 時区切り）で作る。終わった日は出さない
+  function broadcastDays() {
+    const today = bdayKey(Date.now());
+    const map = new Map();
+    for (const p of allPrograms()) {
+      const k = bdayKey(p.st);
+      if (k < today) continue;
+      if (!map.has(k)) map.set(k, []);
+      map.get(k).push(p);
+    }
+    return [...map.entries()].sort((x, y) => x[0].localeCompare(y[0])).map(([date, programs]) => ({
+      date,
+      programs: programs.sort((x, y) => x.st.localeCompare(y.st)),
+    }));
   }
 
   function renderDayTabs() {
     const tabs = $("#dayTabs");
     tabs.innerHTML = "";
-    for (const d of sched.days) {
+    for (const d of broadcastDays()) {
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute("aria-pressed", String(schedDay === d.date));
@@ -565,23 +662,99 @@
     }
   }
 
+  // 30 分ごとの段に分け、同じ段で始まる番組を横に並べる
   function renderTimetable() {
     const box = $("#timetableBody");
     box.innerHTML = "";
-    const day = sched.days.find((d) => d.date === schedDay);
-    if (!day) return;
-    const list = day.programs.filter((p) => chFilter === "all" || p.chId === chFilter);
+    const day = broadcastDays().find((d) => d.date === schedDay);
+    const list = (day?.programs || []).filter((p) => chFilter === "all" || p.chId === chFilter);
     if (!list.length) {
       box.innerHTML = `<p class="empty-mini">この日の放送はありません。</p>`;
       return;
     }
     const now = Date.now();
-    const wrap = document.createElement("div");
-    wrap.className = "prog-list";
+    const slots = new Map();
     for (const p of list) {
-      const node = programNode(p);
-      if (new Date(p.ed || p.st).getTime() < now) node.classList.add("is-past");
-      wrap.appendChild(node);
+      const st = new Date(p.st).getTime();
+      const key = st - (st % 1800000);
+      if (!slots.has(key)) slots.set(key, []);
+      slots.get(key).push(p);
+    }
+    const wrap = document.createElement("div");
+    wrap.className = "slots";
+    // 今日の表は、終わった段をたたんでおく（いまの 1 時間前より前）
+    const hidden = [...slots.entries()].filter(([key, progs]) => !showPast && key < now - 3600000 && progs.every((p) => endOf(p) <= now));
+    if (hidden.length) {
+      const n = hidden.reduce((sum, [, progs]) => sum + progs.length, 0);
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "past-toggle";
+      btn.textContent = `放送が終わった ${n} 本を表示（${timeOf(hidden[0][0])}〜）`;
+      btn.addEventListener("click", () => {
+        showPast = true;
+        renderTimetable();
+      });
+      wrap.appendChild(btn);
+      for (const [key] of hidden) slots.delete(key);
+    }
+    let nowDrawn = false;
+    for (const [key, progs] of slots) {
+      if (!nowDrawn && key > now) {
+        nowDrawn = true;
+        // 先頭より前（まだ何も始まっていない）なら線は引かない
+        if (wrap.querySelector(".slot")) {
+          const line = document.createElement("div");
+          line.className = "now-line";
+          line.innerHTML = `<span>いま ${timeOf(now)}</span>`;
+          wrap.appendChild(line);
+        }
+      }
+      const row = document.createElement("div");
+      row.className = "slot";
+      if (isLate(key)) row.classList.add("is-late");
+      if (progs.every((p) => endOf(p) <= now)) row.classList.add("is-past");
+      const time = document.createElement("div");
+      time.className = "slot-time";
+      time.textContent = timeOf(key);
+      const cells = document.createElement("div");
+      cells.className = "slot-progs";
+      for (const p of progs) {
+        const a = document.createElement("a");
+        a.className = "slot-prog";
+        a.href = p.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.title = p.fullTitle || p.title;
+        const cover = thumbNode(p.image || "", p.title, "sp-cover");
+        const body = document.createElement("div");
+        body.className = "sp-body";
+        const ch = document.createElement("div");
+        ch.className = "sp-ch";
+        const startsOff = new Date(p.st).getTime() !== key;
+        const long = endOf(p) - new Date(p.st).getTime() > 3600000;
+        ch.textContent = [p.ch, startsOff ? `${timeOf(p.st)}〜` : "", long ? `〜${timeOf(p.ed)}` : ""].filter(Boolean).join(" ・ ");
+        const t = document.createElement("div");
+        t.className = "sp-title";
+        if (new Date(p.st).getTime() <= now && endOf(p) > now) {
+          const l = document.createElement("span");
+          l.className = "sp-live";
+          l.textContent = "放送中";
+          t.appendChild(l);
+        }
+        t.append(p.title);
+        body.append(ch, t);
+        const ep = epText(p);
+        if (ep) {
+          const e = document.createElement("div");
+          e.className = "sp-ep";
+          e.textContent = ep;
+          body.appendChild(e);
+        }
+        a.append(cover, body);
+        cells.appendChild(a);
+      }
+      row.append(time, cells);
+      wrap.appendChild(row);
     }
     box.appendChild(wrap);
   }
@@ -607,14 +780,16 @@
     }
   }
 
-  // 今夜これ観ませんか（これから放送される番組からランダム）
+  // 今夜これ観ませんか。今夜（朝 5 時まで）に始まる番組から選び、なければこの先の番組から
   let tonightPid = "";
   function renderTonight() {
     const box = $("#tonightBody");
     box.innerHTML = "";
     if (!sched) return;
     const now = Date.now();
-    const pool = allPrograms().filter((p) => new Date(p.st).getTime() > now);
+    const upcoming = allPrograms().filter((p) => new Date(p.st).getTime() > now);
+    const tonight = upcoming.filter((p) => bdayKey(p.st) === bdayKey(now));
+    const pool = tonight.length ? tonight : upcoming;
     if (!pool.length) {
       box.innerHTML = `<p class="mod-desc">このあとの放送予定がありません。</p>`;
       return;
@@ -624,11 +799,10 @@
     tonightPid = p.pid;
     const card = document.createElement("div");
     card.className = "tonight-card";
-    card.innerHTML = `<div class="tonight-time">${dayTabLabel(p.st.slice(0, 10))} ${timeOf(p.st)}</div>`;
-    const node = programNode(p);
-    // 上に日付と時刻を出しているので、カード側の時刻は消す
-    node.classList.add("no-time");
-    card.appendChild(node);
+    const time = document.createElement("div");
+    time.className = "tonight-time";
+    time.innerHTML = `<small>${dayTabLabel(bdayKey(p.st))}</small>${timeOf(p.st)}`;
+    card.append(time, programNode(p));
     box.appendChild(card);
   }
 
@@ -642,15 +816,19 @@
       $("#chMod").hidden = true;
       return;
     }
-    const today = jstDayKey();
-    schedDay = sched.days.some((d) => d.date === today) ? today : sched.days[0]?.date || "";
+    const days = broadcastDays();
+    const today = bdayKey(Date.now());
+    schedDay = days.some((d) => d.date === today) ? today : days[0]?.date || "";
     renderUpcoming();
     renderDayTabs();
     renderTimetable();
     renderChannels();
     renderTonight();
     // 時計が進むと「これから放送」の中身が変わる
-    setInterval(renderUpcoming, 60000);
+    setInterval(() => {
+      renderUpcoming();
+      if (schedDay === bdayKey(Date.now())) renderTimetable();
+    }, 60000);
   }
 
   function updateFavCount() {
@@ -785,7 +963,7 @@
     renderList();
   });
   $("#topicMore").addEventListener("click", () => {
-    topicsShown += 4;
+    topicsShown += 6;
     renderTopics();
   });
   $("#gachaAgain").addEventListener("click", () => swapWithSpinner($("#gachaBody"), renderGacha));

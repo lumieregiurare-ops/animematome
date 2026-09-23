@@ -30,7 +30,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@400;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
@@ -38,10 +38,8 @@
     <div class="wrap header-inner">
       <h1 class="logo">
         <a href="./">
-          <span class="logo-mark" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="23" height="23"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12 7v5.2l3.2 2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-          </span>
           <span class="logo-text">アニメ<span class="logo-accent">速報</span></span>
+          <span class="logo-mark" id="onairLamp" title="いま放送中の番組があると点きます">ON AIR</span>
         </a>
       </h1>
       <p class="tagline">放送予定とアニメニュースまとめ</p>
@@ -54,7 +52,7 @@
       </div>
     </div>
     <nav class="global-nav" aria-label="ページ内ナビゲーション">
-      <a href="#upcomingSection">これから放送</a>
+      <a href="#upcomingSection">いま・このあと</a>
       <a href="#timetableSection">番組表</a>
       <a href="#topicsSection">注目の話題</a>
       <a href="#feedSection">新着ニュース</a>
@@ -70,17 +68,17 @@
 
       <aside class="side side-left">
         <section class="mod" id="chMod">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>放送局でしぼる</h2>
+          <h2 class="mod-head">放送局でしぼる</h2>
           <div class="cat-list" id="chList"></div>
         </section>
 
         <section class="mod" id="catMod">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>ニュースの種別</h2>
+          <h2 class="mod-head">ニュースの種別</h2>
           <div class="cat-list" id="catList"></div>
         </section>
 
         <section class="mod" id="wordMod" hidden>
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>ホットなキーワード</h2>
+          <h2 class="mod-head">ホットなキーワード</h2>
           <div class="word-cloud" id="wordCloud"></div>
         </section>
       </aside>
@@ -88,7 +86,8 @@
       <div class="col-main">
         <section class="onair" id="upcomingSection">
           <div class="sec-head">
-            <h2 class="sec-title">これから放送</h2>
+            <h2 class="sec-title">いま放送中</h2>
+            <p class="sec-desc" id="onairClock"></p>
           </div>
           <div id="upcomingBody"><div class="loading"><span class="spinner" role="status" aria-label="読み込み中"></span><span>放送予定を読み込んでいます…</span></div></div>
         </section>
@@ -96,6 +95,7 @@
         <section class="timetable" id="timetableSection">
           <div class="sec-head">
             <h2 class="sec-title">番組表</h2>
+            <p class="sec-desc">深夜は 25:30 のように表記しています</p>
             <div class="day-tabs" id="dayTabs" role="tablist"></div>
           </div>
           <div id="timetableBody"></div>
@@ -105,7 +105,7 @@
         <section class="board" id="topicsSection" hidden>
           <div class="sec-head">
             <h2 class="sec-title">注目の話題</h2>
-            <p class="sec-desc">複数の媒体が同じことを報じた話題です。★が多いほど多くの媒体が取り上げています。</p>
+            <p class="sec-desc">同じ出来事を複数の媒体が報じたもの。数字は報じた媒体の数です。</p>
           </div>
           <div class="topic-grid" id="topicGrid"></div>
           <button class="more-btn" id="topicMore" hidden></button>
@@ -147,15 +147,13 @@
 
       <aside class="side side-right">
         <section class="mod mod-tonight">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>今夜これ観ませんか</h2>
-          <p class="mod-desc">これから放送される番組からランダムに 1 本。</p>
+          <h2 class="mod-head">今夜これ観ませんか</h2>
           <div id="tonightBody"></div>
           <button class="mod-btn" id="tonightAgain" type="button">ほかのを見る</button>
         </section>
 
         <section class="mod mod-gacha">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>ニュースガチャ</h2>
-          <p class="mod-desc">まだ読んでいない記事から 1 本引きます。</p>
+          <h2 class="mod-head">ニュースガチャ</h2>
           <div id="gachaBody"></div>
           <button class="mod-btn" id="gachaAgain" type="button">もう一度引く</button>
         </section>
