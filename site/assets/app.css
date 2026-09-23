@@ -1629,3 +1629,12 @@ main.wrap {
   color: var(--ink);
   background: #e7e3da;
 }
+
+.footer .contact a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer .contact a:hover {
+  color: var(--yellow);
+}
