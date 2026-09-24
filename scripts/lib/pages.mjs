@@ -91,8 +91,9 @@ async function readJsonOr(p, fallback) {
     return fallback;
   }
 }
+// 改行コードをそろえてから計算する（Windows で git が CRLF に変えたファイルでも、Actions と同じ値になるように）
 async function verOf(p) {
-  const t = await readText(p);
+  const t = (await readText(p)).replace(/\r\n/g, "\n");
   return t ? createHash("sha1").update(t).digest("hex").slice(0, 8) : "0";
 }
 // しょぼいカレンダーの回数・サブタイトル。"^" で始まるのは番組の補足なので話数としては出さない（app.js と同じ）
@@ -164,7 +165,6 @@ export async function renderPages(root, { log = () => {} } = {}) {
     }
   allNews.sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
   const recentNews = allNews.filter((it) => nowMs - new Date(it.publishedAt).getTime() <= LIST_DAYS * 86400000);
-  const monthAgo = nowMs - 30 * 86400000;
 
   // 放送予定（古い順・同じ枠は 1 回だけ）
   const seenProg = new Set();
@@ -218,7 +218,7 @@ export async function renderPages(root, { log = () => {} } = {}) {
   async function out(path, html, { lastmod, index = true } = {}) {
     const file = path.endsWith("/") ? join(DOCS, path, "index.html") : join(DOCS, path);
     const text = path.endsWith(".xml") ? html : minifyHtml(html);
-    if ((await readText(file)) !== text) {
+    if ((await readText(file)).replace(/\r\n/g, "\n") !== text) {
       await mkdir(dirname(file), { recursive: true });
       await writeFile(file, text, "utf8");
       written.push(path);
@@ -249,12 +249,12 @@ export async function renderPages(root, { log = () => {} } = {}) {
   const fontLinks = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" href="${FONT_URL}" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="${FONT_URL}"></noscript>`;
 
+  // サイドバーは全ページに入るので、収集のたびに変わる値（件数・今日放送があるかどうか）は入れない。
+  // 入れると、記事が増えない過去の日別ページまで毎回書き換わり、FTP で送る量とリポジトリが膨らみ続ける
   function sideHtml() {
-    const gl = genres
-      .map((g) => `<li><a href="/news/${g.slug}/">${esc(g.label)}<span class="n">${recentNews.filter((it) => new Date(it.publishedAt).getTime() >= monthAgo && (it.categories || []).includes(g.id)).length}</span></a></li>`)
-      .join("");
-    const cl = chList
-      .filter((c) => c.progs.some((p) => bday(p.st) >= today))
+    const gl = genres.map((g) => `<li><a href="/news/${g.slug}/">${esc(g.label)}</a></li>`).join("");
+    const cl = [...channels.values()]
+      .sort((a, b) => Number(a.id) - Number(b.id))
       .slice(0, 14)
       .map((c) => `<li><a href="${chUrl(c.id)}">${esc(c.name)}</a></li>`)
       .join("");
@@ -262,7 +262,7 @@ export async function renderPages(root, { log = () => {} } = {}) {
       <section class="mod"><h2 class="mod-head">放送予定</h2><ul class="side-links">
         <li><a href="/schedule/">今日・明日の番組表</a></li><li><a href="/titles/">今期のアニメ（曜日別）</a></li><li><a href="/ch/">放送局別</a></li><li><a href="/">トップ（いま放送中）</a></li>
       </ul></section>
-      <section class="mod"><h2 class="mod-head">ニュースの種別</h2><p class="mod-desc">数字はこの 30 日の件数です。</p><ul class="side-links">${gl}</ul></section>
+      <section class="mod"><h2 class="mod-head">ニュースの種別</h2><ul class="side-links">${gl}</ul></section>
       ${cl ? `<section class="mod"><h2 class="mod-head">放送局</h2><ul class="side-links side-links-grid">${cl}</ul></section>` : ""}
       <section class="mod"><h2 class="mod-head">ほかのページ</h2><ul class="side-links"><li><a href="/archive/">過去のニュース</a></li><li><a href="/about/">このサイトについて</a></li></ul></section>
     </aside>`;
