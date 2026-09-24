@@ -538,7 +538,6 @@
     const dur = (p) => endOf(p) - new Date(p.st).getTime();
     const live = progs.filter((p) => new Date(p.st).getTime() <= now && endOf(p) > now).sort((x, y) => dur(x) - dur(y) || x.st.localeCompare(y.st));
     const next = progs.filter((p) => new Date(p.st).getTime() > now).sort((x, y) => x.st.localeCompare(y.st));
-    $("#onairLamp").classList.toggle("lit", live.length > 0);
 
     if (live.length) {
       const wrap = document.createElement("div");

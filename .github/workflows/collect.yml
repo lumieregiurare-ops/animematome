@@ -75,13 +75,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # state.json は次回の「新着」判定と更新間隔の計算に使う。
           # anime-images.json は番組表のサムネイル（AniList）のキャッシュで、無いと毎回同じ検索をやり直すことになるので一緒にコミットする
-          git add docs data/state.json data/anime-images.json
+          # data/archive/ は過去の記事と放送予定（作品別・放送局別・日別のページの材料）
+          git add docs data/state.json data/anime-images.json data/archive
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "chore: collect $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')"
           git push
       # GITHUB_TOKEN による push は deploy ワークフローを起動しないので、ここでもアップロードする。
-      # 収集で変わるのは docs/data/news.json だけなので、docs/ 全体ではなく data/ だけを上げる。
-      - name: Upload docs/data/ to Lolipop (FTP)
+      # 収集のたびに news.json・schedule.json のほか、トップ・作品別などの HTML と sitemap.xml も
+      # 作り直すので docs/ 全体を渡す（前回から変わったファイルだけが送られる）。
+      - name: Upload docs/ to Lolipop (FTP)
         if: ${{ steps.gate.outputs.run == 'true' && vars.DEPLOY_TARGET == 'lolipop' }}
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -89,6 +91,6 @@ jobs:
           username: ${{ secrets.LOLIPOP_FTP_USER }}
           password: ${{ secrets.LOLIPOP_FTP_PASSWORD }}
           protocol: ftps
-          local-dir: ./docs/data/
-          server-dir: ${{ vars.LOLIPOP_SERVER_DIR }}data/
+          local-dir: ./docs/
+          server-dir: ${{ vars.LOLIPOP_SERVER_DIR }}
           dangerous-clean-slate: false

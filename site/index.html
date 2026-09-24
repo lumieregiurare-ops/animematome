@@ -24,13 +24,24 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://animematome.gamelab.website/assets/og.png">
   <link rel="canonical" href="https://animematome.gamelab.website/">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23fff0f6'/%3E%3Ccircle cx='50' cy='50' r='27' fill='none' stroke='%23ec4899' stroke-width='7'/%3E%3Cpath d='M50 32v20l13 8' fill='none' stroke='%23ec4899' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#161a31">
+  <meta property="og:site_name" content="アニメ速報">
+  <meta name="twitter:title" content="アニメ速報｜放送予定とアニメニュースまとめ">
+  <meta name="twitter:description" content="きょう放送のアニメと、アニメまわりのニュースをまとめています。">
+  <!-- 検索結果にアイコンを出すには、data: ではなくファイルの URL が要る -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"WebSite","name":"アニメ速報","alternateName":"放送予定とアニメニュースまとめ","url":"https://animematome.gamelab.website/","description":"きょう放送のアニメの番組表と、アニメ・声優・劇場版などのニュースをまとめています。","inLanguage":"ja"}
   </script>
+  <!-- ssr:head / ssr:nav / ssr:timetable / ssr:list / ssr:footer-links は scripts/lib/pages.mjs が中身に置き換える -->
+  <!--ssr:head-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@400;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- 文字の表示を待たせないよう、Web フォントは読み込みを止めない形で読む -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@400;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@400;600&family=Noto+Sans+JP:wght@400;500;700&display=swap"></noscript>
   <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
@@ -39,7 +50,6 @@
       <h1 class="logo">
         <a href="./">
           <span class="logo-text">アニメ<span class="logo-accent">速報</span></span>
-          <span class="logo-mark" id="onairLamp" title="いま放送中の番組があると点きます">ON AIR</span>
         </a>
       </h1>
       <p class="tagline">放送予定とアニメニュースまとめ</p>
@@ -56,6 +66,7 @@
       <a href="#timetableSection">番組表</a>
       <a href="#topicsSection">注目の話題</a>
       <a href="#feedSection">新着ニュース</a>
+      <!--ssr:nav-->
     </nav>
     <div class="wrap header-meta">
       <span id="meta">読み込み中…</span>
@@ -98,7 +109,7 @@
             <p class="sec-desc">深夜は 25:30 のように表記しています</p>
             <div class="day-tabs" id="dayTabs" role="tablist"></div>
           </div>
-          <div id="timetableBody"></div>
+          <div id="timetableBody"><!--ssr:timetable--></div>
           <p class="credit">放送予定は <a href="https://cal.syoboi.jp/" target="_blank" rel="noopener noreferrer">しょぼいカレンダー</a> のデータを利用しています。</p>
         </section>
 
@@ -124,7 +135,7 @@
           </div>
           <p class="count" id="count"></p>
           <!-- 記事が入るまでの間、同じくらいの高さを確保しておく（描画時に下の要素が飛ばないように） -->
-          <div id="list"><div class="loading loading-feed"><span class="spinner" role="status" aria-label="読み込み中"></span><span>ニュースを読み込んでいます…</span></div></div>
+          <div id="list"><!--ssr:list--></div>
           <button class="more-btn" id="listMore" hidden></button>
           <p class="empty" id="empty" hidden>該当するニュースがありません。絞り込みを変えてみてください。</p>
         </section>
@@ -166,6 +177,7 @@
 
   <footer class="footer">
     <div class="wrap">
+      <!--ssr:footer-links-->
       <p><strong>アニメ速報</strong> は、アニメの放送予定とアニメまわりのニュースをまとめているサイトです。30 分おきに更新しています。</p>
       <p>ニュースは見出し・要約の一部・元記事へのリンクのみを掲載しており、本文の転載はしていません。リンク先の記事の権利はそれぞれの発行元に帰属します。</p>
       <p class="notice">放送予定は有志が運営する <a href="https://cal.syoboi.jp/" target="_blank" rel="noopener noreferrer">しょぼいカレンダー</a> のデータを利用しています。放送時間は変更されることがあるため、実際の放送は各局の番組表をご確認ください。</p>

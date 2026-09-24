@@ -10,6 +10,8 @@ on:
       - "site/**"
       - "docs/**"
       - "scripts/build.mjs"
+      - "scripts/lib/pages.mjs"
+      - "config.json"
   workflow_dispatch:
 
 concurrency:

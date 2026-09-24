@@ -8,6 +8,8 @@ import { fetchAll } from "./lib/sources.mjs";
 import { enrichImages } from "./lib/enrich.mjs";
 import { buildTopics } from "./lib/cluster.mjs";
 import { buildSchedule } from "./build-schedule.mjs";
+import { archiveCurrent } from "./lib/archive.mjs";
+import { renderPages } from "./lib/pages.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "docs", "data", "news.json");
@@ -234,6 +236,15 @@ try {
   await buildSchedule(config);
 } catch (e) {
   log("放送予定の取得に失敗:", e.message);
+}
+
+// ---------- 6. 過去の記事・放送予定を貯めて、検索エンジン向けのページを作り直す ----------
+// ここで失敗しても news.json・schedule.json はもう書けているので、収集そのものは成功として終える
+try {
+  log(`archive: ${await archiveCurrent(ROOT)} day files updated`);
+  await renderPages(ROOT, { log });
+} catch (e) {
+  log("ページの生成に失敗:", e.stack || e.message);
 }
 
 const summary = { ranAt: nowIso, durationSec: Math.round((Date.now() - started) / 1000), fetched: raw.length, kept: items.length, topics: topics.length, dropped, sources: sourceStats };

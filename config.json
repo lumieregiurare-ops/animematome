@@ -11,6 +11,22 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
 
+  "note_pages": "pages は収集のたびに作る静的ページ（検索エンジン向け）の文言。genres はニュースの種別ごとのページで、キーは categories の id、slug は URL（/news/<slug>/）。googleSiteVerification は Search Console の HTML タグの content の値。",
+  "pages": {
+    "googleSiteVerification": "",
+    "genres": {
+      "new": { "slug": "new", "title": "新作アニメ・制作決定のニュース", "desc": "新作アニメの発表、アニメ化・続編の制作決定、ティザー映像の解禁などのニュースをまとめています。" },
+      "onair": { "slug": "onair", "title": "アニメの放送・配信開始のニュース", "desc": "アニメの放送開始日・配信開始日、先行上映・先行配信などのニュースをまとめています。" },
+      "pv": { "slug": "pv", "title": "アニメのPV・キービジュアル解禁のニュース", "desc": "アニメの PV・予告映像・キービジュアル・場面カットの解禁ニュースをまとめています。" },
+      "cast2": { "slug": "cast", "title": "声優・キャスト発表のニュース", "desc": "アニメの声優・キャストの発表、追加キャスト、出演情報のニュースをまとめています。" },
+      "music2": { "slug": "music", "title": "アニメ主題歌・音楽のニュース", "desc": "アニメのオープニング・エンディング主題歌、アーティスト、アニソンライブのニュースをまとめています。" },
+      "movie2": { "slug": "movie", "title": "劇場版アニメ・アニメ映画のニュース", "desc": "劇場版アニメの公開日・入場者特典・興行収入などのニュースをまとめています。" },
+      "goods2": { "slug": "goods", "title": "アニメグッズ・コラボ・イベントのニュース", "desc": "アニメのグッズ・フィギュア・一番くじ・コラボカフェ・イベントのニュースをまとめています。" },
+      "manga": { "slug": "manga", "title": "アニメ原作の漫画・小説のニュース", "desc": "アニメの原作漫画・小説の新刊、連載、最終回などのニュースをまとめています。" },
+      "biz2": { "slug": "biz", "title": "アニメ業界・興行収入・ランキングのニュース", "desc": "アニメの興行収入・売上・ランキング、制作スタジオなど業界のニュースをまとめています。" }
+    }
+  },
+
   "schedule": {
     "days": 3,
     "note": "載せる局。しょぼいカレンダーには 289 局あり、全部出すと埋もれるので主要局に絞る。増やしたいときはここに足す。",

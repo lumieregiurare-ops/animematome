@@ -65,7 +65,28 @@ cron はフォールバックとして 10 分おきに置き、**前回の収集
 **Secrets**: `LOLIPOP_FTP_SERVER` / `LOLIPOP_FTP_USER` / `LOLIPOP_FTP_PASSWORD`
 **Variables**: `DEPLOY_TARGET` = `lolipop`、`LOLIPOP_SERVER_DIR` = サブドメインの公開ディレクトリ（例 `./anime/`。末尾のスラッシュ必須）
 
-収集で更新されるのは `docs/data/` だけなので、収集ワークフローの FTP も `docs/data/` だけを上げます。
+収集のたびに `docs/data/` のほか、下の「検索エンジン向けのページ」も作り直すので、収集ワークフローの FTP は `docs/` 全体を渡します（変わったファイルだけが送られます）。
+
+## 検索エンジン向けのページ（SEO）
+
+トップの画面は `app.js` が `news.json` と `schedule.json` を読んで描くので、それだけだと検索エンジンには中身が見えません。そこで、収集（`collect.mjs`）とビルド（`build.mjs`）の最後に `scripts/lib/pages.mjs` が次のものを `docs/` に書き出します。
+
+| URL | 内容 |
+| --- | --- |
+| `/` | `site/index.html` の `<!--ssr:…-->` に、今日の番組表・新着 40 件・サイト内リンク・構造化データを差し込んだもの（表示後は app.js が描き直す） |
+| `/schedule/` `/schedule/YYYY/MM/DD/` | 今日から 3 日分の番組表と、日別の番組表 |
+| `/anime/<TID>/` | 作品ごとの放送時間・放送局（これからの放送・最近の放送・毎週○曜○時・関連ニュース）。TID はしょぼいカレンダーの番号 |
+| `/titles/` | 今期のアニメ（直近 14 日に放送があったもの）を曜日別に |
+| `/ch/` `/ch/<ChID>/` | 放送局ごとの番組表と、その局で放送中のアニメ |
+| `/news/<slug>/` | ニュースの種別ごと。見出し・説明・URL は `config.json` の `pages.genres` |
+| `/archive/…` | 過去のニュース（月別・日別） |
+| `/about/` `/404.html` `/feed.xml` `/sitemap.xml` | サイトについて・404・Atom フィード・サイトマップ |
+
+- 過去の記事は `data/archive/news/`、放送予定は `data/archive/programs/` に日ごとに貯めています（放送予定は朝 5 時区切りの放送日ごと。今日以降の日は毎回いまの予定で置き換えます）
+- 「毎週○曜○時」は、直近 35 日に同じ局・同じ曜日・同じ時刻の放送が 2 回以上あったときに出します。放送予定が貯まるまでは出ません
+- 記事が 3 件未満の種別ページは `noindex` にして sitemap にも載せません
+- `site/.htaccess` で圧縮・キャッシュ・404 のページを設定しています。アイコンは「アニ速」のドット絵で、`node scripts/make-favicon.mjs` が `site/favicon.svg`・`favicon-48.png`・`apple-touch-icon.png` を作ります（ドットの配置はスクリプトの中に手で書いてある）
+- Google Search Console の所有権の確認に HTML タグを使う場合は、`config.json` の `pages.googleSiteVerification` に content の値を入れてください
 
 ## ブラウザに保存しているもの
 

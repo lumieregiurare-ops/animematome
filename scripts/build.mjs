@@ -6,6 +6,7 @@ import { join, dirname, extname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { transform } from "esbuild";
 import sharp from "sharp";
+import { minifyHtml, renderPages } from "./lib/pages.mjs";
 
 // カードのサムネイル枠は 382x200 程度なので、その 2 倍を上限に縮小する
 const IMAGE_MAX_WIDTH = 800;
@@ -14,7 +15,7 @@ const IMAGE_QUALITY = 82;
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = join(ROOT, "site");
 const OUT = join(ROOT, "docs");
-const banner = `/* GameLab Radar — built ${new Date().toISOString().slice(0, 10)} */`;
+const banner = `/* アニメ速報 — built ${new Date().toISOString().slice(0, 10)} */`;
 
 async function walk(dir) {
   const out = [];
@@ -26,17 +27,13 @@ async function walk(dir) {
   return out;
 }
 
-function minifyHtml(html) {
-  return html
-    .replace(/<!--(?!\[if)[\s\S]*?-->/g, "") // 条件付きコメント以外のコメントを除去
-    .replace(/>\s+</g, "><") // タグ間の空白
-    .replace(/\s{2,}/g, " ")
-    .trim();
-}
+// トップの HTML と sitemap.xml は番組表・記事を差し込んで pages.mjs が書くので、ここでは写さない
+const RENDERED = new Set(["index.html", "sitemap.xml"]);
 
 let count = 0;
 for (const file of await walk(SRC)) {
   const rel = relative(SRC, file);
+  if (RENDERED.has(rel)) continue;
   const dest = join(OUT, rel);
   await mkdir(dirname(dest), { recursive: true });
   const ext = extname(file).toLowerCase();
@@ -73,3 +70,6 @@ for (const file of await walk(SRC)) {
   console.log(`${rel.padEnd(28)} ${String(before).padStart(7)} → ${String(after).padStart(7)} B (${Math.round((after / before) * 100)}%)`);
 }
 console.log(`built ${count} files → docs/`);
+
+// CSS・JS を書いたあとに作る（ページに付ける ?v= がそれらの中身から決まるため）
+await renderPages(ROOT, { log: console.log });

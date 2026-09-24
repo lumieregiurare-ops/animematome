@@ -127,26 +127,6 @@ button {
   color: var(--pink);
 }
 
-/* 放送中の番組があるときだけ点く ON AIR ランプ */
-.logo-mark {
-  font-family: var(--font-num);
-  font-weight: 600;
-  font-size: 11px;
-  letter-spacing: .12em;
-  line-height: 1;
-  padding: 5px 7px 4px;
-  border-radius: 3px;
-  border: 1.5px solid var(--night-3);
-  color: var(--night-3);
-}
-
-.logo-mark.lit {
-  color: #fff;
-  background: #e8173f;
-  border-color: #ff6a8a;
-  box-shadow: 0 0 10px rgba(255, 45, 111, .7);
-}
-
 .tagline {
   font-size: 11.5px;
   color: rgba(255, 255, 255, .6);
@@ -1466,6 +1446,352 @@ main.wrap {
   margin-top: 10px;
 }
 
+/* ---------- フッターのサイト内リンク ---------- */
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--night-3);
+}
+
+.footer-nav a {
+  color: rgba(255, 255, 255, .85);
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: var(--yellow);
+}
+
+/* ---------- 作品別・放送局別などの静的ページ ---------- */
+.layout-page {
+  grid-template-columns: minmax(0, 1fr) 290px;
+}
+
+.crumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 0;
+  font-size: 11.5px;
+  color: var(--ink-muted);
+}
+
+.crumbs li + li::before {
+  content: "›";
+  margin: 0 7px;
+}
+
+.crumbs a {
+  text-decoration: underline;
+}
+
+.page-intro {
+  margin-bottom: 22px;
+  padding-bottom: 14px;
+  border-bottom: 3px solid var(--ink);
+}
+
+.page-title {
+  font-family: var(--font-head);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.35;
+}
+
+.page-lead {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.page-lead a {
+  text-decoration: underline;
+}
+
+.page-sec {
+  margin-bottom: 30px;
+}
+
+.page-sec > .sec-title {
+  margin-bottom: 10px;
+}
+
+.sec-title small {
+  font-family: var(--font-num);
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.sec-link {
+  margin-left: 8px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--pink);
+  text-decoration: underline;
+}
+
+.side-links {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-links a {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 4px 2px;
+  font-size: 12.5px;
+  font-weight: 700;
+  border-bottom: 1px dashed var(--border);
+}
+
+.side-links a:hover {
+  color: var(--pink);
+}
+
+.side-links .n {
+  font-family: var(--font-num);
+  font-weight: 400;
+  color: var(--ink-muted);
+}
+
+.side-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 12px;
+}
+
+.title-head {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 26px;
+}
+
+.title-cover {
+  flex: none;
+  width: 110px;
+  height: 156px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #e4e1d9;
+}
+
+.title-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.title-cover.thumb-ph {
+  font-size: 40px;
+}
+
+.title-facts {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title-next {
+  background: var(--night);
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.title-next span {
+  display: block;
+  font-size: 11px;
+  color: rgba(255, 255, 255, .65);
+}
+
+.title-next b {
+  font-family: var(--font-num);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.title-next a,
+.title-weekly a,
+.title-src a {
+  text-decoration: underline;
+}
+
+.title-weekly li {
+  font-size: 13.5px;
+}
+
+.title-weekly b {
+  font-family: var(--font-num);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.title-src {
+  font-size: 12px;
+}
+
+.bc-list,
+.title-list,
+.ch-list {
+  background: var(--surface);
+  border-top: 3px solid var(--ink);
+}
+
+.bc-list li,
+.title-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 12px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.bc-list.is-past {
+  opacity: .7;
+}
+
+.bc-date,
+.bc-time,
+.tl-time {
+  font-family: var(--font-num);
+  font-weight: 600;
+}
+
+.bc-date {
+  width: 6.5em;
+}
+
+.bc-time {
+  width: 4.5em;
+  font-size: 16px;
+}
+
+.bc-ch {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.bc-ep {
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.tl-time {
+  width: 5.5em;
+  font-size: 15px;
+}
+
+.tl-title {
+  flex: 1;
+  min-width: 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.tl-title:hover {
+  color: var(--pink);
+  text-decoration: underline;
+}
+
+.tl-ch {
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.ch-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin-bottom: 10px;
+}
+
+.ch-list a {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border);
+  font-weight: 700;
+}
+
+.ch-list a:hover {
+  background: #fffbe8;
+  color: var(--pink);
+}
+
+.ch-list .n,
+.archive-day .n {
+  font-family: var(--font-num);
+  font-weight: 400;
+  color: var(--ink-muted);
+}
+
+.archive-days {
+  background: var(--surface);
+  border-top: 3px solid var(--ink);
+}
+
+.archive-days > li {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.archive-day {
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.archive-day:hover {
+  color: var(--pink);
+}
+
+.archive-days ul {
+  margin-top: 4px;
+  padding-left: 1.2em;
+  list-style: disc;
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.pager a {
+  text-decoration: underline;
+}
+
+.prose h2 {
+  margin: 22px 0 6px;
+  font-family: var(--font-head);
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.prose p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.prose a {
+  text-decoration: underline;
+}
+
 /* ---------- 画面が狭いとき ---------- */
 @media (max-width: 1100px) {
   .layout {
@@ -1599,6 +1925,15 @@ main.wrap {
   .row-thumb {
     width: 72px;
     height: 54px;
+  }
+
+  .page-title {
+    font-size: 21px;
+  }
+
+  .title-cover {
+    width: 80px;
+    height: 114px;
   }
 
   .sec-head .day-tabs,
