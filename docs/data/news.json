@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-27T14:00:18.484Z",
+  "updatedAt": "2026-09-27T14:30:16.592Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 199,
-  "todayCount": 114,
+  "total": 197,
+  "todayCount": 118,
   "categories": [
     {
       "id": "new",
@@ -17,7 +17,7 @@
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 70
+      "count": 71
     },
     {
       "id": "pv",
@@ -27,17 +27,17 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 32
+      "count": 34
     },
     {
       "id": "music2",
       "label": "音楽",
-      "count": 13
+      "count": 12
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 44
+      "count": 43
     },
     {
       "id": "goods2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 12
+      "count": 13
     },
     {
       "id": "biz2",
@@ -57,34 +57,34 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 23
+      "count": 22
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 74
+      "count": 72
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 60
+      "count": 59
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 33
+      "count": 35
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 28
+      "count": 27
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 32
+      "count": 33
     },
     {
       "id": "goods",
@@ -94,11 +94,15 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 19
+      "count": 21
     }
   ],
   "weapons": [],
   "sources": [
+    {
+      "name": "news.yahoo.co.jp",
+      "count": 27
+    },
     {
       "name": "電ファミニコゲーマー",
       "count": 22
@@ -108,27 +112,27 @@
       "count": 20
     },
     {
-      "name": "Yahoo!ニュース",
-      "count": 15
-    },
-    {
-      "name": "news.yahoo.co.jp",
-      "count": 13
-    },
-    {
-      "name": "アニメイトタイムズ",
-      "count": 8
-    },
-    {
       "name": "オリコンニュース",
       "count": 7
     },
     {
-      "name": "topics.smt.docomo.ne.jp",
+      "name": "アニメイトタイムズ",
+      "count": 7
+    },
+    {
+      "name": "山陽新聞",
       "count": 6
     },
     {
       "name": "PASH! PLUS",
+      "count": 5
+    },
+    {
+      "name": "topics.smt.docomo.ne.jp",
+      "count": 5
+    },
+    {
+      "name": "WEBザテレビジョン",
       "count": 5
     },
     {
@@ -140,23 +144,11 @@
       "count": 5
     },
     {
-      "name": "アニメハック",
-      "count": 5
-    },
-    {
       "name": "電撃ホビーウェブ",
       "count": 5
     },
     {
-      "name": "WEBザテレビジョン",
-      "count": 4
-    },
-    {
       "name": "tv-tokyo.co.jp",
-      "count": 4
-    },
-    {
-      "name": "sanyonews.jp",
       "count": 4
     },
     {
@@ -164,19 +156,19 @@
       "count": 4
     },
     {
+      "name": "アニメハック",
+      "count": 4
+    },
+    {
       "name": "PR TIMES",
       "count": 3
     },
     {
-      "name": "玩具人 TOY PEOPLE",
-      "count": 3
-    },
-    {
-      "name": "UQライフ",
+      "name": "ソニーミュージックオフィシャルサイト",
       "count": 2
     },
     {
-      "name": "Koubo",
+      "name": "Infoseek",
       "count": 2
     },
     {
@@ -192,11 +184,7 @@
       "count": 2
     },
     {
-      "name": "電撃オンライン",
-      "count": 2
-    },
-    {
-      "name": "tbs.co.jp",
+      "name": "dengekionline.com",
       "count": 2
     },
     {
@@ -205,6 +193,14 @@
     },
     {
       "name": "時事ドットコム",
+      "count": 2
+    },
+    {
+      "name": "サンライズ",
+      "count": 2
+    },
+    {
+      "name": "玩具人 TOY PEOPLE",
       "count": 2
     },
     {
@@ -224,19 +220,19 @@
       "count": 2
     },
     {
-      "name": "ten-sura.com",
-      "count": 2
-    },
-    {
       "name": "コミロック",
       "count": 1
     },
     {
-      "name": "news.infoseek.co.jp",
+      "name": "tbs.co.jp",
       "count": 1
     },
     {
-      "name": "news.dengeki.com",
+      "name": "UQライフ",
+      "count": 1
+    },
+    {
+      "name": "電撃オンライン",
       "count": 1
     },
     {
@@ -264,6 +260,10 @@
       "count": 1
     },
     {
+      "name": "ENCOUNT",
+      "count": 1
+    },
+    {
       "name": "AppBank",
       "count": 1
     },
@@ -288,10 +288,6 @@
       "count": 1
     },
     {
-      "name": "Infoseek",
-      "count": 1
-    },
-    {
       "name": "アットプレス",
       "count": 1
     },
@@ -304,11 +300,15 @@
       "count": 1
     },
     {
+      "name": "東洋経済オンライン",
+      "count": 1
+    },
+    {
       "name": "テレビ朝日",
       "count": 1
     },
     {
-      "name": "福井新聞社",
+      "name": "fukuishimbun.co.jp",
       "count": 1
     },
     {
@@ -328,10 +328,6 @@
       "count": 1
     },
     {
-      "name": "サンライズ",
-      "count": 1
-    },
-    {
       "name": "shiritomo",
       "count": 1
     },
@@ -348,15 +344,19 @@
       "count": 1
     },
     {
+      "name": "公募ガイド",
+      "count": 1
+    },
+    {
       "name": "ABEMA TIMES",
       "count": 1
     },
     {
-      "name": "ソニーミュージックオフィシャルサイト",
+      "name": "bs4.jp",
       "count": 1
     },
     {
-      "name": "bs4.jp",
+      "name": "ten-sura.com",
       "count": 1
     }
   ],
@@ -370,7 +370,7 @@
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-09-27T11:41:44.000Z",
       "sourceCount": 10,
-      "articleCount": 13,
+      "articleCount": 11,
       "categories": [
         "pv",
         "new"
@@ -410,13 +410,6 @@
           "isPR": false
         },
         {
-          "title": "モンスト新作アニメ『メラ×デス 死神と僕の異常な恋』2027年1月5日放送開始。キービジュアル＆PV解禁",
-          "url": "https://dengekionline.com/article/202609/89292",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-09-27T11:30:00.000Z",
-          "isPR": false
-        },
-        {
           "title": "『メラ×デス 死神と僕の異常な恋』2027年1月5日放送決定！",
           "url": "https://www.animatetimes.com/news/details.php?id",
           "source": "アニメイトタイムズ",
@@ -424,9 +417,16 @@
           "isPR": false
         },
         {
+          "title": "モンスト新作アニメ『メラ×デス 死神と僕の異常な恋』2027年1月5日放送開始。キービジュアル＆PV解禁",
+          "url": "https://dengekionline.com/article/202609/89292",
+          "source": "dengekionline.com",
+          "publishedAt": "2026-09-27T11:30:00.000Z",
+          "isPR": false
+        },
+        {
           "title": "【メラ×デス】2027年1月5日放送開始！ PV＆キービジュアル公開！（アニメージュプラス）",
           "url": "https://news.yahoo.co.jp/articles/011c4ce01c49dedacb6e18be6a51ce27a22a9a7b",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-27T11:30:00.000Z",
           "isPR": false
         },
@@ -447,8 +447,8 @@
       "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/09/463be589942a17bb16f1d64f1115d1eb.jpg",
       "leadSource": "電ファミニコゲーマー",
       "publishedAt": "2026-09-26T23:05:01.000Z",
-      "sourceCount": 10,
-      "articleCount": 11,
+      "sourceCount": 9,
+      "articleCount": 10,
       "categories": [
         "new",
         "movie2"
@@ -467,16 +467,9 @@
           "isPR": false
         },
         {
-          "title": "『新世紀GPXサイバーフォーミュラ』35周年！新作ショートアニメ＆TV総集編が2027年2月19日より劇場公開 新型サイバーマシンも解禁",
-          "url": "https://www.toy-people.com/jp/?p",
-          "source": "玩具人 TOY PEOPLE",
-          "publishedAt": "2026-09-26T10:51:23.000Z",
-          "isPR": false
-        },
-        {
           "title": "「サイバーフォーミュラ」TVシリーズ総集編と新作ショートアニメが劇場公開 (コミックナタリー)",
           "url": "https://news.yahoo.co.jp/articles/434880c8d4b31b437a9b8ae8e6f5a0b7e28a09b2/images/000",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-26T06:05:11.000Z",
           "isPR": false
         },
@@ -497,7 +490,7 @@
         {
           "title": "アニメ『新世紀GPX サイバーフォーミュラ』TVシリーズ総集編＆新作ショートアニメ2/19劇場公開決定！ 告知ビジュアルを解禁",
           "url": "https://dengekionline.com/article/202609/89207",
-          "source": "電撃オンライン",
+          "source": "dengekionline.com",
           "publishedAt": "2026-09-26T05:00:00.000Z",
           "isPR": false
         },
@@ -514,69 +507,12 @@
           "source": "オリコンニュース",
           "publishedAt": "2026-09-26T05:00:00.000Z",
           "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "fb0da9f2736c",
-      "title": "「転スラ」スピンオフ「クレイマンREVENGE」TVアニメ決定！27年4月スタート 本編第3クールは27年7月開始",
-      "summary": "TVアニメ『転生したらスライムだった件 第4期』第3クールが、2027年7月より放送を開始することがわかった。スピンオフ作品『転生したらスライムだった件 クレイマンREVENGE』のTVアニメも決定し、2027年4月から放送される。",
-      "url": "https://animeanime.jp/article/2026/09/26/103247.html",
-      "image": "https://animeanime.jp/imgs/rss/935809.jpg",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-09-26T02:50:03.000Z",
-      "sourceCount": 6,
-      "articleCount": 7,
-      "categories": [
-        "onair",
-        "other"
-      ],
-      "keywords": [
-        "TVアニメ",
-        "クレイマン",
-        "revenge"
-      ],
-      "articles": [
-        {
-          "title": "9月26日(土)＠アニメイト池袋本店にて『転生したらスライムだった件 クレイマンREVENGE』TVアニメ化記念 華麗につけてみせろ！ 「特製クレイマンごっこお面」緊急配布決定！ | 「転生したらスライムだった件」 - ten-sura.…",
-          "url": "https://www.ten-sura.com/news/anime/tensura/news/post/11905",
-          "source": "ten-sura.com",
-          "publishedAt": "2026-09-25T14:37:04.000Z",
-          "isPR": false
         },
         {
-          "title": "TVアニメ『転生したらスライムだった件 第4期』2027年7月より第3クール放送決定！原作・伏瀬考案『転スラ』公式リベンジ作品『転生したらスライムだった件 クレイマンREVENGE』2027年4月よりTVアニメ放送決定＆ティザービジュアル…",
-          "url": "https://v-storage.jp/bv_news/287297/",
-          "source": "v-storage.jp",
-          "publishedAt": "2026-09-25T14:33:15.000Z",
-          "isPR": false
-        },
-        {
-          "title": "2027年4月放送TVアニメ『転生したらスライムだった件 クレイマンREVENGE』ティザービジュアル＆メインスタッフ公開！ - ten-sura.com",
-          "url": "https://www.ten-sura.com/news/anime/tensura/news/post/11894",
-          "source": "ten-sura.com",
-          "publishedAt": "2026-09-25T14:32:04.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『転スラ』魔王クレイマン主役のスピンオフが2027年4月にTVアニメ化！第4期第3クールは7月放送（ABEMA TIMES）",
-          "url": "https://news.yahoo.co.jp/articles/281f7d63fa59572c3b874859db12d01b237e7d21",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-25T14:30:37.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『転スラ 第4期』第3クール2027年7月放送！『クレイマンR』TVアニメ化",
+          "title": "『サイバーフォーミュラ』TVシリーズ総集編＆新作ショートアニメ劇場公開決定！",
           "url": "https://www.animatetimes.com/news/details.php?id",
           "source": "アニメイトタイムズ",
-          "publishedAt": "2026-09-25T14:30:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「転スラ」4期・第3クールは27年7月から放送 スピンオフ作品「クレイマンREVENGE」27年4月にTVアニメ化決定",
-          "url": "https://anime.eiga.com/news/127537/",
-          "source": "アニメハック",
-          "publishedAt": "2026-09-25T14:30:00.000Z",
+          "publishedAt": "2026-09-26T05:00:00.000Z",
           "isPR": false
         }
       ]
@@ -632,74 +568,24 @@
         {
           "title": "『魔入りました！入間くん』初の劇場アニメ制作決定 特別映像が公開 入間役・村瀬歩「すごい展開になると思います」",
           "url": "https://www.sanyonews.jp/article/1995373?kw",
-          "source": "sanyonews.jp",
+          "source": "山陽新聞",
           "publishedAt": "2026-09-27T09:45:00.000Z",
           "isPR": false
         }
       ]
     },
     {
-      "id": "953ad8ef80e7",
-      "title": "アニメ『葬送のフリーレン』3周年記念ビジュアル公開＆カウントダウン企画開始！ 種﨑敦美ら登壇のイベントレポも到着",
+      "id": "5e933c93f30a",
+      "title": "アニメ「マロニエ王国の七人の騎士」オープニング主題歌 yama「さよならは言わない」配信リリース決定！",
       "summary": "",
-      "url": "http://news.dengeki.com/article/202609/89275",
-      "image": "https://cimg.kgl-systems.io/camion/files/89275/ogp_KroL.jpg?x=1280",
-      "leadSource": "news.dengeki.com",
-      "publishedAt": "2026-09-27T11:20:00.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "url": "https://www.sonymusic.co.jp/artist/yama/info/587182",
+      "image": "https://www.sonymusic.co.jp/adm_image/common/artist_image/77200000/77200176/artist_photo/69039.jpg",
+      "leadSource": "ソニーミュージックオフィシャルサイト",
+      "publishedAt": "2026-09-27T12:51:52.000Z",
+      "sourceCount": 6,
+      "articleCount": 6,
       "categories": [
-        "onair",
-        "pv"
-      ],
-      "keywords": [
-        "フリーレン",
-        "ビジュアル",
-        "カウントダウン"
-      ],
-      "articles": [
-        {
-          "title": "『葬送のフリーレン』現代と過去のフリーレンパーティーがファンおなじみの“馬鹿みたいにでかいハンバーグ”でお祝い！ アニメ化3周年記念ビジュアル解禁＆第3期放送開始に向けたカウントダウンイラスト企画もスタート",
-          "url": "https://www.pashplus.jp/anime/496860/",
-          "source": "PASH! PLUS",
-          "publishedAt": "2026-09-26T22:42:10.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『葬送のフリーレン』アニメ化3周年記念ビジュアル、第3期カウントダウンイラスト公開",
-          "url": "https://www.animatetimes.com/news/details.php?id",
-          "source": "アニメイトタイムズ",
-          "publishedAt": "2026-09-26T09:25:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "葬送のフリーレン＞アニメ化3周年記念ビジュアルに“馬鹿みたいにでかいハンバーグ” 第3期に向けてカウントダウンイラスト企画始動 (MANTANWEB)",
-          "url": "https://news.yahoo.co.jp/articles/bc91d05ba224d088a94b53fbc7ea40a571565059/images/000",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-26T08:13:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "葬送のフリーレン：アニメ化3周年記念ビジュアルに“馬鹿みたいにでかいハンバーグ” 第3期に向けてカウントダウンイラスト企画始動",
-          "url": "https://mantan-web.jp/article/20260926dog00m200029000a.html",
-          "source": "MANTANWEB",
-          "publishedAt": "2026-09-26T07:37:24.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "093931566610",
-      "title": "アニメ「マロニエ王国の七人の騎士」",
-      "summary": "",
-      "url": "https://www.web.nhk/tv/pl/series-tep-3HCBR7VY7D",
-      "image": "https://imgu.web.nhk/static/assets/images/tvseries/ts/3HCBR7VY7D/3HCBR7VY7D-eyecatch_4eb06c48abeec2aab98bad0cc51649cd.png",
-      "leadSource": "web.nhk",
-      "publishedAt": "2026-09-27T10:59:55.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
-      "categories": [
-        "other",
+        "music2",
         "onair"
       ],
       "keywords": [
@@ -708,6 +594,13 @@
         "七人"
       ],
       "articles": [
+        {
+          "title": "アニメ「マロニエ王国の七人の騎士」",
+          "url": "https://www.web.nhk/tv/pl/series-tep-3HCBR7VY7D",
+          "source": "web.nhk",
+          "publishedAt": "2026-09-27T10:59:55.000Z",
+          "isPR": false
+        },
         {
           "title": "yama、アニメ『マロニエ王国の七人の騎士』OP主題歌「さよならは言わない」配信リリース決定",
           "url": "https://www.thefirsttimes.jp/news/0000888924/",
@@ -739,15 +632,65 @@
       ]
     },
     {
+      "id": "953ad8ef80e7",
+      "title": "アニメ『葬送のフリーレン』3周年記念ビジュアル公開＆カウントダウン企画開始！ 種﨑敦美ら登壇のイベントレポも到着",
+      "summary": "",
+      "url": "http://news.dengeki.com/article/202609/89275",
+      "image": "https://cimg.kgl-systems.io/camion/files/89275/ogp_KroL.jpg?x=1280",
+      "leadSource": "電撃オンライン",
+      "publishedAt": "2026-09-27T11:20:00.000Z",
+      "sourceCount": 5,
+      "articleCount": 5,
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "keywords": [
+        "フリーレン",
+        "ビジュアル",
+        "カウントダウン"
+      ],
+      "articles": [
+        {
+          "title": "『葬送のフリーレン』現代と過去のフリーレンパーティーがファンおなじみの“馬鹿みたいにでかいハンバーグ”でお祝い！ アニメ化3周年記念ビジュアル解禁＆第3期放送開始に向けたカウントダウンイラスト企画もスタート",
+          "url": "https://www.pashplus.jp/anime/496860/",
+          "source": "PASH! PLUS",
+          "publishedAt": "2026-09-26T22:42:10.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『葬送のフリーレン』アニメ化3周年記念ビジュアル、第3期カウントダウンイラスト公開",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
+          "publishedAt": "2026-09-26T09:25:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "葬送のフリーレン＞アニメ化3周年記念ビジュアルに“馬鹿みたいにでかいハンバーグ” 第3期に向けてカウントダウンイラスト企画始動 (MANTANWEB)",
+          "url": "https://news.yahoo.co.jp/articles/bc91d05ba224d088a94b53fbc7ea40a571565059/images/000",
+          "source": "news.yahoo.co.jp",
+          "publishedAt": "2026-09-26T08:13:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "葬送のフリーレン：アニメ化3周年記念ビジュアルに“馬鹿みたいにでかいハンバーグ” 第3期に向けてカウントダウンイラスト企画始動",
+          "url": "https://mantan-web.jp/article/20260926dog00m200029000a.html",
+          "source": "MANTANWEB",
+          "publishedAt": "2026-09-26T07:37:24.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "22fbe4984956",
       "title": "秋アニメ「鑑定スキル 第3期」カナレ郡長となったアルスはとある計画を進める―第25話先行カット",
       "summary": "秋アニメ『転生貴族、鑑定スキルで成り上がる 第3期』より、2026年9月27日（日）から放送開始となる第25話（第3期1話目）「郡長」のあらすじと先行場面カットが公開された。",
       "url": "https://animeanime.jp/article/2026/09/27/103288.html",
       "image": "https://animeanime.jp/imgs/rss/935875.jpg",
       "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-09-27T10:21:24.000Z",
+      "publishedAt": "2026-09-27T13:22:17.000Z",
       "sourceCount": 3,
-      "articleCount": 4,
+      "articleCount": 3,
       "categories": [
         "other",
         "onair"
@@ -762,7 +705,7 @@
           "title": "[新] 転生貴族、鑑定スキルで成り上がる 第３期 [字] ＃２５「郡長」【アガルアニメ】",
           "url": "https://www.tbs.co.jp/tv/20260927_BE8A.html",
           "source": "tbs.co.jp",
-          "publishedAt": "2026-09-27T10:21:24.000Z",
+          "publishedAt": "2026-09-27T13:22:17.000Z",
           "isPR": false
         },
         {
@@ -770,13 +713,6 @@
           "url": "https://news.infoseek.co.jp/amp/article/otakulab_207078/",
           "source": "Infoseek",
           "publishedAt": "2026-09-27T02:40:06.000Z",
-          "isPR": false
-        },
-        {
-          "title": "転生貴族、鑑定スキルで成り上がる 第３期 [字] ＃２６【アガルアニメ】",
-          "url": "https://www.tbs.co.jp/tv/20261004_BF8B.html",
-          "source": "tbs.co.jp",
-          "publishedAt": "2026-09-26T19:27:51.000Z",
           "isPR": false
         }
       ]
@@ -919,7 +855,7 @@
         {
           "title": "『銀魂』作者・空知英秋、アニメ化は失敗覚悟していた「正直コケるだろうなって思ってました」",
           "url": "https://www.fukuishimbun.co.jp/articles/gallery/2707567",
-          "source": "福井新聞社",
+          "source": "fukuishimbun.co.jp",
           "publishedAt": "2026-09-26T17:50:28.000Z",
           "isPR": false
         }
@@ -960,16 +896,76 @@
           "isPR": false
         }
       ]
+    },
+    {
+      "id": "9f79a25311c2",
+      "title": "TVアニメ『転生したらスライムだった件 第4期』2027年7月より第3クール放送決定！原作・伏瀬考案『転スラ』公式リベンジ作品『転生したらスライムだった件 クレイマンREVENGE』2027年4月よりTVアニメ放送決定＆ティザービジュアル…",
+      "summary": "",
+      "url": "https://v-storage.jp/bv_news/287297/",
+      "image": "https://v-storage.jp/wp-content/uploads/2026/09/2954c46d7728fe9943085b7848d0b95a-1.jpg",
+      "leadSource": "v-storage.jp",
+      "publishedAt": "2026-09-25T14:33:15.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "new",
+        "onair"
+      ],
+      "keywords": [
+        "TVアニメ",
+        "クレイマン",
+        "revenge"
+      ],
+      "articles": [
+        {
+          "title": "2027年4月放送TVアニメ『転生したらスライムだった件 クレイマンREVENGE』ティザービジュアル＆メインスタッフ公開！ - ten-sura.com",
+          "url": "https://www.ten-sura.com/news/anime/tensura/news/post/11894",
+          "source": "ten-sura.com",
+          "publishedAt": "2026-09-25T14:32:04.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『転スラ』魔王クレイマン主役のスピンオフが2027年4月にTVアニメ化！第4期第3クールは7月放送（ABEMA TIMES）",
+          "url": "https://news.yahoo.co.jp/articles/281f7d63fa59572c3b874859db12d01b237e7d21",
+          "source": "news.yahoo.co.jp",
+          "publishedAt": "2026-09-25T14:30:37.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-09-27T13:30:17.624Z",
+    "previousAt": "2026-09-27T14:00:18.484Z",
     "previousCount": 199,
-    "newCount": 9
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-27T14:30:18.484Z",
+  "nextUpdateAt": "2026-09-27T15:00:16.592Z",
   "items": [
+    {
+      "id": "1f4d32a9067e",
+      "title": "「転スラ」4期・第3クールは27年7月から放送 スピンオフ作品「クレイマンREVENGE」27年4月にTVアニメ化決定（映画.com）",
+      "url": "https://news.yahoo.co.jp/articles/4b4d8e0e4ca7d802bbea8b0d66474564b4d1d983",
+      "host": "news.yahoo.co.jp",
+      "source": "news.yahoo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-09-27T14:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00000015-eiga-000-1-view.jpg?exp=10800",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "554d979fbedb",
       "title": "アニメ『魔入りました！入間くん』劇場版プロジェクトが始動",
@@ -990,14 +986,33 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "35a3bd14d633",
+      "title": "[新] 転生貴族、鑑定スキルで成り上がる 第３期 [字] ＃２５「郡長」【アガルアニメ】",
+      "url": "https://www.tbs.co.jp/tv/20260927_BE8A.html",
+      "host": "tbs.co.jp",
+      "source": "tbs.co.jp",
+      "summary": "",
+      "publishedAt": "2026-09-27T13:22:17.000Z",
+      "image": "https://www.tbs.co.jp/ro/img/ogp.png",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "be542d85efa7",
       "title": "「息子が引き継ぐか！！」アニメ〝新 美味しんぼ〟で亡き父が演じた海原雄山を引き継ぐ声優・大塚明夫が話題「親子二代で…」「ロマンを感じます」（西スポWEB OTTO!）",
       "url": "https://news.yahoo.co.jp/articles/e58c01fd06f9392a4889f2871f8f8ca4a47b0264",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T13:20:01.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00010083-nishispo-000-1-view.jpg?exp=10800",
@@ -1011,7 +1026,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b8a0a960e7c5",
@@ -1078,6 +1093,29 @@
       "isNew": false
     },
     {
+      "id": "5e933c93f30a",
+      "title": "アニメ「マロニエ王国の七人の騎士」オープニング主題歌 yama「さよならは言わない」配信リリース決定！",
+      "url": "https://www.sonymusic.co.jp/artist/yama/info/587182",
+      "host": "sonymusic.co.jp",
+      "source": "ソニーミュージックオフィシャルサイト",
+      "summary": "",
+      "publishedAt": "2026-09-27T12:51:52.000Z",
+      "image": "https://www.sonymusic.co.jp/adm_image/common/artist_image/77200000/77200176/artist_photo/69039.jpg",
+      "categories": [
+        "music2",
+        "onair"
+      ],
+      "series": [
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "5950bb330231",
       "title": "「ちょっとした幽霊より長いかも」声優の超長髪に1.5万バズ「ただ美しい」「シャンプーのモデルさん！？」（ENCOUNT）",
       "url": "https://news.yahoo.co.jp/articles/a22beb8c4f2951af38420af230e34fa9e6004b25",
@@ -1096,14 +1134,33 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "472f7c157876",
+      "title": "アニメが地球を喰っている(テレ東、2026/9/29 23:06 OA)の番組情報ページ - tv-tokyo.co.jp",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202609/28773_202609292306.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "tv-tokyo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-09-27T12:30:25.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/ab/33/1c0639ac01639005072bf7c828fe.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "fd5c382cd17d",
       "title": "『フリーレン』早くもアニメ化3周年、記念イラストが微笑ましい！続編放送まで1年…待ち遠しくなるイラスト企画始動",
       "url": "https://news.infoseek.co.jp/amp/article/otakulab_207159/",
       "host": "news.infoseek.co.jp",
-      "source": "news.infoseek.co.jp",
+      "source": "Infoseek",
       "summary": "",
       "publishedAt": "2026-09-27T12:15:52.000Z",
       "image": "https://media.image.infoseek.co.jp/isnews/photos/otakulab/otakulab_207159_0-enlarge.jpg",
@@ -1119,7 +1176,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f0e80e0ab883",
@@ -1159,27 +1216,6 @@
         "tv",
         "movie",
         "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "caf6e991b74a",
-      "title": "重戦機エルガイム、42年ぶりリバイバル放送決定",
-      "url": "https://koubo.jp/article/125107",
-      "host": "koubo.jp",
-      "source": "Koubo",
-      "summary": "",
-      "publishedAt": "2026-09-27T12:04:23.000Z",
-      "image": "https://koubo-dz7cn3ci.s3.ap-northeast-1.amazonaws.com/strapi/article_125107_keyvisual_0dbcebb93d.jpeg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1229,7 +1265,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3b37d6460c29",
@@ -1381,28 +1417,6 @@
       "isNew": false
     },
     {
-      "id": "aa37c6e76232",
-      "title": "モンスト新作アニメ『メラ×デス 死神と僕の異常な恋』2027年1月5日放送開始。キービジュアル＆PV解禁",
-      "url": "https://dengekionline.com/article/202609/89292",
-      "host": "dengekionline.com",
-      "source": "電撃オンライン",
-      "summary": "",
-      "publishedAt": "2026-09-27T11:30:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/89292/ogp_DiZa.jpg?x=1280",
-      "categories": [
-        "pv",
-        "onair"
-      ],
-      "series": [
-        "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "8cc18b2b7697",
       "title": "『メラ×デス 死神と僕の異常な恋』2027年1月5日放送決定！",
       "url": "https://www.animatetimes.com/news/details.php?id",
@@ -1421,14 +1435,36 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "aa37c6e76232",
+      "title": "モンスト新作アニメ『メラ×デス 死神と僕の異常な恋』2027年1月5日放送開始。キービジュアル＆PV解禁",
+      "url": "https://dengekionline.com/article/202609/89292",
+      "host": "dengekionline.com",
+      "source": "dengekionline.com",
+      "summary": "",
+      "publishedAt": "2026-09-27T11:30:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/89292/ogp_DiZa.jpg?x=1280",
+      "categories": [
+        "pv",
+        "onair"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "6bdd20ada958",
       "title": "【メラ×デス】2027年1月5日放送開始！ PV＆キービジュアル公開！（アニメージュプラス）",
       "url": "https://news.yahoo.co.jp/articles/011c4ce01c49dedacb6e18be6a51ce27a22a9a7b",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T11:30:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00067877-animage-000-1-view.jpg?exp=10800",
@@ -1494,7 +1530,7 @@
       "title": "アニメ『葬送のフリーレン』3周年記念ビジュアル公開＆カウントダウン企画開始！ 種﨑敦美ら登壇のイベントレポも到着",
       "url": "http://news.dengeki.com/article/202609/89275",
       "host": "news.dengeki.com",
-      "source": "news.dengeki.com",
+      "source": "電撃オンライン",
       "summary": "",
       "publishedAt": "2026-09-27T11:20:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/89275/ogp_KroL.jpg?x=1280",
@@ -1519,7 +1555,7 @@
       "host": "animatetimes.com",
       "source": "アニメイトタイムズ",
       "summary": "",
-      "publishedAt": "2026-09-27T11:12:06.000Z",
+      "publishedAt": "2026-09-27T11:07:20.000Z",
       "image": "https://www.animatetimes.com/img/ogimage.png",
       "categories": [
         "cast2"
@@ -1575,25 +1611,6 @@
       "isNew": false
     },
     {
-      "id": "35a3bd14d633",
-      "title": "[新] 転生貴族、鑑定スキルで成り上がる 第３期 [字] ＃２５「郡長」【アガルアニメ】",
-      "url": "https://www.tbs.co.jp/tv/20260927_BE8A.html",
-      "host": "tbs.co.jp",
-      "source": "tbs.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-27T10:21:24.000Z",
-      "image": "https://www.tbs.co.jp/ro/img/ogp.png",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "750fa0990496",
       "title": "文豪ストレイドッグス わん！3期はある？放送時期と原作の続き",
       "url": "https://anisaki.hatenadiary.com/entry/bungou-stray-dogs-wan-season3",
@@ -1620,7 +1637,7 @@
       "title": "TVアニメ「薬屋のひとりごと」第3期放送を前に、猫猫役・悠木碧「皆さんもぜひ生活の一部にしていただけたら」（中日スポーツ）",
       "url": "https://news.yahoo.co.jp/articles/f958a1fba091350369af96a5ac04bfc3a030adea",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T10:09:11.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00000090-chuspo-000-2-view.jpg?exp=10800",
@@ -1794,7 +1811,7 @@
       "title": "『魔入りました！入間くん』初の劇場アニメ制作決定 特別映像が公開 入間役・村瀬歩「すごい展開になると思います」",
       "url": "https://www.sanyonews.jp/article/1995373?kw",
       "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-09-27T09:45:00.000Z",
       "image": "https://static.sanyonews.jp/image/article/size1/7/e/4/8/7e48e115e2a3b1e3cfa7c29001f06eeb_1.jpg",
@@ -1831,38 +1848,19 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "23ec3430aea4",
       "title": "＜今週の新刊＞新作アニメも話題の「こち亀」2カ月連続の新刊 「逃げ上手の若君」最終巻 「ファントムバスターズ」も",
       "url": "https://news.yahoo.co.jp/articles/61107815ff536141719b70f05ddd58ed0e98c780",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T09:35:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00000055-mantan-000-1-view.jpg?exp=10800",
       "categories": [
         "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "472f7c157876",
-      "title": "アニメが地球を喰っている(テレ東、2026/9/29 23:06 OA)の番組情報ページ - tv-tokyo.co.jp",
-      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202609/28773_202609292306.html",
-      "host": "tv-tokyo.co.jp",
-      "source": "tv-tokyo.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-27T09:12:39.000Z",
-      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/ab/33/1c0639ac01639005072bf7c828fe.jpg",
-      "categories": [
-        "other"
       ],
       "series": [],
       "isOfficial": false,
@@ -2110,33 +2108,12 @@
     {
       "id": "e5e8b1fd59bd",
       "title": "『ウマ娘』声優、スプリンターズSで「撃沈です」 ネット反響「結構大きい額」「ギャンブラーのこういう顔好き」",
-      "url": "https://portal.uqmobile.jp/detail/1/5/9/10316_9_r_20260927_1790497442051017",
-      "host": "portal.uqmobile.jp",
-      "source": "UQライフ",
+      "url": "https://encount.press/archives/1072611/",
+      "host": "encount.press",
+      "source": "ENCOUNT",
       "summary": "",
-      "publishedAt": "2026-09-27T08:21:00.000Z",
-      "image": "https://www.uqwimax.jp/common2/images/ogp.png",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "23de98ffbb11",
-      "title": "『ウマ娘』声優、秋競馬開幕G1で涙「マイナス33000円」 ファンは喜び「こういう顔好き」「見たことない表情」（ENCOUNT）",
-      "url": "https://news.yahoo.co.jp/articles/8132a3c9a9b4b36fdb7a15169071c3d58855b1d6",
-      "host": "news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-27T08:13:44.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-01072611-encount-000-3-view.jpg?exp=10800",
+      "publishedAt": "2026-09-27T08:14:39.000Z",
+      "image": "https://encount.press/wp-content/uploads/2026/05/03085607/9f024236cb63bf76f9b2755ab1906c52.jpg",
       "categories": [
         "cast2"
       ],
@@ -2177,7 +2154,7 @@
       "title": "【秋アニメ】16年越しの映像化から打ち切り回避の神作まで!? 放送前から期待値MAXな“話題の新作”（ふたまん＋）",
       "url": "https://news.yahoo.co.jp/articles/c5424fceae2cf61374b214edcef6870f3e5d119f",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T08:00:34.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00132393-futaman-000-1-view.jpg?exp=10800",
@@ -2199,7 +2176,7 @@
       "title": "本日9月27日（日）放送開始の2026年秋アニメ（コミックナタリー）",
       "url": "https://news.yahoo.co.jp/articles/c60703230eab78c1481f0f60950cbb069b37c3c7",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T08:00:11.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00000053-nataliec-000-1-view.jpg?exp=10800",
@@ -2221,7 +2198,7 @@
       "title": "【ファントムバスターズ】2027年TVアニメ化決定！ お祝いイラスト公開（アニメージュプラス）",
       "url": "https://news.yahoo.co.jp/articles/0008a845c750dfa36e2e7baeafa4483e0c462e9d",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T08:00:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00067874-animage-000-1-view.jpg?exp=10800",
@@ -2286,27 +2263,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "3e906bc151b7",
-      "title": "『MUSIC AWARDS JAPAN 2026』Premiere Ceremony サカナクション「怪獣」が最優秀アニメ楽曲賞「初のアニメ主題歌、本当にありがたい」",
-      "url": "https://www.sanyonews.jp/article/1937592?kw",
-      "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
-      "summary": "",
-      "publishedAt": "2026-09-27T07:39:03.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/2/1/1/e/211e62aef8cc1c3a6d51106fc9e466b0_1.jpg",
-      "categories": [
-        "music2"
-      ],
-      "series": [
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "c607b7b48bc7",
@@ -2460,6 +2416,29 @@
       "isNew": false
     },
     {
+      "id": "4a2b7959e5f2",
+      "title": "[MAO] 高橋留美子先生原作作品アニメ放送バトンタッチ！ TVアニメ『MAO』からTVアニメ「らんま1/2」へ！ 両作品の主役キャストよりコメントが到着！｜作品紹介",
+      "url": "https://www.sunrise-inc.co.jp/work/topics.php?id",
+      "host": "sunrise-inc.co.jp",
+      "source": "サンライズ",
+      "summary": "",
+      "publishedAt": "2026-09-27T05:41:15.000Z",
+      "image": "https://www.sunrise-inc.co.jp/logo.jpg?v2",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "tv",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b3642eab75be",
       "title": "新作秋アニメ、至高の“ゲーム×ファンタジー”冒険譚「シャングリラ・フロンティア」ABEMAにて無料放送決定",
       "url": "https://thetv.jp/news/detail/1156918/landing/?utm_source",
@@ -2503,6 +2482,27 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "369a88eb8c8b",
+      "title": "「ファントムバスターズ」アニメ化決定 霊感持ち男子高校生たちによる“除霊”×“青春”ファンタジー",
+      "url": "https://thetv.jp/news/detail/1443266/landing/",
+      "host": "thetv.jp",
+      "source": "WEBザテレビジョン",
+      "summary": "",
+      "publishedAt": "2026-09-27T05:24:43.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f3d912edb19e",
@@ -2570,6 +2570,28 @@
       "isNew": false
     },
     {
+      "id": "26a332885c09",
+      "title": "『コナン』毛利蘭役の山崎和佳奈さん死去 原作者・声優仲間たち追悼…親友・園子役の松井菜桜子「いつまでも大親友でした」",
+      "url": "https://www.sanyonews.jp/article/1921224?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-27T04:18:21.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/1/6/3/b/163b0f031e625dcb3fa6bc3554db4966_1.jpg",
+      "categories": [
+        "cast2",
+        "manga"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "75f694925663",
       "title": "「実写よりリアルで生々しいアニメ」 我々は宇宙人 にゅ～さんの映画レビュー（感想・評価）",
       "url": "https://eiga.com/movie/105075/review/07027077/",
@@ -2633,33 +2655,11 @@
       "isNew": false
     },
     {
-      "id": "48cef1d37915",
-      "title": "乃木坂46井上和、『トイ・ストーリー5』日本版声優に決定 サプライズ発表に涙「思わず言葉とか感情が全部涙に出てしまいました」",
-      "url": "https://www.sanyonews.jp/article/1940017?kw",
-      "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
-      "summary": "",
-      "publishedAt": "2026-09-27T03:41:34.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/9/c/e/a/9cea93194f8bd25fbdd03fc4ea781b8e_1.jpg",
-      "categories": [
-        "new",
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b4abf39aa994",
       "title": "「名探偵コナン」平次＆和葉の超重要エピソード“茜色の千秋楽”が開幕☆ 堀江瞬、上田燿司、寿美菜子ら豪華メンバーが犯人役!? 倉木麻衣の新ED曲＆映像に歓喜の声「オシャレだね！」「可愛すぎた」【第1214話ネタバレあり反応まとめ】（アニメ！…",
       "url": "https://news.yahoo.co.jp/articles/6c1b7c90868fe51d31c1490578763fa8c6fdf562",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T03:30:07.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00000013-anmanmv-000-1-view.jpg?exp=10800",
@@ -2746,7 +2746,7 @@
       "title": "秋クール、漫画好きが選ぷ“期待してる”アニメ化は？首位は実写で話題の大人気作…30年ぶり新作に原作ファン歓喜",
       "url": "https://news.yahoo.co.jp/articles/d18b413562a90108dd8a296a1f5b9c1ce30360b9?source",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-27T03:08:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260927-00120800-otakulab-000-11713-view.jpg?exp=10800",
@@ -3030,7 +3030,7 @@
       "source": "映画情報どっとこむ",
       "summary": "",
       "publishedAt": "2026-09-27T00:03:36.000Z",
-      "image": "",
+      "image": "https://eigajoho.com/wp-content/uploads/2026/09/「藤本タツキ17-26」「庭には二羽ニワトリがいた」メイン写真.jpg",
       "categories": [
         "other"
       ],
@@ -3104,6 +3104,28 @@
       "isNew": false
     },
     {
+      "id": "48cef1d37915",
+      "title": "乃木坂46井上和、『トイ・ストーリー5』日本版声優に決定 サプライズ発表に涙「思わず言葉とか感情が全部涙に出てしまいました」",
+      "url": "https://www.sanyonews.jp/article/1940017?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-26T23:13:05.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/c/e/a/9cea93194f8bd25fbdd03fc4ea781b8e_1.jpg",
+      "categories": [
+        "new",
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "5fc01068bf26",
       "title": "ウマ娘声優・秋山実咲、野木奏、望月ゆみこのスプリンターズS注目馬は？昨年は3人で現地観戦、新ラジオ番組もスタート",
       "url": "https://news.yahoo.co.jp/articles/58465f46972fc24a2fc91e6f822a9d449aff2168/images/000",
@@ -3133,7 +3155,7 @@
       "source": "映画情報どっとこむ",
       "summary": "",
       "publishedAt": "2026-09-26T23:05:01.000Z",
-      "image": "",
+      "image": "https://eigajoho.com/wp-content/uploads/2026/09/『新世紀GPXサイバーフォーミュラ』movieLOGO.jpg",
       "categories": [
         "new",
         "movie2"
@@ -3280,11 +3302,55 @@
       "isNew": false
     },
     {
+      "id": "571f2c8035a7",
+      "title": "令和ロマン・松井ケムリ『トイ・ストーリー5』日本版声優に決定 子どもが生まれたばかりで「将来絶対に観てもらえる」",
+      "url": "https://www.sanyonews.jp/article/1940019?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-26T20:43:08.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/0/7/e/f/07efaae83557eadc7c92d8feb8703013_1.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b4e3ce5b0803",
+      "title": "『花の子ルンルン』46年ぶり続編、中国で配信開始 新作アニメ『花仙子之魔法香対』子孫のルミ＆ユナの物語",
+      "url": "https://www.sanyonews.jp/article/1949423",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-26T20:29:12.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/f/2/7/6/f276095b5392ab889ce31aa26517e29c_1.jpg",
+      "categories": [
+        "onair",
+        "new"
+      ],
+      "series": [
+        "adapt",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "f769d6a73942",
       "title": "『SEKIRO: NO DEFEAT』2027年1月より全8話でTV放送決定 劇場版に新規エピソード＆カット多数追加で再構築",
       "url": "https://www.sanyonews.jp/article/1994002?kw",
       "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-09-26T20:17:52.000Z",
       "image": "https://static.sanyonews.jp/image/article/size1/c/1/b/0/c1b000dee2c0ad92f575abf4193573e6_1.jpg",
@@ -3303,23 +3369,25 @@
       "isNew": false
     },
     {
-      "id": "01371568aec8",
-      "title": "転生貴族、鑑定スキルで成り上がる 第３期 [字] ＃２６【アガルアニメ】",
-      "url": "https://www.tbs.co.jp/tv/20261004_BF8B.html",
-      "host": "tbs.co.jp",
-      "source": "tbs.co.jp",
+      "id": "e50d8c36b4db",
+      "title": "画像 | ｢作り直してこいッ!!｣『美味しんぼ』新アニメ化に立ちはだかる\"コンプラの壁\"…海原雄山のカスハラをどう\"料理\"するのか",
+      "url": "https://toyokeizai.net/articles/photo/958917?pn",
+      "host": "toyokeizai.net",
+      "source": "東洋経済オンライン",
       "summary": "",
-      "publishedAt": "2026-09-26T19:27:51.000Z",
-      "image": "https://www.tbs.co.jp/ro/img/ogp.png",
+      "publishedAt": "2026-09-26T19:52:03.000Z",
+      "image": "",
       "categories": [
         "other"
       ],
-      "series": [],
+      "series": [
+        "adapt"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "c2cfdd4061ca",
@@ -3350,7 +3418,7 @@
       "title": "『銀魂』作者・空知英秋、アニメ化は失敗覚悟していた「正直コケるだろうなって思ってました」",
       "url": "https://www.fukuishimbun.co.jp/articles/gallery/2707567",
       "host": "fukuishimbun.co.jp",
-      "source": "福井新聞社",
+      "source": "fukuishimbun.co.jp",
       "summary": "",
       "publishedAt": "2026-09-26T17:50:28.000Z",
       "image": "https://fki.ismcdn.jp/mwimgs/5/3/-/img_5324046b6d375ec62b8f43af6c0a594671423.jpg",
@@ -3560,28 +3628,6 @@
       "isNew": false
     },
     {
-      "id": "f5040b1ecc51",
-      "title": "『新世紀GPXサイバーフォーミュラ』35周年！新作ショートアニメ＆TV総集編が2027年2月19日より劇場公開 新型サイバーマシンも解禁",
-      "url": "https://www.toy-people.com/jp/?p",
-      "host": "toy-people.com",
-      "source": "玩具人 TOY PEOPLE",
-      "summary": "",
-      "publishedAt": "2026-09-26T10:51:23.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9579ad27c50d",
       "title": "アニメ『ちいかわ』英語吹き替え版のトレーラーが公開。「これ見て勉強できそうだよね！英語っ！」といった反応も",
       "url": "https://news.denfaminicogamer.jp/news/260926j",
@@ -3761,7 +3807,7 @@
       "title": "ぐんまちゃん 米2局でアニメ放送",
       "url": "https://news.yahoo.co.jp/pickup/6596631",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-26T08:43:22.000Z",
       "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/9/26/00d16e249b9666d9da9f07ea1c591aad1fc46bda80fe4fe8a3f3edd07ab21eb6.jpg",
@@ -3826,7 +3872,7 @@
       "title": "葬送のフリーレン＞アニメ化3周年記念ビジュアルに“馬鹿みたいにでかいハンバーグ” 第3期に向けてカウントダウンイラスト企画始動 (MANTANWEB)",
       "url": "https://news.yahoo.co.jp/articles/bc91d05ba224d088a94b53fbc7ea40a571565059/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-26T08:13:00.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgDPbfu3dEimk10w8pDsNfo7-g-I6DhLguE-sP1IkAaMZUNvxWxpw1LrvPkpc7x01LIgNEYXOQZK-D2zyjEYv5p6ucD2Jla5AhJP8nUpoLSk0DHhK6HnMgVM6ZJteIl7hcw==",
@@ -3999,7 +4045,7 @@
       "title": "「サイバーフォーミュラ」TVシリーズ総集編と新作ショートアニメが劇場公開 (コミックナタリー)",
       "url": "https://news.yahoo.co.jp/articles/434880c8d4b31b437a9b8ae8e6f5a0b7e28a09b2/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-26T06:05:11.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgOs_9UOuGAARnCIwP-plWQd9rn0dkpQuXDYzofgZupv24ZMx-WnvWyWoW0g3ioxuK805AfIeIAOAYPEe5BoQzgHIVhp98RETGYWPJx0nfDcv66U0gHpaZBUAqVWOrjUHYw==",
@@ -4112,7 +4158,7 @@
       "title": "アニメ『新世紀GPX サイバーフォーミュラ』TVシリーズ総集編＆新作ショートアニメ2/19劇場公開決定！ 告知ビジュアルを解禁",
       "url": "https://dengekionline.com/article/202609/89207",
       "host": "dengekionline.com",
-      "source": "電撃オンライン",
+      "source": "dengekionline.com",
       "summary": "",
       "publishedAt": "2026-09-26T05:00:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/89207/ogp_lMfZ.jpg?x=1280",
@@ -4159,7 +4205,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-26T05:00:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2483000/2482688/20260926_121442_p_o_77788708.jpg",
       "categories": [
         "new",
         "movie2"
@@ -4215,7 +4261,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cb17d2f6a7be",
@@ -4633,7 +4679,7 @@
       "title": "アニメ「ちいかわ」のリバイバル放送 なぜ新作を一時休止 背景は #エキスパートトピ（河村鳴紘） - エキスパート",
       "url": "https://news.yahoo.co.jp/expert/articles/5aa747cdbd0fd2c07a00a993eb8ae599dfb803e2",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-25T22:31:05.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/kawamurameikou/02728832/title-1790372673862.jpeg?exp=10800",
@@ -4655,7 +4701,7 @@
       "title": "人気ゲームのアニメ化で異例の謝罪、劇場上映後に「実はTV用の編集版だった」と発表…鑑賞者から反発相次ぐ (オタク総研)",
       "url": "https://news.yahoo.co.jp/articles/e81be61f583ff3cbcd0f96ee522a1111e113321c/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-25T22:18:00.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgN_uziNhbPCc69Cmd6ecLmvwClxb197e9orqPai09lcYHPf5EieEx2oyrrZ-3a6ySM0HH_z_LZuJL9DpCbA5a12Ekh3pvjqAA-06AmZciSm9FbyZBhGYNzMC-ySJ0cY_5g==",
@@ -4723,7 +4769,7 @@
       "title": "BS日テレ2026年10月期アニメ編成！新作15作品を一挙紹介",
       "url": "https://koubo.jp/article/124908",
       "host": "koubo.jp",
-      "source": "Koubo",
+      "source": "公募ガイド",
       "summary": "",
       "publishedAt": "2026-09-25T18:05:24.000Z",
       "image": "https://koubo-dz7cn3ci.s3.ap-northeast-1.amazonaws.com/strapi/article_124908_keyvisual_baaa72cda7.jpeg",
@@ -4936,28 +4982,6 @@
       "isNew": false
     },
     {
-      "id": "ec7bc320c410",
-      "title": "9月26日(土)＠アニメイト池袋本店にて『転生したらスライムだった件 クレイマンREVENGE』TVアニメ化記念 華麗につけてみせろ！ 「特製クレイマンごっこお面」緊急配布決定！ | 「転生したらスライムだった件」 - ten-sura.…",
-      "url": "https://www.ten-sura.com/news/anime/tensura/news/post/11905",
-      "host": "ten-sura.com",
-      "source": "ten-sura.com",
-      "summary": "",
-      "publishedAt": "2026-09-25T14:37:04.000Z",
-      "image": "https://www.ten-sura.com/4GfGdAp7/wp-content/themes/tensura_portal/assets/images/ogp.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9f79a25311c2",
       "title": "TVアニメ『転生したらスライムだった件 第4期』2027年7月より第3クール放送決定！原作・伏瀬考案『転スラ』公式リベンジ作品『転生したらスライムだった件 クレイマンREVENGE』2027年4月よりTVアニメ放送決定＆ティザービジュアル…",
       "url": "https://v-storage.jp/bv_news/287297/",
@@ -5008,7 +5032,7 @@
       "title": "『転スラ』魔王クレイマン主役のスピンオフが2027年4月にTVアニメ化！第4期第3クールは7月放送（ABEMA TIMES）",
       "url": "https://news.yahoo.co.jp/articles/281f7d63fa59572c3b874859db12d01b237e7d21",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-25T14:30:37.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260925-10275152-abemad-000-1-view.jpg?exp=10800",
@@ -5020,92 +5044,6 @@
         "adapt",
         "stream"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "42f0f456c29c",
-      "title": "『転スラ 第4期』第3クール2027年7月放送！『クレイマンR』TVアニメ化",
-      "url": "https://www.animatetimes.com/news/details.php?id",
-      "host": "animatetimes.com",
-      "source": "アニメイトタイムズ",
-      "summary": "",
-      "publishedAt": "2026-09-25T14:30:00.000Z",
-      "image": "https://www.animatetimes.com/img/ogimage.png",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1f4d32a9067e",
-      "title": "「転スラ」4期・第3クールは27年7月から放送 スピンオフ作品「クレイマンREVENGE」27年4月にTVアニメ化決定",
-      "url": "https://anime.eiga.com/news/127537/",
-      "host": "anime.eiga.com",
-      "source": "アニメハック",
-      "summary": "",
-      "publishedAt": "2026-09-25T14:30:00.000Z",
-      "image": "https://media.eiga.com/images/anime/news/127537/photo/afd8873726c0c6fa/640.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "187c6dcb0659",
-      "title": "矢吹奈子、韓国アニメ映画で主演＆主題歌務める「まだ信じられなくて」IZ*ONEでの経験活かし訳詞も担当【縁の手紙】",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ITDJDNGVUd2VzcHpzbDFfcnFvX0JjM2Y1QU5OZW5mbWduTVhwUURvdlBkdkRJTVo3MGhLVFQ4X1oxckFKS0lNR1hpT0VDck1KaUJ6OHZ1UWVqTlRrcHV3aS03bWoyZWVNLWpZcG5zbW5oU2JiR3dTS0Q2b9IBgAFBVV95cUxOLWh3Y0N3RXNMRXAwaFlxVkFYQWdSNFlGSXhKRDE2V1dacTJIWE4yS1VUSzNPeTJCaThsMFFzUFRuX01LSVFfQTVHc0cxYkV5bDV2VElidWoxYkxEMEQ0a1RSOUVzT1lRbE5HWlNKd0dmRXAybm5uSnZxa3JxaURSag?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "topics.smt.docomo.ne.jp",
-      "summary": "",
-      "publishedAt": "2026-09-25T14:26:15.000Z",
-      "image": "",
-      "categories": [
-        "music2",
-        "movie2"
-      ],
-      "series": [
-        "movie",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "245a6038a7ce",
-      "title": "アニメキャラはいつ“瞬き”しているのか？ 韓国アニメ『縁の手紙』と日本アニメの違い（リアルサウンド）",
-      "url": "https://news.yahoo.co.jp/articles/96109c9e942a0f68653ca7a2c222dfad2afc4229",
-      "host": "news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-25T14:00:42.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260925-00010061-realsound-000-1-view.jpg?exp=10800",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
