@@ -240,7 +240,13 @@ export async function renderPages(root, { log = () => {} } = {}) {
       <a href="/">トップ</a><a href="/schedule/">今日のアニメ番組表</a><a href="/titles/">今期のアニメ一覧</a><a href="/ch/">放送局別の放送予定</a>
       ${genres.map((g) => `<a href="/news/${g.slug}/">${esc(g.title)}</a>`).join("")}
       <a href="/archive/">過去のニュース</a><a href="/about/">このサイトについて</a><a href="/feed.xml">RSS</a>
-    </nav>`;
+    </nav>${
+      (config.sisterSites || []).length
+        ? `<nav class="footer-nav footer-sisters" aria-label="運営サイト"><span class="footer-nav-label">運営サイト</span>${config.sisterSites
+            .map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.name)}</a>`)
+            .join("")}</nav>`
+        : ""
+    }`;
   }
   const verify = config.pages?.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(config.pages.googleSiteVerification)}">` : "";
   const gtag = GA
