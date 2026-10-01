@@ -1,10 +1,14 @@
 {
-  "updatedAt": "2026-09-30T23:30:57.614Z",
+  "updatedAt": "2026-10-01T00:00:40.856Z",
   "source": {
     "name": "しょぼいカレンダー",
     "url": "https://cal.syoboi.jp/"
   },
   "channels": [
+    {
+      "id": "1",
+      "name": "NHK総合"
+    },
     {
       "id": "58",
       "name": "サンテレビジョン"
@@ -30,8 +34,8 @@
       "name": "KBS京都"
     },
     {
-      "id": "18",
-      "name": "BS朝日"
+      "id": "6",
+      "name": "テレビ朝日"
     },
     {
       "id": "5",
@@ -46,6 +50,10 @@
       "name": "テレビ東京"
     },
     {
+      "id": "15",
+      "name": "BSテレ東"
+    },
+    {
       "id": "3",
       "name": "フジテレビ"
     },
@@ -54,12 +62,12 @@
       "name": "BSフジ"
     },
     {
-      "id": "19",
-      "name": "TOKYO MX"
-    },
-    {
       "id": "187",
       "name": "TOKYO MX2"
+    },
+    {
+      "id": "19",
+      "name": "TOKYO MX"
     },
     {
       "id": "59",
@@ -70,24 +78,44 @@
       "name": "BS11イレブン"
     },
     {
-      "id": "281",
-      "name": "ABEMA特設その他"
+      "id": "272",
+      "name": "BSよしもと"
+    },
+    {
+      "id": "20",
+      "name": "AT-X"
     },
     {
       "id": "178",
       "name": "YouTube"
     },
     {
-      "id": "20",
-      "name": "AT-X"
+      "id": "281",
+      "name": "ABEMA特設その他"
+    },
+    {
+      "id": "21",
+      "name": "アニマックス"
     }
   ],
   "titles": [
+    {
+      "tid": "518",
+      "title": "名探偵コナン",
+      "count": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-MyYT7K3chBdO.jpg"
+    },
     {
       "tid": "7780",
       "title": "Re:ゼロから始める異世界生活(5)",
       "count": 6,
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21355-wRVUrGxpvIQQ.jpg"
+    },
+    {
+      "tid": "8025",
+      "title": "薬屋のひとりごと(3)",
+      "count": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
     },
     {
       "tid": "7998",
@@ -96,22 +124,100 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx206401-tToJHZcMGrvp.jpg"
     },
     {
+      "tid": "4778",
+      "title": "ガールズ&パンツァー 最終章",
+      "count": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99938-3BNqsG0QrZOV.png"
+    },
+    {
       "tid": "7942",
       "title": "クレバテスⅡ",
       "count": 3,
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178869-qiEz0gQD8H5N.png"
     },
     {
-      "tid": "4778",
-      "title": "ガールズ&パンツァー 最終章",
-      "count": 2,
-      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99938-3BNqsG0QrZOV.png"
-    },
-    {
       "tid": "4100",
       "title": "ジョジョの奇妙な冒険(4)",
-      "count": 2,
+      "count": 3,
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx666-kYzXvKlUbeMP.jpg"
+    },
+    {
+      "tid": "4191",
+      "title": "パワーパフ ガールズ(2016)",
+      "count": 3,
+      "image": ""
+    },
+    {
+      "tid": "1589",
+      "title": "中華一番！",
+      "count": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b107666-7X6hemlnrRb4.jpg"
+    },
+    {
+      "tid": "8001",
+      "title": "東京リベンジャーズ(4)",
+      "count": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120120-cWDmnmeEntSe.jpg"
+    },
+    {
+      "tid": "8014",
+      "title": "転生した大聖女は、聖女であることをひた隠す",
+      "count": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187402-ReKkLwFmMV3q.jpg"
+    },
+    {
+      "tid": "7878",
+      "title": "追放された転生重騎士はゲーム知識で無双する",
+      "count": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180136-gtMTCRlOD4OE.jpg"
+    },
+    {
+      "tid": "390",
+      "title": "陸上防衛隊まおちゃん",
+      "count": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/980.jpg"
+    },
+    {
+      "tid": "351",
+      "title": "*アニメ・マンガ関連特番*",
+      "count": 2,
+      "image": ""
+    },
+    {
+      "tid": "7906",
+      "title": "うちの弟どもがすみません",
+      "count": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx203490-YQXiymUiDQNA.jpg"
+    },
+    {
+      "tid": "7872",
+      "title": "ウルトラマンテオ",
+      "count": 2,
+      "image": ""
+    },
+    {
+      "tid": "2088",
+      "title": "カードファイト!! ヴァンガード",
+      "count": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9539-g9UtWqT6iotq.png"
+    },
+    {
+      "tid": "7925",
+      "title": "グロウアップショウ",
+      "count": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196017-GynDNdbDzqzk.jpg"
+    },
+    {
+      "tid": "8033",
+      "title": "ケロロ軍曹☆",
+      "count": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx216557-9CXz04CEmXOi.png"
+    },
+    {
+      "tid": "7927",
+      "title": "サンダー3",
+      "count": 2,
+      "image": ""
     },
     {
       "tid": "8038",
@@ -120,14 +226,14 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199594-O16SEeK1Bn7L.jpg"
     },
     {
-      "tid": "6236",
-      "title": "パウ・パトロール(4)",
+      "tid": "8020",
+      "title": "バーテックスフォース",
       "count": 2,
-      "image": ""
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx209562-kQQbTKDuql9p.jpg"
     },
     {
-      "tid": "4191",
-      "title": "パワーパフ ガールズ(2016)",
+      "tid": "6236",
+      "title": "パウ・パトロール(4)",
       "count": 2,
       "image": ""
     },
@@ -138,16 +244,22 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198376-sc5qcFv0RSH9.jpg"
     },
     {
-      "tid": "1589",
-      "title": "中華一番！",
+      "tid": "8026",
+      "title": "ブラッククローバー(2)",
       "count": 2,
-      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b107666-7X6hemlnrRb4.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97940-fyh8o7gNbha0.png"
     },
     {
-      "tid": "518",
-      "title": "名探偵コナン",
+      "tid": "350",
+      "title": "ワンピース",
       "count": 2,
-      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-MyYT7K3chBdO.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-ELSYx3yMPcKM.jpg"
+    },
+    {
+      "tid": "7892",
+      "title": "株式会社マジルミエ(2)",
+      "count": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171025-alBpVzKrgy1b.jpg"
     },
     {
       "tid": "7479",
@@ -162,14 +274,20 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162896-hSMTVceb50GY.jpg"
     },
     {
-      "tid": "390",
-      "title": "陸上防衛隊まおちゃん",
+      "tid": "7786",
+      "title": "魔法の姉妹ルルットリリィ",
       "count": 2,
-      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/980.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178749-c0tx9p13PVJy.png"
     },
     {
-      "tid": "351",
-      "title": "*アニメ・マンガ関連特番*",
+      "tid": "8028",
+      "title": "#ゾンビさがしてます",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199007-qxUDe3KA6AGI.jpg"
+    },
+    {
+      "tid": "7829",
+      "title": "22/7 計算外 season3",
       "count": 1,
       "image": ""
     },
@@ -222,16 +340,28 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188034-oRwVKBMezOOk.jpg"
     },
     {
+      "tid": "477",
+      "title": "ガンダムSEED DESTINY",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx94-tng83ksiXm5E.jpg"
+    },
+    {
+      "tid": "4130",
+      "title": "ガンダムUC(TV)",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6336-jdAs058XtObM.jpg"
+    },
+    {
+      "tid": "534",
+      "title": "ガンダムX",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx95-5okHk1B0VKro.jpg"
+    },
+    {
       "tid": "7535",
       "title": "キャッチ！ティニピン(3)",
       "count": 1,
       "image": ""
-    },
-    {
-      "tid": "7925",
-      "title": "グロウアップショウ",
-      "count": 1,
-      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196017-GynDNdbDzqzk.jpg"
     },
     {
       "tid": "541",
@@ -276,12 +406,6 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1166.jpg"
     },
     {
-      "tid": "7927",
-      "title": "サンダー3",
-      "count": 1,
-      "image": ""
-    },
-    {
       "tid": "6805",
       "title": "シャングリラ・フロンティア",
       "count": 1,
@@ -318,10 +442,28 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx212888-NhyvqPt5aIuJ.jpg"
     },
     {
+      "tid": "8066",
+      "title": "どこよりも遠い場所にいる君へ",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx207327-OSrMbh8DrGE4.jpg"
+    },
+    {
+      "tid": "6212",
+      "title": "ニンジャラ",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142274-qPfkeKk4caKI.png"
+    },
+    {
       "tid": "7964",
       "title": "パーフェクトアディクション",
       "count": 1,
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213666-nnKcumRblZi1.jpg"
+    },
+    {
+      "tid": "939",
+      "title": "パンプキン・シザーズ",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1538-8KjoV3x9Jhlk.jpg"
     },
     {
       "tid": "4853",
@@ -334,6 +476,24 @@
       "title": "ぷちきゅあ シーズン3",
       "count": 1,
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx209541-p9YKR3vE0Fx6.jpg"
+    },
+    {
+      "tid": "3321",
+      "title": "ブラック・ブレット",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20457-ftrNiYhZzgoY.jpg"
+    },
+    {
+      "tid": "8060",
+      "title": "ふんばるず",
+      "count": 1,
+      "image": ""
+    },
+    {
+      "tid": "4152",
+      "title": "ぼのぼの(2016)",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4286.jpg"
     },
     {
       "tid": "5919",
@@ -354,6 +514,18 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx200230-YuzdgbXSgi38.png"
     },
     {
+      "tid": "8003",
+      "title": "世界最強の魔女、始めました",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx211778-0MXK5HqVFBYH.jpg"
+    },
+    {
+      "tid": "2326",
+      "title": "仮面ライダー",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3100.jpg"
+    },
+    {
       "tid": "2667",
       "title": "仮面ライダースーパー1",
       "count": 1,
@@ -370,6 +542,12 @@
       "title": "傷だらけ聖女より報復をこめて(2)",
       "count": 1,
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b195209-IwHhCJUcmoK0.jpg"
+    },
+    {
+      "tid": "7626",
+      "title": "元祖！バンドリちゃん",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187166-ASfp7wErGrxQ.png"
     },
     {
       "tid": "7723",
@@ -390,6 +568,12 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx207809-cpS7CAyjN7iP.jpg"
     },
     {
+      "tid": "7907",
+      "title": "天幕のジャードゥーガル",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
+    },
+    {
       "tid": "5910",
       "title": "川島・山内のマンガ沼",
       "count": 1,
@@ -402,16 +586,34 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163142-RjFeJrTnDA2B.png"
     },
     {
+      "tid": "8051",
+      "title": "幻想水滸伝",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187316-jucYCojVTjSY.jpg"
+    },
+    {
       "tid": "8044",
       "title": "新テニスの王子様(4)",
       "count": 1,
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13245.jpg"
     },
     {
-      "tid": "7892",
-      "title": "株式会社マジルミエ(2)",
+      "tid": "7045",
+      "title": "新プロジェクトX",
       "count": 1,
-      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171025-alBpVzKrgy1b.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b213891-1IP1G59ARF7k.png"
+    },
+    {
+      "tid": "5420",
+      "title": "本好きの下剋上",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171110-7zOdInS6DQNL.jpg"
+    },
+    {
+      "tid": "7794",
+      "title": "本好きの下剋上(4)",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171110-7zOdInS6DQNL.jpg"
     },
     {
       "tid": "8052",
@@ -468,10 +670,10 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx216895-Ofx4FSKFa4CQ.jpg"
     },
     {
-      "tid": "8025",
-      "title": "薬屋のひとりごと(3)",
+      "tid": "7787",
+      "title": "転生したらスライムだった件(5)",
       "count": 1,
-      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
     },
     {
       "tid": "8009",
@@ -480,22 +682,34 @@
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx164702-FjpM96MPdzVm.jpg"
     },
     {
-      "tid": "7878",
-      "title": "追放された転生重騎士はゲーム知識で無双する",
-      "count": 1,
-      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180136-gtMTCRlOD4OE.jpg"
-    },
-    {
       "tid": "7789",
       "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
       "count": 1,
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx201817-pyfL9F8muPeq.jpg"
     },
     {
+      "tid": "6310",
+      "title": "遊☆戯☆王ゴーラッシュ!!",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142842-sz1cRActqBe3.jpg"
+    },
+    {
+      "tid": "8021",
+      "title": "野生のラスボスが現れた！(2)",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180523-FjvW1XByUNMK.jpg"
+    },
+    {
       "tid": "7986",
       "title": "魔法のエンジェルスイートミント",
       "count": 1,
       "image": ""
+    },
+    {
+      "tid": "8019",
+      "title": "魔法騎士レイアース(2026)",
+      "count": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178868-mfp0HIHNJNAm.jpg"
     }
   ],
   "days": [
@@ -1752,6 +1966,907 @@
           "sub": "",
           "url": "https://cal.syoboi.jp/tid/8055",
           "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx212888-NhyvqPt5aIuJ.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "programs": [
+        {
+          "pid": "718485",
+          "tid": "7906",
+          "title": "うちの弟どもがすみません",
+          "fullTitle": "うちの弟どもがすみません",
+          "ch": "BS11イレブン",
+          "chId": "128",
+          "st": "2026-10-03T00:00:00+09:00",
+          "ed": "2026-10-03T00:30:00+09:00",
+          "count": "13",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7906",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx203490-YQXiymUiDQNA.jpg"
+        },
+        {
+          "pid": "718507",
+          "tid": "7906",
+          "title": "うちの弟どもがすみません",
+          "fullTitle": "うちの弟どもがすみません",
+          "ch": "TOKYO MX",
+          "chId": "19",
+          "st": "2026-10-03T00:00:00+09:00",
+          "ed": "2026-10-03T00:30:00+09:00",
+          "count": "13",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7906",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx203490-YQXiymUiDQNA.jpg"
+        },
+        {
+          "pid": "719922",
+          "tid": "390",
+          "title": "陸上防衛隊まおちゃん",
+          "fullTitle": "陸上防衛隊まおちゃん",
+          "ch": "AT-X",
+          "chId": "20",
+          "st": "2026-10-03T00:00:00+09:00",
+          "ed": "2026-10-03T00:30:00+09:00",
+          "count": "",
+          "sub": "#5～#6",
+          "url": "https://cal.syoboi.jp/tid/390",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/980.jpg"
+        },
+        {
+          "pid": "715331",
+          "tid": "6310",
+          "title": "遊☆戯☆王ゴーラッシュ!!",
+          "fullTitle": "遊☆戯☆王ゴーラッシュ!!",
+          "ch": "BSテレ東",
+          "chId": "15",
+          "st": "2026-10-03T00:30:00+09:00",
+          "ed": "2026-10-03T00:59:00+09:00",
+          "count": "56",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/6310",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142842-sz1cRActqBe3.jpg"
+        },
+        {
+          "pid": "721670",
+          "tid": "350",
+          "title": "ワンピース",
+          "fullTitle": "ワンピース",
+          "ch": "BSフジ",
+          "chId": "17",
+          "st": "2026-10-03T01:00:00+09:00",
+          "ed": "2026-10-03T01:30:00+09:00",
+          "count": "990",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/350",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-ELSYx3yMPcKM.jpg"
+        },
+        {
+          "pid": "716502",
+          "tid": "8001",
+          "title": "東京リベンジャーズ(4)",
+          "fullTitle": "東京リベンジャーズ 三天戦争編",
+          "ch": "TBS",
+          "chId": "5",
+          "st": "2026-10-03T01:23:00+09:00",
+          "ed": "2026-10-03T01:53:00+09:00",
+          "count": "51",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8001",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120120-cWDmnmeEntSe.jpg"
+        },
+        {
+          "pid": "718136",
+          "tid": "7878",
+          "title": "追放された転生重騎士はゲーム知識で無双する",
+          "fullTitle": "追放された転生重騎士はゲーム知識で無双する",
+          "ch": "BS日テレ",
+          "chId": "71",
+          "st": "2026-10-03T02:00:00+09:00",
+          "ed": "2026-10-03T02:30:00+09:00",
+          "count": "14",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7878",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180136-gtMTCRlOD4OE.jpg"
+        },
+        {
+          "pid": "716610",
+          "tid": "8001",
+          "title": "東京リベンジャーズ(4)",
+          "fullTitle": "東京リベンジャーズ 三天戦争編",
+          "ch": "BS-TBS",
+          "chId": "16",
+          "st": "2026-10-03T02:30:00+09:00",
+          "ed": "2026-10-03T03:00:00+09:00",
+          "count": "51",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8001",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120120-cWDmnmeEntSe.jpg"
+        },
+        {
+          "pid": "712483",
+          "tid": "4152",
+          "title": "ぼのぼの(2016)",
+          "fullTitle": "ぼのぼの(2016)",
+          "ch": "フジテレビ",
+          "chId": "3",
+          "st": "2026-10-03T05:22:00+09:00",
+          "ed": "2026-10-03T05:30:00+09:00",
+          "count": "532",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/4152",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4286.jpg"
+        },
+        {
+          "pid": "720681",
+          "tid": "6212",
+          "title": "ニンジャラ",
+          "fullTitle": "ニンジャラ",
+          "ch": "テレビ愛知",
+          "chId": "59",
+          "st": "2026-10-03T07:30:00+09:00",
+          "ed": "2026-10-03T08:00:00+09:00",
+          "count": "236",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/6212",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142274-qPfkeKk4caKI.png"
+        },
+        {
+          "pid": "720694",
+          "tid": "2088",
+          "title": "カードファイト!! ヴァンガード",
+          "fullTitle": "カードファイト!! ヴァンガード",
+          "ch": "テレビ愛知",
+          "chId": "59",
+          "st": "2026-10-03T08:00:00+09:00",
+          "ed": "2026-10-03T08:30:00+09:00",
+          "count": "20",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/2088",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9539-g9UtWqT6iotq.png"
+        },
+        {
+          "pid": "705444",
+          "tid": "7872",
+          "title": "ウルトラマンテオ",
+          "fullTitle": "ウルトラマンテオ",
+          "ch": "テレビ東京",
+          "chId": "7",
+          "st": "2026-10-03T09:00:00+09:00",
+          "ed": "2026-10-03T09:30:00+09:00",
+          "count": "13",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7872",
+          "image": ""
+        },
+        {
+          "pid": "708778",
+          "tid": "7872",
+          "title": "ウルトラマンテオ",
+          "fullTitle": "ウルトラマンテオ",
+          "ch": "テレビ愛知",
+          "chId": "59",
+          "st": "2026-10-03T09:00:00+09:00",
+          "ed": "2026-10-03T09:30:00+09:00",
+          "count": "13",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7872",
+          "image": ""
+        },
+        {
+          "pid": "718338",
+          "tid": "8033",
+          "title": "ケロロ軍曹☆",
+          "fullTitle": "ケロロ軍曹☆",
+          "ch": "テレビ東京",
+          "chId": "7",
+          "st": "2026-10-03T09:30:00+09:00",
+          "ed": "2026-10-03T10:00:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8033",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx216557-9CXz04CEmXOi.png"
+        },
+        {
+          "pid": "718384",
+          "tid": "8033",
+          "title": "ケロロ軍曹☆",
+          "fullTitle": "ケロロ軍曹☆",
+          "ch": "テレビ愛知",
+          "chId": "59",
+          "st": "2026-10-03T09:30:00+09:00",
+          "ed": "2026-10-03T10:00:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8033",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx216557-9CXz04CEmXOi.png"
+        },
+        {
+          "pid": "720357",
+          "tid": "3321",
+          "title": "ブラック・ブレット",
+          "fullTitle": "ブラック・ブレット",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T09:30:00+09:00",
+          "ed": "2026-10-03T16:00:00+09:00",
+          "count": "",
+          "sub": "#1～#13",
+          "url": "https://cal.syoboi.jp/tid/3321",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20457-ftrNiYhZzgoY.jpg"
+        },
+        {
+          "pid": "717336",
+          "tid": "939",
+          "title": "パンプキン・シザーズ",
+          "fullTitle": "パンプキン・シザーズ",
+          "ch": "TOKYO MX2",
+          "chId": "187",
+          "st": "2026-10-03T11:00:00+09:00",
+          "ed": "2026-10-03T11:30:00+09:00",
+          "count": "9",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/939",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1538-8KjoV3x9Jhlk.jpg"
+        },
+        {
+          "pid": "719363",
+          "tid": "4191",
+          "title": "パワーパフ ガールズ(2016)",
+          "fullTitle": "パワーパフ ガールズ(2016)",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T11:00:00+09:00",
+          "ed": "2026-10-03T12:10:00+09:00",
+          "count": "",
+          "sub": "^パワーパフ ガールズ シーズン2 #31〜35",
+          "url": "https://cal.syoboi.jp/tid/4191",
+          "image": ""
+        },
+        {
+          "pid": "721732",
+          "tid": "1589",
+          "title": "中華一番！",
+          "fullTitle": "中華一番！",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T11:00:00+09:00",
+          "ed": "2026-10-03T16:00:00+09:00",
+          "count": "",
+          "sub": "#21～#30",
+          "url": "https://cal.syoboi.jp/tid/1589",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b107666-7X6hemlnrRb4.jpg"
+        },
+        {
+          "pid": "722152",
+          "tid": "5420",
+          "title": "本好きの下剋上",
+          "fullTitle": "本好きの下剋上 司書になるためには手段を選んでいられません",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T11:00:00+09:00",
+          "ed": "2026-10-03T17:00:00+09:00",
+          "count": "",
+          "sub": "#1～#12",
+          "url": "https://cal.syoboi.jp/tid/5420",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171110-7zOdInS6DQNL.jpg"
+        },
+        {
+          "pid": "719647",
+          "tid": "4100",
+          "title": "ジョジョの奇妙な冒険(4)",
+          "fullTitle": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T12:00:00+09:00",
+          "ed": "2026-10-03T14:30:00+09:00",
+          "count": "",
+          "sub": "#31～#35",
+          "url": "https://cal.syoboi.jp/tid/4100",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx666-kYzXvKlUbeMP.jpg"
+        },
+        {
+          "pid": "721134",
+          "tid": "518",
+          "title": "名探偵コナン",
+          "fullTitle": "名探偵コナン",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T14:00:00+09:00",
+          "ed": "2026-10-03T15:30:00+09:00",
+          "count": "",
+          "sub": "#801～#803",
+          "url": "https://cal.syoboi.jp/tid/518",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-MyYT7K3chBdO.jpg"
+        },
+        {
+          "pid": "721135",
+          "tid": "518",
+          "title": "名探偵コナン",
+          "fullTitle": "名探偵コナン",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T15:30:00+09:00",
+          "ed": "2026-10-03T17:30:00+09:00",
+          "count": "",
+          "sub": "#804～#805",
+          "url": "https://cal.syoboi.jp/tid/518",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-MyYT7K3chBdO.jpg"
+        },
+        {
+          "pid": "717734",
+          "tid": "351",
+          "title": "*アニメ・マンガ関連特番*",
+          "fullTitle": "*アニメ・マンガ関連特番*",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T16:00:00+09:00",
+          "ed": "2026-10-03T23:00:00+09:00",
+          "count": "",
+          "sub": "^電撃文庫 秋の祭典オンライン2026",
+          "url": "https://cal.syoboi.jp/tid/351",
+          "image": ""
+        },
+        {
+          "pid": "707448",
+          "tid": "7794",
+          "title": "本好きの下剋上(4)",
+          "fullTitle": "本好きの下剋上 司書になるためには手段を選んでいられません 領主の養女",
+          "ch": "日本テレビ",
+          "chId": "4",
+          "st": "2026-10-03T17:30:00+09:00",
+          "ed": "2026-10-03T18:00:00+09:00",
+          "count": "24",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7794",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171110-7zOdInS6DQNL.jpg"
+        },
+        {
+          "pid": "719398",
+          "tid": "518",
+          "title": "名探偵コナン",
+          "fullTitle": "名探偵コナン",
+          "ch": "日本テレビ",
+          "chId": "4",
+          "st": "2026-10-03T18:00:00+09:00",
+          "ed": "2026-10-03T18:30:00+09:00",
+          "count": "1215",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/518",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-MyYT7K3chBdO.jpg"
+        },
+        {
+          "pid": "720785",
+          "tid": "8019",
+          "title": "魔法騎士レイアース(2026)",
+          "fullTitle": "魔法騎士レイアース(2026)",
+          "ch": "YouTube",
+          "chId": "178",
+          "st": "2026-10-03T18:00:00+09:00",
+          "ed": "2026-10-03T19:00:00+09:00",
+          "count": "",
+          "sub": "^TVアニメ『魔法騎士レイアース』ジャパンプレミア トークパート",
+          "url": "https://cal.syoboi.jp/tid/8019",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178868-mfp0HIHNJNAm.jpg"
+        },
+        {
+          "pid": "721136",
+          "tid": "518",
+          "title": "名探偵コナン",
+          "fullTitle": "名探偵コナン",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T18:30:00+09:00",
+          "ed": "2026-10-03T22:00:00+09:00",
+          "count": "",
+          "sub": "#806～#813",
+          "url": "https://cal.syoboi.jp/tid/518",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-MyYT7K3chBdO.jpg"
+        },
+        {
+          "pid": "716089",
+          "tid": "4130",
+          "title": "ガンダムUC(TV)",
+          "fullTitle": "機動戦士ガンダムUC RE:0096",
+          "ch": "BS11イレブン",
+          "chId": "128",
+          "st": "2026-10-03T19:00:00+09:00",
+          "ed": "2026-10-03T19:30:00+09:00",
+          "count": "4",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/4130",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6336-jdAs058XtObM.jpg"
+        },
+        {
+          "pid": "720360",
+          "tid": "7786",
+          "title": "魔法の姉妹ルルットリリィ",
+          "fullTitle": "魔法の姉妹ルルットリリィ",
+          "ch": "YouTube",
+          "chId": "178",
+          "st": "2026-10-03T19:00:00+09:00",
+          "ed": "2026-10-03T20:00:00+09:00",
+          "count": "",
+          "sub": "^総集編 「魔法の姉妹ルルットリリィ　近くて遠いふたりの距離」",
+          "url": "https://cal.syoboi.jp/tid/7786",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178749-c0tx9p13PVJy.png"
+        },
+        {
+          "pid": "720744",
+          "tid": "7786",
+          "title": "魔法の姉妹ルルットリリィ",
+          "fullTitle": "魔法の姉妹ルルットリリィ",
+          "ch": "TOKYO MX",
+          "chId": "19",
+          "st": "2026-10-03T19:00:00+09:00",
+          "ed": "2026-10-03T20:00:00+09:00",
+          "count": "",
+          "sub": "^魔法の姉妹ルルットリリィ 近くて遠いふたりの距離",
+          "url": "https://cal.syoboi.jp/tid/7786",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178749-c0tx9p13PVJy.png"
+        },
+        {
+          "pid": "721716",
+          "tid": "8003",
+          "title": "世界最強の魔女、始めました",
+          "fullTitle": "世界最強の魔女、始めました",
+          "ch": "YouTube",
+          "chId": "178",
+          "st": "2026-10-03T19:00:00+09:00",
+          "ed": "2026-10-03T20:00:00+09:00",
+          "count": "",
+          "sub": "^【生配信】『世界最強の魔女、始めました』 放送開始待機会場はこちらです",
+          "url": "https://cal.syoboi.jp/tid/8003",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx211778-0MXK5HqVFBYH.jpg"
+        },
+        {
+          "pid": "716101",
+          "tid": "477",
+          "title": "ガンダムSEED DESTINY",
+          "fullTitle": "機動戦士ガンダムSEED DESTINY",
+          "ch": "BS11イレブン",
+          "chId": "128",
+          "st": "2026-10-03T19:30:00+09:00",
+          "ed": "2026-10-03T20:00:00+09:00",
+          "count": "17",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/477",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx94-tng83ksiXm5E.jpg"
+        },
+        {
+          "pid": "720105",
+          "tid": "8051",
+          "title": "幻想水滸伝",
+          "fullTitle": "幻想水滸伝",
+          "ch": "TOKYO MX",
+          "chId": "19",
+          "st": "2026-10-03T20:00:00+09:00",
+          "ed": "2026-10-03T21:00:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8051",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187316-jucYCojVTjSY.jpg"
+        },
+        {
+          "pid": "720190",
+          "tid": "7787",
+          "title": "転生したらスライムだった件(5)",
+          "fullTitle": "転生したらスライムだった件 第4期",
+          "ch": "アニマックス",
+          "chId": "21",
+          "st": "2026-10-03T20:00:00+09:00",
+          "ed": "2026-10-03T20:30:00+09:00",
+          "count": "94",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7787",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
+        },
+        {
+          "pid": "711369",
+          "tid": "7045",
+          "title": "新プロジェクトX",
+          "fullTitle": "新プロジェクトX　挑戦者たち",
+          "ch": "NHK総合",
+          "chId": "1",
+          "st": "2026-10-03T20:07:00+09:00",
+          "ed": "2026-10-03T21:00:00+09:00",
+          "count": "82",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7045",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b213891-1IP1G59ARF7k.png"
+        },
+        {
+          "pid": "720799",
+          "tid": "8025",
+          "title": "薬屋のひとりごと(3)",
+          "fullTitle": "薬屋のひとりごと(第3期)",
+          "ch": "アニマックス",
+          "chId": "21",
+          "st": "2026-10-03T20:30:00+09:00",
+          "ed": "2026-10-03T21:00:00+09:00",
+          "count": "49",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8025",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
+        },
+        {
+          "pid": "714060",
+          "tid": "7907",
+          "title": "天幕のジャードゥーガル",
+          "fullTitle": "天幕のジャードゥーガル",
+          "ch": "アニマックス",
+          "chId": "21",
+          "st": "2026-10-03T21:00:00+09:00",
+          "ed": "2026-10-03T21:30:00+09:00",
+          "count": "10",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7907",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
+        },
+        {
+          "pid": "718648",
+          "tid": "4778",
+          "title": "ガールズ&パンツァー 最終章",
+          "fullTitle": "ガールズ&パンツァー 最終章",
+          "ch": "YouTube",
+          "chId": "178",
+          "st": "2026-10-03T21:00:00+09:00",
+          "ed": "2026-10-03T21:49:00+09:00",
+          "count": "3",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/4778",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99938-3BNqsG0QrZOV.png"
+        },
+        {
+          "pid": "720872",
+          "tid": "8001",
+          "title": "東京リベンジャーズ(4)",
+          "fullTitle": "東京リベンジャーズ 三天戦争編",
+          "ch": "AT-X",
+          "chId": "20",
+          "st": "2026-10-03T21:00:00+09:00",
+          "ed": "2026-10-03T21:30:00+09:00",
+          "count": "51",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8001",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120120-cWDmnmeEntSe.jpg"
+        },
+        {
+          "pid": "721773",
+          "tid": "8066",
+          "title": "どこよりも遠い場所にいる君へ",
+          "fullTitle": "どこよりも遠い場所にいる君へ",
+          "ch": "TOKYO MX",
+          "chId": "19",
+          "st": "2026-10-03T21:00:00+09:00",
+          "ed": "2026-10-03T21:30:00+09:00",
+          "count": "",
+          "sub": "^映画『どこよりも遠い場所にいる君へ』公開記念SP！",
+          "url": "https://cal.syoboi.jp/tid/8066",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx207327-OSrMbh8DrGE4.jpg"
+        },
+        {
+          "pid": "709526",
+          "tid": "7892",
+          "title": "株式会社マジルミエ(2)",
+          "fullTitle": "株式会社マジルミエ(第2期)",
+          "ch": "AT-X",
+          "chId": "20",
+          "st": "2026-10-03T21:30:00+09:00",
+          "ed": "2026-10-03T22:00:00+09:00",
+          "count": "12",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7892",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171025-alBpVzKrgy1b.jpg"
+        },
+        {
+          "pid": "710409",
+          "tid": "2326",
+          "title": "仮面ライダー",
+          "fullTitle": "仮面ライダー",
+          "ch": "チバテレビ",
+          "chId": "13",
+          "st": "2026-10-03T21:30:00+09:00",
+          "ed": "2026-10-03T22:00:00+09:00",
+          "count": "26",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/2326",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3100.jpg"
+        },
+        {
+          "pid": "711791",
+          "tid": "350",
+          "title": "ワンピース",
+          "fullTitle": "ワンピース",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T22:00:00+09:00",
+          "ed": "2026-10-03T22:30:00+09:00",
+          "count": "1180",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/350",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-ELSYx3yMPcKM.jpg"
+        },
+        {
+          "pid": "712574",
+          "tid": "7927",
+          "title": "サンダー3",
+          "fullTitle": "サンダー3",
+          "ch": "アニマックス",
+          "chId": "21",
+          "st": "2026-10-03T22:00:00+09:00",
+          "ed": "2026-10-03T22:30:00+09:00",
+          "count": "12",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7927",
+          "image": ""
+        },
+        {
+          "pid": "717627",
+          "tid": "8014",
+          "title": "転生した大聖女は、聖女であることをひた隠す",
+          "fullTitle": "転生した大聖女は、聖女であることをひた隠す",
+          "ch": "BS11イレブン",
+          "chId": "128",
+          "st": "2026-10-03T22:00:00+09:00",
+          "ed": "2026-10-03T22:30:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8014",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187402-ReKkLwFmMV3q.jpg"
+        },
+        {
+          "pid": "717639",
+          "tid": "8014",
+          "title": "転生した大聖女は、聖女であることをひた隠す",
+          "fullTitle": "転生した大聖女は、聖女であることをひた隠す",
+          "ch": "TOKYO MX",
+          "chId": "19",
+          "st": "2026-10-03T22:00:00+09:00",
+          "ed": "2026-10-03T22:30:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8014",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187402-ReKkLwFmMV3q.jpg"
+        },
+        {
+          "pid": "713188",
+          "tid": "518",
+          "title": "名探偵コナン",
+          "fullTitle": "名探偵コナン",
+          "ch": "ABEMA特設その他",
+          "chId": "281",
+          "st": "2026-10-03T22:30:00+09:00",
+          "ed": "2026-10-03T23:00:00+09:00",
+          "count": "1213",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/518",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-MyYT7K3chBdO.jpg"
+        },
+        {
+          "pid": "717468",
+          "tid": "8014",
+          "title": "転生した大聖女は、聖女であることをひた隠す",
+          "fullTitle": "転生した大聖女は、聖女であることをひた隠す",
+          "ch": "サンテレビジョン",
+          "chId": "58",
+          "st": "2026-10-03T22:30:00+09:00",
+          "ed": "2026-10-03T23:00:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8014",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187402-ReKkLwFmMV3q.jpg"
+        },
+        {
+          "pid": "717745",
+          "tid": "8021",
+          "title": "野生のラスボスが現れた！(2)",
+          "fullTitle": "野生のラスボスが現れた！(第2期)",
+          "ch": "TOKYO MX",
+          "chId": "19",
+          "st": "2026-10-03T22:30:00+09:00",
+          "ed": "2026-10-03T23:00:00+09:00",
+          "count": "13",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8021",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180523-FjvW1XByUNMK.jpg"
+        },
+        {
+          "pid": "721112",
+          "tid": "7925",
+          "title": "グロウアップショウ",
+          "fullTitle": "グロウアップショウ ～ひまわりのサーカス団～",
+          "ch": "BS11イレブン",
+          "chId": "128",
+          "st": "2026-10-03T22:30:00+09:00",
+          "ed": "2026-10-03T23:00:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7925",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196017-GynDNdbDzqzk.jpg"
+        },
+        {
+          "pid": "717806",
+          "tid": "8026",
+          "title": "ブラッククローバー(2)",
+          "fullTitle": "ブラッククローバー 2nd Season",
+          "ch": "テレビ愛知",
+          "chId": "59",
+          "st": "2026-10-03T23:00:00+09:00",
+          "ed": "2026-10-03T23:30:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8026",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97940-fyh8o7gNbha0.png"
+        },
+        {
+          "pid": "718760",
+          "tid": "8025",
+          "title": "薬屋のひとりごと(3)",
+          "fullTitle": "薬屋のひとりごと(第3期)",
+          "ch": "BS日テレ",
+          "chId": "71",
+          "st": "2026-10-03T23:00:00+09:00",
+          "ed": "2026-10-03T23:28:00+09:00",
+          "count": "49",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8025",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
+        },
+        {
+          "pid": "720252",
+          "tid": "8026",
+          "title": "ブラッククローバー(2)",
+          "fullTitle": "ブラッククローバー 2nd Season",
+          "ch": "テレビ東京",
+          "chId": "7",
+          "st": "2026-10-03T23:00:00+09:00",
+          "ed": "2026-10-03T23:30:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8026",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97940-fyh8o7gNbha0.png"
+        },
+        {
+          "pid": "720454",
+          "tid": "8025",
+          "title": "薬屋のひとりごと(3)",
+          "fullTitle": "薬屋のひとりごと(第3期)",
+          "ch": "AT-X",
+          "chId": "20",
+          "st": "2026-10-03T23:00:00+09:00",
+          "ed": "2026-10-03T23:30:00+09:00",
+          "count": "49",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8025",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
+        },
+        {
+          "pid": "721246",
+          "tid": "7829",
+          "title": "22/7 計算外 season3",
+          "fullTitle": "22/7 計算外 season3",
+          "ch": "TOKYO MX",
+          "chId": "19",
+          "st": "2026-10-03T23:00:00+09:00",
+          "ed": "2026-10-03T23:30:00+09:00",
+          "count": "27",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7829",
+          "image": ""
+        },
+        {
+          "pid": "720630",
+          "tid": "8060",
+          "title": "ふんばるず",
+          "fullTitle": "ふんばるず",
+          "ch": "BSよしもと",
+          "chId": "272",
+          "st": "2026-10-03T23:25:00+09:00",
+          "ed": "2026-10-03T23:30:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8060",
+          "image": ""
+        },
+        {
+          "pid": "720667",
+          "tid": "7626",
+          "title": "元祖！バンドリちゃん",
+          "fullTitle": "元祖！バンドリちゃん",
+          "ch": "BS日テレ",
+          "chId": "71",
+          "st": "2026-10-03T23:28:00+09:00",
+          "ed": "2026-10-03T23:30:00+09:00",
+          "count": "39",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7626",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187166-ASfp7wErGrxQ.png"
+        },
+        {
+          "pid": "712624",
+          "tid": "534",
+          "title": "ガンダムX",
+          "fullTitle": "機動新世紀ガンダムX",
+          "ch": "サンテレビジョン",
+          "chId": "58",
+          "st": "2026-10-03T23:30:00+09:00",
+          "ed": "2026-10-04T00:00:00+09:00",
+          "count": "38",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/534",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx95-5okHk1B0VKro.jpg"
+        },
+        {
+          "pid": "717558",
+          "tid": "8020",
+          "title": "バーテックスフォース",
+          "fullTitle": "バーテックスフォース",
+          "ch": "TOKYO MX",
+          "chId": "19",
+          "st": "2026-10-03T23:30:00+09:00",
+          "ed": "2026-10-04T00:00:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8020",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx209562-kQQbTKDuql9p.jpg"
+        },
+        {
+          "pid": "717581",
+          "tid": "8020",
+          "title": "バーテックスフォース",
+          "fullTitle": "バーテックスフォース",
+          "ch": "BS11イレブン",
+          "chId": "128",
+          "st": "2026-10-03T23:30:00+09:00",
+          "ed": "2026-10-04T00:00:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8020",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx209562-kQQbTKDuql9p.jpg"
+        },
+        {
+          "pid": "718122",
+          "tid": "7878",
+          "title": "追放された転生重騎士はゲーム知識で無双する",
+          "fullTitle": "追放された転生重騎士はゲーム知識で無双する",
+          "ch": "AT-X",
+          "chId": "20",
+          "st": "2026-10-03T23:30:00+09:00",
+          "ed": "2026-10-04T00:00:00+09:00",
+          "count": "14",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/7878",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180136-gtMTCRlOD4OE.jpg"
+        },
+        {
+          "pid": "718261",
+          "tid": "8028",
+          "title": "#ゾンビさがしてます",
+          "fullTitle": "#ゾンビさがしてます",
+          "ch": "テレビ朝日",
+          "chId": "6",
+          "st": "2026-10-03T23:30:00+09:00",
+          "ed": "2026-10-04T00:00:00+09:00",
+          "count": "1",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/8028",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199007-qxUDe3KA6AGI.jpg"
+        },
+        {
+          "pid": "720699",
+          "tid": "2088",
+          "title": "カードファイト!! ヴァンガード",
+          "fullTitle": "カードファイト!! ヴァンガード",
+          "ch": "BS日テレ",
+          "chId": "71",
+          "st": "2026-10-03T23:30:00+09:00",
+          "ed": "2026-10-04T00:00:00+09:00",
+          "count": "20",
+          "sub": "",
+          "url": "https://cal.syoboi.jp/tid/2088",
+          "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9539-g9UtWqT6iotq.png"
         }
       ]
     }
