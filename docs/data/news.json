@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-01T14:00:18.295Z",
+  "updatedAt": "2026-10-01T14:30:19.288Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 232,
-  "todayCount": 171,
+  "total": 235,
+  "todayCount": 174,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 55
+      "count": 57
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 97
+      "count": 99
     },
     {
       "id": "pv",
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 43
+      "count": 44
     },
     {
       "id": "music2",
@@ -37,7 +37,7 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 45
+      "count": 44
     },
     {
       "id": "goods2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 18
+      "count": 19
     },
     {
       "id": "biz2",
@@ -64,17 +64,17 @@
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 91
+      "count": 93
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 72
+      "count": 71
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 52
+      "count": 53
     },
     {
       "id": "music",
@@ -84,7 +84,7 @@
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 35
+      "count": 34
     },
     {
       "id": "goods",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "Yahoo!ニュース",
-      "count": 31
+      "count": 37
     },
     {
       "name": "アニメ！アニメ！",
@@ -109,11 +109,11 @@
     },
     {
       "name": "電ファミニコゲーマー",
-      "count": 17
+      "count": 18
     },
     {
       "name": "eeo",
-      "count": 11
+      "count": 10
     },
     {
       "name": "アニメイトタイムズ",
@@ -132,10 +132,6 @@
       "count": 6
     },
     {
-      "name": "Real Sound｜リアルサウンド",
-      "count": 5
-    },
-    {
       "name": "NHK",
       "count": 5
     },
@@ -148,7 +144,11 @@
       "count": 4
     },
     {
-      "name": "ｄメニューニュース",
+      "name": "オリコンニュース",
+      "count": 4
+    },
+    {
+      "name": "Real Sound｜リアルサウンド",
       "count": 4
     },
     {
@@ -160,11 +160,7 @@
       "count": 3
     },
     {
-      "name": "PASH! PLUS",
-      "count": 3
-    },
-    {
-      "name": "オリコンニュース",
+      "name": "pashplus.jp",
       "count": 3
     },
     {
@@ -176,10 +172,6 @@
       "count": 3
     },
     {
-      "name": "スポニチ Sponichi Annex",
-      "count": 2
-    },
-    {
       "name": "電撃ホビーウェブ",
       "count": 2
     },
@@ -188,7 +180,7 @@
       "count": 2
     },
     {
-      "name": "gamer.ne.jp",
+      "name": "Gamer",
       "count": 2
     },
     {
@@ -216,6 +208,10 @@
       "count": 2
     },
     {
+      "name": "ｄメニューニュース",
+      "count": 2
+    },
+    {
       "name": "Infoseek",
       "count": 2
     },
@@ -238,6 +234,10 @@
     {
       "name": "THE FIRST TIMES",
       "count": 2
+    },
+    {
+      "name": "ニコニコニュース",
+      "count": 1
     },
     {
       "name": "オタク総研",
@@ -264,7 +264,11 @@
       "count": 1
     },
     {
-      "name": "Fany Magazine",
+      "name": "magazine.fany.lol",
+      "count": 1
+    },
+    {
+      "name": "やさしい朝日新聞",
       "count": 1
     },
     {
@@ -288,11 +292,7 @@
       "count": 1
     },
     {
-      "name": "zakⅡ",
-      "count": 1
-    },
-    {
-      "name": "やさしい朝日新聞",
+      "name": "zakzak.co.jp",
       "count": 1
     },
     {
@@ -316,6 +316,10 @@
       "count": 1
     },
     {
+      "name": "sponichi.co.jp",
+      "count": 1
+    },
+    {
       "name": "AUTOMATON",
       "count": 1
     },
@@ -325,10 +329,6 @@
     },
     {
       "name": "TVガイドWeb",
-      "count": 1
-    },
-    {
-      "name": "ニコニコニュース",
       "count": 1
     },
     {
@@ -555,78 +555,64 @@
       ]
     },
     {
-      "id": "765962f11e5c",
-      "title": "『おぼっちゃまくん』35年ぶり完全新作アニメが2027年に放送決定！御坊茶魔役は神代知衣さんが続投",
-      "summary": "インドで人気が爆発し、熱烈なオファーを受けプロジェクト始動。アニメ化されていないエピソードにくわえ、原作・小林よしのり氏の全面監修によるオリジナルストーリーも展開",
-      "url": "https://news.denfaminicogamer.jp/news/261001b",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HTb5VmabgAAWh8C-1-724x1024.jpg",
-      "leadSource": "電ファミニコゲーマー",
-      "publishedAt": "2026-10-01T08:34:00.000Z",
-      "sourceCount": 6,
-      "articleCount": 9,
+      "id": "4326c5de0796",
+      "title": "全編完全新作アニメ「おぼっちゃまくん REBORN」27年に放送決定！茶魔役には神代知衣が続投 新ビジュアル＆ティザーPV公開",
+      "summary": "マンガ『おぼっちゃまくん』が『おぼっちゃまくん REBORN』のタイトルで、2027年に全編完全新作アニメとして放送されることが決定した。連載開始40周年の節目に、昭和の伝説のギャグマンガが令和に生まれ変わる。主人公・おぼっちゃまくんの声優に神代知衣が続投することも発表され、ティザービジュアルとティザーPVが公開され…",
+      "url": "https://animeanime.jp/article/2026/10/01/103399.html",
+      "image": "https://animeanime.jp/imgs/rss/937316.jpg",
+      "leadSource": "アニメ！アニメ！",
+      "publishedAt": "2026-10-01T03:00:03.000Z",
+      "sourceCount": 7,
+      "articleCount": 7,
       "categories": [
         "new",
         "onair"
       ],
       "keywords": [
-        "新作",
-        "神代知衣",
-        "続投"
+        "完全新作",
+        "放送決定",
+        "全編完全新作"
       ],
       "articles": [
         {
-          "title": "『おぼっちゃまくん』新作アニメ化。声は神代知衣が続投、インドでの爆発的な大ヒットが要因に",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcjhkU2s0SUV4V1FiRFpEZjdnUEt2SDEwZWtyZENzb1lXRUd3cW9vVGNudzROQ29XUzZ2Z3ZHM1VpNG9oNndJV1cyLUlZS3BEQ01vbmYtcjVUZy05dWNVdTBtUzN5MEhZaTlVV3JzNmdSb0p4Ny1kQkdsc0Rfa0s2VkN1Mk9xRll6Skx0cTFR0gGOAUFVX3lxTFByOGRTazRJRXhXUWJEWkRmN2dQS3ZIMTBla3JkQ3NvWVdFR3dxb29UY253NE5Db1dTNnZndkczVWk0b2g2d0lXVzItSVlLcERDTW9uZi1yNVRnLTl1Y1V1MG1TM3kwSFlpOVVXcnM2Z1JvSng3LWRCR2xzRF9rSzZWQ3UyT3FGWXpKTHRxMVE?oc=5",
-          "source": "ｄメニューニュース",
-          "publishedAt": "2026-10-01T08:34:00.000Z",
+          "title": "『おぼっちゃまくん』35年ぶり完全新作アニメが2027年に放送決定！御坊茶魔役は神代知衣さんが続投",
+          "url": "https://news.denfaminicogamer.jp/news/261001b",
+          "source": "電ファミニコゲーマー",
+          "publishedAt": "2026-10-01T00:41:00.000Z",
           "isPR": false
         },
         {
-          "title": "帰ってきたぶぁい！「おぼっちゃまくん」新作アニメが2027年放送、茶魔役は神代知衣 (コミックナタリー)",
-          "url": "https://news.yahoo.co.jp/articles/591ca7ef2fe0a2fcf90fb09dc2d7af4da2bc88b2/images/000",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-30T22:15:24.000Z",
+          "title": "『おぼっちゃまくん』完全新作アニメが2027年に放送決定！主人公の声優は神代知衣が続投 - post.tv-asahi.co.jp",
+          "url": "https://post.tv-asahi.co.jp/post-858376/",
+          "source": "post.tv-asahi.co.jp",
+          "publishedAt": "2026-09-30T20:02:49.000Z",
           "isPR": false
         },
         {
-          "title": "『おぼっちゃまくん』完全新作アニメが2027年放送決定 きっかけはインドでの大ヒット 茶魔役は神代知衣が続投【コメントあり】",
-          "url": "https://news.yahoo.co.jp/articles/103c049e587d248fc57672bca7b953a80d8a142b/images/000",
+          "title": "「おぼっちゃまくん」３５年ぶり復活 来年テレビ朝日系列で放送、連載開始から４０周年 全編完全新作の「ＲＥＢＯＲＮ」",
+          "url": "https://news.yahoo.co.jp/articles/13c65d8b223d9845532e797c29a885876c8e75be",
           "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-30T20:01:27.000Z",
+          "publishedAt": "2026-09-30T20:00:16.000Z",
           "isPR": false
         },
         {
-          "title": "アニメ『おぼっちゃまくん REBORN』2027年放送！ 35年ぶり新作で神代知衣が茶魔役を続投（クランクイン！）",
-          "url": "https://news.yahoo.co.jp/articles/ccc37eb8327f3cf500f1e4a7c98457f9840f4358",
-          "source": "Yahoo!ニュース",
+          "title": "「おぼっちゃまくん」令和に復活 全編完全新作アニメが27年放送決定、茶魔役は神代知衣が続投 : ニュース",
+          "url": "https://anime.eiga.com/news/127564/",
+          "source": "anime.eiga.com",
           "publishedAt": "2026-09-30T20:00:00.000Z",
           "isPR": false
         },
         {
-          "title": "「おぼっちゃまくん」35年ぶり新作アニメ放送決定 誕生のきっかけはインドでのヒット",
-          "url": "https://www.cinematoday.jp/news/N0157165",
-          "source": "シネマトゥデイ",
+          "title": "おぼっちゃまくん、令和の時代に〝カメバック〟 27年テレ朝系で全編完全新作アニメ35年ぶり復活",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YekhfWTh6N3RWdU9XNFhkeFN6dDc0Q0o0THVySExVNWtkd1BXYTlCTlNGUk9rSGJGczVMRFdNR3FUaHhJaVVSeFNOTHhkZEp6SUxTYlZobmRVbldRQUxSMmZ0dVpJU1lnZ1poZnVKMnBMajhROGfSAYoBQVVfeXFMUFFkMHFjNFpuSWhHQzNQWk5IdUJrWlJiWFBtVUtFdldMWW1USENRT1pJYjRnbzE0Qm5mdVVHQ2lMdzAzSTB3dkJPUm9HZVdXN0xVVFdUcE1xSjFZSGFlNU9fQ3otTEpQS3V2cnZRVkJ1QkFWamhHZEZrRWlwOC1mRWc4SFBENzg5Yk5n?oc=5",
+          "source": "サンスポ",
           "publishedAt": "2026-09-30T20:00:00.000Z",
           "isPR": false
         },
         {
-          "title": "『おぼっちゃまくん REBORN』2027年放送｜神代知衣が御坊茶魔役を続投",
-          "url": "https://www.animatetimes.com/news/details.php?id",
-          "source": "アニメイトタイムズ",
-          "publishedAt": "2026-09-30T20:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『おぼっちゃまくん』完全新作、2027年放送 35年ぶりで日本&インド合作!御坊茶魔役は神代知衣が続投",
-          "url": "https://www.oricon.co.jp/news/2483485/embed/video/?anc",
-          "source": "オリコンニュース",
-          "publishedAt": "2026-09-30T20:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "＜おぼっちゃまくん＞35年ぶり完全新作アニメ テレビ朝日系で2027年放送 神代知衣が御坊茶魔役続投 日印合作",
-          "url": "https://news.yahoo.co.jp/articles/b16276c35657feadb30c4c2d1265a9b5ad8e88ae",
-          "source": "Yahoo!ニュース",
+          "title": "伝説のギャグアニメが復活！完全新作『おぼっちゃまくん REBORN』2027年に放送決定 | アニメニュース | アニメフリークス",
+          "url": "https://times.abema.tv/articles/-/10275920",
+          "source": "ABEMA TIMES",
           "publishedAt": "2026-09-30T20:00:00.000Z",
           "isPR": false
         }
@@ -655,7 +641,7 @@
         {
           "title": "劇場アニメ「魔法使いの夜」×「Fate/Zero」のコラボビジュアルが解禁！「Fate/Zero」はフジテレビでのセレクション放送が決定",
           "url": "https://www.gamer.ne.jp/news/202610010076/",
-          "source": "gamer.ne.jp",
+          "source": "Gamer",
           "publishedAt": "2026-10-01T11:23:00.000Z",
           "isPR": false
         },
@@ -747,58 +733,121 @@
       ]
     },
     {
-      "id": "4326c5de0796",
-      "title": "全編完全新作アニメ「おぼっちゃまくん REBORN」27年に放送決定！茶魔役には神代知衣が続投 新ビジュアル＆ティザーPV公開",
-      "summary": "マンガ『おぼっちゃまくん』が『おぼっちゃまくん REBORN』のタイトルで、2027年に全編完全新作アニメとして放送されることが決定した。連載開始40周年の節目に、昭和の伝説のギャグマンガが令和に生まれ変わる。主人公・おぼっちゃまくんの声優に神代知衣が続投することも発表され、ティザービジュアルとティザーPVが公開され…",
-      "url": "https://animeanime.jp/article/2026/10/01/103399.html",
-      "image": "https://animeanime.jp/imgs/rss/937316.jpg",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-10-01T03:00:03.000Z",
-      "sourceCount": 6,
-      "articleCount": 6,
+      "id": "87f632e701a6",
+      "title": "『おぼっちゃまくん』新作アニメ化。声は神代知衣が続投、インドでの爆発的な大ヒットが要因に",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcjhkU2s0SUV4V1FiRFpEZjdnUEt2SDEwZWtyZENzb1lXRUd3cW9vVGNudzROQ29XUzZ2Z3ZHM1VpNG9oNndJV1cyLUlZS3BEQ01vbmYtcjVUZy05dWNVdTBtUzN5MEhZaTlVV3JzNmdSb0p4Ny1kQkdsc0Rfa0s2VkN1Mk9xRll6Skx0cTFR0gGOAUFVX3lxTFByOGRTazRJRXhXUWJEWkRmN2dQS3ZIMTBla3JkQ3NvWVdFR3dxb29UY253NE5Db1dTNnZndkczVWk0b2g2d0lXVzItSVlLcERDTW9uZi1yNVRnLTl1Y1V1MG1TM3kwSFlpOVVXcnM2Z1JvSng3LWRCR2xzRF9rSzZWQ3UyT3FGWXpKTHRxMVE?oc=5",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJndwMjVVF2hIEiandsEe_kgU9AEm-27nOrxPlainS3mrG46eV7JVKsoBHtMbqZM8o-BSqzNuJ_T82BCT1C7w4ED7nLwf9vUoufiTIddwGYF9tXueFFuolFMtf7I1zF5iQ2g==",
+      "leadSource": "ｄメニューニュース",
+      "publishedAt": "2026-10-01T08:34:00.000Z",
+      "sourceCount": 5,
+      "articleCount": 8,
       "categories": [
         "new",
         "onair"
       ],
       "keywords": [
-        "完全新作",
-        "全編完全新作",
-        "放送決定"
+        "新作",
+        "神代知衣",
+        "続投"
       ],
       "articles": [
         {
-          "title": "『おぼっちゃまくん』完全新作アニメが2027年に放送決定！主人公の声優は神代知衣が続投 - post.tv-asahi.co.jp",
-          "url": "https://post.tv-asahi.co.jp/post-858376/",
-          "source": "post.tv-asahi.co.jp",
-          "publishedAt": "2026-09-30T20:02:49.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「おぼっちゃまくん」３５年ぶり復活 来年テレビ朝日系列で放送、連載開始から４０周年 全編完全新作の「ＲＥＢＯＲＮ」",
-          "url": "https://news.yahoo.co.jp/articles/13c65d8b223d9845532e797c29a885876c8e75be",
+          "title": "帰ってきたぶぁい！「おぼっちゃまくん」新作アニメが2027年放送、茶魔役は神代知衣 (コミックナタリー)",
+          "url": "https://news.yahoo.co.jp/articles/591ca7ef2fe0a2fcf90fb09dc2d7af4da2bc88b2/images/000",
           "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-30T20:00:16.000Z",
+          "publishedAt": "2026-09-30T22:15:24.000Z",
           "isPR": false
         },
         {
-          "title": "「おぼっちゃまくん」令和に復活 全編完全新作アニメが27年放送決定、茶魔役は神代知衣が続投 : ニュース",
-          "url": "https://anime.eiga.com/news/127564/",
-          "source": "anime.eiga.com",
+          "title": "『おぼっちゃまくん』完全新作アニメが2027年放送決定 きっかけはインドでの大ヒット 茶魔役は神代知衣が続投【コメントあり】",
+          "url": "https://news.yahoo.co.jp/articles/103c049e587d248fc57672bca7b953a80d8a142b/images/000",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-30T20:01:27.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アニメ『おぼっちゃまくん REBORN』2027年放送！ 35年ぶり新作で神代知衣が茶魔役を続投（クランクイン！）",
+          "url": "https://news.yahoo.co.jp/articles/ccc37eb8327f3cf500f1e4a7c98457f9840f4358",
+          "source": "Yahoo!ニュース",
           "publishedAt": "2026-09-30T20:00:00.000Z",
           "isPR": false
         },
         {
-          "title": "おぼっちゃまくん、令和の時代に〝カメバック〟 27年テレ朝系で全編完全新作アニメ35年ぶり復活",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YekhfWTh6N3RWdU9XNFhkeFN6dDc0Q0o0THVySExVNWtkd1BXYTlCTlNGUk9rSGJGczVMRFdNR3FUaHhJaVVSeFNOTHhkZEp6SUxTYlZobmRVbldRQUxSMmZ0dVpJU1lnZ1poZnVKMnBMajhROGfSAYoBQVVfeXFMUFFkMHFjNFpuSWhHQzNQWk5IdUJrWlJiWFBtVUtFdldMWW1USENRT1pJYjRnbzE0Qm5mdVVHQ2lMdzAzSTB3dkJPUm9HZVdXN0xVVFdUcE1xSjFZSGFlNU9fQ3otTEpQS3V2cnZRVkJ1QkFWamhHZEZrRWlwOC1mRWc4SFBENzg5Yk5n?oc=5",
-          "source": "サンスポ",
+          "title": "「おぼっちゃまくん」35年ぶり新作アニメ放送決定 誕生のきっかけはインドでのヒット",
+          "url": "https://www.cinematoday.jp/news/N0157165",
+          "source": "シネマトゥデイ",
           "publishedAt": "2026-09-30T20:00:00.000Z",
           "isPR": false
         },
         {
-          "title": "伝説のギャグアニメが復活！完全新作『おぼっちゃまくん REBORN』2027年に放送決定 | アニメニュース | アニメフリークス",
-          "url": "https://times.abema.tv/articles/-/10275920",
-          "source": "ABEMA TIMES",
+          "title": "『おぼっちゃまくん REBORN』2027年放送｜神代知衣が御坊茶魔役を続投",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
           "publishedAt": "2026-09-30T20:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『おぼっちゃまくん』完全新作、2027年放送 35年ぶりで日本&インド合作!御坊茶魔役は神代知衣が続投",
+          "url": "https://www.oricon.co.jp/news/2483485/embed/video/?anc",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-09-30T20:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "＜おぼっちゃまくん＞35年ぶり完全新作アニメ テレビ朝日系で2027年放送 神代知衣が御坊茶魔役続投 日印合作",
+          "url": "https://news.yahoo.co.jp/articles/b16276c35657feadb30c4c2d1265a9b5ad8e88ae",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-30T20:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "e63dcd14bad5",
+      "title": "声優の津田健次郎さんが「ティックトック」の会社を訴えた裁判、判決が出ました",
+      "summary": "",
+      "url": "https://yasashii.asahi.com/articles/article_0014857.html",
+      "image": "https://yasashii.asahi.com/assets/entry-14857-og_image.webp",
+      "leadSource": "やさしい朝日新聞",
+      "publishedAt": "2026-10-01T08:13:13.000Z",
+      "sourceCount": 4,
+      "articleCount": 5,
+      "categories": [
+        "cast2"
+      ],
+      "keywords": [
+        "声優",
+        "津田健次郎",
+        "判決"
+      ],
+      "articles": [
+        {
+          "title": "“声は権利保護の対象”と認める判決 声優・津田健次郎さんの訴え退けるも東京地裁が初判断 専門家の見解は TikTok運営に生成AI動画の削除求めた訴訟（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.yahoo.co.jp/articles/5f1ce44f8a333ffc91164cad2623f31f59119768",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-30T09:53:19.000Z",
+          "isPR": false
+        },
+        {
+          "title": "声にも「パブリシティー権」初判断 生成ＡＩで模倣、人気声優訴え―削除請求は退ける・東京地裁",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sU0RDMmUyZXRxQWI5UkpHR2dYM0NJMTRvVE5WLVpOSlFnaTVDeGtUdVpPbEZsVUoyUXZ5ZUpkNlpnUVkwbkZib05Od2RhUTkydV9BNUJZcVFxajJySzVYV0x4aw?oc=5",
+          "source": "時事ドットコム",
+          "publishedAt": "2026-09-30T08:49:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「声のパブリシティー権」認める判決 声優の津田健次郎さんの裁判 [AIの時代]",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nbGYwSkRvSkNtMVBmNFFYZFR0WGpQdm8xRjBKSDdUQXlQSk4wLTVEQm5mUWRwTGVuS0dVMXpKcWVkdi1Mdlh0RDFUdUx5REhybUpzbjJaa05sMm56V1RGQklPcVF6YVU?oc=5",
+          "source": "朝日新聞",
+          "publishedAt": "2026-09-30T05:16:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "生成AI動画巡り 声優の請求棄却",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xM0pEU0hQTzBUOTBxVTB5NW9rcW1uZFU2aDlRd2hsdXBqQkVNN0NVUEwweVN0OW1KcjUtVGhuOGRQYUVDZWNHQjVhU2FiODlN?oc=5",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-30T04:38:19.000Z",
           "isPR": false
         }
       ]
@@ -832,7 +881,7 @@
         },
         {
           "title": "劇場版『ボトムス』も無料テレビ初放送。『攻殻機動隊』などBS12「日曜アニメ劇場」11月作品",
-          "url": "https://www.phileweb.com/news/hobby/202609/30/8561.html",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HVUF2Z1RJb2lGUTV5SFRPdmNBVms5cE1sWHdOMS1IN1BnZWtaTzNxUUtGZkpKTlk5c0VmYWxzWnVvNzdIY1l2WkwyMEZHZHE4ZEVmZy1fT2tZTWV3NHRHbDNlaEFyZw?oc=5",
           "source": "PHILE WEB",
           "publishedAt": "2026-09-30T08:16:21.000Z",
           "isPR": false
@@ -954,41 +1003,6 @@
       ]
     },
     {
-      "id": "e63dcd14bad5",
-      "title": "声優の津田健次郎さんが「ティックトック」の会社を訴えた裁判、判決が出ました",
-      "summary": "",
-      "url": "https://yasashii.asahi.com/articles/article_0014857.html",
-      "image": "https://yasashii.asahi.com/assets/entry-14857-og_image.webp",
-      "leadSource": "やさしい朝日新聞",
-      "publishedAt": "2026-10-01T06:08:37.000Z",
-      "sourceCount": 3,
-      "articleCount": 3,
-      "categories": [
-        "cast2"
-      ],
-      "keywords": [
-        "声優",
-        "津田健次郎",
-        "裁判"
-      ],
-      "articles": [
-        {
-          "title": "根本的解決には至らずも「価値」のあった人気声優・津田健次郎のAI裁判",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NTzdLUHlBb1Z0YjZhZENUOXlBOFlITXlyN3VWcS1ad1VCYkJ5SWhmb2thbFN2RzZYN1pqRnBlUFNrVDE5dEQ0S0dBQTBzd0R2NUZlTGtoVlF3b3BleEhyeG9mUUswYVBfMmNFQVVzYmRhMVRMQkhR0gF3QVVfeXFMTU1PN0tQeUFvVnRiNmFkQ1Q5eUE4WUhNeXI3dVZxLVp3VUJiQnlJaGZva2FsU3ZHNlg3WmpGcGVQU2tUMTl0RDRLR0FBMHN3RHY1RmVMa2hWUXdvcGV4SHJ4b2ZRSzBhUF8yY0VBVXNiZGExVExCSFE?oc=5",
-          "source": "ｄメニューニュース",
-          "publishedAt": "2026-10-01T03:02:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「声のパブリシティー権」認める判決 声優の津田健次郎さんの裁判 [AIの時代]",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nbGYwSkRvSkNtMVBmNFFYZFR0WGpQdm8xRjBKSDdUQXlQSk4wLTVEQm5mUWRwTGVuS0dVMXpKcWVkdi1Mdlh0RDFUdUx5REhybUpzbjJaa05sMm56V1RGQklPcVF6YVU?oc=5",
-          "source": "朝日新聞",
-          "publishedAt": "2026-09-30T05:16:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "551ec3b58218",
       "title": "劇場版『遊☆戯☆王 THE DARK SIDE OF DIMENSIONS』11月20日から再上映が決定！ 入場者特典第1弾は高橋和希の原案イラストを使用したポストカード",
       "summary": "",
@@ -1025,22 +1039,65 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-01T13:30:17.840Z",
-    "previousCount": 231,
-    "newCount": 5
+    "previousAt": "2026-10-01T14:00:18.295Z",
+    "previousCount": 232,
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-01T14:30:18.295Z",
+  "nextUpdateAt": "2026-10-01T15:00:19.288Z",
   "items": [
     {
-      "id": "6c48811ffea0",
-      "title": "「声の権利保護」初めて認める判断 津田健次郎の活動に声優仲間から感謝相次ぐ「津田くんに敬意を」",
-      "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/01/kiji/20261001s00041000417000c.html",
-      "host": "sponichi.co.jp",
-      "source": "スポニチ Sponichi Annex",
+      "id": "b88311220392",
+      "title": "『007 ファーストライト』初の大型無料DLCが配信開始。機関銃とミサイルランチャーを搭載したボンドカー「ヴァルハラ」で爆走",
+      "url": "https://news.denfaminicogamer.jp/news/2610013c",
+      "host": "news.denfaminicogamer.jp",
+      "source": "電ファミニコゲーマー",
+      "summary": "ニューゲーム＋やフォトモード、新難易度「00」を追加。ベトナムのホテルで重要文書を回収する新オペレーションは、挑戦するたびに状況が変化する",
+      "publishedAt": "2026-10-01T14:11:45.000Z",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/FreeDLC_Edition-Key-Art_1920x1080-1024x576.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "e7ff517eb9c9",
+      "title": "秋の新作アニメ異例のFX注意文 『FX戦士くるみちゃん』放送開始で開幕に長文「過度な取引は生活に支障」（オリコン）",
+      "url": "https://news.yahoo.co.jp/articles/f1529a70d1bcbacffe9bf7ed212f79466e894d80",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-10-01T13:56:00.000Z",
-      "image": "https://www.sponichi.co.jp/entertainment/news/2026/09/30/jpeg/20260930s10041000286000p_view.webp",
+      "publishedAt": "2026-10-01T14:03:09.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261001-00000571-oric-000-1-view.jpg?exp=10800",
+      "categories": [
+        "onair",
+        "new"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2defc6f15720",
+      "title": "「声の権利保護」初めて認める司法判断 津田健次郎の活動に声優仲間から感謝相次ぐ「津田くんに敬意を」（スポニチアネックス）",
+      "url": "https://news.yahoo.co.jp/articles/00a2d55503ee16a221780a3a0eb1891f641c75c8",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-01T13:57:10.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261001-00000391-spnannex-000-2-view.jpg?exp=10800",
       "categories": [
         "cast2"
       ],
@@ -1068,30 +1125,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1e7d42e48b37",
-      "title": "「U-NEXT」の秋アニメ配信ラインナップが公開！『薬屋のひとりごと』第3期のほか『ドラゴンボール超 ビルス』『ケロロ軍曹☆』など50作品以上が配信決定",
-      "url": "https://eeo.today/media/2026/09/30/398440/",
-      "host": "eeo.today",
-      "source": "eeo",
-      "summary": "",
-      "publishedAt": "2026-10-01T13:01:22.000Z",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/09/31998-2957-eb79e0f0a4300cae74992d9e677d5bd8-1920x1080-1.webp",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "movie",
-        "adapt",
-        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1212,7 +1245,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c4ddb0690a48",
@@ -1235,6 +1268,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "98eeb7e18d15",
+      "title": "国慶節シーズンの新作映画、前売り興行収入は11億円突破、アニメ映画が好調",
+      "url": "https://news.nicovideo.jp/watch/nw19831361?news_ref",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-10-01T12:00:22.000Z",
+      "image": "",
+      "categories": [
+        "movie2",
+        "new"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "02e5836c2497",
@@ -1303,6 +1358,27 @@
       "isNew": false
     },
     {
+      "id": "8f145b3f1b7a",
+      "title": "ノンバーバル作品に声優として出演の中村倫也「正解が分からない」（日刊スポーツ）",
+      "url": "https://news.yahoo.co.jp/articles/5734c738f34fb5edf6cb3cd3523b11e76354c510",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-01T11:41:48.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261001-40011506-nksports-000-2-view.jpg?exp=10800",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "f88abbb1f310",
       "title": "『神さま学校の落ちこぼれ』TVアニメ化決定！ ナギ・ツクヨミ・トータが集結したティザービジュアルも解禁に!! - eeo Media（イーオメディア）",
       "url": "https://eeo.today/media/2026/09/30/398321/",
@@ -1331,7 +1407,7 @@
       "title": "劇場アニメ「魔法使いの夜」×「Fate/Zero」のコラボビジュアルが解禁！「Fate/Zero」はフジテレビでのセレクション放送が決定",
       "url": "https://www.gamer.ne.jp/news/202610010076/",
       "host": "gamer.ne.jp",
-      "source": "gamer.ne.jp",
+      "source": "Gamer",
       "summary": "",
       "publishedAt": "2026-10-01T11:23:00.000Z",
       "image": "",
@@ -1440,17 +1516,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "47cd4e411823",
-      "title": "『響け！ユーフォニアム』ファイナルPV公開 11年の軌跡と劇場版後編の新規シーン収録",
-      "url": "https://realsound.jp/movie/2026/10/post-2540293.html/amp",
-      "host": "realsound.jp",
-      "source": "Real Sound｜リアルサウンド",
+      "title": "『響け！ユーフォニアム』ファイナルPV公開 11年の軌跡と劇場版後編の新規シーン収録（リアルサウンド）",
+      "url": "https://news.yahoo.co.jp/articles/d3452e68315b92515aab4eed31ccd21e952fd9b7",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-10-01T11:00:18.000Z",
-      "image": "https://realsound.jp/wp-content/uploads/2026/10/20261001-eupho-01.jpg",
+      "publishedAt": "2026-10-01T11:01:05.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261001-00010042-realsound-000-1-view.jpg?exp=10800",
       "categories": [
         "movie2",
         "pv"
@@ -1483,7 +1559,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "930d7c63d819",
@@ -1706,7 +1782,7 @@
       "title": "アニメ『新 美味しんぼ』キャストボイスお披露目の最新ティザーPV公開！ 白熱のドラマを予感させる場面写真も一挙解禁",
       "url": "https://www.pashplus.jp/anime/497458/",
       "host": "pashplus.jp",
-      "source": "PASH! PLUS",
+      "source": "pashplus.jp",
       "summary": "",
       "publishedAt": "2026-10-01T09:36:07.000Z",
       "image": "https://www.pashplus.jp/wp-content/uploads/aa58cbd46703b276d452c46ac3024c61.jpg",
@@ -1888,7 +1964,7 @@
       "title": "アニメ『薬屋のひとりごと』第3期がいよいよ開幕！ 第49話「蝗」あらすじ＆先行カット到着。ノンクレジットOP映像もプレミア公開決定",
       "url": "https://www.pashplus.jp/anime/497405/",
       "host": "pashplus.jp",
-      "source": "PASH! PLUS",
+      "source": "pashplus.jp",
       "summary": "",
       "publishedAt": "2026-10-01T09:15:16.000Z",
       "image": "https://www.pashplus.jp/wp-content/uploads/844e9094d2ff3c79f6b66f3d2b53f714.jpg",
@@ -2133,7 +2209,7 @@
       "source": "Real Sound｜リアルサウンド",
       "summary": "",
       "publishedAt": "2026-10-01T09:00:56.000Z",
-      "image": "https://realsound.jp/wp-content/uploads/2026/10/20261001-oisinbo-01.jpg",
+      "image": "",
       "categories": [
         "new",
         "pv"
@@ -2311,7 +2387,7 @@
       "title": "最終巻の『イケナイ教』コミカライズやアニメ化決定の『異郷の爪塗り見習い 7』など11作品！ PASH! コミックス9月の新刊情報が公開 【今週の人気記事】",
       "url": "https://www.pashplus.jp/goods/497352/",
       "host": "pashplus.jp",
-      "source": "PASH! PLUS",
+      "source": "pashplus.jp",
       "summary": "",
       "publishedAt": "2026-10-01T08:54:41.000Z",
       "image": "https://www.pashplus.jp/wp-content/uploads/02-2325.jpg",
@@ -2470,7 +2546,7 @@
       "title": "ヨネダ2000が声優初挑戦! アニメ『ふんばるず』10月3日より放送開始",
       "url": "https://magazine.fany.lol/291897/",
       "host": "magazine.fany.lol",
-      "source": "Fany Magazine",
+      "source": "magazine.fany.lol",
       "summary": "",
       "publishedAt": "2026-10-01T08:30:00.000Z",
       "image": "https://magazine.fany.lol/wp-content/uploads/2026/09/7966bae78213db11914ad7af893f8431-24.png",
@@ -2578,25 +2654,6 @@
       "isNew": false
     },
     {
-      "id": "b79d38f6ebf3",
-      "title": "MC中島健人と世界のアニメ好きを深掘り！今回は豪華2部構成！大好きな遊☆戯☆王SP企画に中島健人も大興奮！",
-      "url": "https://tver.jp/episodes/epztum5e4e",
-      "host": "tver.jp",
-      "source": "TVer",
-      "summary": "",
-      "publishedAt": "2026-10-01T08:20:23.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "84078236cf0d",
       "title": "ディストピアRPG『Limbus Company』Steam同接15万人超え、記録更新迫る勢いに",
       "url": "https://www.inside-games.jp/article/2026/10/01/188589.html",
@@ -2651,6 +2708,46 @@
       ],
       "series": [
         "movie",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "b79d38f6ebf3",
+      "title": "MC中島健人と世界のアニメ好きを深掘り！今回は豪華2部構成！大好きな遊☆戯☆王SP企画に中島健人も大興奮！",
+      "url": "https://tver.jp/episodes/epztum5e4e",
+      "host": "tver.jp",
+      "source": "TVer",
+      "summary": "",
+      "publishedAt": "2026-10-01T08:14:31.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "e63dcd14bad5",
+      "title": "声優の津田健次郎さんが「ティックトック」の会社を訴えた裁判、判決が出ました",
+      "url": "https://yasashii.asahi.com/articles/article_0014857.html",
+      "host": "yasashii.asahi.com",
+      "source": "やさしい朝日新聞",
+      "summary": "",
+      "publishedAt": "2026-10-01T08:13:13.000Z",
+      "image": "https://yasashii.asahi.com/assets/entry-14857-og_image.webp",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
         "cast"
       ],
       "isOfficial": false,
@@ -2921,7 +3018,7 @@
       "title": "杏ジュリア、異例・声優部へ異動 ファンの反響と決意とは",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EeHZGVGhkN0JVdkRRRkk1LThXVGNFUjJ6VU9jSFd3WmJJUkdUVjloXzZpN0NQMWZyWW1FRDhNdHpDYzJiem81ODI5cV9RWldQWWlsQjhVaHdpbTRJRTdXNXpPOER5ZWpFck91T0E1T0s0WDRPY0JTMNIBjAFBVV95cUxNTmxsMmNKNUZiRGFPV1A1a0cxNGl5N2dBOWdZNDBhd1hEQUhuU0VHNEQzMVZ2WnRkWFF3LVJHOVlIMmZGakNtTXcyTEkwNkZYZll2VVpQMXViVjMtV3NpNHNfcGNMbUh2OGsyb2djTXNiTEJHeVZXUDB1U3ZCWEJCWVUwd2ZnZUFMY0g4SA?oc=5",
       "host": "zakzak.co.jp",
-      "source": "zakⅡ",
+      "source": "zakzak.co.jp",
       "summary": "",
       "publishedAt": "2026-10-01T06:18:06.000Z",
       "image": "",
@@ -2995,27 +3092,6 @@
       "series": [
         "movie",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e63dcd14bad5",
-      "title": "声優の津田健次郎さんが「ティックトック」の会社を訴えた裁判、判決が出ました",
-      "url": "https://yasashii.asahi.com/articles/article_0014857.html",
-      "host": "yasashii.asahi.com",
-      "source": "やさしい朝日新聞",
-      "summary": "",
-      "publishedAt": "2026-10-01T06:08:37.000Z",
-      "image": "https://yasashii.asahi.com/assets/entry-14857-og_image.webp",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3149,6 +3225,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c9a2969f0d1d",
+      "title": "画像・写真 | ですよ。、現在は“プロ謝罪師”として謝罪代行 大ヒットギャグの誕生秘話を告白【声優と夜あそび】 4枚目",
+      "url": "https://www.oricon.co.jp/news/2483738/photo/4/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-10-01T05:41:47.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2484000/2483738/20261001_122427_p_o_70923799.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "888cb5cb9f01",
@@ -3600,7 +3697,7 @@
       "title": "「ウマ娘」声優・木村千咲 10年目で独立 新会社設立を発表",
       "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/01/kiji/20261001s00041000154000c.html",
       "host": "sponichi.co.jp",
-      "source": "スポニチ Sponichi Annex",
+      "source": "sponichi.co.jp",
       "summary": "",
       "publishedAt": "2026-10-01T03:04:00.000Z",
       "image": "https://www.sponichi.co.jp/entertainment/news/2026/10/01/jpeg/20261001s10041000150000p_view.webp",
@@ -3614,27 +3711,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ebcee42cc8cf",
-      "title": "根本的解決には至らずも「価値」のあった人気声優・津田健次郎のAI裁判",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NTzdLUHlBb1Z0YjZhZENUOXlBOFlITXlyN3VWcS1ad1VCYkJ5SWhmb2thbFN2RzZYN1pqRnBlUFNrVDE5dEQ0S0dBQTBzd0R2NUZlTGtoVlF3b3BleEhyeG9mUUswYVBfMmNFQVVzYmRhMVRMQkhR0gF3QVVfeXFMTU1PN0tQeUFvVnRiNmFkQ1Q5eUE4WUhNeXI3dVZxLVp3VUJiQnlJaGZva2FsU3ZHNlg3WmpGcGVQU2tUMTl0RDRLR0FBMHN3RHY1RmVMa2hWUXdvcGV4SHJ4b2ZRSzBhUF8yY0VBVXNiZGExVExCSFE?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
-      "summary": "",
-      "publishedAt": "2026-10-01T03:02:00.000Z",
-      "image": "",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3988,28 +4064,6 @@
       "isNew": false
     },
     {
-      "id": "949db82b1631",
-      "title": "【京都国際マンガ・アニメフェア（京まふ）2026】劇場版『ゾンビランドサガ ゆめぎんがパラダイス』の事後通販スタート！",
-      "url": "https://news.nicovideo.jp/watch/nw19828217?news_ref",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-10-01T01:45:26.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "726febf12dad",
       "title": "新作アニメ放送直前「ケロロ軍曹」全巻無料フェア、10月1日と2日の2日間で",
       "url": "https://natalie.mu/comic/news/691780",
@@ -4080,16 +4134,15 @@
       "url": "https://news.denfaminicogamer.jp/news/261001b",
       "host": "news.denfaminicogamer.jp",
       "source": "電ファミニコゲーマー",
-      "summary": "インドで人気が爆発し、熱烈なオファーを受けプロジェクト始動。アニメ化されていないエピソードにくわえ、原作・小林よしのり氏の全面監修によるオリジナルストーリーも展開",
-      "publishedAt": "2026-10-01T00:41:10.000Z",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HTb5VmabgAAWh8C-1-724x1024.jpg",
+      "summary": "",
+      "publishedAt": "2026-10-01T00:41:00.000Z",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HTb5VmabgAAWh8C-1.jpg",
       "categories": [
         "new",
         "onair"
       ],
       "series": [
-        "tv",
-        "adapt"
+        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4247,6 +4300,29 @@
       "isNew": false
     },
     {
+      "id": "84a3112dc30e",
+      "title": "サンダー3＞テレビアニメ第2期 2027年放送 原作者の正体も話題 「GANTZ」の奥浩哉だった！（MANTANWEB）",
+      "url": "https://news.yahoo.co.jp/articles/e25034ef77d8d1701fe4a1898842baf08d1e1474",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-09-30T22:30:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261001-00000009-mantan-000-1-view.jpg?exp=10800",
+      "categories": [
+        "onair",
+        "manga"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "be13b429b75a",
       "title": "『サンダー３』第2期は来年放送 予告映像＆池田祐輝（奥浩哉）お祝いイラスト公開",
       "url": "http://www.excite.co.jp/news/article/Oricon_2483658/",
@@ -4272,13 +4348,13 @@
     },
     {
       "id": "be9416842ea6",
-      "title": "劇場版『魔法少女まどか☆マギカ』完全新作がシリーズ最高興収 人気をつなぐ“2つの客層”",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZjM5NUFWUmlJMkRlUElzYlkyNkZacEVHVXNjX2NxSkdHZzJvcmo0NjlHVjFvNnREYUI2WHQ0TXFjcGo3TFpLWFgtTDNDZ1RIR0JaNkZ2anBCdUx5YXdYdmRHLXZ6UkF0dTFCZXB3bzhpUngzTTFiaWVIbi1La3RYa3p6ZW9GSnlN0gGIAUFVX3lxTE9mMzk1QVZSaUkyRGVQSXNiWTI2RlpwRUdVc2NfY3FKR0dnMm9yajQ2OUdWMW82dERhQjZYdDRNcWNwajdMWktYWC1MM0NnVEhHQlo2RnZqcEJ1THlhd1h2ZEctdnpSQXR1MUJlcHdvOGlSeDNNMWJpZUhuLUtrdFhrenplb0ZKeU0?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
+      "title": "劇場版『魔法少女まどか☆マギカ』完全新作がシリーズ最高興収 人気をつなぐ“2つの客層”（ENCOUNT）",
+      "url": "https://news.yahoo.co.jp/articles/32bd089bf88b536aed7ba6db3f617b2ae971ca5f",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-30T22:30:00.000Z",
-      "image": "",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261001-01074478-encount-000-1-view.jpg?exp=10800",
       "categories": [
         "new",
         "movie2"
@@ -4288,7 +4364,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5039,7 +5115,7 @@
       "title": "劇場アニメ「魔法使いの夜」最終予告が解禁！主題歌はsupercellの新曲「夜と青」に決定、こやまひろかず氏による描き下ろしキャラクタービジュアルも公開",
       "url": "https://www.gamer.ne.jp/news/202609300054/",
       "host": "gamer.ne.jp",
-      "source": "gamer.ne.jp",
+      "source": "Gamer",
       "summary": "",
       "publishedAt": "2026-09-30T10:56:00.000Z",
       "image": "",
@@ -5424,14 +5500,36 @@
       "isNew": false
     },
     {
-      "id": "5493a9438ffc",
-      "title": "Ryu Matsuyama、アニメ「天は赤い河のほとり」第2クールエンディングテーマ「flow feat. 安藤裕子」のライブ映像を公開。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000207.000034440.html",
+      "id": "949db82b1631",
+      "title": "【京都国際マンガ・アニメフェア（京まふ）2026】劇場版『ゾンビランドサガ ゆめぎんがパラダイス』の事後通販スタート！",
+      "url": "https://prtimes.jp/main/html/rd/p/000001105.000069812.html",
       "host": "prtimes.jp",
       "source": "PR TIMES",
       "summary": "",
       "publishedAt": "2026-09-30T09:00:01.000Z",
-      "image": "https://prcdn.freetls.fastly.net/release_image/34440/207/34440-207-f983798a339841dfc6663c5d746cb944-3900x3900.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "image": "https://prcdn.freetls.fastly.net/release_image/69812/1105/69812-1105-cddb3373a2b5b9442284e8d836c284d8-800x800.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "5493a9438ffc",
+      "title": "Ryu Matsuyama、アニメ「天は赤い河のほとり」第2クールエンディングテーマ「flow feat. 安藤裕子」のライブ映像を公開。",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FTWpBclU2Tm8zeXNabU1xZS1OM3hRYWRmNzgyUGJhNFVyd1VYVzFkOVQ0bjhHVEFUaDdEN216WHdEVElrZUZzTjhDUkl5aGwwZHdSMmZ0aC10LWxIdTd1cTh0SHhkRlFpX1E?oc=5",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-09-30T09:00:01.000Z",
+      "image": "",
       "categories": [
         "music2",
         "pv"
@@ -5443,14 +5541,14 @@
       ],
       "isOfficial": false,
       "isPR": true,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "09a3837ec89c",
       "title": "声にも「パブリシティー権」初判断 生成ＡＩで模倣、人気声優訴え―削除請求は退ける・東京地裁",
-      "url": "https://www.jiji.com/jc/article?k",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sU0RDMmUyZXRxQWI5UkpHR2dYM0NJMTRvVE5WLVpOSlFnaTVDeGtUdVpPbEZsVUoyUXZ5ZUpkNlpnUVkwbkZib05Od2RhUTkydV9BNUJZcVFxajJySzVYV0x4aw?oc=5",
       "host": "jiji.com",
       "source": "時事ドットコム",
       "summary": "",
@@ -5464,7 +5562,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5493,19 +5591,19 @@
     {
       "id": "ab5fc101766e",
       "title": "アニメ表現の慣習を打ち破る挑戦 門脇康平監督『我々は宇宙人』が切り拓いた新たな地平",
-      "url": "https://realsound.jp/movie/2026/09/post-2537990.html",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9seUprNjdXOXZlcXZQYjI3V2RJUjgzVTc1MFVZLUZFeG0yeUZLNEtxb3Y4TG5FdjM0Xy1pMFVndE1YZUZZSGwxUFJxTmZDUFdRR1BEaE1ScmN4a2Q5WG9xQzRn0gFnQVVfeXFMUHZmWURoV1ZZc3BCbVh5dlZzVjZGV3VnRFliNmNacDFJbU1aTnJmSUF1emNXRkRaM1J3c3JwWFdHZDJ0dnZSemxHeHRicXJQNGlCaVRhcXRfWVlXRWUtckE4WGE3LTRqZw?oc=5",
       "host": "realsound.jp",
       "source": "Real Sound｜リアルサウンド",
       "summary": "",
       "publishedAt": "2026-09-30T08:30:37.000Z",
-      "image": "https://realsound.jp/wp-content/uploads/2026/09/20260930-wearealiens-07.jpeg",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5535,12 +5633,12 @@
     {
       "id": "119127076468",
       "title": "劇場版『ボトムス』も無料テレビ初放送。『攻殻機動隊』などBS12「日曜アニメ劇場」11月作品",
-      "url": "https://www.phileweb.com/news/hobby/202609/30/8561.html",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HVUF2Z1RJb2lGUTV5SFRPdmNBVms5cE1sWHdOMS1IN1BnZWtaTzNxUUtGZkpKTlk5c0VmYWxzWnVvNzdIY1l2WkwyMEZHZHE4ZEVmZy1fT2tZTWV3NHRHbDNlaEFyZw?oc=5",
       "host": "phileweb.com",
       "source": "PHILE WEB",
       "summary": "",
       "publishedAt": "2026-09-30T08:16:21.000Z",
-      "image": "https://www.phileweb.com/news/ogp/hobby/85/adba917126237b8e98c7bf844667860f.jpg",
+      "image": "",
       "categories": [
         "onair",
         "movie2"
@@ -5551,7 +5649,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5800,27 +5898,6 @@
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "daddbef73adf",
-      "title": "『エヴァンゲリオン新劇場版』副監督 小松田大全 × Ryo’LEFTY’Miyata｜創作秘話から紐解く、アニメ制作のリアル",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkaVFoa1Y4VjEwcHBBWV95ZWozN290aWdTQUVjSFdCYVA0cnNkUGxZcXpmWE1jMmdKVHlmNVVwakl0Y3VIcFBNVXB3YWxhdDVVT2hpejV4NGVpZzhOZFloZ0Vzck1TZUdFUUE?oc=5",
-      "host": "prtimes.jp",
-      "source": "PR TIMES",
-      "summary": "",
-      "publishedAt": "2026-09-30T05:00:02.000Z",
-      "image": "",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": true,
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
