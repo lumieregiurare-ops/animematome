@@ -64,11 +64,12 @@ export async function fetchTitles(tids) {
   return out;
 }
 
-// 期間内の放送予定。from / to は Date
+// 期間内の放送予定。from / to は Date。Range は日本時間で渡す（実行環境のタイムゾーンに依らない）
 export async function fetchPrograms(from, to) {
-  const p = (n) => String(n).padStart(2, "0");
-  const fmt = (d) =>
-    `${d.getFullYear()}${p(d.getMonth() + 1)}${p(d.getDate())}_${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}`;
+  const fmt = (d) => {
+    const s = new Date(d.getTime() + 9 * 3600000).toISOString(); // 2026-09-15T14:00:00.000Z（日本時間の値）
+    return `${s.slice(0, 4)}${s.slice(5, 7)}${s.slice(8, 10)}_${s.slice(11, 13)}${s.slice(14, 16)}${s.slice(17, 19)}`;
+  };
   const xml = await fetchText(`${BASE}?Command=ProgLookup&Range=${fmt(from)}-${fmt(to)}`, { timeoutMs: 25000 });
   const out = [];
   for (const x of items(xml, "ProgItem")) {
