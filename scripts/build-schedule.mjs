@@ -60,12 +60,15 @@ export async function buildSchedule(config) {
   const chById = new Map(chCache.channels.map((c) => [c.id, c]));
 
   // 載せる局。多すぎると放送予定が埋もれるので、主要局だけに絞る
-  const allow = (cfg.channels || []).map((k) => new RegExp(k));
+  // しょぼいカレンダーの局名は表記ゆれがある（「Abemaアニメ」と「ABEMA特設その他」など）ので大文字・小文字は区別しない
+  const allow = (cfg.channels || []).map((k) => new RegExp(k, "i"));
   const allowed = (name) => !allow.length || allow.some((re) => re.test(name));
 
-  // 今日の 0 時から days 日ぶん
-  const from = new Date();
-  from.setHours(0, 0, 0, 0);
+  // 今日（日本時間）の 0 時から days 日ぶん。
+  // GitHub Actions のランナーは UTC なので、ローカル時刻で 0 時を取ると
+  // 日本時間 0〜9 時の収集で範囲が前日にずれ、最終日が丸ごと欠ける
+  const todayKey = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
+  const from = new Date(`${todayKey}T00:00:00+09:00`);
   const to = new Date(from.getTime() + days * 86400000 - 1000);
 
   const programs = await fetchPrograms(from, to);
@@ -104,7 +107,6 @@ export async function buildSchedule(config) {
 
   // 前の日から続いている長時間の枠（一挙放送など）は開始日が昨日になる。
   // 今日より前の日付のタブが残ると紛らわしいので落とす
-  const todayKey = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
   const daysOut = [...byDay.entries()]
     .filter(([date]) => date >= todayKey)
     .sort((a, b) => a[0].localeCompare(b[0]))
