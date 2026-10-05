@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T17:30:18.043Z",
+  "updatedAt": "2026-10-05T18:00:19.501Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
@@ -7,7 +7,7 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 194,
-  "todayCount": 10,
+  "todayCount": 11,
   "categories": [
     {
       "id": "new",
@@ -17,7 +17,7 @@
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 78
+      "count": 80
     },
     {
       "id": "pv",
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 45
+      "count": 44
     },
     {
       "id": "music2",
@@ -37,7 +37,7 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 36
+      "count": 38
     },
     {
       "id": "goods2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 23
+      "count": 24
     },
     {
       "id": "biz2",
@@ -57,29 +57,29 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 14
+      "count": 13
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 89
+      "count": 90
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 68
+      "count": 70
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 48
+      "count": 47
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 41
+      "count": 42
     },
     {
       "id": "adapt",
@@ -94,7 +94,7 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 30
+      "count": 31
     }
   ],
   "weapons": [],
@@ -120,15 +120,19 @@
       "count": 7
     },
     {
-      "name": "ナタリー",
-      "count": 6
+      "name": "山陽新聞",
+      "count": 5
     },
     {
-      "name": "オリコンニュース",
+      "name": "oricon.co.jp",
       "count": 5
     },
     {
       "name": "アニメハック",
+      "count": 5
+    },
+    {
+      "name": "ナタリー",
       "count": 5
     },
     {
@@ -152,11 +156,11 @@
       "count": 4
     },
     {
-      "name": "山陽新聞",
-      "count": 4
+      "name": "電撃オンライン",
+      "count": 3
     },
     {
-      "name": "電撃オンライン",
+      "name": "shiritomo",
       "count": 3
     },
     {
@@ -184,15 +188,7 @@
       "count": 2
     },
     {
-      "name": "ｄメニューニュース",
-      "count": 2
-    },
-    {
       "name": "佐賀新聞",
-      "count": 2
-    },
-    {
-      "name": "hashout.jp",
       "count": 2
     },
     {
@@ -213,10 +209,6 @@
     },
     {
       "name": "アットエス",
-      "count": 1
-    },
-    {
-      "name": "nbpress.online",
       "count": 1
     },
     {
@@ -272,6 +264,10 @@
       "count": 1
     },
     {
+      "name": "めざましmedia",
+      "count": 1
+    },
+    {
       "name": "エンタメ特化型情報メディア スパイス",
       "count": 1
     },
@@ -309,6 +305,10 @@
     },
     {
       "name": "にゃんこポータル",
+      "count": 1
+    },
+    {
+      "name": "ｄメニューニュース",
       "count": 1
     },
     {
@@ -412,7 +412,7 @@
         {
           "title": "『ヴァンパイア十字界』初のアニメ化で来年放送 PV解禁、キャストに内田雄馬&島田愛野",
           "url": "https://www.oricon.co.jp/news/2484494/photo/14/",
-          "source": "オリコンニュース",
+          "source": "oricon.co.jp",
           "publishedAt": "2026-10-05T09:00:00.000Z",
           "isPR": false
         },
@@ -633,7 +633,7 @@
         {
           "title": "『PSYREN』アニメ本日放送 ジャンプ漫画家たち記念イラスト描きネットざわつく「画力やばい」",
           "url": "https://www.oricon.co.jp/news/2484439/photo/2/",
-          "source": "オリコンニュース",
+          "source": "oricon.co.jp",
           "publishedAt": "2026-10-05T03:20:00.000Z",
           "isPR": false
         }
@@ -893,12 +893,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-05T17:00:18.806Z",
+    "previousAt": "2026-10-05T17:30:18.043Z",
     "previousCount": 194,
-    "newCount": 6
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-05T18:00:18.043Z",
+  "nextUpdateAt": "2026-10-05T18:30:19.501Z",
   "items": [
     {
       "id": "152992deb802",
@@ -918,6 +918,29 @@
         "movie",
         "cast",
         "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "35a789acde9e",
+      "title": "福原遥の結婚、プリキュア声優祝福 2017年放送作品のキュアカスタード役で共演者たち「めでたい」",
+      "url": "https://www.sanyonews.jp/article/1998907",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-05T16:11:53.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/d/e/d/5ded60dd0cb5893ed6cd8f7be552470f_1.jpg",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "tv",
+        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1326,27 +1349,6 @@
       "isNew": false
     },
     {
-      "id": "da99bd9d8ad3",
-      "title": "【インタビュー】「自分史上1番可愛い声を出しました（笑）」櫻坂46副キャプテン山﨑天が明かす、初声優作『我々は宇宙人』で魅せた表現の新境地",
-      "url": "https://nbpress.online/archives/134004",
-      "host": "nbpress.online",
-      "source": "nbpress.online",
-      "summary": "",
-      "publishedAt": "2026-10-05T14:00:46.000Z",
-      "image": "https://nbpress.online/wp/wp-content/uploads/2026/10/N29_1516-Edit-wm.jpg",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "973ddab48711",
       "title": "レイニ、TVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』ED主題歌「まだ嘘にならない」を配信リリース",
       "url": "https://news.yahoo.co.jp/articles/41c5d5df99e613965aacd6be2384f91e93590c51",
@@ -1503,7 +1505,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "38dfbe7fb265",
@@ -1861,7 +1863,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "809f58775421",
@@ -1985,7 +1987,7 @@
       "title": "『赤ずきん、旅の途中で死体と出会う。』来年1月放送 ティザーPV公開、追加キャスト6人発表",
       "url": "https://www.oricon.co.jp/news/2484521/photo/2/?anc",
       "host": "oricon.co.jp",
-      "source": "オリコンニュース",
+      "source": "oricon.co.jp",
       "summary": "",
       "publishedAt": "2026-10-05T11:00:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484521/20261005_134420_p_o_90477276.jpg",
@@ -2020,6 +2022,30 @@
       "series": [
         "tv",
         "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "8d1852c793fb",
+      "title": "iri、OPテーマ『Period』先行配信決定！浮世絵風に描かれた紗都子が振り返るCDパッケージジャケットも公開『ホタルの嫁入り』",
+      "url": "https://mezamashi.media/articles/-/355782",
+      "host": "mezamashi.media",
+      "source": "めざましmedia",
+      "summary": "",
+      "publishedAt": "2026-10-05T11:00:00.000Z",
+      "image": "https://mezamashi.ismcdn.jp/mwimgs/e/9/1200xm/img_e90052a9e820c8aaf2174b0f2c122c851186284.jpg",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "music",
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2317,7 +2343,7 @@
       "title": "『ヴァンパイア十字界』初のアニメ化で来年放送 PV解禁、キャストに内田雄馬&島田愛野",
       "url": "https://www.oricon.co.jp/news/2484494/photo/14/",
       "host": "oricon.co.jp",
-      "source": "オリコンニュース",
+      "source": "oricon.co.jp",
       "summary": "",
       "publishedAt": "2026-10-05T09:00:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484494/20261005_123839_p_o_70158762.jpg",
@@ -2401,27 +2427,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "20937214be1a",
-      "title": "藤木直人、7年ぶり再会の石橋陽彩に「プロの声優として、いろんな引き出しをもう持ってるんだな」と感嘆＜どこよりも遠い場所にいる君へ＞",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNkxvTVJUMHZSQTEwSU5PUXBqVEhJYzg4bEZoNG5PdGNnWjUxb3VTeGlwWkQ3UWxrVVhaZ2RudWdlc3ZJSjI5MWRLa1VHek9kTU5CN285YV9YS0xoNjhLN25JZmZhV25fZ1pjMm5wOUpQQjFYVDgwdDQ1U3JYMHJjLTZENNIBgwFBVV95cUxQNkxvTVJUMHZSQTEwSU5PUXBqVEhJYzg4bEZoNG5PdGNnWjUxb3VTeGlwWkQ3UWxrVVhaZ2RudWdlc3ZJSjI5MWRLa1VHek9kTU5CN285YV9YS0xoNjhLN25JZmZhV25fZ1pjMm5wOUpQQjFYVDgwdDQ1U3JYMHJjLTZENA?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
-      "summary": "",
-      "publishedAt": "2026-10-05T09:00:00.000Z",
-      "image": "",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2734,7 +2739,7 @@
       "title": "画像・写真 | アニメ『ブルーロック』コラボの新トラックジャケット、「烏旅人」ら新作6型追加の“全13型”で販売へ 7枚目",
       "url": "https://www.oricon.co.jp/news/2484479/photo/7/",
       "host": "oricon.co.jp",
-      "source": "オリコンニュース",
+      "source": "oricon.co.jp",
       "summary": "",
       "publishedAt": "2026-10-05T07:17:02.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484479/20261005_120544_p_o_89084932.jpg",
@@ -2862,27 +2867,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "3e0d57cd04ed",
-      "title": "デルタとガンマの理学部ノート」のアニメ化を伝える投稿 [画像・動画・SNS投稿ギャラリー 3/4]",
-      "url": "https://natalie.mu/comic/gallery/news/692304/media/142788",
-      "host": "natalie.mu",
-      "source": "ナタリー",
-      "summary": "",
-      "publishedAt": "2026-10-05T06:16:09.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "a47de464c43d",
@@ -3104,7 +3088,7 @@
       "title": "彼方から TVアニメ放送開始、35年ぶり映像化に見つかった「ピッコマ漫画やん」の感想",
       "url": "https://hashout.jp/anime/12006/",
       "host": "hashout.jp",
-      "source": "hashout.jp",
+      "source": "shiritomo",
       "summary": "",
       "publishedAt": "2026-10-05T04:21:41.000Z",
       "image": "https://hashout.jp/wp-content/uploads/2026/10/2106562875624190463-img-1200x675.png",
@@ -3120,6 +3104,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "34538a0d55e4",
+      "title": "青春ブタ野郎 劇場版10/16公開、初週特典は鴨志田一書き下ろし小説――電撃文庫秋の祭典でアニメ化続々",
+      "url": "https://hashout.jp/anime/12004/",
+      "host": "hashout.jp",
+      "source": "shiritomo",
+      "summary": "",
+      "publishedAt": "2026-10-05T04:21:32.000Z",
+      "image": "https://hashout.jp/wp-content/uploads/2026/10/2105958717346680983-img-1200x675.png",
+      "categories": [
+        "movie2",
+        "manga"
+      ],
+      "series": [
+        "movie",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "c25ea3e44d72",
@@ -3208,7 +3215,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c93393b68a7",
@@ -3239,7 +3246,7 @@
       "title": "アニメ『ブルーロック』コラボの新トラックジャケット、「烏旅人」ら新作6型追加の“全13型”で販売へ",
       "url": "https://www.oricon.co.jp/news/2484479/full/",
       "host": "oricon.co.jp",
-      "source": "オリコンニュース",
+      "source": "oricon.co.jp",
       "summary": "",
       "publishedAt": "2026-10-05T03:24:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484479/20261005_120545_p_o_96200931.jpg",
@@ -3306,7 +3313,7 @@
       "title": "『PSYREN』アニメ本日放送 ジャンプ漫画家たち記念イラスト描きネットざわつく「画力やばい」",
       "url": "https://www.oricon.co.jp/news/2484439/photo/2/",
       "host": "oricon.co.jp",
-      "source": "オリコンニュース",
+      "source": "oricon.co.jp",
       "summary": "",
       "publishedAt": "2026-10-05T03:20:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484439/20261005_103440_p_o_89139704.jpg",
@@ -4900,7 +4907,7 @@
       "title": "ケロロ軍曹、15年ぶり新作アニメ放送開始――「夏美」役だった斎藤千和が新たに母役に",
       "url": "https://hashout.jp/anime/11884/",
       "host": "hashout.jp",
-      "source": "hashout.jp",
+      "source": "shiritomo",
       "summary": "",
       "publishedAt": "2026-10-04T04:20:04.000Z",
       "image": "https://hashout.jp/wp-content/uploads/2026/10/2105853981759307888-img-1200x675.png",
