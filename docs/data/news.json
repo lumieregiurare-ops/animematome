@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-07T00:30:17.673Z",
+  "updatedAt": "2026-10-07T01:00:16.244Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 218,
-  "todayCount": 31,
+  "total": 220,
+  "todayCount": 36,
   "categories": [
     {
       "id": "new",
@@ -17,12 +17,12 @@
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 93
+      "count": 96
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 30
+      "count": 27
     },
     {
       "id": "cast2",
@@ -32,12 +32,12 @@
     {
       "id": "music2",
       "label": "音楽",
-      "count": 18
+      "count": 19
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 50
+      "count": 53
     },
     {
       "id": "goods2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 11
+      "count": 12
     },
     {
       "id": "biz2",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 22
+      "count": 20
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 81
+      "count": 83
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 66
+      "count": 67
     },
     {
       "id": "cast",
@@ -79,7 +79,7 @@
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 35
+      "count": 36
     },
     {
       "id": "adapt",
@@ -94,18 +94,18 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 44
+      "count": 50
     }
   ],
   "weapons": [],
   "sources": [
     {
-      "name": "Yahoo!ニュース",
-      "count": 30
+      "name": "アニメ！アニメ！",
+      "count": 32
     },
     {
-      "name": "アニメ！アニメ！",
-      "count": 30
+      "name": "Yahoo!ニュース",
+      "count": 31
     },
     {
       "name": "電ファミニコゲーマー",
@@ -113,15 +113,11 @@
     },
     {
       "name": "山陽新聞",
-      "count": 12
+      "count": 10
     },
     {
       "name": "インサイド",
       "count": 8
-    },
-    {
-      "name": "eeo",
-      "count": 7
     },
     {
       "name": "アニメハック",
@@ -132,12 +128,16 @@
       "count": 7
     },
     {
-      "name": "PR TIMES",
+      "name": "eeo",
       "count": 6
     },
     {
       "name": "WEBザテレビジョン",
-      "count": 5
+      "count": 6
+    },
+    {
+      "name": "PR TIMES",
+      "count": 6
     },
     {
       "name": "MANTANWEB",
@@ -146,10 +146,6 @@
     {
       "name": "クランクイン！",
       "count": 4
-    },
-    {
-      "name": "映画.com",
-      "count": 3
     },
     {
       "name": "TVer",
@@ -168,8 +164,16 @@
       "count": 3
     },
     {
-      "name": "アニメイトタイムズ",
+      "name": "ライブドアニュース",
       "count": 3
+    },
+    {
+      "name": "映画.com",
+      "count": 3
+    },
+    {
+      "name": "ABEMA",
+      "count": 2
     },
     {
       "name": "山形新聞",
@@ -188,15 +192,15 @@
       "count": 2
     },
     {
-      "name": "ニコニコニュース",
-      "count": 2
-    },
-    {
       "name": "Excite エキサイト",
       "count": 2
     },
     {
       "name": "PONY CANYON NEWS",
+      "count": 2
+    },
+    {
+      "name": "アニメイトタイムズ",
       "count": 2
     },
     {
@@ -240,11 +244,11 @@
       "count": 1
     },
     {
-      "name": "デイリー新潮",
+      "name": "ふねぽ",
       "count": 1
     },
     {
-      "name": "ABEMA",
+      "name": "デイリー新潮",
       "count": 1
     },
     {
@@ -260,7 +264,15 @@
       "count": 1
     },
     {
+      "name": "ニコニコニュース",
+      "count": 1
+    },
+    {
       "name": "福井新聞社",
+      "count": 1
+    },
+    {
+      "name": "Unisba Media",
       "count": 1
     },
     {
@@ -364,14 +376,6 @@
       "count": 1
     },
     {
-      "name": "ライブドアニュース",
-      "count": 1
-    },
-    {
-      "name": "東大阪経済新聞",
-      "count": 1
-    },
-    {
       "name": "Dtimes",
       "count": 1
     },
@@ -381,10 +385,6 @@
     },
     {
       "name": "エイベックス・ポータル",
-      "count": 1
-    },
-    {
-      "name": "日経クロストレンド",
       "count": 1
     },
     {
@@ -401,7 +401,7 @@
       "image": "https://animeanime.jp/imgs/rss/939358.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-10-06T06:10:00.000Z",
-      "sourceCount": 11,
+      "sourceCount": 10,
       "articleCount": 12,
       "categories": [
         "new",
@@ -456,16 +456,16 @@
           "isPR": false
         },
         {
-          "title": "「宇宙戦艦ヤマト√(ルート)2199」制作決定 庵野秀明氏×出渕裕氏の強力タッグが送る新たな「ヤマト」",
-          "url": "https://news.nicovideo.jp/watch/nw19848500?news_ref",
-          "source": "ニコニコニュース",
-          "publishedAt": "2026-10-05T23:12:25.000Z",
-          "isPR": false
-        },
-        {
           "title": "『宇宙戦艦ヤマト√2199』新作映画が制作決定で監督・企画・製作総指揮は庵野秀明 Production I.Gとスタジオカラー初の共同制作",
           "url": "https://www.agara.co.jp/article/695212?top",
           "source": "AGARA 紀伊民報",
+          "publishedAt": "2026-10-05T23:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『宇宙戦艦ヤマト√2199』制作決定。“庵野秀明×出渕裕”による新作劇場アニメ",
+          "url": "https://news.denfaminicogamer.jp/news/261006e",
+          "source": "電ファミニコゲーマー",
           "publishedAt": "2026-10-05T23:00:00.000Z",
           "isPR": false
         }
@@ -657,51 +657,44 @@
       ]
     },
     {
-      "id": "fce65d08823c",
-      "title": "秋アニメ「超巡！超条先輩」最強(？)バディは今日も珍宿の平和を守る！第1話先行カット",
-      "summary": "秋アニメ『超巡！超条先輩』より、2026年10月6日（火）から放送開始となる第1話「超能力巡査長」のあらすじと先行場面カットが公開された。",
-      "url": "https://animeanime.jp/article/2026/10/06/103556.html",
-      "image": "https://animeanime.jp/imgs/rss/937583.jpg",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-10-06T09:00:00.000Z",
-      "sourceCount": 3,
-      "articleCount": 5,
+      "id": "dbe697d1d947",
+      "title": "レイニ、TVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』主題歌「まだ嘘にならない」配信リリース",
+      "summary": "",
+      "url": "https://news.nicovideo.jp/watch/nw19851394?news_ref",
+      "image": "https://image.news.livedoor.com/newsimage/stf/8/0/80d8e_1516_c39292f1_73441222.jpeg",
+      "leadSource": "ニコニコニュース",
+      "publishedAt": "2026-10-06T10:30:37.000Z",
+      "sourceCount": 4,
+      "articleCount": 4,
       "categories": [
         "onair",
-        "pv"
+        "music2"
       ],
       "keywords": [
-        "カット",
-        "話先行",
-        "レイン"
+        "TVアニメ",
+        "主題歌",
+        "リリース"
       ],
       "articles": [
         {
-          "title": "秋アニメ『冰剣Ⅱ』第1話のあらすじ&先行場面カットが公開",
-          "url": "https://www.animatetimes.com/news/details.php?id",
-          "source": "アニメイトタイムズ",
-          "publishedAt": "2026-10-06T09:00:00.000Z",
+          "title": "いぎなり東北産、TVアニメ『おねがいアイプリ』後期エンディング主題歌「おねがいテレパシー」10月7日配信リリース決定！",
+          "url": "https://news.livedoor.com/topics/detail/32502741/",
+          "source": "ライブドアニュース",
+          "publishedAt": "2026-10-06T09:00:48.000Z",
           "isPR": false
         },
         {
-          "title": "秋アニメ「チー付与」気まぐれで追放されたレインは、冒険者としてのセカンドライフを始める―第1話先行カット",
-          "url": "https://animeanime.jp/article/2026/10/06/103555.html",
-          "source": "アニメ！アニメ！",
-          "publishedAt": "2026-10-06T07:15:03.000Z",
+          "title": "レイニ、TVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』ED主題歌「まだ嘘にならない」を配信リリース",
+          "url": "https://www.thefirsttimes.jp/news/0000893928/",
+          "source": "THE FIRST TIMES",
+          "publishedAt": "2026-10-05T21:42:58.000Z",
           "isPR": false
         },
         {
-          "title": "TVアニメ『チー付与』第1話のあらすじ公開！ レインはギルドマスター・バリオスの気まぐれで、ギルドから追放されてしまうが…",
-          "url": "https://eeo.today/media/2026/10/06/399896/",
-          "source": "eeo",
-          "publishedAt": "2026-10-06T05:52:45.000Z",
-          "isPR": false
-        },
-        {
-          "title": "秋アニメ「PSYREN -サイレン-」完結から約15年…超能力バトルサスペンスがアニメに！第1話先行カット",
-          "url": "https://animeanime.jp/article/2026/10/05/103525.html",
-          "source": "アニメ！アニメ！",
-          "publishedAt": "2026-10-05T02:55:05.000Z",
+          "title": "【いぎなり東北産】TVアニメ『おねがいアイプリ』後期エンディング主題歌「おねがいテレパシー」10月7日配信リリース決定！",
+          "url": "https://avexnet.jp/news/1037387",
+          "source": "エイベックス・ポータル",
+          "publishedAt": "2026-10-05T04:52:30.000Z",
           "isPR": false
         }
       ]
@@ -713,7 +706,7 @@
       "url": "https://animeanime.jp/article/2026/10/06/103557.html",
       "image": "https://animeanime.jp/imgs/rss/929614.jpg",
       "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-10-06T19:00:18.000Z",
+      "publishedAt": "2026-10-06T15:00:00.000Z",
       "sourceCount": 3,
       "articleCount": 4,
       "categories": [
@@ -727,10 +720,10 @@
       ],
       "articles": [
         {
-          "title": "CLAMPの「魔法騎士レイアース」が30年以上ぶりアニメ化！ 10月7日～放送開始【秋アニメ2026】 (GAME Watch)",
-          "url": "https://news.yahoo.co.jp/articles/8db63f736780e9bc4ebb3b12f40778ee3d5f248c/images/000",
+          "title": "CLAMPの「魔法騎士レイアース」が30年以上ぶりアニメ化！ 10月7日～放送開始【秋アニメ2026】（GAME Watch）",
+          "url": "https://news.yahoo.co.jp/articles/8db63f736780e9bc4ebb3b12f40778ee3d5f248c",
           "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-06T19:00:18.000Z",
+          "publishedAt": "2026-10-06T15:00:00.000Z",
           "isPR": false
         },
         {
@@ -821,13 +814,13 @@
       ]
     },
     {
-      "id": "dbe697d1d947",
-      "title": "レイニ、TVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』主題歌「まだ嘘にならない」配信リリース",
+      "id": "5eb25e8bf583",
+      "title": "エイハブ、TVアニメ『転生ゴブリンだけど質問ある？』ED主題歌「小さな僕ら」先行配信決定（CDJournal）",
       "summary": "",
-      "url": "https://news.nicovideo.jp/watch/nw19851394?news_ref",
-      "image": "https://www.thefirsttimes.jp/admin/wp-content/uploads/5026/10/20261005-st-172901-1200x630.jpg",
-      "leadSource": "ニコニコニュース",
-      "publishedAt": "2026-10-06T10:30:37.000Z",
+      "url": "https://news.yahoo.co.jp/articles/b4633c1782d764a7ce5a6d6e5b9be04f6946570e",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261006-00000005-cdj-000-1-view.jpg?exp=10800",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-10-06T10:22:37.000Z",
       "sourceCount": 3,
       "articleCount": 3,
       "categories": [
@@ -836,33 +829,33 @@
       ],
       "keywords": [
         "TVアニメ",
-        "主題歌",
-        "リリース"
+        "ゴブリン",
+        "転生"
       ],
       "articles": [
         {
-          "title": "レイニ、TVアニメ『どうも、好きな人に惚れ薬を依頼された魔女です。』ED主題歌「まだ嘘にならない」を配信リリース",
-          "url": "https://www.thefirsttimes.jp/news/0000893928/",
-          "source": "THE FIRST TIMES",
-          "publishedAt": "2026-10-05T21:42:58.000Z",
-          "isPR": false
+          "title": "「となりのヤングジャンプ」発の“最強無双ファンタジー”、待望のTVアニメ化！『転生ゴブリンだけど質問ある？』ABEMAで10月5日（月）より地上波1週間先行・WEB最速配信！",
+          "url": "https://prtimes.jp/main/html/rd/p/000004076.000064643.html",
+          "source": "PR TIMES",
+          "publishedAt": "2026-10-06T10:22:37.000Z",
+          "isPR": true
         },
         {
-          "title": "【いぎなり東北産】TVアニメ『おねがいアイプリ』後期エンディング主題歌「おねがいテレパシー」10月7日配信リリース決定！",
-          "url": "https://avexnet.jp/news/1037387",
-          "source": "エイベックス・ポータル",
-          "publishedAt": "2026-10-05T04:52:30.000Z",
+          "title": "TVアニメ「転生ゴブリンだけど質問ある？」放送直前だけど質問ある？ (アニメ) | 無料動画・見逃し配信を見るなら",
+          "url": "https://abema.tv/video/title/218-928",
+          "source": "ABEMA",
+          "publishedAt": "2026-10-05T17:35:32.000Z",
           "isPR": false
         }
       ]
     },
     {
-      "id": "6c93393b68a7",
-      "title": "「組織の宿敵と結婚したらめちゃ甘い」TVアニメ化決定！犀川狼士＆律花のアニメ設定画も公開",
-      "summary": "『組織の宿敵と結婚したらめちゃ甘い』のTVアニメ化が決定。メインキャラクター・犀川狼士と犀川律花のアニメ設定画やアニメ化決定PV、メインスタッフ情報が公開された。",
-      "url": "https://animeanime.jp/article/2026/10/05/103527.html",
-      "image": "https://animeanime.jp/imgs/rss/939013.jpg",
-      "leadSource": "アニメ！アニメ！",
+      "id": "265b3ebf2308",
+      "title": "『組織の宿敵と結婚したらめちゃ甘い』のTVアニメ化が決定！ アニメ化決定PV＆原作陣によるお祝いイラストも公開",
+      "summary": "",
+      "url": "https://eeo.today/media/2026/10/05/399531/",
+      "image": "https://eeo.today/media/wp-content/uploads/2026/10/20261005_soshishuku-1.webp",
+      "leadSource": "eeo",
       "publishedAt": "2026-10-05T18:09:39.000Z",
       "sourceCount": 3,
       "articleCount": 3,
@@ -877,17 +870,60 @@
       ],
       "articles": [
         {
-          "title": "『組織の宿敵と結婚したらめちゃ甘い』のTVアニメ化が決定！ アニメ化決定PV＆原作陣によるお祝いイラストも公開",
-          "url": "https://eeo.today/media/2026/10/05/399531/",
-          "source": "eeo",
-          "publishedAt": "2026-10-05T18:09:39.000Z",
-          "isPR": false
-        },
-        {
           "title": "「組織の宿敵と結婚したらめちゃ甘い」TVアニメ化決定、PV披露 メインスタッフも発表 : ニュース",
           "url": "https://anime.eiga.com/news/127592/",
           "source": "アニメハック",
           "publishedAt": "2026-10-05T11:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「組織の宿敵と結婚したらめちゃ甘い」TVアニメ化決定！犀川狼士＆律花のアニメ設定画も公開",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40UHBxbVNmZGoxVlJvVFR6RE5nMmd5X05FS0xBMk5jN2JWVjk2T001cWVWMVRMMEt2MFd3WXJQZHVhakZtcTFJSlVEMkR6NTl0ZXpUcXpwcUhDT1cxU2RETWJR?oc=5",
+          "source": "アニメ！アニメ！",
+          "publishedAt": "2026-10-05T03:30:04.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "98a06f52addd",
+      "title": "『ヱヴァンゲリヲン新劇場版：序』の配信はどこ？DMM TVなら特典ポイントでレンタル可能",
+      "summary": "",
+      "url": "https://pixela.co.jp/delivery/evangelion-jo-streaming/",
+      "image": "https://pixela.co.jp/delivery/wp-content/uploads/evangelion-jo-streaming-eyecatch.jpg",
+      "leadSource": "株式会社ピクセラ",
+      "publishedAt": "2026-10-06T00:53:28.000Z",
+      "sourceCount": 2,
+      "articleCount": 4,
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "keywords": [
+        "劇場版",
+        "ヱヴァンゲリヲン",
+        "新劇場版"
+      ],
+      "articles": [
+        {
+          "title": "「個性的で面白い」 ヱヴァンゲリヲン新劇場版：序 つじさんの映画レビュー（感想・評価）",
+          "url": "https://eiga.com/movie/34139/review/07058809/",
+          "source": "映画.com",
+          "publishedAt": "2026-10-05T23:34:44.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「個性的なアニメ映画」 シン・エヴァンゲリオン劇場版 つじさんの映画レビュー（感想・評価）",
+          "url": "https://eiga.com/movie/57683/review/07058808/",
+          "source": "映画.com",
+          "publishedAt": "2026-10-05T20:18:17.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「個性的なアニメ映画」 ヱヴァンゲリヲン新劇場版：Q つじさんの映画レビュー（感想・評価）",
+          "url": "https://eiga.com/movie/57115/review/07058811/",
+          "source": "映画.com",
+          "publishedAt": "2026-10-05T17:06:20.000Z",
           "isPR": false
         }
       ]
@@ -927,52 +963,106 @@
           "isPR": false
         }
       ]
+    }
+  ],
+  "churn": {
+    "previousAt": "2026-10-07T00:30:17.673Z",
+    "previousCount": 218,
+    "newCount": 13
+  },
+  "updateGapMin": 30,
+  "nextUpdateAt": "2026-10-07T01:30:16.244Z",
+  "items": [
+    {
+      "id": "1ac71947a928",
+      "title": "「ALWAYS 三丁目の夕日」の配信はどこで見れる？見放題を比較",
+      "url": "https://animeanime.jp/article/2026/10/07/103578.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "『ALWAYS 三丁目の夕日』の配信状況を主要動画配信サービスで調査しました。昭和33年の東京下町を描く本作はU-NEXT・Huluで見放題配信中。Amazonプライムビデオのレンタルや宅配DVD、金曜ロードショーの放送日もまとめています。",
+      "publishedAt": "2026-10-07T00:52:14.000Z",
+      "image": "https://animeanime.jp/imgs/rss/939958.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
-      "id": "98a06f52addd",
-      "title": "『ヱヴァンゲリヲン新劇場版：序』の配信はどこ？DMM TVなら特典ポイントでレンタル可能",
-      "summary": "",
-      "url": "https://pixela.co.jp/delivery/evangelion-jo-streaming/",
-      "image": "https://pixela.co.jp/delivery/wp-content/uploads/evangelion-jo-streaming-eyecatch.jpg",
-      "leadSource": "株式会社ピクセラ",
-      "publishedAt": "2026-10-06T00:53:28.000Z",
-      "sourceCount": 2,
-      "articleCount": 3,
+      "id": "b0a9ba35d0ee",
+      "title": "「ブラック・ショーマン」の配信はどこで見れる？レンタル料金とお得な視聴方法",
+      "url": "https://animeanime.jp/article/2026/10/07/103577.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "映画『ブラック・ショーマン』はU-NEXT・Amazonプライムビデオ・Leminoなど主要な動画配信サービスでレンタル配信されています。見放題の有無や各サービスのレンタル料金、登録特典のポイントを使ったお得な視聴方法を紹介します。",
+      "publishedAt": "2026-10-07T00:45:46.000Z",
+      "image": "https://animeanime.jp/imgs/rss/939952.jpg",
       "categories": [
         "onair",
         "movie2"
       ],
-      "keywords": [
-        "劇場版",
-        "ヱヴァンゲリヲン",
-        "新劇場版"
+      "series": [
+        "movie",
+        "stream"
       ],
-      "articles": [
-        {
-          "title": "「個性的で面白い」 ヱヴァンゲリヲン新劇場版：序 つじさんの映画レビュー（感想・評価）",
-          "url": "https://eiga.com/movie/34139/review/07058809/",
-          "source": "映画.com",
-          "publishedAt": "2026-10-05T23:34:44.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「個性的なアニメ映画」 シン・エヴァンゲリオン劇場版 つじさんの映画レビュー（感想・評価）",
-          "url": "https://eiga.com/movie/57683/review/07058808/",
-          "source": "映画.com",
-          "publishedAt": "2026-10-05T20:18:17.000Z",
-          "isPR": false
-        }
-      ]
-    }
-  ],
-  "churn": {
-    "previousAt": "2026-10-07T00:00:17.504Z",
-    "previousCount": 217,
-    "newCount": 9
-  },
-  "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-07T01:00:17.673Z",
-  "items": [
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "4d8762a0a48e",
+      "title": "「とある科学の超電磁砲」の配信はどこで見れる？1期・2期・3期を見放題で視聴できるサブスクを比較",
+      "url": "https://animeanime.jp/article/2026/10/07/103576.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "『とある科学の超電磁砲』は1期・2期・3期の全3シリーズをDMM TV・U-NEXT・dアニメストア・Huluで見放題配信中。シーズン別の配信状況やNetflixの配信範囲、見る順番、新作『とある暗部の少女共棲』の配信日も紹介します。",
+      "publishedAt": "2026-10-07T00:39:42.000Z",
+      "image": "https://animeanime.jp/imgs/rss/939946.jpg",
+      "categories": [
+        "new",
+        "onair"
+      ],
+      "series": [
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "35a97808d0d4",
+      "title": "「グランド・イリュージョン」の配信はどこで見れる？見放題・レンタルを比較",
+      "url": "https://animeanime.jp/article/2026/10/07/103575.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "『グランド・イリュージョン』の配信状況を主要動画配信サービスで調査しました。4人のマジシャンが銀行強盗を宣言する本作はU-NEXTで見放題配信中。Amazonプライムビデオなどのレンタルや宅配DVD、日本語吹替版の声優もまとめています。",
+      "publishedAt": "2026-10-07T00:35:46.000Z",
+      "image": "https://animeanime.jp/imgs/rss/939936.jpg",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "aa2ab3e19935",
       "title": "整形依存症の女に、声優業界で光をつかむ女... ルッキズムの時代・令和にガツンとハマる「ダウンタイム」（デイリー新潮）",
@@ -992,7 +1082,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3dcfaf2b0276",
@@ -1014,7 +1104,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "636bc4157a9b",
@@ -1039,17 +1129,19 @@
     },
     {
       "id": "7f1a6632844d",
-      "title": "「朱色の仮面」の最終話に手越祐也が声優出演 「T.N.T」出演の特番、ウォッチパーティーも実施",
-      "url": "https://eiga.com/l/wZ7oO",
-      "host": "eiga.com",
-      "source": "映画.com",
+      "title": "「朱色の仮面」の最終話に手越祐也が声優出演 「T.N.T」出演の特番、ウォッチパーティーも実施（映画.com）",
+      "url": "https://news.yahoo.co.jp/articles/046701752865eb1e87e95233cd733c1830342649",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-10-06T23:30:00.000Z",
-      "image": "https://media.eiga.com/images/buzz/129609/ecb54a4614d01ca2.jpg",
+      "publishedAt": "2026-10-06T23:37:54.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-00000003-eiga-000-1-view.jpg?exp=10800",
       "categories": [
-        "cast2"
+        "cast2",
+        "movie2"
       ],
       "series": [
+        "movie",
         "cast"
       ],
       "isOfficial": false,
@@ -1096,25 +1188,6 @@
         "adapt",
         "stream"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6255150ff43f",
-      "title": "【秋アニメ】約30年ぶりに『レイアース』がテレビに！テレ朝系全国ネットで半年間オンエアがスタート【先行カット】（オタク総研）",
-      "url": "https://news.yahoo.co.jp/articles/82a5e788831d9e3fd4801e20c1abffe348b35ae6",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-06T22:39:09.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-00073200-otakulab-000-1-view.jpg?exp=10800",
-      "categories": [
-        "onair"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1240,7 +1313,7 @@
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-10-06T21:31:48.000Z",
+      "publishedAt": "2026-10-06T21:30:36.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-00132454-futaman-000-1-view.jpg?exp=10800",
       "categories": [
         "onair"
@@ -1297,6 +1370,51 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "67294f5126ba",
+      "title": "「来年まで死ねない」続編決定にファン歓喜！ 2027年に第２期が放送される傑作アニメ３選 | 概要 | アニメ | 最新コラム",
+      "url": "https://futaman.futabanet.jp/articles/-/132454",
+      "host": "futaman.futabanet.jp",
+      "source": "ふねぽ",
+      "summary": "",
+      "publishedAt": "2026-10-06T21:00:00.000Z",
+      "image": "https://futaman.ismcdn.jp/mwimgs/c/4/1200wm/img_c49f3c7cacf916fe278d584b018a986e1220648.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5605fab7e01f",
+      "title": "「リゼロ」4th season最終話放送記念、エピローグビジュアル公開 小林裕介＆水瀬いのりコメント発表（映画.com）",
+      "url": "https://news.yahoo.co.jp/articles/c725d9e23df5d84601dfa8552a32b30809536ce8",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-06T21:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-00000001-eiga-000-1-view.jpg?exp=10800",
+      "categories": [
+        "movie2",
+        "new"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "64bbd78ae63d",
@@ -1421,28 +1539,6 @@
       "series": [
         "tv",
         "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "377fb52057f4",
-      "title": "CLAMPの「魔法騎士レイアース」が30年以上ぶりアニメ化！ 10月7日～放送開始【秋アニメ2026】 (GAME Watch)",
-      "url": "https://news.yahoo.co.jp/articles/8db63f736780e9bc4ebb3b12f40778ee3d5f248c/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-06T19:00:18.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnSx6yr7KhIpdSfyfJ9x04JCVXYlQBWn9JI30b1SEet-w-hMvxQUOp2jRw3BRpw7qUPHMcWbB8kMgTFeOAebfeKUd4coK9FzVbqvF9ytsHUOX",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1630,7 +1726,29 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-10-06T15:00:00.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2145/802/0.jpg",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "377fb52057f4",
+      "title": "CLAMPの「魔法騎士レイアース」が30年以上ぶりアニメ化！ 10月7日～放送開始【秋アニメ2026】（GAME Watch）",
+      "url": "https://news.yahoo.co.jp/articles/8db63f736780e9bc4ebb3b12f40778ee3d5f248c",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-06T15:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-00000001-impgmw-000-1-view.jpg?exp=10800",
       "categories": [
         "onair"
       ],
@@ -2064,6 +2182,25 @@
       "isNew": false
     },
     {
+      "id": "132753fd209e",
+      "title": "【賛否】おぼっちゃまくん35年ぶり復活！テレ朝系で新作アニメ決定も令和の規制にネット困惑 Margaret Thatcher (BXar2Nb6Q1)",
+      "url": "https://media.unisba.ac.id/8e7f7e40/d5e4e59bLz0oLS5aEQwqRjs///?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-06T10:07:06.000Z",
+      "image": "",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a8632c7b7c97",
       "title": "M!LK新曲「ザッツ！超常」配信リリース決定！TVアニメ『超巡！超条先輩』OPテーマ曲",
       "url": "https://www.thefirsttimes.jp/news/0000894290/",
@@ -2355,25 +2492,6 @@
       "isNew": false
     },
     {
-      "id": "66f4f64fc496",
-      "title": "秋アニメ『マジカル★エクスプローラー』樋上いたるより応援イラスト",
-      "url": "https://www.animatetimes.com/news/details.php?id",
-      "host": "animatetimes.com",
-      "source": "アニメイトタイムズ",
-      "summary": "",
-      "publishedAt": "2026-10-06T09:10:00.000Z",
-      "image": "https://www.animatetimes.com/img/ogimage.png",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "4587dd343c55",
       "title": "シリーズ累計部数90万部突破の超話題作、待望のアニメ化 『乙女ゲ―ムのヒロインで最強サバイバル』TVアニメ化決定！",
       "url": "https://www.furyu.jp/news/2026/10/otosaba_anime/",
@@ -2418,6 +2536,30 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "fddc43ecba77",
+      "title": "いぎなり東北産、TVアニメ『おねがいアイプリ』後期エンディング主題歌「おねがいテレパシー」10月7日配信リリース決定！",
+      "url": "https://news.livedoor.com/topics/detail/32502741/",
+      "host": "news.livedoor.com",
+      "source": "ライブドアニュース",
+      "summary": "",
+      "publishedAt": "2026-10-06T09:00:48.000Z",
+      "image": "https://image.news.livedoor.com/newsimage/stf/8/0/80d8e_1516_c39292f1_73441222.jpeg",
+      "categories": [
+        "music2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "a6e7ed0fa4fd",
@@ -3022,27 +3164,6 @@
       "isNew": false
     },
     {
-      "id": "5ac8a741b18a",
-      "title": "『ちいかわ』モモンガ役の声優 井口裕香の最新グラビアにネット衝撃「わがままボディ」",
-      "url": "https://www.oricon.co.jp/news/2484688/comment/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-10-06T07:05:59.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484688/20260805_225907_p_l_59288342.jpg",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "a6480343c3d0",
       "title": "ＩＧポートが大幅続伸、人気アニメ「本好きの下剋上」続編制作を好感(ウエルスアドバイザー)",
       "url": "https://finance.yahoo.co.jp/news/detail/2c917fb921a026f4234d084689006c3d0e09bacf",
@@ -3194,29 +3315,6 @@
       "isNew": false
     },
     {
-      "id": "4400bb49ba17",
-      "title": "TVアニメ『チー付与』第1話のあらすじ公開！ レインはギルドマスター・バリオスの気まぐれで、ギルドから追放されてしまうが…",
-      "url": "https://eeo.today/media/2026/10/06/399896/",
-      "host": "eeo.today",
-      "source": "eeo",
-      "summary": "",
-      "publishedAt": "2026-10-06T05:52:45.000Z",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/10/20261006_chihuyo_1_01.jpg",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b5db29317713",
       "title": "人気ゾンビサバイバルゲーム『7 Days to Die』に“バックパック”が実装。荷重制限があるものの、最大で8×12の合計96スロットまで拡張可能。インベントリの基本サイズ拡張など、最新アップデートV3.3.0が配信",
       "url": "https://news.denfaminicogamer.jp/news/2610062b",
@@ -3258,7 +3356,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c572763f3681",
@@ -3554,7 +3652,7 @@
       "source": "アニメイトタイムズ",
       "summary": "",
       "publishedAt": "2026-10-06T03:53:29.000Z",
-      "image": "",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
       "categories": [
         "cast2"
       ],
@@ -3881,7 +3979,7 @@
       "source": "UtaTen",
       "summary": "",
       "publishedAt": "2026-10-06T01:40:32.000Z",
-      "image": "https://cdn.utaten.com/uploads/images/lyric/378409/fcedbdd81c83d167e232a164436b8f228149cc10.jpeg?r=2026100709",
+      "image": "https://cdn.utaten.com/uploads/images/lyric/378409/fcedbdd81c83d167e232a164436b8f228149cc10.jpeg?r=2026100710",
       "categories": [
         "music2"
       ],
@@ -4179,27 +4277,6 @@
       "isNew": false
     },
     {
-      "id": "b1d4480b011b",
-      "title": "「宇宙戦艦ヤマト√(ルート)2199」制作決定 庵野秀明氏×出渕裕氏の強力タッグが送る新たな「ヤマト」",
-      "url": "https://news.nicovideo.jp/watch/nw19848500?news_ref",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-10-05T23:12:25.000Z",
-      "image": "",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "cbf168f61ddc",
       "title": "庵野秀明氏、次は“シン・ヤマト”「ゴジラ」「ウルトラマン」などに続き映画製作 ５２年前のアニメ放送開始日に合わせ情報解禁",
       "url": "https://news.yahoo.co.jp/articles/cdf7281bda0546b5c96cc6f473d781039b0d6314",
@@ -4335,6 +4412,27 @@
       "isNew": false
     },
     {
+      "id": "b1d4480b011b",
+      "title": "「宇宙戦艦ヤマト√(ルート)2199」制作決定 庵野秀明氏×出渕裕氏の強力タッグが送る新たな「ヤマト」（WEBザテレビジョン）",
+      "url": "https://news.yahoo.co.jp/articles/f416719025919e2ae0d13cc83941ba85e75d3284",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-05T23:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261006-01445890-the_tv-000-1-view.jpg?exp=10800",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "8c735d802c1e",
       "title": "山田孝之のマヌ子ママも「ネコって最高すぎる！」と悶絶 『劇場版ダーウィンが来た！』冒頭映像公開",
       "url": "https://www.sanyonews.jp/article/1998467",
@@ -4400,26 +4498,27 @@
       "isNew": false
     },
     {
-      "id": "7f2947742e51",
-      "title": "【秋アニメ】塩対応ヒロインとの青春ラブコメ！VTuver星川サラも楽曲参加、MX系で放送開始（オタク総研）",
-      "url": "https://news.yahoo.co.jp/articles/d04fb34540dad5424675d86d9b171a243e80da92",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "b3642eab75be",
+      "title": "新作秋アニメ、至高の“ゲーム×ファンタジー”冒険譚「シャングリラ・フロンティア」ABEMAにて無料放送決定",
+      "url": "https://thetv.jp/news/detail/1156918/landing/?utm_source",
+      "host": "thetv.jp",
+      "source": "WEBザテレビジョン",
       "summary": "",
-      "publishedAt": "2026-10-05T22:12:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261006-00071200-otakulab-000-20856-view.jpg?exp=10800",
+      "publishedAt": "2026-10-05T22:01:23.000Z",
+      "image": "",
       "categories": [
-        "onair",
-        "music2"
+        "new",
+        "onair"
       ],
       "series": [
-        "tv"
+        "tv",
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "1c1a73a15a12",
@@ -4583,6 +4682,28 @@
       "isNew": false
     },
     {
+      "id": "8fd21ae00355",
+      "title": "TVアニメ「転生ゴブリンだけど質問ある？」放送直前だけど質問ある？ (アニメ) | 無料動画・見逃し配信を見るなら",
+      "url": "https://abema.tv/video/title/218-928",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-10-05T17:35:32.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "fe6e808c2998",
       "title": "『ちいかわ』新作アニメ放送一時休止へ 再開は来年1月 10月からリバイバル放送",
       "url": "https://www.sanyonews.jp/article/1994052?rct",
@@ -4603,6 +4724,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "37561da8825f",
+      "title": "「個性的なアニメ映画」 ヱヴァンゲリヲン新劇場版：Q つじさんの映画レビュー（感想・評価）",
+      "url": "https://eiga.com/movie/57115/review/07058811/",
+      "host": "eiga.com",
+      "source": "映画.com",
+      "summary": "",
+      "publishedAt": "2026-10-05T17:06:20.000Z",
+      "image": "https://media.eiga.com/images/movie/57115/photo/5c7a3673b59343c2.jpg",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f3b4ef70ca18",
@@ -4627,29 +4769,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "1365344d8e40",
-      "title": "『NARUTO-ナルト-』完全新作アニメ情報発表へ 10月「ニューヨーク・コミコン」でライブ配信も実施",
-      "url": "https://www.sanyonews.jp/article/1996263",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-05T16:15:30.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/e/9/c/8e9c473f0c16f35087ad425263dad707_1.jpg",
-      "categories": [
-        "new",
-        "onair"
-      ],
-      "series": [
-        "music",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "1a0380302dd8",
@@ -4739,7 +4858,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c0c5b7133d0a",
@@ -4760,7 +4879,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bcb848ba6c9a",
@@ -4826,7 +4945,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59cccf89c6f0",
@@ -4897,6 +5016,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "d9c48e6eb0f9",
+      "title": "【画像】Koji Nakamura、アニメ「幻想水滸伝」エンディング主題歌「closed eye sun（feat. たかはしほのか）」リリース！アニメノンクレジットエンディングムービーも公開！ - ライブドアニュース",
+      "url": "https://news.livedoor.com/article/image_detail/32495145/?img_id",
+      "host": "news.livedoor.com",
+      "source": "ライブドアニュース",
+      "summary": "",
+      "publishedAt": "2026-10-05T11:00:51.000Z",
+      "image": "https://image.news.livedoor.com/newsimage/stf/d/8/d83b3_1516_4a81d2b9_5c44105a.jpg",
+      "categories": [
+        "music2",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "c48da8516467",
@@ -5137,7 +5279,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "afe3e7217e9b",
@@ -5175,28 +5317,6 @@
       ],
       "series": [
         "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1c98f14a0c88",
-      "title": "第三弾！放送30周年を迎えたTVアニメ『名探偵コナン』との秋のお出かけにぴったりの新作アイテムが10月6日（火）より順次発売！",
-      "url": "https://higashiosaka.keizai.biz/release/658853/",
-      "host": "higashiosaka.keizai.biz",
-      "source": "東大阪経済新聞",
-      "summary": "",
-      "publishedAt": "2026-10-05T07:52:38.000Z",
-      "image": "https://prtimes.jp/img/13288/471/thumb/d13288-471-ce4c77db0317016b39bb-1.jpg",
-      "categories": [
-        "new",
-        "onair"
-      ],
-      "series": [
-        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -5450,25 +5570,6 @@
       "isNew": false
     },
     {
-      "id": "3b4b90f6e1ae",
-      "title": "特集 “アニメ”経済圏",
-      "url": "https://xtrend.nikkei.com/atcl/contents/18/01489/",
-      "host": "xtrend.nikkei.com",
-      "source": "日経クロストレンド",
-      "summary": "",
-      "publishedAt": "2026-10-05T04:36:09.000Z",
-      "image": "https://xtrend.nikkei.com/atcl/contents/18/01489/nxr_m.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "926613801201",
       "title": "ASCA、アニメ『マジカル★エクスプローラー』OPテーマ「Remedy」MV公開（CDJournal）",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BUXJXUFZaamNqbFlqX0g3amxOSUE4QlpMdHhrR1RMY3dYaEx5OHY4QkQzNElLSklFWmg5RlRuT2NpRUdPOGVyQk13N0dSQXZmS0VRdVFHUTRlUnE5dGttM0Q3azMtSHpzOXFTUjRPdW9xQnpMUzVoS0NUaGNvV1k?oc=5",
@@ -5516,14 +5617,13 @@
     {
       "id": "6c93393b68a7",
       "title": "「組織の宿敵と結婚したらめちゃ甘い」TVアニメ化決定！犀川狼士＆律花のアニメ設定画も公開",
-      "url": "https://animeanime.jp/article/2026/10/05/103527.html",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40UHBxbVNmZGoxVlJvVFR6RE5nMmd5X05FS0xBMk5jN2JWVjk2T001cWVWMVRMMEt2MFd3WXJQZHVhakZtcTFJSlVEMkR6NTl0ZXpUcXpwcUhDT1cxU2RETWJR?oc=5",
       "host": "animeanime.jp",
       "source": "アニメ！アニメ！",
-      "summary": "『組織の宿敵と結婚したらめちゃ甘い』のTVアニメ化が決定。メインキャラクター・犀川狼士と犀川律花のアニメ設定画やアニメ化決定PV、メインスタッフ情報が公開された。",
+      "summary": "",
       "publishedAt": "2026-10-05T03:30:04.000Z",
-      "image": "https://animeanime.jp/imgs/rss/939013.jpg",
+      "image": "",
       "categories": [
-        "pv",
         "movie2"
       ],
       "series": [
@@ -5533,33 +5633,31 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
-      "id": "67d1a9d82d1c",
-      "title": "「奴隷からの期待と評価のせいで搾取できないのだが」TVアニメ化決定！原作者も喜び「作者冥利に尽きます」",
-      "url": "https://animeanime.jp/article/2026/10/05/103526.html",
-      "host": "animeanime.jp",
-      "source": "アニメ！アニメ！",
-      "summary": "『奴隷からの期待と評価のせいで搾取できないのだが』のTVアニメ化が決定。発表にあわせて「超ウルトラティザービジュアル」が公開され、原作者・急川回レからお祝いコメント、へいろーと西岡さちからお祝いイラストが到着した。",
-      "publishedAt": "2026-10-05T03:20:02.000Z",
-      "image": "https://animeanime.jp/imgs/rss/939010.jpg",
+      "id": "73bf00868001",
+      "title": "『PSYREN』アニメ本日放送 ジャンプ漫画家たち記念イラスト描きネットざわつく「画力やばい」",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5LVpxeDR5UV9sZ1FtT2xwWW45a2lyd0dyLXVoaXpCX0Q4VFB4Tm5Ibk54VGpqcjIzSTVoWWFDOUlfTVNVTllZV2Q2M2FMdEl1SU5rSTRROVNrWVd5TXJFTlNSdXo?oc=5",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-10-05T03:20:00.000Z",
+      "image": "",
       "categories": [
-        "new",
-        "pv"
+        "onair",
+        "manga"
       ],
       "series": [
-        "tv",
-        "movie",
-        "adapt"
+        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "ae21eccce8d1",
@@ -5671,29 +5769,6 @@
       "isNew": false
     },
     {
-      "id": "ebdf2c8a915e",
-      "title": "秋アニメ「PSYREN -サイレン-」完結から約15年…超能力バトルサスペンスがアニメに！第1話先行カット",
-      "url": "https://animeanime.jp/article/2026/10/05/103525.html",
-      "host": "animeanime.jp",
-      "source": "アニメ！アニメ！",
-      "summary": "秋アニメ『PSYREN -サイレン-』より、2026年10月5日（月）から放送開始となる第1話「都市伝説」のあらすじと先行場面カットが公開された。",
-      "publishedAt": "2026-10-05T02:55:05.000Z",
-      "image": "https://animeanime.jp/imgs/rss/938996.jpg",
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "23a4b9df5243",
       "title": "「満州アヘンスクワッド」アニメ化決定＆漫画にツルシマ迎え連載再開！アヘンの密造巡るクライム・サスペンス",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fVTFFZVRTd1YwRHJSekl1NkU0MG15ZzJ1SG9mRUVsdGpuaWJfeWZRVndxZDVCZUZzeWFoRldGT1ZDeGhYajF4Zzl4YkFYM2dKdGNPVnpYVGtpdjl0eU5QMmxn?oc=5",
@@ -5746,28 +5821,6 @@
       "publishedAt": "2026-10-05T01:35:00.000Z",
       "image": "",
       "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a05a05ceee33",
-      "title": "『新世紀GPX サイバーフォーミュラ』TVシリーズ総集編&新作ショートアニメ、来年2月に劇場公開決定 新型サイバーマシン発表",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42d05NSzljRXpjbnlDRm1yLTBlMUlwUW91UExVSm1RTHBCVERod2gtblFUV3ZsclRiNTVzNFBtcEk5TUV5ajB6aXl1Z3QxWHFCalE?oc=5",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-05T00:32:23.000Z",
-      "image": "",
-      "categories": [
-        "new",
         "movie2"
       ],
       "series": [
