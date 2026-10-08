@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-10-08T14:30:27.838Z",
+  "updatedAt": "2026-10-08T14:55:37.150Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 200,
-  "todayCount": 137,
+  "total": 198,
+  "todayCount": 134,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 43
+      "count": 42
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 92
+      "count": 90
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 27
+      "count": 25
     },
     {
       "id": "cast2",
@@ -37,7 +37,7 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 51
+      "count": 52
     },
     {
       "id": "goods2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 9
+      "count": 8
     },
     {
       "id": "biz2",
@@ -64,7 +64,7 @@
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 92
+      "count": 90
     },
     {
       "id": "movie",
@@ -79,12 +79,12 @@
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 33
+      "count": 34
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 35
+      "count": 34
     },
     {
       "id": "goods",
@@ -120,15 +120,15 @@
       "count": 8
     },
     {
-      "name": "オリコンニュース",
-      "count": 7
-    },
-    {
       "name": "WEBザテレビジョン",
       "count": 7
     },
     {
       "name": "ニコニコニュース",
+      "count": 6
+    },
+    {
+      "name": "オリコンニュース",
       "count": 6
     },
     {
@@ -172,6 +172,10 @@
       "count": 2
     },
     {
+      "name": "TBS NEWS DIG",
+      "count": 2
+    },
+    {
       "name": "インサイド",
       "count": 2
     },
@@ -181,10 +185,6 @@
     },
     {
       "name": "NHK",
-      "count": 2
-    },
-    {
-      "name": "Mantan Web",
       "count": 2
     },
     {
@@ -228,19 +228,7 @@
       "count": 1
     },
     {
-      "name": "ｄメニューニュース",
-      "count": 1
-    },
-    {
-      "name": "TBS NEWS DIG",
-      "count": 1
-    },
-    {
       "name": "ファミ通",
-      "count": 1
-    },
-    {
-      "name": "福井新聞社",
       "count": 1
     },
     {
@@ -328,7 +316,15 @@
       "count": 1
     },
     {
+      "name": "Mantan Web",
+      "count": 1
+    },
+    {
       "name": "激ロック",
+      "count": 1
+    },
+    {
+      "name": "ぴあエンタメ情報",
       "count": 1
     },
     {
@@ -428,28 +424,21 @@
       "leadSource": "電ファミニコゲーマー",
       "publishedAt": "2026-10-08T14:00:00.000Z",
       "sourceCount": 7,
-      "articleCount": 8,
+      "articleCount": 7,
       "categories": [
         "pv",
         "onair"
       ],
       "keywords": [
         "年放送",
-        "北北西",
-        "御山慧役"
+        "ドラゴン",
+        "花澤香菜"
       ],
       "articles": [
         {
           "title": "北北西に曇と往け＞テレビアニメ TBSで2027年放送 主人公・御山慧役は大野智敬 ビジュアル＆PV公開（MANTANWEB）",
           "url": "https://news.yahoo.co.jp/articles/eb0692ef435933305b7dfb7f3e12e3744586d24e",
           "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-08T14:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『北北西に曇と往け』2027年放送でPV公開 御山慧役は大野智敬",
-          "url": "https://www.oricon.co.jp/news/2485394/",
-          "source": "オリコンニュース",
           "publishedAt": "2026-10-08T14:00:00.000Z",
           "isPR": false
         },
@@ -949,12 +938,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-08T14:00:19.957Z",
-    "previousCount": 202,
-    "newCount": 9
+    "previousAt": "2026-10-08T14:30:27.838Z",
+    "previousCount": 200,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-08T15:00:27.838Z",
+  "nextUpdateAt": "2026-10-08T15:25:37.150Z",
   "items": [
     {
       "id": "09b2acc71b32",
@@ -975,7 +964,7 @@
       "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "499b02445e2b",
@@ -998,30 +987,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "f1626b9ed0ee",
-      "title": "『北北西に曇と往け』2027年放送でPV公開 御山慧役は大野智敬",
-      "url": "https://www.oricon.co.jp/news/2485394/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-10-08T14:00:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2486000/2485394/20261008_213442_p_o_83650184.jpg",
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ec20c11bf7cf",
@@ -1042,7 +1008,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ed271000b26f",
@@ -1064,7 +1030,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "45631abac88d",
@@ -1085,7 +1051,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4b8e890a9db3",
@@ -1261,7 +1227,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cb72f4281a2a",
@@ -1271,7 +1237,7 @@
       "source": "財経新聞",
       "summary": "",
       "publishedAt": "2026-10-08T10:52:27.000Z",
-      "image": "https://www.zaikei.co.jp/files/general/20261008195231aUD0big.png",
+      "image": "",
       "categories": [
         "onair",
         "new"
@@ -1550,10 +1516,10 @@
     },
     {
       "id": "ade388b731f9",
-      "title": "【 ALS闘病 】声優・津久井教生さん 妻が鼻先にミントを届ける日常「においを感じるってすごいなぁ〜」ベランダの花が開花",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1oS0w0UERFSDB3clJybDdEYTEwTmQ5ajRsYlF0TnRJV0NaN2pJazFXV3g5cmtIMUxFa1J5X2NjMXg4dnNKNG9tVTZDbU4wNC1SVi1kQ1BqclVtSU1tRXM3QnEzRWNidkpQZ3VoWnJFZEVtanFILVlaT05KeDhid9IBfkFVX3lxTE1oS0w0UERFSDB3clJybDdEYTEwTmQ5ajRsYlF0TnRJV0NaN2pJazFXV3g5cmtIMUxFa1J5X2NjMXg4dnNKNG9tVTZDbU4wNC1SVi1kQ1BqclVtSU1tRXM3QnEzRWNidkpQZ3VoWnJFZEVtanFILVlaT05KeDhidw?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
+      "title": "【 ALS闘病 】声優・津久井教生さん 妻が鼻先にミントを届ける日常「においを感じるってすごいなぁ～」ベランダの花が開花",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOenYzRGhEMDdGNy1EY2pocHhtakQyam9oRkxPVFZ2NExxdFA5RHhOVUc1YlpOZVMtRHZPWmhxSzVpUUV5VFdMWEFsVFU0NWVnZmdUb2xNNFl0Z0hSV3p2R1QwRU9YR2NLdnJCUW9zZUhHdERMT1RnUDZqWVhkN0lvd2xva29iMjZnRTF4M05MTGc4eUhWUXM5T2JXSjhNcTREcGFkZE96RzA0N2VfZ3FDeUYxNmRmMEo3RFVKMXh6M0dNYWYxdl9jbTVxQTdCbFhFNF8zODdfNFdGd3dUTUFtUFZGcTlzZjZfNzNOVnBpekVmbi01bXc?oc=5",
+      "host": "newsdig.tbs.co.jp",
+      "source": "TBS NEWS DIG",
       "summary": "",
       "publishedAt": "2026-10-08T10:03:00.000Z",
       "image": "",
@@ -1861,31 +1827,6 @@
       "isNew": false
     },
     {
-      "id": "fc7b592df980",
-      "title": "『わたしの幸せな結婚』新作アニメ特別篇、10月25日放送・配信決定 PV公開でりりあ。歌うOP主題歌",
-      "url": "https://www.fukuishimbun.co.jp/articles/gallery/2712628",
-      "host": "fukuishimbun.co.jp",
-      "source": "福井新聞社",
-      "summary": "",
-      "publishedAt": "2026-10-08T09:17:14.000Z",
-      "image": "https://fki.ismcdn.jp/mwimgs/9/b/-/img_9b72f8f82a245d75bfba62698f2e748d76974.jpg",
-      "categories": [
-        "onair",
-        "new"
-      ],
-      "series": [
-        "tv",
-        "movie",
-        "music",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b107ed462f1d",
       "title": "『朱色の仮面』第1話 「仮面屋ペル」あらすじ＆先行カット公開！（アニメージュプラス）",
       "url": "https://news.yahoo.co.jp/articles/378976d2d83138cb43e816d50eac02db9efb974b",
@@ -1910,7 +1851,7 @@
     },
     {
       "id": "825d21da80da",
-      "title": "TVアニメ『桃源暗鬼』2期2話のあらすじ公開！ 帆稀をかばい、雪崩に飲み込まれた四季は…",
+      "title": "TVアニメ『桃源暗鬼』2期2話のあらすじ公開！ 帆稀をかばい、雪崩に飲み込まれた四季は… - eeo Media（イーオメディア）",
       "url": "https://eeo.today/media/2026/10/08/400910/",
       "host": "eeo.today",
       "source": "eeo",
@@ -1922,7 +1863,8 @@
       ],
       "series": [
         "tv",
-        "movie"
+        "movie",
+        "music"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2445,28 +2387,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "11091b9ff8dc",
-      "title": "TVアニメ『薬屋のひとりごと』3期1話のあらすじ公開！ 壬⽒は、楼蘭から最後に託された≪国を襲う災害の予兆≫に頭を悩ませていて…",
-      "url": "https://eeo.today/media/2026/10/02/399147/",
-      "host": "eeo.today",
-      "source": "eeo",
-      "summary": "",
-      "publishedAt": "2026-10-08T07:05:32.000Z",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/10/EP49①（©）.jpg",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "223e7c378c14",
@@ -3344,7 +3264,7 @@
       "source": "Vietnam.vn",
       "summary": "",
       "publishedAt": "2026-10-08T02:43:35.000Z",
-      "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/08/1791427084722_179047903743-1791284921669-17912849224521389780267-28-0-363-640-crop-17912860504471825779214.png",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -3422,6 +3342,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "f15ecac7d669",
+      "title": "TVアニメ『ブラッククローバー』2期1話のあらすじ公開！『友魔の儀』を終えたアスタとリーベは“悪魔同化（ユナイト）”を習得するため…",
+      "url": "https://eeo.today/media/2026/10/01/398623/",
+      "host": "eeo.today",
+      "source": "eeo",
+      "summary": "",
+      "publishedAt": "2026-10-08T02:09:20.000Z",
+      "image": "https://eeo.today/media/wp-content/uploads/2026/10/20261001_burakuro_1_05.jpg",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "bebf5b9c1943",
@@ -3759,6 +3701,31 @@
       "isNew": false
     },
     {
+      "id": "fc7b592df980",
+      "title": "『わたしの幸せな結婚』新作アニメ特別篇、10月25日放送・配信決定 PV公開でりりあ。歌うOP主題歌",
+      "url": "https://www.sanyonews.jp/article/1998404",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-07T21:41:13.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/6/0/4/560467da59ef73d9b97c531e500a333a_1.jpg",
+      "categories": [
+        "onair",
+        "new"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "e584eb5cfd83",
       "title": "漫画「満州アヘンスクワッド」アニメ化が決定 10月5日発売「ヤングマガジン」から新体制で連載再開（映画.com）",
       "url": "https://news.yahoo.co.jp/articles/41797e2658a46e2e6f2c6404d169dbe90ef97f67",
@@ -3773,29 +3740,6 @@
       ],
       "series": [
         "movie",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2ad2e297d039",
-      "title": "【写真・画像 4/5枚】放課後帰宅びより：テレビアニメ化 日テレで2027年4月放送 「漫画アクション」の帰宅部青春ラブコメディー",
-      "url": "https://mantan-web.jp/article/20261002dog00m200049000a/photopage/004.html",
-      "host": "mantan-web.jp",
-      "source": "Mantan Web",
-      "summary": "",
-      "publishedAt": "2026-10-07T20:28:02.000Z",
-      "image": "https://storage.mantan-web.jp/w=800,h=1140,f=webp:auto/images/2026/10/02/20261002dog00m200049000a/004.jpg",
-      "categories": [
-        "onair",
-        "manga"
-      ],
-      "series": [
-        "tv",
         "adapt"
       ],
       "isOfficial": false,
@@ -3893,26 +3837,6 @@
       "isNew": false
     },
     {
-      "id": "9f3933c6fee7",
-      "title": "『ガンダム』新作アニメ発表で2027年展開 『機動戦士ガンダムRG アレックス ゼロ』映像＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-07T16:51:42.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "ebafcc02d3cf",
       "title": "アニメ『魔法騎士レイアース』 声優・キャラクター一覧｜新作の全キャスト16人を網羅＆旧作の声優も紹介",
       "url": "https://times.abema.tv/articles/-/10276476",
@@ -3989,7 +3913,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-07T15:15:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484963/20261007_133857_p_o_41694445.jpg",
       "categories": [
         "onair",
         "new"
@@ -4478,7 +4402,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14aeae64bc7c",
@@ -5117,6 +5041,27 @@
       "isNew": false
     },
     {
+      "id": "6691238a7339",
+      "title": "劇場アニメ「青春ブタ野郎はディアフレンドの夢を見ない」・画像・写真（37/37） - ぴあ映画",
+      "url": "https://lp.p.pia.jp/event/movie/455003/photo-gallery/index.html?id",
+      "host": "lp.p.pia.jp",
+      "source": "ぴあエンタメ情報",
+      "summary": "",
+      "publishedAt": "2026-10-07T02:05:35.000Z",
+      "image": "https://lp.p.pia.jp/shared/materials/c5234b48-ab93-4afb-bbdc-854eca1f456d/origin.jpg",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "067ea606a3a0",
       "title": "Suupeas、夢だった初アニメ主題歌「言葉にならないほどの喜び」 “お昼寝系”2人組が届ける絶対的幸福感【インタビュー】",
       "url": "https://www.oricon.co.jp/news/2484829/full/",
@@ -5124,7 +5069,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-07T02:05:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484829/20261006_172607_p_o_92306563.jpg",
       "categories": [
         "music2"
       ],
