@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T17:30:20.606Z",
+  "updatedAt": "2026-10-08T18:00:19.945Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
@@ -7,27 +7,27 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 196,
-  "todayCount": 7,
+  "todayCount": 8,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 42
+      "count": 41
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 91
+      "count": 92
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 26
+      "count": 25
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 39
+      "count": 38
     },
     {
       "id": "music2",
@@ -42,7 +42,7 @@
     {
       "id": "goods2",
       "label": "グッズ・イベント",
-      "count": 14
+      "count": 15
     },
     {
       "id": "manga",
@@ -64,7 +64,7 @@
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 90
+      "count": 91
     },
     {
       "id": "movie",
@@ -74,7 +74,7 @@
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 41
+      "count": 40
     },
     {
       "id": "music",
@@ -84,17 +84,17 @@
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 33
+      "count": 34
     },
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 18
+      "count": 19
     },
     {
       "id": "stream",
       "label": "配信",
-      "count": 38
+      "count": 39
     }
   ],
   "weapons": [],
@@ -105,7 +105,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 26
+      "count": 27
     },
     {
       "name": "電ファミニコゲーマー",
@@ -116,16 +116,20 @@
       "count": 16
     },
     {
-      "name": "PR TIMES",
-      "count": 8
-    },
-    {
       "name": "オリコンニュース",
       "count": 8
     },
     {
       "name": "WEBザテレビジョン",
       "count": 7
+    },
+    {
+      "name": "PR TIMES",
+      "count": 7
+    },
+    {
+      "name": "アニメイトタイムズ",
+      "count": 5
     },
     {
       "name": "USENの音楽情報サイト",
@@ -140,10 +144,6 @@
       "count": 4
     },
     {
-      "name": "アニメイトタイムズ",
-      "count": 4
-    },
-    {
       "name": "ニコニコニュース",
       "count": 4
     },
@@ -153,6 +153,10 @@
     },
     {
       "name": "ABEMA TIMES",
+      "count": 3
+    },
+    {
+      "name": "ASCII.jp",
       "count": 3
     },
     {
@@ -173,10 +177,6 @@
     },
     {
       "name": "電撃ホビーウェブ",
-      "count": 2
-    },
-    {
-      "name": "ASCII.jp",
       "count": 2
     },
     {
@@ -236,10 +236,6 @@
       "count": 1
     },
     {
-      "name": "福井新聞社",
-      "count": 1
-    },
-    {
       "name": "千葉テレビ放送株式会社",
       "count": 1
     },
@@ -252,11 +248,7 @@
       "count": 1
     },
     {
-      "name": "アットプレス",
-      "count": 1
-    },
-    {
-      "name": "valuepress",
+      "name": "Newscast.jp",
       "count": 1
     },
     {
@@ -935,12 +927,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-08T17:00:24.527Z",
-    "previousCount": 197,
-    "newCount": 3
+    "previousAt": "2026-10-08T17:30:20.606Z",
+    "previousCount": 196,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-08T18:00:20.606Z",
+  "nextUpdateAt": "2026-10-08T18:30:19.945Z",
   "items": [
     {
       "id": "e1239ac6b605",
@@ -1045,6 +1037,28 @@
       "series": [
         "movie",
         "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "8c7347775e20",
+      "title": "画像・写真 | アニメ『ブルーロック』コラボの新トラックジャケット、「烏旅人」ら新作6型追加の“全13型”で販売へ 3枚目",
+      "url": "https://www.oricon.co.jp/news/2484479/photo/3/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-10-08T16:04:51.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2485000/2484479/20261005_120542_p_o_18521248.jpg",
+      "categories": [
+        "new",
+        "goods2"
+      ],
+      "series": [
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1507,6 +1521,29 @@
       "series": [
         "tv",
         "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "de3453905836",
+      "title": "サブスク版Voidol UNLIMITEDに声優・平田広明氏が演じる新キャラクター「エドガー・クロウ」が新登場！本日より搭載開始",
+      "url": "https://ascii.jp/elem/000/004/441/4441216/",
+      "host": "ascii.jp",
+      "source": "ASCII.jp",
+      "summary": "",
+      "publishedAt": "2026-10-08T10:43:11.000Z",
+      "image": "https://ascii.jp/img/2019/05/13/1510511/xl/5e76a3dd2752b473.jpg?20200122",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "music"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2025,31 +2062,6 @@
       "isNew": false
     },
     {
-      "id": "fc7b592df980",
-      "title": "『わたしの幸せな結婚』新作アニメ特別篇、10月25日放送・配信決定 PV公開でりりあ。歌うOP主題歌",
-      "url": "https://www.fukuishimbun.co.jp/articles/gallery/2712628",
-      "host": "fukuishimbun.co.jp",
-      "source": "福井新聞社",
-      "summary": "",
-      "publishedAt": "2026-10-08T09:17:14.000Z",
-      "image": "https://fki.ismcdn.jp/mwimgs/9/b/-/img_9b72f8f82a245d75bfba62698f2e748d76974.jpg",
-      "categories": [
-        "onair",
-        "new"
-      ],
-      "series": [
-        "tv",
-        "movie",
-        "music",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b90b3dbfbe90",
       "title": "手塚治虫さん原作『火の鳥 未来編』舞台化で来年2月上演 AI時代に「生命と人類の未来」を問う",
       "url": "https://www.oricon.co.jp/news/2485354/",
@@ -2066,7 +2078,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "81205d466349",
@@ -2156,6 +2168,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c71df67c421d",
+      "title": "秋アニメ『朱色の仮面』第1話あらすじ&先行カット",
+      "url": "https://www.animatetimes.com/news/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-10-08T09:00:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4faf176f22f0",
@@ -2972,28 +3005,6 @@
       "isNew": false
     },
     {
-      "id": "8c7347775e20",
-      "title": "画像・写真 | アニメ『ブルーロック』コラボの新トラックジャケット、「烏旅人」ら新作6型追加の“全13型”で販売へ 2枚目",
-      "url": "https://www.oricon.co.jp/news/2484479/photo/2/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-10-08T04:59:26.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "goods2"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "6c3c93f9fb13",
       "title": "ジト目店主のリサイクルショップが舞台のホラーノベルゲーム『リサイクルショップ回向』Steamにて体験版を配信",
       "url": "https://news.denfaminicogamer.jp/news/2610082e",
@@ -3263,6 +3274,28 @@
       "isNew": false
     },
     {
+      "id": "8b150f863706",
+      "title": "「信者ゼロの女神サマと始める異世界攻略」アニメ放送記念フェア♪としてオーバーラップから刊行されているライトノベルとコミックス対象作品が各電子ストアにて無料＆割引になるキャンペーンを10月8日(木)～10月31日(土)まで実施！",
+      "url": "https://newscast.jp/smart/news/8072330",
+      "host": "newscast.jp",
+      "source": "Newscast.jp",
+      "summary": "",
+      "publishedAt": "2026-10-08T03:03:48.000Z",
+      "image": "https://www.atpress.ne.jp/attachments/pEqOEz0JXGhYqmjpiPHX.jpeg",
+      "categories": [
+        "onair",
+        "manga"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "8030bfe4d852",
       "title": "ムーミンの小説が原作のゲーム『ムーミン:ムーミン谷の夏まつり』体験版が10月15日から期間限定で配信決定。全6章の内1章を体験できる",
       "url": "https://news.denfaminicogamer.jp/news/261008k",
@@ -3299,51 +3332,6 @@
       ],
       "series": [
         "cast"
-      ],
-      "isOfficial": false,
-      "isPR": true,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8b150f863706",
-      "title": "「信者ゼロの女神サマと始める異世界攻略」アニメ放送記念フェア♪としてオーバーラップから刊行されているライトノベルとコミックス対象作品が各電子ストアにて無料＆割引になるキャ...",
-      "url": "https://www.atpress.ne.jp/news/639072",
-      "host": "atpress.ne.jp",
-      "source": "アットプレス",
-      "summary": "",
-      "publishedAt": "2026-10-08T03:00:00.000Z",
-      "image": "https://www.atpress.ne.jp/attachments/pEqOEz0JXGhYqmjpiPHX.jpeg",
-      "categories": [
-        "onair",
-        "manga"
-      ],
-      "series": [
-        "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "de3453905836",
-      "title": "サブスク版Voidol UNLIMITEDに声優・平田広明氏が演じる新キャラクター「エドガー・クロウ」が新登場！本日より搭載開始",
-      "url": "https://www.value-press.com/pressrelease/381646",
-      "host": "value-press.com",
-      "source": "valuepress",
-      "summary": "",
-      "publishedAt": "2026-10-08T03:00:00.000Z",
-      "image": "https://files.value-press.com/czMjZXllY2F0Y2gjODY2NjQjODY2NjRfeVFtUkVOVnl1Ti5wbmc.png?size=eyecatch",
-      "categories": [
-        "onair",
-        "cast2"
-      ],
-      "series": [
-        "cast",
-        "music"
       ],
       "isOfficial": false,
       "isPR": true,
@@ -3494,27 +3482,6 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "eb290e5e8ec1",
-      "title": "プロの声優から“声の仕事”を学ぶ。声優・森田樹優氏を迎え、「ミニアフレコ体験」を10月25日に開催。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000050.000109076.html",
-      "host": "prtimes.jp",
-      "source": "PR TIMES",
-      "summary": "",
-      "publishedAt": "2026-10-08T01:57:37.000Z",
-      "image": "https://prcdn.freetls.fastly.net/release_image/109076/50/109076-50-963ceeca735e19c2d9680cbd7a81d852-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -3748,6 +3715,31 @@
       "isNew": false
     },
     {
+      "id": "fc7b592df980",
+      "title": "『わたしの幸せな結婚』新作アニメ特別篇、10月25日放送・配信決定 PV公開でりりあ。歌うOP主題歌",
+      "url": "https://www.sanyonews.jp/article/1998404",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-07T21:41:13.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/6/0/4/560467da59ef73d9b97c531e500a333a_1.jpg",
+      "categories": [
+        "onair",
+        "new"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "e584eb5cfd83",
       "title": "漫画「満州アヘンスクワッド」アニメ化が決定 10月5日発売「ヤングマガジン」から新体制で連載再開（映画.com）",
       "url": "https://news.yahoo.co.jp/articles/41797e2658a46e2e6f2c6404d169dbe90ef97f67",
@@ -3759,29 +3751,6 @@
       "categories": [
         "manga",
         "movie2"
-      ],
-      "series": [
-        "movie",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ccb7efa3d9f3",
-      "title": "『魔入りました！入間くん』初の劇場アニメ制作決定 特別映像が公開 入間役・村瀬歩「すごい展開になると思います」",
-      "url": "https://www.sanyonews.jp/article/1995373",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-07T19:54:25.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/7/e/4/8/7e48e115e2a3b1e3cfa7c29001f06eeb_1.jpg",
-      "categories": [
-        "new",
-        "pv"
       ],
       "series": [
         "movie",
@@ -3835,26 +3804,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "9f3933c6fee7",
-      "title": "『ガンダム』新作アニメ発表で2027年展開 『機動戦士ガンダムRG アレックス ゼロ』映像＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-07T16:51:42.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "ebafcc02d3cf",
@@ -4335,6 +4284,29 @@
       "isNew": false
     },
     {
+      "id": "36dd8abd385b",
+      "title": "「このみゆちゃんのグッズ化を…」アニメ『正反対な君と僕』最終話記念絵に反響 「完璧以上のアニメ化」「もっと見ていたかった」と絶賛の声も（ABEMA TIMES）",
+      "url": "https://news.yahoo.co.jp/articles/575b6a85ad7bf513258244a6870483c339e083dd",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-07T10:00:37.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-10277467-abemad-000-1-view.jpg?exp=10800",
+      "categories": [
+        "goods2"
+      ],
+      "series": [
+        "adapt",
+        "goods",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "ea93474973ef",
       "title": "バンド・Kroiが歌うアニメ『ジョジョの奇妙な冒険』の主題歌、米ビルボードチャートTOP50入りの快挙 世界16カ国のYouTube総合チャートでもTOP100入り (KAI-YOU)",
       "url": "https://news.yahoo.co.jp/articles/6e21b4c7b65f2c6676413bad51edc3b07a12e131/images/000",
@@ -4353,7 +4325,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bd21f1e1864f",
@@ -5203,6 +5175,29 @@
       "series": [
         "adapt",
         "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "ccb7efa3d9f3",
+      "title": "『魔入りました！入間くん』初の劇場アニメ制作決定 特別映像が公開 入間役・村瀬歩「すごい展開になると思います」",
+      "url": "https://www.sanyonews.jp/article/1995373",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-06T22:43:43.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/7/e/4/8/7e48e115e2a3b1e3cfa7c29001f06eeb_1.jpg",
+      "categories": [
+        "new",
+        "pv"
+      ],
+      "series": [
+        "movie",
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
