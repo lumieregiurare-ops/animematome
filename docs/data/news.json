@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-19T21:30:16.581Z",
+  "updatedAt": "2026-10-19T22:00:16.194Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 210,
-  "todayCount": 27,
+  "total": 214,
+  "todayCount": 29,
   "categories": [
     {
       "id": "new",
@@ -17,7 +17,7 @@
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 85
+      "count": 87
     },
     {
       "id": "pv",
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 56
+      "count": 57
     },
     {
       "id": "music2",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 20
+      "count": 21
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 75
+      "count": 76
     },
     {
       "id": "movie",
@@ -74,7 +74,7 @@
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 62
+      "count": 63
     },
     {
       "id": "music",
@@ -84,7 +84,7 @@
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 47
+      "count": 48
     },
     {
       "id": "goods",
@@ -94,7 +94,7 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 46
+      "count": 47
     }
   ],
   "weapons": [],
@@ -105,7 +105,7 @@
     },
     {
       "name": "山陽新聞",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Yahoo!ニュース",
@@ -200,6 +200,10 @@
       "count": 2
     },
     {
+      "name": "ふねぽ",
+      "count": 1
+    },
+    {
       "name": "UtaTen",
       "count": 1
     },
@@ -261,6 +265,14 @@
     },
     {
       "name": "NHK",
+      "count": 1
+    },
+    {
+      "name": "Sirabee",
+      "count": 1
+    },
+    {
+      "name": "サブカルウォーカー",
       "count": 1
     },
     {
@@ -931,12 +943,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T21:00:19.925Z",
-    "previousCount": 209,
-    "newCount": 6
+    "previousAt": "2026-10-19T21:30:16.581Z",
+    "previousCount": 210,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-19T22:00:16.581Z",
+  "nextUpdateAt": "2026-10-19T22:30:16.194Z",
   "items": [
     {
       "id": "a23e374162cc",
@@ -952,6 +964,27 @@
       ],
       "series": [
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d6e0ea3c258f",
+      "title": "「Netflixアニメ最高傑作」の呼び声も…『サイバーパンク: エッジランナーズ』第2弾の配信直前に振り返りたい３つの魅力",
+      "url": "https://futaman.futabanet.jp/articles/-/132598",
+      "host": "futaman.futabanet.jp",
+      "source": "ふねぽ",
+      "summary": "",
+      "publishedAt": "2026-10-19T21:30:00.000Z",
+      "image": "https://futaman.ismcdn.jp/mwimgs/9/8/1200wm/img_98319bd600b9b6401ad85bd38284ddf7289635.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -981,7 +1014,29 @@
       "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "02c587a15d04",
+      "title": "劇場版『薬屋のひとりごと』新PV解禁 小野賢章、化蛇団の水蛇役「明らかに悪そうな顔してますが、、、笑」",
+      "url": "https://www.sanyonews.jp/article/2003638",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-19T20:39:17.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/8/2/f/5/82f54b9ccac21e53b38bd7a273f57d06_1.jpg",
+      "categories": [
+        "pv",
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "1ae992d2c479",
@@ -1007,20 +1062,19 @@
       "isNew": false
     },
     {
-      "id": "02c587a15d04",
-      "title": "劇場版『薬屋のひとりごと』新PV解禁 小野賢章、化蛇団の水蛇役「明らかに悪そうな顔してますが、、、笑」",
-      "url": "https://www.sanyonews.jp/article/2003638?kw",
+      "id": "30c4774af437",
+      "title": "『魔法騎士レイアース』大久保瑠美、新アニメ化にファンとして抱いた本音 龍咲海役決定で覚悟固める【インタビュー】",
+      "url": "https://www.sanyonews.jp/article/2003883",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-10-19T20:12:02.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/2/f/5/82f54b9ccac21e53b38bd7a273f57d06_1.jpg",
+      "publishedAt": "2026-10-19T20:27:27.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/7/2/2/6/722635bf95a95e227a7839d4bd54b15e_1.jpg",
       "categories": [
-        "pv",
-        "movie2"
+        "other"
       ],
       "series": [
-        "movie"
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1150,7 +1204,7 @@
       "source": "UtaTen",
       "summary": "",
       "publishedAt": "2026-10-19T17:47:34.000Z",
-      "image": "https://cdn.utaten.com/uploads/images/specialArticle/10200/7708ed19a0bffe5b0c0cd6f95bcda6de519e712e.jpeg?type=original?r=2026102006",
+      "image": "https://cdn.utaten.com/uploads/images/specialArticle/10200/7708ed19a0bffe5b0c0cd6f95bcda6de519e712e.jpeg?type=original?r=2026102007",
       "categories": [
         "music2"
       ],
@@ -1294,7 +1348,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "91d229dcb35b",
@@ -3288,6 +3342,27 @@
       "isNew": false
     },
     {
+      "id": "9e2233afd405",
+      "title": "「Snow Manだから」はイヤだった… 佐久間大介、匿名オーディションに参加し“主役声優への道”告白",
+      "url": "https://sirabee.com/2026/10/19/20163591778/",
+      "host": "sirabee.com",
+      "source": "Sirabee",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:45:00.000Z",
+      "image": "https://img.sirabee.com/wp-content/uploads/2025/12/sirabee20251203sakumadaisuke.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "f8df70df477e",
       "title": "アニメ『ラブライブ！蓮ノ空』2027年1月10日放送開始！ 106期メンバーのビジュアル解禁",
       "url": "https://dengekionline.com/article/202610/91407",
@@ -3309,6 +3384,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "dd6b53bbff8f",
+      "title": "【盗掘王】アニメ再放送情報まとめ!2026年のスケジュール一覧",
+      "url": "https://subculwalker.com/archives/106038/",
+      "host": "subculwalker.com",
+      "source": "サブカルウォーカー",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:26:17.000Z",
+      "image": "https://subculwalker.com/wp-content/uploads/2026/10/tombraiderking-saihousou.webp",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d3c35a1f00dd",
@@ -3665,7 +3761,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "958ab1360cc0",
@@ -4512,7 +4608,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ca0e3964b778",
@@ -5470,31 +5566,31 @@
     {
       "id": "3b4b90f6e1ae",
       "title": "特集 “アニメ”経済圏",
-      "url": "https://xtrend.nikkei.com/atcl/contents/18/01489/",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IcHBqN1ltSFl6b29oc21TcjV3b0ROdW1ORldpd2JoRGhvRENJZDhrb1ZtZG5LZzAtdUo3WDE4d19jbU8zYUhDZ1lMeTM4MnNvZnRBOVpheE1lb1JieHc?oc=5",
       "host": "xtrend.nikkei.com",
       "source": "日経クロストレンド",
       "summary": "",
       "publishedAt": "2026-10-18T00:02:21.000Z",
-      "image": "https://xtrend.nikkei.com/atcl/contents/18/01489/nxr_m.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "ccb7efa3d9f3",
       "title": "『魔入りました！入間くん』初の劇場アニメ制作決定 特別映像が公開 入間役・村瀬歩「すごい展開になると思います」",
-      "url": "https://www.sanyonews.jp/article/1995373",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiTWt1TW9Pb1dLVklTYUN3Mm5DcmxQTEdhZUpqczVab1R6ZVUyVG1yVlJjNnF3NzBrR1pHcmZZQThBa3EyVFM4MF95ejBlR0otMHc?oc=5",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-10-17T23:57:20.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/7/e/4/8/7e48e115e2a3b1e3cfa7c29001f06eeb_1.jpg",
+      "image": "",
       "categories": [
         "new",
         "pv"
@@ -5505,38 +5601,38 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "4a802bc252c7",
       "title": "ポケモンとどこいく！？｜テレビ東京アニメ公式 - tv-tokyo.co.jp",
-      "url": "https://www.tv-tokyo.co.jp/anime/pokedoko/pokemogu/mogu_261018.html",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNSF9UZV9WanlKRkFWV2hWcm1RckxJVllaSEZXYjdwbkhfOFd4UkswY0FxS3AxMzJNNTNZV3hRc2hoRzNsaEhoVkhxQ2c2OVVZekVhd043YUJWRVI0aXVQUHZZZEItbHZIRUMzUmFhbkl2S0xUdmc?oc=5",
       "host": "tv-tokyo.co.jp",
       "source": "tv-tokyo.co.jp",
       "summary": "",
       "publishedAt": "2026-10-17T23:16:20.000Z",
-      "image": "https://www.tv-tokyo.co.jp/anime/pokedoko/images/facebook_icon.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "4db3ab1a8d24",
       "title": "PSYREN -サイレン-＞完結から16年も根強い人気でアニメ化 誕生秘話 原作者・岩代俊明インタビュー (MANTANWEB)",
-      "url": "https://news.yahoo.co.jp/articles/c7459ef5edfe401051efc5d3fc94596e73ee3741/images/000",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVTdlQWZxcWhaaGtoN01DMXNFU19MZTRDM2w1Z2JOTV9MRlYzYmJWTDJBd2RJeGZNU3FZcktpaVVVdVM4UmtjZFJTT1AtMEwxNVVITk9GX3NOcDA2TlBNUDdEVS0yMUFBbkNMdXVkclFCWkNKWmtwZlN2cXk4eVpBQnpvMTRxWlRLZHZ3MzFB?oc=5",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-10-17T23:05:00.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnUeD1qAcAaBgvr6vPUv7uUYsdJTvhVSNMMEpVE5gs91h9hdmzuBA7J5Ik-IrOdEX0Da7kDz_-3jV63YpjPFuKFRy5L12zTEjGGpnK3Ob1csvrJJQJN-rFfqLka2tiqZPNA==",
+      "image": "",
       "categories": [
         "manga"
       ],
@@ -5545,7 +5641,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
