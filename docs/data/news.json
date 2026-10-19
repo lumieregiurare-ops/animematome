@@ -1,53 +1,53 @@
 {
-  "updatedAt": "2026-10-19T10:00:21.708Z",
+  "updatedAt": "2026-10-19T10:30:17.683Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 202,
-  "todayCount": 130,
+  "total": 200,
+  "todayCount": 135,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 49
+      "count": 46
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 78
+      "count": 81
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 26
+      "count": 25
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 43
+      "count": 46
     },
     {
       "id": "music2",
       "label": "音楽",
-      "count": 14
+      "count": 15
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 43
+      "count": 39
     },
     {
       "id": "goods2",
       "label": "グッズ・イベント",
-      "count": 14
+      "count": 12
     },
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 13
+      "count": 12
     },
     {
       "id": "biz2",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 23
+      "count": 24
     }
   ],
   "series": [
@@ -69,17 +69,17 @@
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 64
+      "count": 59
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 49
+      "count": 52
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 24
+      "count": 26
     },
     {
       "id": "adapt",
@@ -89,19 +89,19 @@
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 17
+      "count": 16
     },
     {
       "id": "stream",
       "label": "配信",
-      "count": 37
+      "count": 42
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "アニメ！アニメ！",
-      "count": 36
+      "count": 35
     },
     {
       "name": "電ファミニコゲーマー",
@@ -109,14 +109,14 @@
     },
     {
       "name": "eeo",
-      "count": 15
-    },
-    {
-      "name": "Yahoo!ニュース",
       "count": 13
     },
     {
       "name": "山陽新聞",
+      "count": 11
+    },
+    {
+      "name": "Yahoo!ニュース",
       "count": 10
     },
     {
@@ -124,19 +124,19 @@
       "count": 7
     },
     {
+      "name": "電撃オンライン",
+      "count": 6
+    },
+    {
+      "name": "アニメイトタイムズ",
+      "count": 6
+    },
+    {
       "name": "ｄメニューニュース",
       "count": 6
     },
     {
       "name": "MANTANWEB",
-      "count": 6
-    },
-    {
-      "name": "電撃オンライン",
-      "count": 5
-    },
-    {
-      "name": "アニメイトタイムズ",
       "count": 5
     },
     {
@@ -152,15 +152,31 @@
       "count": 5
     },
     {
-      "name": "ニコニコニュース",
+      "name": "ナタリー",
       "count": 4
     },
     {
-      "name": "ナタリー",
+      "name": "ニコニコニュース",
       "count": 3
     },
     {
+      "name": "Infoseek",
+      "count": 3
+    },
+    {
+      "name": "アニメハック",
+      "count": 2
+    },
+    {
       "name": "文化放送",
+      "count": 2
+    },
+    {
+      "name": "ABEMA TIMES",
+      "count": 2
+    },
+    {
+      "name": "PR TIMES",
       "count": 2
     },
     {
@@ -169,10 +185,6 @@
     },
     {
       "name": "PASH! PLUS",
-      "count": 2
-    },
-    {
-      "name": "Infoseek",
       "count": 2
     },
     {
@@ -196,11 +208,15 @@
       "count": 2
     },
     {
-      "name": "日テレNEWS NNN",
+      "name": "MEDIAMIXI",
       "count": 1
     },
     {
-      "name": "PONY CANYON NEWS",
+      "name": "CINEMA Life! シネマライフ",
+      "count": 1
+    },
+    {
+      "name": "日テレNEWS NNN",
       "count": 1
     },
     {
@@ -208,15 +224,7 @@
       "count": 1
     },
     {
-      "name": "アニメハック",
-      "count": 1
-    },
-    {
       "name": "インサイド",
-      "count": 1
-    },
-    {
-      "name": "ABEMA TIMES",
       "count": 1
     },
     {
@@ -256,19 +264,11 @@
       "count": 1
     },
     {
-      "name": "リアルサウンド",
-      "count": 1
-    },
-    {
       "name": "Kstyle",
       "count": 1
     },
     {
       "name": "STARTUP LOG",
-      "count": 1
-    },
-    {
-      "name": "PR TIMES",
       "count": 1
     },
     {
@@ -281,10 +281,6 @@
     },
     {
       "name": "TBS NEWS DIG",
-      "count": 1
-    },
-    {
-      "name": "にじめん",
       "count": 1
     },
     {
@@ -352,10 +348,6 @@
       "count": 1
     },
     {
-      "name": "uzurea.net",
-      "count": 1
-    },
-    {
       "name": "朝日新聞",
       "count": 1
     },
@@ -373,8 +365,8 @@
       "image": "https://animeanime.jp/imgs/rss/944741.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-10-19T07:54:47.000Z",
-      "sourceCount": 12,
-      "articleCount": 13,
+      "sourceCount": 8,
+      "articleCount": 9,
       "categories": [
         "onair",
         "manga"
@@ -393,17 +385,10 @@
           "isPR": false
         },
         {
-          "title": "『ぬるめた』2027年TVアニメ化決定 制作スタジオはソワネ、監督は五十嵐海",
-          "url": "https://realsound.jp/movie/2026/10/post-2557052.html",
-          "source": "リアルサウンド",
-          "publishedAt": "2026-10-19T03:00:58.000Z",
-          "isPR": false
-        },
-        {
-          "title": "謎の新作アニメ18日発表へ 「日常が一変する」映像公開で五十嵐海が初のTVアニメ監督",
-          "url": "https://www.sanyonews.jp/article/2005437?rct",
-          "source": "山陽新聞",
-          "publishedAt": "2026-10-19T02:09:49.000Z",
+          "title": "『ぬるめた』2027年TVアニメ化決定 制作スタジオはソワネ、監督は五十嵐海 (リアルサウンド)",
+          "url": "https://news.yahoo.co.jp/articles/bbf6c14380c821d8ba22ced3e245b7105341fe6e/images/000",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-19T03:08:14.000Z",
           "isPR": false
         },
         {
@@ -411,13 +396,6 @@
           "url": "https://news.nicovideo.jp/watch/nw19892835?from",
           "source": "ニコニコニュース",
           "publishedAt": "2026-10-19T01:33:13.000Z",
-          "isPR": false
-        },
-        {
-          "title": "“日常”が一変する新作TVアニメの正体は『ぬるめた』！ 2027年に放送決定＆メインスタッフ・ティザービジュアルも公開",
-          "url": "https://www.pashplus.jp/anime/499432/",
-          "source": "PASH! PLUS",
-          "publishedAt": "2026-10-18T23:56:24.000Z",
           "isPR": false
         },
         {
@@ -435,10 +413,24 @@
           "isPR": false
         },
         {
-          "title": "ぬるめた：“謎”の新作テレビアニメの正体が明らかに 2027年放送 監督は五十嵐海 ソワネ制作",
-          "url": "https://mantan-web.jp/article/20261018dog00m200031000a.html",
-          "source": "MANTANWEB",
-          "publishedAt": "2026-10-18T12:00:35.000Z",
+          "title": "『ぬるめた』2027年TVアニメ化決定！スタッフ＆ティザービジュアル公開",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
+          "publishedAt": "2026-10-18T12:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "漫画『ぬるめた』2027年TVアニメ化 監督は『サイバーパンク: エッジランナーズ2』五十嵐海 - KAI-YOU",
+          "url": "https://kai-you.net/article/96865",
+          "source": "KAI-YOU",
+          "publishedAt": "2026-10-18T12:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ぬるめた】2027年TVアニメ化決定！ 監督は五十嵐海、制作ソワネで異色の日常系が映像化",
+          "url": "https://dengekionline.com/article/202610/91343",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-10-18T12:00:00.000Z",
           "isPR": false
         }
       ]
@@ -451,7 +443,7 @@
       "image": "https://animeanime.jp/imgs/rss/945040.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-10-19T09:00:03.000Z",
-      "sourceCount": 7,
+      "sourceCount": 6,
       "articleCount": 7,
       "categories": [
         "pv",
@@ -492,10 +484,10 @@
           "isPR": false
         },
         {
-          "title": "アニメ「ラブライブ！蓮ノ空」2027年1月放送開始 106期メンバーが集合したビジュアル（コミックナタリー）",
-          "url": "https://news.yahoo.co.jp/articles/1428731d27a24b9373e3aa30fc5a8ae87618c4ad",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-19T04:20:11.000Z",
+          "title": "アニメ「ラブライブ！蓮ノ空」2027年1月放送開始 106期メンバーが集合したビジュアル",
+          "url": "https://natalie.mu/comic/news/694284",
+          "source": "ナタリー",
+          "publishedAt": "2026-10-19T04:20:00.000Z",
           "isPR": false
         },
         {
@@ -565,8 +557,8 @@
       "image": "https://animeanime.jp/imgs/rss/944710.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-10-19T03:35:03.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
+      "sourceCount": 5,
+      "articleCount": 5,
       "categories": [
         "manga",
         "cast2"
@@ -585,6 +577,13 @@
           "isPR": false
         },
         {
+          "title": "虎鶫＞テレビアニメの主人公声優に水中雅章 和多田美咲、石谷春貴も出演 (MANTANWEB)",
+          "url": "https://news.yahoo.co.jp/articles/d845c51e4faaed6c6bf2875ad4d34e1ec9393a7f/images/000",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-19T02:33:00.000Z",
+          "isPR": false
+        },
+        {
           "title": "虎鶫：テレビアニメの主人公声優に水中雅章 和多田美咲、石谷春貴も出演",
           "url": "https://mantan-web.jp/article/20261018dog00m200015000a.html",
           "source": "MANTANWEB",
@@ -596,6 +595,92 @@
           "url": "https://news.denfaminicogamer.jp/news/261019f",
           "source": "電ファミニコゲーマー",
           "publishedAt": "2026-10-19T02:30:32.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "d2261900058b",
+      "title": "「きららMAX」連載「ぬるめた」27年にソワネ×五十嵐海でTVアニメ化 人造人間と女子高生の日常を描く",
+      "summary": "",
+      "url": "https://anime.eiga.com/news/127685/",
+      "image": "https://media.eiga.com/images/anime/news/127685/photo/4ef9571089947edd/640.jpg",
+      "leadSource": "アニメハック",
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "sourceCount": 4,
+      "articleCount": 4,
+      "categories": [
+        "manga",
+        "new"
+      ],
+      "keywords": [
+        "TVアニメ",
+        "五十嵐海",
+        "日常"
+      ],
+      "articles": [
+        {
+          "title": "謎の新作アニメ18日発表へ 「日常が一変する」映像公開で五十嵐海が初のTVアニメ監督",
+          "url": "https://www.sanyonews.jp/article/2005437?rct",
+          "source": "山陽新聞",
+          "publishedAt": "2026-10-19T02:09:49.000Z",
+          "isPR": false
+        },
+        {
+          "title": "“日常”が一変する新作TVアニメの正体は『ぬるめた』！ 2027年に放送決定＆メインスタッフ・ティザービジュアルも公開",
+          "url": "https://www.pashplus.jp/anime/499432/",
+          "source": "PASH! PLUS",
+          "publishedAt": "2026-10-18T23:56:24.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ぬるめた：“謎”の新作テレビアニメの正体が明らかに 2027年放送 監督は五十嵐海 ソワネ制作",
+          "url": "https://mantan-web.jp/article/20261018dog00m200031000a.html",
+          "source": "MANTANWEB",
+          "publishedAt": "2026-10-18T12:00:35.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "bb99531f0ac5",
+      "title": "劇場版『空の境界』『Fate/stay night [Heaven’s Feel]』の見放題配信が10月30日より順次スタート。Netflix、ABEMA、U-NEXTなど各配信サイトにて",
+      "summary": "『魔法使いの夜』公開に向けた特別企画。ABEMAでは特設チャンネルを開設し、TYPE-MOON×ufotable全5作品の無料一挙放送を予定",
+      "url": "https://news.denfaminicogamer.jp/news/261019b",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HTdR4SIbMAAz4nR-1.jpg",
+      "leadSource": "電ファミニコゲーマー",
+      "publishedAt": "2026-10-19T04:13:00.000Z",
+      "sourceCount": 4,
+      "articleCount": 4,
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "keywords": [
+        "fate",
+        "stay",
+        "night"
+      ],
+      "articles": [
+        {
+          "title": "劇場アニメ『魔法使いの夜』公開記念企画で『空の境界』『Fate/stay night [Heaven's Feel]』の見放題配信が10/30開始",
+          "url": "https://dengekionline.com/article/202610/91373",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-10-19T04:13:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "劇場版『空の境界』『Fate/stay night [Heaven's Feel]』シリーズが10月30日より見放題配信開始。『魔法使いの夜』公開記念企画として",
+          "url": "https://www.famitsu.com/article/202610/91368",
+          "source": "ファミ通",
+          "publishedAt": "2026-10-19T03:20:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "劇場版『空の境界』『Fate/stay night [Heaven’s",
+          "url": "https://news.nicovideo.jp/watch/nw19892385?news_ref",
+          "source": "ニコニコニュース",
+          "publishedAt": "2026-10-18T22:42:15.000Z",
           "isPR": false
         }
       ]
@@ -679,6 +764,78 @@
       ]
     },
     {
+      "id": "efc4178774ff",
+      "title": "『GROTESQQQUE-グロテスク-』『夜露死駆★少女』劇場公開前にNetflixで期間限定独占先行配信決定",
+      "summary": "",
+      "url": "https://www.cinema-life.net/p261019_grpr/",
+      "image": "https://www.cinema-life.net/wp-content/uploads/a526f818c34872fd37fefc6607804478.jpg",
+      "leadSource": "CINEMA Life! シネマライフ",
+      "publishedAt": "2026-10-19T10:00:39.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "keywords": [
+        "Netflix",
+        "夜露死駆",
+        "少女"
+      ],
+      "articles": [
+        {
+          "title": "南沙良主演『夜露死駆★少女』Netflixで期間限定先行配信決定！ 初アフレコへの思いも明かす（クランクイン！）",
+          "url": "https://news.yahoo.co.jp/articles/3ccc3470f0eaac4b6822fdf09b03a2cb2858525c",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-19T10:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「GROTESQQQUE」劇場公開に先がけ、「夜露死駆★少女」をNetflixで期間限定先行配信（コメントあり）",
+          "url": "https://natalie.mu/comic/news/694350",
+          "source": "ナタリー",
+          "publishedAt": "2026-10-19T10:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "d8a15cf89cb7",
+      "title": "「ブルーロック」潔世一がダークスーツで魅せる！ 見惚れてしまうシックな描き下ろしグッズ【AGF2026】",
+      "summary": "TVアニメ『ブルーロック』の新規描き下ろしイラストを使用したグッズが登場。2026年11月7日・8日に東京・池袋で開催される「アニメイトガールズフェスティバル2026（AGF2026）」のAMNIBUSブースにて先行販売される。",
+      "url": "https://animeanime.jp/article/2026/10/19/103946.html",
+      "image": "https://animeanime.jp/imgs/rss/944431.jpg",
+      "leadSource": "アニメ！アニメ！",
+      "publishedAt": "2026-10-19T08:00:02.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "new",
+        "goods2"
+      ],
+      "keywords": [
+        "TVアニメ",
+        "グッズ",
+        "テーマ"
+      ],
+      "articles": [
+        {
+          "title": "TVアニメ『マーメイドメロディー ぴちぴちピッチ』新作グッズが登場！“アニマルパジャマパーティー”がテーマの描き下ろしイラストを使用した魅力的なラインナップ!!",
+          "url": "https://prtimes.jp/main/html/rd/p/000001247.000012048.html",
+          "source": "PR TIMES",
+          "publishedAt": "2026-10-19T08:00:02.000Z",
+          "isPR": true
+        },
+        {
+          "title": "Faulieu.、OPテーマを担当するTVアニメ『dreamland』の映像を使用した「movin’on」MV公開",
+          "url": "https://www.thefirsttimes.jp/news/0000901380/",
+          "source": "THE FIRST TIMES",
+          "publishedAt": "2026-10-18T11:00:18.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "f2cf188d1191",
       "title": "東映アニメーション×円谷プロの新作「怪獣デコード アイダラの指輪」キャラボイス初披露！ 少女と怪獣の交流が垣間見える新キービジュも",
       "summary": "『怪獣デコード アイダラの指輪』より、キービジュアル第3弾と特報映像が公開された。映像では、本編映像に加え、マル役の山根綺、ココ役の高橋花林によるキャラクターボイスも初披露。2027年の公開に向け、作品の世界観が明らかになった。",
@@ -710,42 +867,6 @@
           "url": "https://natalie.mu/comic/news/694181",
           "source": "ナタリー",
           "publishedAt": "2026-10-18T03:30:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "bb99531f0ac5",
-      "title": "劇場版『空の境界』『Fate/stay night [Heaven’s Feel]』の見放題配信が10月30日より順次スタート。Netflix、ABEMA、U-NEXTなど各配信サイトにて",
-      "summary": "『魔法使いの夜』公開に向けた特別企画。ABEMAでは特設チャンネルを開設し、TYPE-MOON×ufotable全5作品の無料一挙放送を予定",
-      "url": "https://news.denfaminicogamer.jp/news/261019b",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HTdR4SIbMAAz4nR-1.jpg",
-      "leadSource": "電ファミニコゲーマー",
-      "publishedAt": "2026-10-19T03:20:00.000Z",
-      "sourceCount": 3,
-      "articleCount": 3,
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "keywords": [
-        "劇場版",
-        "fate",
-        "stay"
-      ],
-      "articles": [
-        {
-          "title": "劇場版『空の境界』『Fate/stay night [Heaven's Feel]』シリーズが10月30日より見放題配信開始。『魔法使いの夜』公開記念企画として",
-          "url": "https://www.famitsu.com/article/202610/91368",
-          "source": "ファミ通",
-          "publishedAt": "2026-10-19T03:20:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "劇場版『空の境界』『Fate/stay night [Heaven’s",
-          "url": "https://news.nicovideo.jp/watch/nw19892385?news_ref",
-          "source": "ニコニコニュース",
-          "publishedAt": "2026-10-18T22:42:15.000Z",
           "isPR": false
         }
       ]
@@ -821,99 +942,153 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "0179573a46a7",
-      "title": "仲村宗悟、AIが予想した80歳の姿に猛抗議「絶対俺じゃないって」“老化防止”を目指す脳トレに大苦戦＜声優と夜あそび＞",
-      "summary": "",
-      "url": "https://news.yahoo.co.jp/articles/4b601b97ddc5b77382bf1311e7402fb79bab5650",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-01449954-the_tv-000-1-view.jpg?exp=10800",
-      "leadSource": "Yahoo!ニュース",
-      "publishedAt": "2026-10-19T09:30:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "cast2"
-      ],
-      "keywords": [
-        "仲村宗悟",
-        "声優"
-      ],
-      "articles": [
-        {
-          "title": "声優と夜あそび 日【森久保祥太郎×仲村宗悟】#20",
-          "url": "https://abema.tv/channels/anime-live/slots/DH8JKLqJq3G9hR",
-          "source": "ABEMA",
-          "publishedAt": "2026-10-18T14:54:19.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "bab78613be18",
-      "title": "「マチ★アソビ」2日間で8万6000人 街にアニメファンあふれる【徳島】（2026年10月19日掲載）｜JRT NEWS NNN",
-      "summary": "",
-      "url": "https://news.ntv.co.jp/n/jrt/category/society/jr0a0cad5e0a98475ba8fc77551a7a3e93",
-      "image": "https://image.gallery.play.jp/jrt-news/articles/fe7487b70c89484e9612c7cd58fdeabd/56430a0b-127b-4fd3-966a-76f3ccf9cf18.jpg?w=1200",
-      "leadSource": "日テレNEWS NNN",
-      "publishedAt": "2026-10-19T09:23:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "アソビ",
-        "アニメファン",
-        "徳島"
-      ],
-      "articles": [
-        {
-          "title": "マチ★アソビ開幕 徳島県内外のアニメファンや家族連れらでにぎわう",
-          "url": "https://www.topics.or.jp/articles/-/1511206",
-          "source": "徳島新聞デジタル",
-          "publishedAt": "2026-10-17T20:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "af9ed340ba72",
-      "title": "＜進撃の巨人＞劇場版アニメ前編「紅蓮の弓矢」 1週目入場者特典にエレンのミニ色紙 重要シーンの一部を描き下ろし",
-      "summary": "",
-      "url": "https://news.yahoo.co.jp/articles/bee82872fecdcc95d58e9e9453d11b7a207ce3f6",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00000062-mantan-000-1-view.jpg?exp=10800",
-      "leadSource": "Yahoo!ニュース",
-      "publishedAt": "2026-10-19T09:06:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "movie2"
-      ],
-      "keywords": [
-        "劇場版",
-        "エレン",
-        "進撃"
-      ],
-      "articles": [
-        {
-          "title": "劇場版『進撃の巨人』前編〜紅蓮の弓矢〜、SCREENX & 4DX & ULTRA 4DX上映第1週目の入場者特典は、キャラクターデザイン・浅野恭司描き下ろしのエレンミニ色紙に決定！",
-          "url": "https://news.ponycanyon.co.jp/2026/10/126912",
-          "source": "PONY CANYON NEWS",
-          "publishedAt": "2026-10-19T09:01:51.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T09:30:18.052Z",
-    "previousCount": 204,
-    "newCount": 9
+    "previousAt": "2026-10-19T10:00:21.708Z",
+    "previousCount": 202,
+    "newCount": 11
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-19T10:30:21.708Z",
+  "nextUpdateAt": "2026-10-19T11:00:17.683Z",
   "items": [
+    {
+      "id": "33a213555038",
+      "title": "『キャッスルヴァニア ベルモンドカース』と『Gears of War: E-Day』に声優の吉宮るりさんが挑戦！ 次回の電撃ゲームライブは10月22日20時より配信",
+      "url": "http://news.dengeki.com/article/202610/91385",
+      "host": "news.dengeki.com",
+      "source": "電撃オンライン",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:20:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/91385/ogp_gGSl.jpg?x=1280",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "music",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "65a9da7c32d5",
+      "title": "ホロライブのVTuber、米クリティカル・ロールの声優とTRPGでコラボ | ニュース | IT×エンタメの最前線を届ける",
+      "url": "https://mediamixi.jp/news/16718/",
+      "host": "mediamixi.jp",
+      "source": "MEDIAMIXI",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:11:57.000Z",
+      "image": "https://mediamixi.jp/app/uploads/2026/10/VTuber1016.jpg",
+      "categories": [
+        "cast2",
+        "music2"
+      ],
+      "series": [
+        "cast",
+        "music",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "efc4178774ff",
+      "title": "『GROTESQQQUE-グロテスク-』『夜露死駆★少女』劇場公開前にNetflixで期間限定独占先行配信決定",
+      "url": "https://www.cinema-life.net/p261019_grpr/",
+      "host": "cinema-life.net",
+      "source": "CINEMA Life! シネマライフ",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:00:39.000Z",
+      "image": "https://www.cinema-life.net/wp-content/uploads/a526f818c34872fd37fefc6607804478.jpg",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "d2261900058b",
+      "title": "「きららMAX」連載「ぬるめた」27年にソワネ×五十嵐海でTVアニメ化 人造人間と女子高生の日常を描く",
+      "url": "https://anime.eiga.com/news/127685/",
+      "host": "anime.eiga.com",
+      "source": "アニメハック",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "image": "https://media.eiga.com/images/anime/news/127685/photo/4ef9571089947edd/640.jpg",
+      "categories": [
+        "manga"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "1d5d39cdf813",
+      "title": "南沙良主演『夜露死駆★少女』Netflixで期間限定先行配信決定！ 初アフレコへの思いも明かす（クランクイン！）",
+      "url": "https://news.yahoo.co.jp/articles/3ccc3470f0eaac4b6822fdf09b03a2cb2858525c",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00192873-crankinn-000-1-view.jpg?exp=10800",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f801c36dd030",
+      "title": "「GROTESQQQUE」劇場公開に先がけ、「夜露死駆★少女」をNetflixで期間限定先行配信（コメントあり）",
+      "url": "https://natalie.mu/comic/news/694350",
+      "host": "natalie.mu",
+      "source": "ナタリー",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "image": "",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "13930cb966ae",
       "title": "「学マス」有村麻央役・七瀬つむぎ、初写真集の特典画像が一挙お披露目！ ロングヘアをバッサリ切って挑戦",
@@ -956,7 +1131,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bab78613be18",
@@ -975,7 +1150,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1dcae1944dd1",
@@ -1017,27 +1192,6 @@
         "movie",
         "cast",
         "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "af9ed340ba72",
-      "title": "＜進撃の巨人＞劇場版アニメ前編「紅蓮の弓矢」 1週目入場者特典にエレンのミニ色紙 重要シーンの一部を描き下ろし",
-      "url": "https://news.yahoo.co.jp/articles/bee82872fecdcc95d58e9e9453d11b7a207ce3f6",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-19T09:06:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00000062-mantan-000-1-view.jpg?exp=10800",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1115,27 +1269,6 @@
       "isNew": false
     },
     {
-      "id": "67c41b1c2aa9",
-      "title": "劇場版『進撃の巨人』前編〜紅蓮の弓矢〜、SCREENX & 4DX & ULTRA 4DX上映第1週目の入場者特典は、キャラクターデザイン・浅野恭司描き下ろしのエレンミニ色紙に決定！",
-      "url": "https://news.ponycanyon.co.jp/2026/10/126912",
-      "host": "news.ponycanyon.co.jp",
-      "source": "PONY CANYON NEWS",
-      "summary": "",
-      "publishedAt": "2026-10-19T09:01:51.000Z",
-      "image": "https://news.ponycanyon.co.jp/wp/wp-content/uploads/2026/10/劇場版『進撃の巨人』前編〜紅蓮の弓矢〜KV-410x580.jpg",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "7b6d6bde329f",
       "title": "TVアニメ『#ゾンビさがしてます』第4話のあらすじ公開！ ナツキにかばわれたことに責任を感じたユウは…",
       "url": "https://eeo.today/media/2026/10/19/404875/",
@@ -1182,25 +1315,25 @@
       "isNew": false
     },
     {
-      "id": "f650c573c42b",
-      "title": "「最後まで見届けたいと感じられる」声優・瀬戸麻沙美に聞く『青春ブタ野郎はディアフレンドの夢を見ない』の印象は？",
-      "url": "https://news.yahoo.co.jp/articles/f888ebdff21f082a48469b8d666131b8da6c8943",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "1b152c64c37f",
+      "title": "進撃の巨人：劇場版アニメ前編「紅蓮の弓矢」 1週目入場者特典にエレンのミニ色紙 重要シーンの一部を描き下ろし",
+      "url": "https://mantan-web.jp/article/20261019dog00m200033000a.html",
+      "host": "mantan-web.jp",
+      "source": "MANTANWEB",
       "summary": "",
-      "publishedAt": "2026-10-19T09:00:38.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-10281763-abemad-000-1-view.jpg?exp=10800",
+      "publishedAt": "2026-10-19T09:00:37.000Z",
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/10/19/20261019dog00m200033000a/001.jpg",
       "categories": [
-        "cast2"
+        "movie2"
       ],
       "series": [
-        "cast"
+        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "4b57e92fd40c",
@@ -1248,6 +1381,28 @@
       "isNew": false
     },
     {
+      "id": "bc1c8366b40d",
+      "title": "秋アニメ『たんもし Season2』第3話あらすじ＆場面カット",
+      "url": "https://www.animatetimes.com/news/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:00:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "f86d71e787fe",
       "title": "【完結直前】「BLEACH 千年血戦篇」最終決戦に向けた「THE LAST PV」が公開 10月25日に一挙上映イベント開催",
       "url": "https://anime.eiga.com/news/127686/",
@@ -1263,6 +1418,27 @@
       "series": [
         "movie",
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "f650c573c42b",
+      "title": "「最後まで見届けたいと感じられる」声優・瀬戸麻沙美に聞く『青春ブタ野郎はディアフレンドの夢を見ない』の印象は？",
+      "url": "https://times.abema.tv/articles/-/10281763",
+      "host": "times.abema.tv",
+      "source": "ABEMA TIMES",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:00:00.000Z",
+      "image": "https://times-abema.ismcdn.jp/mwimgs/a/b/1200w/img_ab1c0ff47ce944b4fec8765bdc72ecef474014.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1464,7 +1640,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "acd71467dd6c",
@@ -1655,12 +1831,12 @@
     {
       "id": "88633d363cc2",
       "title": "TVアニメ『マーメイドメロディー ぴちぴちピッチ』新作グッズが登場！“アニマルパジャマパーティー”がテーマの描き下ろしイラストを使用した魅力的なラインナップ!!",
-      "url": "https://eeo.today/media/2026/10/19/404005/",
-      "host": "eeo.today",
-      "source": "eeo",
+      "url": "https://prtimes.jp/main/html/rd/p/000001247.000012048.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
       "summary": "",
-      "publishedAt": "2026-10-19T08:00:39.000Z",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/10/20261019_picchi_ishiran.jpg",
+      "publishedAt": "2026-10-19T08:00:02.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/12048/1247/12048-1247-64977d38e7992af398fbe6cd29e05b7d-1415x2000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "categories": [
         "new",
         "goods2"
@@ -1670,7 +1846,7 @@
         "goods"
       ],
       "isOfficial": false,
-      "isPR": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -1858,7 +2034,7 @@
     {
       "id": "6e65acde864c",
       "title": "【最大60％OFF】「貴族院の自称図書委員」アニメ化決定！『本好きの下克上』シリーズ原作をお得に買うチャンス！",
-      "url": "https://news.nicovideo.jp/watch/nw19894217?news_ref",
+      "url": "https://news.nicovideo.jp/watch/nw19894217",
       "host": "news.nicovideo.jp",
       "source": "ニコニコニュース",
       "summary": "",
@@ -1984,7 +2160,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "216a6645d8a8",
@@ -2298,13 +2474,13 @@
     },
     {
       "id": "c2a514b1b79f",
-      "title": "アニメ「ラブライブ！蓮ノ空」2027年1月放送開始 106期メンバーが集合したビジュアル（コミックナタリー）",
-      "url": "https://news.yahoo.co.jp/articles/1428731d27a24b9373e3aa30fc5a8ae87618c4ad",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "アニメ「ラブライブ！蓮ノ空」2027年1月放送開始 106期メンバーが集合したビジュアル",
+      "url": "https://natalie.mu/comic/news/694284",
+      "host": "natalie.mu",
+      "source": "ナタリー",
       "summary": "",
-      "publishedAt": "2026-10-19T04:20:11.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00000055-nataliec-000-1-view.jpg?exp=10800",
+      "publishedAt": "2026-10-19T04:20:00.000Z",
+      "image": "",
       "categories": [
         "onair",
         "pv"
@@ -2320,26 +2496,27 @@
       "isNew": false
     },
     {
-      "id": "b195363eac47",
-      "title": "劇場アニメ『魔法使いの夜』蒼崎青子、久遠寺有珠、静希草十郎の戦闘ビジュアル公開。8週連続の描き下ろしタイアップも始動",
-      "url": "http://news.dengeki.com/article/202610/91373",
-      "host": "news.dengeki.com",
+      "id": "958ab1360cc0",
+      "title": "劇場アニメ『魔法使いの夜』公開記念企画で『空の境界』『Fate/stay night [Heaven's Feel]』の見放題配信が10/30開始",
+      "url": "https://dengekionline.com/article/202610/91373",
+      "host": "dengekionline.com",
       "source": "電撃オンライン",
       "summary": "",
       "publishedAt": "2026-10-19T04:13:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/91373/ogp_vCZk.jpg?x=1280",
       "categories": [
-        "new",
-        "pv"
+        "onair",
+        "movie2"
       ],
       "series": [
-        "movie"
+        "movie",
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "a11bff3193e0",
@@ -2392,6 +2569,28 @@
       "image": "https://animeanime.jp/imgs/rss/944750.png",
       "categories": [
         "pv",
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "b8e3fd77be4f",
+      "title": "謎の新作アニメ発表へ 企業が事前の宣伝に注力で流行 TOHO animationが匂わせカット公開",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-19T03:36:08.000Z",
+      "image": "",
+      "categories": [
+        "new",
         "movie2"
       ],
       "series": [
@@ -2607,6 +2806,28 @@
       "isNew": false
     },
     {
+      "id": "7473f2653c45",
+      "title": "『ぬるめた』2027年TVアニメ化決定 制作スタジオはソワネ、監督は五十嵐海 (リアルサウンド)",
+      "url": "https://news.yahoo.co.jp/articles/bbf6c14380c821d8ba22ced3e245b7105341fe6e/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-19T03:08:14.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnYkiVBZhrHkofCR274nH6ZNYR-SqsFPmZdtF6FtFKRYMjWbVhssyd0TFDcMIdeC3vN6MkFQagkQb5LLFqGj7ohDxgLqJV7CADRPfYqBgsVOww-RGDS5S41Vdo0P8ER9WVA==",
+      "categories": [
+        "biz2"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "6ab9c0433e1a",
       "title": "【ふぁんも放送後記】ゲスト：鈴木このみさん（2026.10/17 OA #186）",
       "url": "https://www.joqr.co.jp/qr/program/fmt/blog/184304/",
@@ -2620,28 +2841,6 @@
       ],
       "series": [
         "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7473f2653c45",
-      "title": "『ぬるめた』2027年TVアニメ化決定 制作スタジオはソワネ、監督は五十嵐海",
-      "url": "https://realsound.jp/movie/2026/10/post-2557052.html",
-      "host": "realsound.jp",
-      "source": "リアルサウンド",
-      "summary": "",
-      "publishedAt": "2026-10-19T03:00:58.000Z",
-      "image": "https://realsound.jp/wp-content/uploads/2026/10/20261019-nurumeta-01.jpg",
-      "categories": [
-        "biz2"
-      ],
-      "series": [
-        "tv",
-        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2827,29 +3026,6 @@
       "isNew": false
     },
     {
-      "id": "0e54679f14d2",
-      "title": "TVアニメ『天は赤い河のほとり』第16話のあらすじが公開！ かつてカイルと関係を持っていたというギュゼルは、幼い息子を連れており…",
-      "url": "https://eeo.today/media/2026/10/19/404326/",
-      "host": "eeo.today",
-      "source": "eeo",
-      "summary": "",
-      "publishedAt": "2026-10-19T02:48:28.000Z",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/10/20261016_ten_16-2.jpg",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "1c55aee7eca5",
       "title": "劇場アニメ『青春ブタ野郎はディアフレンドの夢を見ない』舞台挨拶の公式イベントレポートが公開！",
       "url": "https://eeo.today/media/2026/10/19/404456/",
@@ -2985,6 +3161,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8bdf2142d31a",
+      "title": "虎鶫＞テレビアニメの主人公声優に水中雅章 和多田美咲、石谷春貴も出演 (MANTANWEB)",
+      "url": "https://news.yahoo.co.jp/articles/d845c51e4faaed6c6bf2875ad4d34e1ec9393a7f/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-19T02:33:00.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnYwkV09nMPpyfHxzgbdfotVFfV2gUkti7Jmf4i2GAtzdj2Xn18tviVesvAgd-Z3OJ7l58NfMiIjRunk24spuoyRrd3xXKJLgxGFkZEnZULWZBkvOoZxxtdnvz-FlQDrIlA==",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "tv",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0aef68a8d90b",
@@ -3278,26 +3476,25 @@
       "isNew": false
     },
     {
-      "id": "b8e3fd77be4f",
-      "title": "謎の新作アニメ発表へ 企業が事前の宣伝に注力で流行 TOHO animationが匂わせカット公開",
-      "url": "https://www.sanyonews.jp/article/2005467",
+      "id": "39bf293e490e",
+      "title": "『本好きの下剋上』続編「貴族院の自称図書委員」編アニメ化決定 制作はWIT STUDIO",
+      "url": "https://www.sanyonews.jp/article/1999132?rct",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-10-19T00:46:39.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/7/9/b/8/79b8fd30d3b7991f47ceda68ab59f7b8_1.jpg",
+      "publishedAt": "2026-10-19T00:40:47.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/e/6/b/3/e6b3aa2868f5d7e89848e029284bc7ef_1.jpg",
       "categories": [
-        "new",
-        "movie2"
+        "other"
       ],
       "series": [
-        "movie"
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "5f0a6b1170df",
@@ -3318,29 +3515,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "0ba25f2311a0",
-      "title": "Faulieu.アニメ「dreamland」本編映像使用した新曲「movin'on」ミュージックビデオ公開",
-      "url": "https://news.nicovideo.jp/watch/nw19892613?news_ref",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-10-19T00:30:19.000Z",
-      "image": "",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7ed3948d9073",
@@ -3531,27 +3706,6 @@
       ],
       "series": [
         "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4b89b085b0cc",
-      "title": "映画『我々は宇宙人』がシッチェス・カタロニア国際映画祭で最優秀長編アニメーション映画賞を受賞",
-      "url": "https://nijimen.kusuguru.co.jp/topics/640816",
-      "host": "nijimen.kusuguru.co.jp",
-      "source": "にじめん",
-      "summary": "",
-      "publishedAt": "2026-10-18T21:18:00.000Z",
-      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/10/4a33d0408a3f47b6841b9dfd9d57027f.jpg",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4087,28 +4241,6 @@
       "isNew": false
     },
     {
-      "id": "e7117104b277",
-      "title": "漫画『ぬるめた』2027年TVアニメ化 監督は『サイバーパンク: エッジランナーズ2』五十嵐海 - KAI-YOU",
-      "url": "https://kai-you.net/article/96865",
-      "host": "kai-you.net",
-      "source": "KAI-YOU",
-      "summary": "",
-      "publishedAt": "2026-10-18T12:00:00.000Z",
-      "image": "https://img.kai-you.net/storage/2026/10/a307211a-d913-4e51-bbd8-b93485a6e7ba/jpg/nrmt_teaser_mini_r.jpg",
-      "categories": [
-        "manga"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "03e5591d9bec",
       "title": "こかむも「ぬるめた」TVアニメ化、2027年に放送開始 スタッフ＆ビジュアル公開（コメントあり）",
       "url": "https://natalie.mu/comic/news/694228",
@@ -4133,20 +4265,20 @@
       "isNew": false
     },
     {
-      "id": "fc95140b84cc",
-      "title": "ぬるめた＞“謎”の新作テレビアニメの正体が明らかに 2027年放送 監督は五十嵐海 ソワネ制作（MANTANWEB）",
-      "url": "https://news.yahoo.co.jp/articles/5a26461d95221ba85fb7dc48fe0e37c9f32fbdf8",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "e7117104b277",
+      "title": "漫画『ぬるめた』2027年TVアニメ化 監督は『サイバーパンク: エッジランナーズ2』五十嵐海 - KAI-YOU",
+      "url": "https://kai-you.net/article/96865",
+      "host": "kai-you.net",
+      "source": "KAI-YOU",
       "summary": "",
       "publishedAt": "2026-10-18T12:00:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261018-00000054-mantan-000-1-view.jpg?exp=10800",
+      "image": "https://img.kai-you.net/storage/2026/10/a307211a-d913-4e51-bbd8-b93485a6e7ba/jpg/nrmt_teaser_mini_r.jpg",
       "categories": [
-        "new",
-        "onair"
+        "manga"
       ],
       "series": [
-        "tv"
+        "tv",
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4264,29 +4396,6 @@
       "isNew": false
     },
     {
-      "id": "3e8a1c88861f",
-      "title": "アニメ1週間：「機動戦士ガンダム 閃光のハサウェイ キルケーの魔女」再上映 「プリキュア」×「おジャ魔女どれみ」初コラボ",
-      "url": "https://mantan-web.jp/article/20261017dog00m200014000a.html",
-      "host": "mantan-web.jp",
-      "source": "MANTANWEB",
-      "summary": "",
-      "publishedAt": "2026-10-18T10:01:48.000Z",
-      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/10/17/20261017dog00m200014000a/001.jpg",
-      "categories": [
-        "movie2",
-        "goods2"
-      ],
-      "series": [
-        "movie",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "f3aa9cc4b0b1",
       "title": "「忍たま乱太郎」乱太郎や土井先生たちが“トリップ オア スウィート”！描き下ろしグッズ登場",
       "url": "https://animeanime.jp/article/2026/10/18/103941.html",
@@ -4366,29 +4475,6 @@
       ],
       "series": [
         "adapt",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "bdd9bd3ed9d4",
-      "title": "「カグラバチ」六平千鉱、漣伯理が一番くじで立体化！ マンガ連載3周年イラストを使用アイテムも♪",
-      "url": "https://animeanime.jp/article/2026/10/18/103938.html",
-      "host": "animeanime.jp",
-      "source": "アニメ！アニメ！",
-      "summary": "TVアニメ放送も待ち遠しい『カグラバチ』が「一番くじ」に登場！ 連載3周年記念ブックボード、MASTERLISEフィギュア、ビッグタオル、メッシュポーチなど豪華賞品がうれしい☆",
-      "publishedAt": "2026-10-18T08:30:03.000Z",
-      "image": "https://animeanime.jp/imgs/rss/942810.jpg",
-      "categories": [
-        "goods2",
-        "onair"
-      ],
-      "series": [
-        "tv",
         "goods"
       ],
       "isOfficial": false,
@@ -4759,13 +4845,13 @@
     },
     {
       "id": "f9007484a263",
-      "title": "アニメ第3期『転生貴族、鑑定スキルで成り上がる』現状打開の“ある作戦”とは…第28話「終戦」【先行カット】 (オタク総研)",
-      "url": "https://news.yahoo.co.jp/articles/2330e18786ad5b53aad3a0dce4e271aabb1144fa/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "アニメ第3期『転生貴族、鑑定スキルで成り上がる』現状打開の“ある作戦”とは…第28話「終戦」【先行カット】",
+      "url": "https://news.infoseek.co.jp/amp/article/otakulab_210293/",
+      "host": "news.infoseek.co.jp",
+      "source": "Infoseek",
       "summary": "",
-      "publishedAt": "2026-10-18T02:56:00.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnTnASb8bTjV7GEQV1ycpVSIvZoEX7B39GKKxYO3u0qqIB_UbHJ-p1oBhyCKPmCHhGQ7vrHAlBAZ2oaIehtncHjWEALxHRKmgqPAiEb7xnlQ8FNaSx3KtMifwu5K2y8IpIA==",
+      "publishedAt": "2026-10-18T02:55:14.000Z",
+      "image": "https://media.image.infoseek.co.jp/isnews/photos/otakulab/otakulab_210293_0-enlarge.jpg",
       "categories": [
         "onair"
       ],
@@ -4924,48 +5010,6 @@
       "isNew": false
     },
     {
-      "id": "4db3ab1a8d24",
-      "title": "PSYREN -サイレン-＞完結から16年も根強い人気でアニメ化 誕生秘話 原作者・岩代俊明インタビュー (MANTANWEB)",
-      "url": "https://news.yahoo.co.jp/articles/c7459ef5edfe401051efc5d3fc94596e73ee3741/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-17T23:05:00.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnUeD1qAcAaBgvr6vPUv7uUYsdJTvhVSNMMEpVE5gs91h9hdmzuBA7J5Ik-IrOdEX0Da7kDz_-3jV63YpjPFuKFRy5L12zTEjGGpnK3Ob1csvrJJQJN-rFfqLka2tiqZPNA==",
-      "categories": [
-        "manga"
-      ],
-      "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "6ba4fc16c882",
-      "title": "PSYREN -サイレン-：完結から16年も根強い人気でアニメ化 誕生秘話 原作者・岩代俊明インタビュー",
-      "url": "https://mantan-web.jp/article/20261016dog00m200001000a.html",
-      "host": "mantan-web.jp",
-      "source": "MANTANWEB",
-      "summary": "",
-      "publishedAt": "2026-10-17T23:01:48.000Z",
-      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/10/16/20261016dog00m200001000a/001.jpg",
-      "categories": [
-        "manga"
-      ],
-      "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9895d49b7863",
       "title": "マチ★アソビ開幕 徳島県内外のアニメファンや家族連れらでにぎわう",
       "url": "https://www.topics.or.jp/articles/-/1511206",
@@ -5001,28 +5045,6 @@
         "movie",
         "music",
         "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "62f89a346178",
-      "title": "韓国オカルトアニメ映画『退魔録』2027年1月22日公開 ティザー動画＆ポスター解禁",
-      "url": "https://uzurea.net/taimaroku-teaser-trailer-202610/",
-      "host": "uzurea.net",
-      "source": "uzurea.net",
-      "summary": "",
-      "publishedAt": "2026-10-17T19:04:43.000Z",
-      "image": "https://uzurea.net/cwp/wp-content/uploads/2026/10/taimaroku-teaser-trailer-202610.webp",
-      "categories": [
-        "movie2",
-        "new"
-      ],
-      "series": [
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -5114,7 +5136,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bf285370685b",
@@ -5124,7 +5146,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-10-17T15:00:00.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2147/420/002.jpg",
       "categories": [
         "onair"
       ],
@@ -5257,27 +5279,6 @@
       ],
       "series": [
         "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2ae4b9d22b90",
-      "title": "「我々は宇宙人」シッチェス国際映画祭で最優秀長編アニメーション映画賞を受賞",
-      "url": "https://natalie.mu/comic/news/694159",
-      "host": "natalie.mu",
-      "source": "ナタリー",
-      "summary": "",
-      "publishedAt": "2026-10-17T10:30:00.000Z",
-      "image": "",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
