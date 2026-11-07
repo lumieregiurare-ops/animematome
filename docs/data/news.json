@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T18:30:17.707Z",
+  "updatedAt": "2026-11-07T19:00:17.882Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
@@ -7,7 +7,7 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 202,
-  "todayCount": 7,
+  "todayCount": 8,
   "categories": [
     {
       "id": "new",
@@ -17,17 +17,17 @@
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 79
+      "count": 78
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 46
+      "count": 45
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 40
+      "count": 41
     },
     {
       "id": "music2",
@@ -37,7 +37,7 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 43
+      "count": 44
     },
     {
       "id": "goods2",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 12
+      "count": 11
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 90
+      "count": 89
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 77
+      "count": 78
     },
     {
       "id": "cast",
@@ -105,7 +105,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 18
+      "count": 19
     },
     {
       "name": "アットエス",
@@ -137,7 +137,7 @@
     },
     {
       "name": "アニメイトタイムズ",
-      "count": 6
+      "count": 5
     },
     {
       "name": "eeo",
@@ -368,15 +368,15 @@
       "count": 1
     },
     {
-      "name": "日経クロストレンド",
-      "count": 1
-    },
-    {
       "name": "THE RIVER",
       "count": 1
     },
     {
       "name": "ファッションプレス",
+      "count": 1
+    },
+    {
+      "name": "日経クロストレンド",
       "count": 1
     }
   ],
@@ -1031,12 +1031,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-07T18:00:16.558Z",
+    "previousAt": "2026-11-07T18:30:17.707Z",
     "previousCount": 202,
-    "newCount": 5
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-07T19:00:17.707Z",
+  "nextUpdateAt": "2026-11-07T19:30:17.882Z",
   "items": [
     {
       "id": "52c22dca59e8",
@@ -1058,16 +1058,37 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "2e0deab5a706",
+      "title": "【スクープ】超人気声優・小野賢章 後輩美人声優と二人きりの「極秘誕生日会デート」撮った!! (FRIDAY)",
+      "url": "https://news.yahoo.co.jp/articles/b98d0ce2ec5d49cf6323070c47bbda05e9e90209/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-07T18:05:10.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnXvSa26OuzsVmiM08CNjvT7W9_EjrEr-Q7RvxKyv8X8Hd9O3QAjnKaznmFUnapIh-1lCf0OrmX5zgB_YlmH1ypkQjKHVgIOKQhptar0fdRJK",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
-      "id": "048856b88e3c",
-      "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
-      "url": "https://abema.tv/now-on-air/isekai-anime-4",
+      "id": "86c279374abe",
+      "title": "異世界・ファンタジーアニメ5チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
+      "url": "https://abema.tv/now-on-air/isekai-anime-5",
       "host": "abema.tv",
       "source": "ABEMA",
       "summary": "",
-      "publishedAt": "2026-11-07T17:34:23.000Z",
+      "publishedAt": "2026-11-07T16:45:44.000Z",
       "image": "",
       "categories": [
         "onair"
@@ -1378,7 +1399,7 @@
       "source": "西宮流",
       "summary": "",
       "publishedAt": "2026-11-07T12:49:47.000Z",
-      "image": "https://nishinomiya-style.jp/wp-content/uploads/2022/01/20250323_7C_05331.jpg",
+      "image": "",
       "categories": [
         "onair"
       ],
@@ -1418,7 +1439,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-07T11:50:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261107-00383546-magmix-000-5-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261107-00383546-magmix-000-6-view.jpg?exp=10800",
       "categories": [
         "other"
       ],
@@ -1814,7 +1835,7 @@
       "source": "西スポWEB OTTO!",
       "summary": "",
       "publishedAt": "2026-11-07T09:40:00.000Z",
-      "image": "https://nishispo-static.nishinippon.co.jp/image/article/size1/7/7/1/4/7714dc38ef6d761c83d00a053f1dd723_1.jpg?20261108033031",
+      "image": "https://nishispo-static.nishinippon.co.jp/image/article/size1/7/7/1/4/7714dc38ef6d761c83d00a053f1dd723_1.jpg?20261108040028",
       "categories": [
         "cast2"
       ],
@@ -2925,7 +2946,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e5e4709b5058",
@@ -3546,7 +3567,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ace255bec281",
@@ -4625,29 +4646,6 @@
       "isNew": false
     },
     {
-      "id": "6b51b931699e",
-      "title": "『ルルットリリィ』第16話あらすじ＆場面カット｜追加声優に浜田賢二ら",
-      "url": "https://www.animatetimes.com/news/details.php?id",
-      "host": "animatetimes.com",
-      "source": "アニメイトタイムズ",
-      "summary": "",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "image": "https://www.animatetimes.com/img/ogimage.png",
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "series": [
-        "tv",
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "17b784781f84",
       "title": "「こち亀」両さんたちが浮世絵に!? 歌川広重「千住の大はし」に溶け込む作品も！コラボ浮世絵アートが登場",
       "url": "https://animeanime.jp/article/2026/11/06/104535.html",
@@ -4995,7 +4993,7 @@
       "source": "西スポWEB OTTO!",
       "summary": "",
       "publishedAt": "2026-11-06T05:30:00.000Z",
-      "image": "https://nishispo-static.nishinippon.co.jp/image/article/size1/9/a/b/9/9ab9dc0406784819dad9a4d93823ba1b_1.jpg?20261108030758",
+      "image": "https://nishispo-static.nishinippon.co.jp/image/article/size1/9/a/b/9/9ab9dc0406784819dad9a4d93823ba1b_1.jpg?20261108040036",
       "categories": [
         "music2"
       ],
@@ -5355,25 +5353,6 @@
       "isNew": false
     },
     {
-      "id": "3b4b90f6e1ae",
-      "title": "特集 “アニメ”経済圏",
-      "url": "https://xtrend.nikkei.com/atcl/contents/18/01489/",
-      "host": "xtrend.nikkei.com",
-      "source": "日経クロストレンド",
-      "summary": "",
-      "publishedAt": "2026-11-06T02:06:53.000Z",
-      "image": "https://xtrend.nikkei.com/atcl/contents/18/01489/nxr_m.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "3a7d90f883b9",
       "title": "『ジョン・ウィック』アニメ映画化決定、キアヌ・リーブス復帰 ─ シリーズ1作目の前日譚に",
       "url": "https://theriver.jp/john-wick-animated-prequel-official/",
@@ -5461,6 +5440,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ce1f9b0947c5",
+      "title": "特集 劇場版『名探偵コナン ハイウェイの堕天使』",
+      "url": "https://xtrend.nikkei.com/atcl/contents/18/01381/",
+      "host": "xtrend.nikkei.com",
+      "source": "日経クロストレンド",
+      "summary": "",
+      "publishedAt": "2026-11-05T21:47:37.000Z",
+      "image": "https://xtrend.nikkei.com/atcl/contents/18/01381/nxr_m.jpg",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "fe99942c9051",
