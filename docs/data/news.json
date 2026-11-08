@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-08T06:30:17.364Z",
+  "updatedAt": "2026-11-08T07:00:18.043Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 197,
-  "todayCount": 42,
+  "total": 195,
+  "todayCount": 49,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 33
+      "count": 35
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 79
+      "count": 73
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 44
+      "count": 43
     },
     {
       "id": "cast2",
@@ -32,22 +32,22 @@
     {
       "id": "music2",
       "label": "音楽",
-      "count": 18
+      "count": 19
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 37
+      "count": 36
     },
     {
       "id": "goods2",
       "label": "グッズ・イベント",
-      "count": 15
+      "count": 16
     },
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 15
+      "count": 13
     },
     {
       "id": "biz2",
@@ -57,39 +57,39 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 9
+      "count": 10
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 89
+      "count": 83
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 70
+      "count": 68
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 54
+      "count": 55
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 36
+      "count": 35
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 43
+      "count": 39
     },
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 20
+      "count": 22
     },
     {
       "id": "stream",
@@ -101,11 +101,11 @@
   "sources": [
     {
       "name": "アニメ！アニメ！",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 21
+      "count": 22
     },
     {
       "name": "電ファミニコゲーマー",
@@ -116,15 +116,19 @@
       "count": 10
     },
     {
+      "name": "ナタリー",
+      "count": 8
+    },
+    {
       "name": "アットエス",
-      "count": 9
+      "count": 8
+    },
+    {
+      "name": "山陽新聞",
+      "count": 8
     },
     {
       "name": "インサイド",
-      "count": 7
-    },
-    {
-      "name": "ナタリー",
       "count": 7
     },
     {
@@ -132,19 +136,7 @@
       "count": 6
     },
     {
-      "name": "電撃オンライン",
-      "count": 6
-    },
-    {
-      "name": "オリコンニュース",
-      "count": 5
-    },
-    {
       "name": "アニメハック",
-      "count": 5
-    },
-    {
-      "name": "山陽新聞",
       "count": 5
     },
     {
@@ -152,7 +144,15 @@
       "count": 5
     },
     {
+      "name": "オリコンニュース",
+      "count": 4
+    },
+    {
       "name": "Infoseek",
+      "count": 4
+    },
+    {
+      "name": "電撃オンライン",
       "count": 4
     },
     {
@@ -161,10 +161,6 @@
     },
     {
       "name": "ｄメニューニュース",
-      "count": 3
-    },
-    {
-      "name": "はてなブログ",
       "count": 3
     },
     {
@@ -188,15 +184,11 @@
       "count": 2
     },
     {
-      "name": "日刊スポーツ",
+      "name": "はてなブログ",
       "count": 2
     },
     {
       "name": "TRILL",
-      "count": 2
-    },
-    {
-      "name": "千葉テレビ放送",
       "count": 2
     },
     {
@@ -205,6 +197,10 @@
     },
     {
       "name": "エンタメ特化型情報メディア スパイス",
+      "count": 2
+    },
+    {
+      "name": "ニコニコニュース",
       "count": 2
     },
     {
@@ -221,6 +217,18 @@
     },
     {
       "name": "PANORA",
+      "count": 1
+    },
+    {
+      "name": "ABEMA",
+      "count": 1
+    },
+    {
+      "name": "ciatr[シアター]",
+      "count": 1
+    },
+    {
+      "name": "日刊スポーツ",
       "count": 1
     },
     {
@@ -276,6 +284,10 @@
       "count": 1
     },
     {
+      "name": "千葉テレビ放送",
+      "count": 1
+    },
+    {
       "name": "ASCII.jp",
       "count": 1
     },
@@ -289,10 +301,6 @@
     },
     {
       "name": "NHK ONE",
-      "count": 1
-    },
-    {
-      "name": "日経クロストレンド",
       "count": 1
     },
     {
@@ -320,7 +328,7 @@
       "count": 1
     },
     {
-      "name": "読売テレビ",
+      "name": "ライブドアニュース",
       "count": 1
     },
     {
@@ -340,23 +348,7 @@
       "count": 1
     },
     {
-      "name": "gamebiz【ゲームビズ】",
-      "count": 1
-    },
-    {
       "name": "おたくま経済新聞",
-      "count": 1
-    },
-    {
-      "name": "ニコニコニュース",
-      "count": 1
-    },
-    {
-      "name": "씨네플레이",
-      "count": 1
-    },
-    {
-      "name": "RBB TODAY",
       "count": 1
     }
   ],
@@ -433,70 +425,6 @@
       ]
     },
     {
-      "id": "21509d51b055",
-      "title": "「ゆるキャン△ SEASON4」27年4月より放送！メインビジュアル&主題歌聞けるメインPV公開",
-      "summary": "『ゆるキャン△』のTVアニメ最新作『ゆるキャン△ SEASON4』が、2027年4月より放送予定であることがわかった。これに伴い、8キャラクターが大集結したメインビジュアルと、各主題歌を聞くことができるメインPVが公開された。",
-      "url": "https://animeanime.jp/article/2026/11/06/104543.html",
-      "image": "https://animeanime.jp/imgs/rss/953049.jpg",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-11-06T17:03:42.000Z",
-      "sourceCount": 7,
-      "articleCount": 7,
-      "categories": [
-        "pv",
-        "onair"
-      ],
-      "keywords": [
-        "season4",
-        "キャン",
-        "メイン"
-      ],
-      "articles": [
-        {
-          "title": "【ゆるキャン△ SEASON4】2027年4月より放送！ メインビジュアル＆メインPV公開",
-          "url": "https://animageplus.jp/articles/detail/68169/2/1/1",
-          "source": "アニメージュプラス",
-          "publishedAt": "2026-11-06T17:03:42.000Z",
-          "isPR": false
-        },
-        {
-          "title": "アニメ『ゆるキャン△ SEASON4』は2027年4月より放送予定！ 8名が大集結したメインビジュアル＆各主題歌も一部お披露目のメインPVが解禁",
-          "url": "https://www.pashplus.jp/anime/501882/",
-          "source": "PASH! PLUS",
-          "publishedAt": "2026-11-06T13:54:33.000Z",
-          "isPR": false
-        },
-        {
-          "title": "アニメ『ゆるキャン△ SEASON4』27年4月放送へ 各主題歌入りメインPV解禁 (クランクイン！)",
-          "url": "https://news.yahoo.co.jp/articles/13138d12c7bc39e4f1ac77f92170145ad1fb7b4d/images/000",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-06T10:07:34.000Z",
-          "isPR": false
-        },
-        {
-          "title": "TVアニメ『ゆるキャン△ SEASON4』2027年4月より放送！メインビジュアル＆各主題歌を聞くことができるメインPV公開",
-          "url": "https://spice.eplus.jp/articles/350205",
-          "source": "エンタメ特化型情報メディア スパイス",
-          "publishedAt": "2026-11-06T09:04:29.000Z",
-          "isPR": false
-        },
-        {
-          "title": "アニメ『ゆるキャン△ SEASON4』27年4月放送へ 各主題歌入りメインPV解禁 - アニメ - ニュース",
-          "url": "https://www.crank-in.net/news/193899",
-          "source": "クランクイン！",
-          "publishedAt": "2026-11-06T09:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "TVアニメ『ゆるキャン△ SEASON4』2027年4月より放送決定！新入生も加わったメインビジュアル＆PVが公開",
-          "url": "https://gamebiz.jp/news/435187",
-          "source": "gamebiz【ゲームビズ】",
-          "publishedAt": "2026-11-06T08:30:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "a3e0b6d15964",
       "title": "「パラライ」初の劇場アニメが2027年公開！ 超ティザービジュアルや32名集結のMVも公開",
       "summary": "HIPHOPメディアミックスプロジェクト「Paradox Live」（通称・パラライ）の初の劇場アニメ『Paradox Live THE MOVIE』が、2027年に公開されることがわかった。",
@@ -561,6 +489,63 @@
       ]
     },
     {
+      "id": "f23e15fac2b0",
+      "title": "【ゆるキャン△ SEASON4】2027年4月より放送！ メインビジュアル＆メインPV公開",
+      "summary": "",
+      "url": "https://animageplus.jp/articles/detail/68169/2/1/1",
+      "image": "https://www.pashplus.jp/wp-content/uploads/7dec3ec826b8b5068c1b196f4d392f13.jpg",
+      "leadSource": "アニメージュプラス",
+      "publishedAt": "2026-11-06T17:03:42.000Z",
+      "sourceCount": 6,
+      "articleCount": 6,
+      "categories": [
+        "pv",
+        "onair"
+      ],
+      "keywords": [
+        "season4",
+        "キャン",
+        "メイン"
+      ],
+      "articles": [
+        {
+          "title": "アニメ『ゆるキャン△ SEASON4』は2027年4月より放送予定！ 8名が大集結したメインビジュアル＆各主題歌も一部お披露目のメインPVが解禁",
+          "url": "https://www.pashplus.jp/anime/501882/",
+          "source": "PASH! PLUS",
+          "publishedAt": "2026-11-06T13:54:33.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アニメ『ゆるキャン△ SEASON4』27年4月放送へ 各主題歌入りメインPV解禁 (クランクイン！)",
+          "url": "https://news.yahoo.co.jp/articles/13138d12c7bc39e4f1ac77f92170145ad1fb7b4d/images/000",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-06T10:07:34.000Z",
+          "isPR": false
+        },
+        {
+          "title": "TVアニメ『ゆるキャン△ SEASON4』2027年4月より放送！メインビジュアル＆各主題歌を聞くことができるメインPV公開",
+          "url": "https://spice.eplus.jp/articles/350205",
+          "source": "エンタメ特化型情報メディア スパイス",
+          "publishedAt": "2026-11-06T09:04:29.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ゆるキャン△ SEASON4」27年4月より放送！メインビジュアル&主題歌聞けるメインPV公開",
+          "url": "https://animeanime.jp/article/2026/11/06/104543.html",
+          "source": "アニメ！アニメ！",
+          "publishedAt": "2026-11-06T09:00:19.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アニメ『ゆるキャン△ SEASON4』27年4月放送へ 各主題歌入りメインPV解禁 - アニメ - ニュース",
+          "url": "https://www.crank-in.net/news/193899",
+          "source": "クランクイン！",
+          "publishedAt": "2026-11-06T09:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "f4c7fdfe016d",
       "title": "オトナ向けファンタジーコメディ漫画「33歳独身女騎士隊長。」アニメ化決定 記念MVが公開 : ニュース",
       "summary": "",
@@ -568,8 +553,8 @@
       "image": "https://media.eiga.com/images/anime/news/127818/photo/b0008a35f6d0dbbd/640.jpg",
       "leadSource": "アニメハック",
       "publishedAt": "2026-11-07T11:00:00.000Z",
-      "sourceCount": 6,
-      "articleCount": 6,
+      "sourceCount": 5,
+      "articleCount": 5,
       "categories": [
         "movie2",
         "manga"
@@ -606,13 +591,6 @@
           "url": "https://news.nicovideo.jp/watch/nw19964024",
           "source": "ニコニコニュース",
           "publishedAt": "2026-11-06T07:45:15.000Z",
-          "isPR": false
-        },
-        {
-          "title": "天原原作の異世界ファンタジーコメディ『33歳独身女騎士隊長。』連載10周年を記念してアニメ化決定。記念MV、キャラデザ、天原先生からのコメントを公開",
-          "url": "https://dengekionline.com/article/202611/93268",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-11-06T06:31:00.000Z",
           "isPR": false
         }
       ]
@@ -711,49 +689,6 @@
       ]
     },
     {
-      "id": "ae70c7c9b085",
-      "title": "TVアニメ『はぐれアイドル地獄変』2027年1月より放送決定！ タイトルロゴ＆メインキャスト・制作スタッフ情報を一挙公開！ 原作者・高遠るい先生による記念イラストも解禁！",
-      "summary": "",
-      "url": "https://news.infoseek.co.jp/article/prtimes_000000463_000015126/",
-      "image": "https://media.image.infoseek.co.jp/isnews/pc/img/noimage_203x120_busi-econ-1.0.png",
-      "leadSource": "Infoseek",
-      "publishedAt": "2026-11-06T21:10:02.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
-      "categories": [
-        "onair",
-        "cast2"
-      ],
-      "keywords": [
-        "TVアニメ",
-        "アイドル",
-        "地獄変"
-      ],
-      "articles": [
-        {
-          "title": "『はぐれアイドル地獄変』2027年1月にTVアニメ化が決定！ アイドルと格闘、そしてセクシーバイオレンスが融合した人気漫画",
-          "url": "https://eeo.today/media/2026/11/06/410141/",
-          "source": "eeo",
-          "publishedAt": "2026-11-06T09:48:09.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【はぐれアイドル地獄変】2027年1月TVアニメ化決定！ 高遠るい先生の記念イラストや東城日沙子らメインキャスト解禁",
-          "url": "https://dengekionline.com/article/202611/93283",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-11-06T07:20:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【アニメ化出来たのかッ…!?】『はぐれアイドル地獄変』が2027年1月にTVアニメ化決定！メインキャストや制作情報が解禁、記念キャンペーンも",
-          "url": "https://www.chiba-tv.com/plus/detail/2026112198264",
-          "source": "千葉テレビ放送",
-          "publishedAt": "2026-11-06T06:46:36.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "beead258042b",
       "title": "TVアニメ『凶乱令嬢ニア・リストン』、第6話「学院武闘大会、開催！」のあらすじと先行カットを公開",
       "summary": "",
@@ -762,7 +697,7 @@
       "leadSource": "アットエス",
       "publishedAt": "2026-11-08T04:38:38.000Z",
       "sourceCount": 3,
-      "articleCount": 5,
+      "articleCount": 6,
       "categories": [
         "onair",
         "movie2"
@@ -778,6 +713,13 @@
           "url": "https://www.at-s.com/media/articles/anime/red-river-anime-ep19-synopsis/",
           "source": "アットエス",
           "publishedAt": "2026-11-08T04:38:38.000Z",
+          "isPR": false
+        },
+        {
+          "title": "TVアニメ『千歳くんはラムネ瓶のなか』第18話「放課後プールに裸足のポニーテール」の先行カットとあらすじを公開",
+          "url": "https://www.at-s.com/media/articles/anime/chiramune-anime-ep18-synopsis/",
+          "source": "アットエス",
+          "publishedAt": "2026-11-08T04:38:36.000Z",
           "isPR": false
         },
         {
@@ -840,73 +782,109 @@
       ]
     },
     {
-      "id": "9d47237b64ab",
-      "title": "アニメ『転生貴族、鑑定スキルで成り上がる』第31話、大ピンチのアルス救出作戦！【先行カット】",
+      "id": "ae70c7c9b085",
+      "title": "TVアニメ『はぐれアイドル地獄変』2027年1月より放送決定！ タイトルロゴ＆メインキャスト・制作スタッフ情報を一挙公開！ 原作者・高遠るい先生による記念イラストも解禁！",
       "summary": "",
-      "url": "https://news.infoseek.co.jp/article/otakulab_213051/",
-      "image": "https://media.image.infoseek.co.jp/isnews/photos/otakulab/otakulab_213051_0-enlarge.jpg",
+      "url": "https://news.infoseek.co.jp/article/prtimes_000000463_000015126/",
+      "image": "https://media.image.infoseek.co.jp/isnews/pc/img/noimage_203x120_busi-econ-1.0.png",
       "leadSource": "Infoseek",
-      "publishedAt": "2026-11-08T02:17:57.000Z",
+      "publishedAt": "2026-11-06T21:10:02.000Z",
       "sourceCount": 3,
       "articleCount": 3,
       "categories": [
         "onair",
-        "movie2"
+        "cast2"
       ],
       "keywords": [
-        "スキル",
-        "カット",
-        "転生貴族"
+        "TVアニメ",
+        "アイドル",
+        "地獄変"
       ],
       "articles": [
         {
-          "title": "TVアニメ『転生貴族、鑑定スキルで成り上がる 第3期』第31話のあらすじと先行カット公開",
-          "url": "https://www.at-s.com/media/articles/anime/kanteiskill-anime-season3-ep31/",
-          "source": "アットエス",
-          "publishedAt": "2026-11-07T07:52:26.000Z",
+          "title": "『はぐれアイドル地獄変』2027年1月にTVアニメ化が決定！ アイドルと格闘、そしてセクシーバイオレンスが融合した人気漫画",
+          "url": "https://eeo.today/media/2026/11/06/410141/",
+          "source": "eeo",
+          "publishedAt": "2026-11-06T09:48:09.000Z",
           "isPR": false
         },
         {
-          "title": "TVアニメ『転生貴族、鑑定スキルで成り上がる 第3期』 11月8日（日）夜11時40分～放送の 第31話（第3期7話目）あらすじ＆先行カット公開！ - V-storage",
-          "url": "https://v-storage.jp/bv_news/290153/",
-          "source": "V-storage",
-          "publishedAt": "2026-11-06T10:52:19.000Z",
+          "title": "【はぐれアイドル地獄変】2027年1月TVアニメ化決定！ 高遠るい先生の記念イラストや東城日沙子らメインキャスト解禁",
+          "url": "https://dengekionline.com/article/202611/93283",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-11-06T07:20:00.000Z",
           "isPR": false
         }
       ]
     },
     {
-      "id": "105940e1a14a",
-      "title": "『ブレス』来年1・8放送 キービジュアル＆PV第1弾公開、EDテーマはHIKKA「New Page」",
+      "id": "4714dd907a89",
+      "title": "『ジョン・ウィック』シリーズの“前日譚”を描く長編アニメ映画の製作が正式に決定、海外メディアが報じる。殺し屋を辞め、愛する人と人生を共にするために「不可能な任務」に挑むジョン・ウィックを描く",
+      "summary": "殺し屋を辞め、愛する人と人生を共にするために「不可能な任務」に挑むジョン・ウィックを描く。ジョン・ウィック役はキアヌ・リーヴスさんに",
+      "url": "https://news.denfaminicogamer.jp/news/2611062j",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/71zJK-rAhtL._AC_SL1151_-890x1024.jpg",
+      "leadSource": "電ファミニコゲーマー",
+      "publishedAt": "2026-11-06T12:51:14.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "movie2",
+        "cast2"
+      ],
+      "keywords": [
+        "ジョン",
+        "ウィック",
+        "前日譚"
+      ],
+      "articles": [
+        {
+          "title": "『ジョン・ウィック』アニメ映画化決定、キアヌ・リーブス復帰 ─ シリーズ1作目の前日譚に",
+          "url": "https://news.livedoor.com/article/detail/32746975/",
+          "source": "ライブドアニュース",
+          "publishedAt": "2026-11-06T10:31:44.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ジョン・ウィック』前日譚のアニメ映画化が正式決定 キアヌ・リーブスが声優で復帰 - KAI-YOU",
+          "url": "https://kai-you.net/article/97084",
+          "source": "KAI-YOU",
+          "publishedAt": "2026-11-06T09:29:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "41bebf899108",
+      "title": "『幸せカナコの殺し屋生活』実写ドラマ×アニメコラボ企画決定！コラボビジュアル公開",
       "summary": "",
-      "url": "https://www.oricon.co.jp/news/2491318/full/",
-      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491318/20261107_161952_p_o_87769967.jpg",
-      "leadSource": "オリコンニュース",
-      "publishedAt": "2026-11-07T08:00:00.000Z",
+      "url": "https://spice.eplus.jp/articles/350203",
+      "image": "https://lp.p.pia.jp/shared/materials/8b019e2b-4940-46f1-a148-74fb22ae3e35/origin.jpg",
+      "leadSource": "エンタメ特化型情報メディア スパイス",
+      "publishedAt": "2026-11-06T09:00:00.000Z",
       "sourceCount": 3,
       "articleCount": 3,
       "categories": [
         "pv",
-        "onair"
+        "movie2"
       ],
       "keywords": [
-        "キービジュアル",
-        "hikka",
-        "new"
+        "カナコ",
+        "屋生活",
+        "コラボ"
       ],
       "articles": [
         {
-          "title": "TVアニメ『ブレス』キービジュアル＆PV第1弾公開！エンディング・テーマはHIKKAの『New Page』「アイアには自分と通じる部分がたくさんある」",
-          "url": "https://mezamashi.media/articles/-/370737",
-          "source": "めざましmedia",
-          "publishedAt": "2026-11-07T08:00:00.000Z",
+          "title": "アニメ×実写のカナコが背中合わせ！ 『幸せカナコの殺し屋生活』コラボビジュアルが解禁",
+          "url": "https://lp.p.pia.jp/article/news/516924/index.html?detail",
+          "source": "ぴあエンタメ情報",
+          "publishedAt": "2026-11-06T09:00:00.000Z",
           "isPR": false
         },
         {
-          "title": "アニメ『ブレス』1/8放送開始。キービジュアルｚ＆本編カット使用のPV第1弾が公開。エンディング・テーマはHIKKAの『New Page』",
-          "url": "https://dengekionline.com/article/202611/93359",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-11-07T08:00:00.000Z",
+          "title": "「幸せカナコの殺し屋生活」アニメ×ドラマがコラボ 2人のカナコが背中合わせに（コメントあり）",
+          "url": "https://natalie.mu/comic/news/696925",
+          "source": "ナタリー",
+          "publishedAt": "2026-11-06T09:00:00.000Z",
           "isPR": false
         }
       ]
@@ -962,13 +940,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-08T06:00:18.791Z",
-    "previousCount": 192,
-    "newCount": 15
+    "previousAt": "2026-11-08T06:30:17.364Z",
+    "previousCount": 197,
+    "newCount": 11
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-08T07:00:17.364Z",
+  "nextUpdateAt": "2026-11-08T07:30:18.043Z",
   "items": [
+    {
+      "id": "e570e078d751",
+      "title": "「コードギアス 星追いのアスパル」アスパル役にフィリピン出身の声優・柴田あいばんを抜てき 謎の女性ゾエ役に山村響",
+      "url": "https://news.yahoo.co.jp/articles/9d7801496cd63dfaed0e434f7f41357e3d48a7c4",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-08T06:30:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000007-eiga-000-1-view.jpg?exp=10800",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "31b5b29e537f",
       "title": "世代差？ 見る人を選ぶ？ 意見が分かれた”2026年秋アニメ” 「平成っぽくて好き」「化ける」と激論",
@@ -986,7 +985,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eefec4b03814",
@@ -995,7 +994,7 @@
       "host": "pashplus.jp",
       "source": "PASH! PLUS",
       "summary": "",
-      "publishedAt": "2026-11-08T06:11:15.000Z",
+      "publishedAt": "2026-11-08T06:12:01.000Z",
       "image": "https://www.pashplus.jp/wp-content/uploads/807e58197aa9e3a588cbf6fc58763f84.jpg",
       "categories": [
         "onair",
@@ -1009,7 +1008,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "51be5c60fb04",
@@ -1033,7 +1032,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5141840bda6f",
@@ -1077,7 +1076,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2f4478300991",
@@ -1099,7 +1098,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fa9d6221769c",
@@ -1121,7 +1120,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "07680f7d8b57",
@@ -1146,7 +1145,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8b1c11864f29",
@@ -1168,7 +1167,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0bcb61871e41",
@@ -1186,6 +1185,29 @@
       "series": [
         "tv",
         "movie",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "0491b48d2618",
+      "title": "あの三姉妹が帰ってくる！！「みなみけ これから」ティザービジュアル＆ティザーPV、場面写真、放送時期、キャラクター画像、キャスト＆スタッフ解禁！",
+      "url": "https://animeanime.jp/release/prtimes/20261108/325408.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "",
+      "publishedAt": "2026-11-08T06:00:00.000Z",
+      "image": "https://animeanime.jp/release/imgs/list/571391.png",
+      "categories": [
+        "pv",
+        "new"
+      ],
+      "series": [
+        "tv",
         "cast"
       ],
       "isOfficial": false,
@@ -1306,6 +1328,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "df878f60ea13",
+      "title": "TVアニメ『千歳くんはラムネ瓶のなか』第18話「放課後プールに裸足のポニーテール」の先行カットとあらすじを公開",
+      "url": "https://www.at-s.com/media/articles/anime/chiramune-anime-ep18-synopsis/",
+      "host": "at-s.com",
+      "source": "アットエス",
+      "summary": "",
+      "publishedAt": "2026-11-08T04:38:36.000Z",
+      "image": "",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "2619ad6104af",
@@ -1523,6 +1568,28 @@
       "isNew": false
     },
     {
+      "id": "048856b88e3c",
+      "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
+      "url": "https://abema.tv/now-on-air/isekai-anime-4",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-11-08T02:42:25.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "db7a2adc5148",
       "title": "「フリーレン」フリーレンの耳、ヒンメルのマント…2人が過ごした時間がここに♪「MAYLA」イヤオブジェが登場",
       "url": "https://animeanime.jp/article/2026/11/08/104583.html",
@@ -1585,20 +1652,19 @@
       "isNew": false
     },
     {
-      "id": "00c005cb4b52",
-      "title": "リゼロ5期はいつ？4期奪還編の最新状況と放送時期・原作範囲を予想",
-      "url": "https://anisaki.hatenadiary.com/entry/rezero-season5",
-      "host": "anisaki.hatenadiary.com",
-      "source": "はてなブログ",
+      "id": "4cc672359db9",
+      "title": "『地雷なんですか？地原さん』最新刊までネタバレあらすじ解説！アニメ化する2人は付き合う？",
+      "url": "https://ciatr.jp/topics/340183",
+      "host": "ciatr.jp",
+      "source": "ciatr[シアター]",
       "summary": "",
-      "publishedAt": "2026-11-08T02:07:00.000Z",
-      "image": "https://cdn.image.st-hatena.com/image/scale/fabefec8e25241eb9adb82efdc4916a4380d1cee/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshikisoku%2F20260521%2F20260521023711.png",
+      "publishedAt": "2026-11-08T01:18:31.000Z",
+      "image": "https://images.ciatr.jp/2026/11/w_828/pkXBRvku9VXa2pvPgmBwtHmV3f1FKsJQ8BOBM8lp.jpg",
       "categories": [
-        "onair",
-        "manga"
+        "other"
       ],
       "series": [
-        "tv"
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1627,29 +1693,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "1365344d8e40",
-      "title": "『NARUTO-ナルト-』完全新作アニメ情報発表へ 10月「ニューヨーク・コミコン」でライブ配信も実施",
-      "url": "https://www.sanyonews.jp/article/1996263",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-08T00:14:42.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/e/9/c/8e9c473f0c16f35087ad425263dad707_1.jpg",
-      "categories": [
-        "new",
-        "onair"
-      ],
-      "series": [
-        "music",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "01ff790815c9",
@@ -1776,6 +1819,25 @@
       "isNew": false
     },
     {
+      "id": "ee79fbdce010",
+      "title": "大塚明夫『攻殻機動隊』新作アニメはマレス大佐役 バトー役から変更「作品を心から愛しています」",
+      "url": "https://www.sanyonews.jp/article/1959335?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-07T19:44:06.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/6/6/3/c663e423b8451abb23e3fe6a202dfaa5_1.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a696a48bdf3e",
       "title": "『推しに甘噛み』アニメ化決定でPV公開 吸血鬼とイケメンのブラッディ・ラブコメディ",
       "url": "https://www.sanyonews.jp/article/2015327",
@@ -1820,6 +1882,75 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "5eb444c422ad",
+      "title": "『こち亀』10年ぶり新作アニメ、新たな声優陣は9・5発表 派出所メンバー＆こち亀大好き芸人登壇のイベント開催へ",
+      "url": "https://www.sanyonews.jp/article/1966153?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-07T16:56:42.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/a/e/8/f/ae8f99d4610ba7c4a760d0e9b8fc25e8_1.jpg",
+      "categories": [
+        "new",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b8e3fd77be4f",
+      "title": "謎の新作アニメ発表へ 企業が事前の宣伝に注力で流行 TOHO animationが匂わせカット公開",
+      "url": "https://www.sanyonews.jp/article/2005467?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-07T16:52:07.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/7/9/b/8/79b8fd30d3b7991f47ceda68ab59f7b8_1.jpg",
+      "categories": [
+        "new",
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b6377803e8de",
+      "title": "『BLEACH』アニメ完結で放送22年の歴史に幕 スペシャルエンディングムービー公開",
+      "url": "https://www.sanyonews.jp/article/2011061?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-07T16:31:13.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/b/a/c/6bac99ac34ff7304747bd09f7e6a206a_1.jpg",
+      "categories": [
+        "onair",
+        "music2"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d5c915118f76",
@@ -1873,7 +2004,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-11-07T15:00:00.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2153/303/002.jpg",
+      "image": "",
       "categories": [
         "onair"
       ],
@@ -2234,7 +2365,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3da75af335d6",
@@ -2252,29 +2383,6 @@
       "series": [
         "cast",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b7d013beffef",
-      "title": "アニメ『PSYREN -サイレン-』、第5話「集いし者たち」のあらすじと場面写真を公開",
-      "url": "https://www.at-s.com/media/articles/anime/psyren-anime-ep5-synopsis/",
-      "host": "at-s.com",
-      "source": "アットエス",
-      "summary": "",
-      "publishedAt": "2026-11-07T10:08:36.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2421,7 +2529,7 @@
       "source": "西スポWEB OTTO!",
       "summary": "",
       "publishedAt": "2026-11-07T09:40:00.000Z",
-      "image": "https://nishispo-static.nishinippon.co.jp/image/article/size1/7/7/1/4/7714dc38ef6d761c83d00a053f1dd723_1.jpg?20261108153030",
+      "image": "https://nishispo-static.nishinippon.co.jp/image/article/size1/7/7/1/4/7714dc38ef6d761c83d00a053f1dd723_1.jpg?20261108160030",
       "categories": [
         "cast2"
       ],
@@ -2764,54 +2872,6 @@
       "isNew": false
     },
     {
-      "id": "4dce1d60c712",
-      "title": "アニメ『ブレス』1/8放送開始。キービジュアルｚ＆本編カット使用のPV第1弾が公開。エンディング・テーマはHIKKAの『New Page』",
-      "url": "https://dengekionline.com/article/202611/93359",
-      "host": "dengekionline.com",
-      "source": "電撃オンライン",
-      "summary": "",
-      "publishedAt": "2026-11-07T08:00:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/93359/ogp_FYHP.jpg?x=1280",
-      "categories": [
-        "pv",
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "movie",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "83be240afdc1",
-      "title": "TVアニメ『転生貴族、鑑定スキルで成り上がる 第3期』第31話のあらすじと先行カット公開",
-      "url": "https://www.at-s.com/media/articles/anime/kanteiskill-anime-season3-ep31/",
-      "host": "at-s.com",
-      "source": "アットエス",
-      "summary": "",
-      "publishedAt": "2026-11-07T07:52:26.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d3526ca07a30",
       "title": "「久しぶり過ぎて困った」１３年前、アニメ化された【大人気コミック】“約４年半”ぶり作者からお知らせ「予約します！」興奮冷めぬ",
       "url": "https://trilltrill.jp/articles/5133378",
@@ -2877,13 +2937,13 @@
     },
     {
       "id": "c709ca6ff08f",
-      "title": "アニメ好き南沙良が「いたたまれない」 声優陣同席の舞台あいさつでセンターに立ち、恐縮しきり",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WdVJGQlJKcEtZOVN5enRWbUp5b0RqZ0o5QkRxbmRhQV9JRXd4Nld2ZjRwX1Q2VW0wV0xZTktiVkpPX1Awbk1FN1dQdjJrazJLbmFsbUtNZmw3a285d0xia29PTWpDX1gwYmo1SU9KN1RFb0ZESGlv0gF_QVVfeXFMUEF2NEF0elR3bHF0TUNSVC0ycFB2WHRFTUR3c3dhMGhvZzdQYUllRWtxb0lLRnpyaTdNaVRKWkVQenRwcjhKbEVwRGVreHBBQWZqVk1BVVQ3cFF1alcxcHRWQTdxd1NESEdnRkpWQlVVZEFsbjVjcTV4NUpZN0lFMA?oc=5",
-      "host": "nikkansports.com",
-      "source": "日刊スポーツ",
+      "title": "アニメ好き南沙良が「いたたまれない」 声優陣同席の舞台あいさつでセンターに立ち、恐縮しきり (日刊スポーツ)",
+      "url": "https://news.yahoo.co.jp/articles/240dbb40bc369184b2168e8e87f48fe76cea1723/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-11-07T06:42:00.000Z",
-      "image": "",
+      "publishedAt": "2026-11-07T06:42:41.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26pIJzI1eMGJ8EdgZ8HS0UYzTXghgw6_dSEaDrd3AFIjD10C6AyQNPSKTLetXE_kYKDxHByOoSGpCSFbbaff55QijLmAGH25txqVqxUl3NbMMyAR1Usw6e3h6BLDIQ6JihQ==",
       "categories": [
         "cast2"
       ],
@@ -2892,7 +2952,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2965,7 +3025,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-07T05:37:32.000Z",
-      "image": "https://kahoku.news/images/2026/11/07/ori2491420/001_size7.jpg?timestamp=20261108153033",
+      "image": "https://kahoku.news/images/2026/11/07/ori2491420/001_size7.jpg?timestamp=20261108160032",
       "categories": [
         "pv"
       ],
@@ -3391,7 +3451,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fab35316570e",
@@ -3435,27 +3495,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "ce1f9b0947c5",
-      "title": "特集 劇場版『名探偵コナン ハイウェイの堕天使』",
-      "url": "https://xtrend.nikkei.com/atcl/contents/18/01381/",
-      "host": "xtrend.nikkei.com",
-      "source": "日経クロストレンド",
-      "summary": "",
-      "publishedAt": "2026-11-07T01:04:17.000Z",
-      "image": "https://xtrend.nikkei.com/atcl/contents/18/01381/nxr_m.jpg",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "aa3eeb5cfc51",
@@ -4009,7 +4048,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5fb2c6900e03",
@@ -4063,7 +4102,7 @@
       "source": "日刊エンタメクリップ",
       "summary": "",
       "publishedAt": "2026-11-06T13:10:00.000Z",
-      "image": "",
+      "image": "https://cdn.entameclip.com/2026/11/pic20261107JuiceJuice12.webp",
       "categories": [
         "music2"
       ],
@@ -4433,27 +4472,6 @@
       "isNew": false
     },
     {
-      "id": "b2e710704616",
-      "title": "『TVアニメ放送30周年記念 「名探偵コナン」 芸術花火2026』|ytvウェブマガジン",
-      "url": "https://www.ytv.co.jp/webmagazine/event/939_lzssozuy850de8nu.html",
-      "host": "ytv.co.jp",
-      "source": "読売テレビ",
-      "summary": "",
-      "publishedAt": "2026-11-06T10:58:09.000Z",
-      "image": "https://www.ytv.co.jp/webmagazine//webmagazine/event/images/main/939_lzssozuy850de8nu_main_i15b8vywujhpa44xhgcsyv2c2vlf73.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "5e1c16f02f7a",
       "title": "『428』で知られるイシイジロウ氏、なんと“日本酒”コラボ。原作・執筆を手がけた『桜桃探偵舎』の美しいイラストが描かれたボトルが登場",
       "url": "https://news.denfaminicogamer.jp/news/2611062k",
@@ -4521,6 +4539,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3a7d90f883b9",
+      "title": "『ジョン・ウィック』アニメ映画化決定、キアヌ・リーブス復帰 ─ シリーズ1作目の前日譚に",
+      "url": "https://news.livedoor.com/article/detail/32746975/",
+      "host": "news.livedoor.com",
+      "source": "ライブドアニュース",
+      "summary": "",
+      "publishedAt": "2026-11-06T10:31:44.000Z",
+      "image": "https://image.news.livedoor.com/newsimage/stf/2/f/2f514_1815_d51190c7_82975910.jpg",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f5962641de6f",
@@ -4774,12 +4813,12 @@
       "url": "https://animeanime.jp/article/2026/11/06/104543.html",
       "host": "animeanime.jp",
       "source": "アニメ！アニメ！",
-      "summary": "『ゆるキャン△』のTVアニメ最新作『ゆるキャン△ SEASON4』が、2027年4月より放送予定であることがわかった。これに伴い、8キャラクターが大集結したメインビジュアルと、各主題歌を聞くことができるメインPVが公開された。",
+      "summary": "",
       "publishedAt": "2026-11-06T09:00:19.000Z",
-      "image": "https://animeanime.jp/imgs/rss/953049.jpg",
+      "image": "https://animeanime.jp/imgs/ogp_f/953049.jpg",
       "categories": [
         "pv",
-        "new"
+        "onair"
       ],
       "series": [
         "tv",
@@ -4883,6 +4922,27 @@
       "isNew": false
     },
     {
+      "id": "97343e1d692d",
+      "title": "「幸せカナコの殺し屋生活」アニメ×ドラマがコラボ 2人のカナコが背中合わせに（コメントあり）",
+      "url": "https://natalie.mu/comic/news/696925",
+      "host": "natalie.mu",
+      "source": "ナタリー",
+      "summary": "",
+      "publishedAt": "2026-11-06T09:00:00.000Z",
+      "image": "",
+      "categories": [
+        "goods2"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "c6c240cd74af",
       "title": "声優・上坂すみれが大好きな「装甲騎兵ボトムズ」解説、劇場グッズも一挙解禁",
       "url": "https://natalie.mu/eiga/news/696940",
@@ -4974,29 +5034,6 @@
       "isNew": false
     },
     {
-      "id": "e3f77c68d7f0",
-      "title": "TVアニメ『ゆるキャン△ SEASON4』2027年4月より放送決定！新入生も加わったメインビジュアル＆PVが公開",
-      "url": "https://gamebiz.jp/news/435187",
-      "host": "gamebiz.jp",
-      "source": "gamebiz【ゲームビズ】",
-      "summary": "",
-      "publishedAt": "2026-11-06T08:30:00.000Z",
-      "image": "https://i3.gamebiz.jp/media/2bcb51ab-4d3b-4f53-8684-eba3d46c7e27.jpg",
-      "categories": [
-        "pv",
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "729deaea44c0",
       "title": "「33歳独身女騎士隊長。」連載10周年でアニメ化 原作者も「本当に来た。」",
       "url": "https://otakuma.net/archives/2026110604.html",
@@ -5009,6 +5046,28 @@
         "manga"
       ],
       "series": [
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d266f4bc3139",
+      "title": "「スピリットサークル」TVアニメ化&12月より放送！4月に逝去・佐藤竜雄監督、最後の監督作品に 水上悟志が描く輪廻転生",
+      "url": "https://news.nicovideo.jp/watch/nw19964125",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-11-06T08:03:07.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
         "adapt"
       ],
       "isOfficial": false,
@@ -5170,141 +5229,6 @@
       "series": [
         "tv",
         "cast",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d266f4bc3139",
-      "title": "「スピリットサークル」TVアニメ化＆12月より放送！4月に逝去・佐藤竜雄監督、最後の監督作品に 水上悟志が描く輪廻転生ファンタジー",
-      "url": "https://news.yahoo.co.jp/articles/bab130402fbe9befc9f0ee83b8405f3993beb48f/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-06T07:00:03.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26v55IdXqDZEkiQjuY0WcFHMWVhgbxxqpraZlqoFEoGdQ-bzAOMJYeWRcPqdolPXUiZlHSLl2TyVFguyDbfrFvWM-sUuOIMuDuz9FSM6f_b3P",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "df54c2218fa6",
-      "title": "『シグナル』続編、チョ・ジヌン騒動から1年で異例の編成 12月7日放送開始…「問題を擁護するものではない」",
-      "url": "https://www.cineplay.co.kr/ja-jp/articles/30681",
-      "host": "cineplay.co.kr",
-      "source": "씨네플레이",
-      "summary": "",
-      "publishedAt": "2026-11-06T06:55:38.000Z",
-      "image": "https://cdn.www.cineplay.co.kr/w1200/q100/f_jpg/article-images/2026-11-06/bba17ff5-4bf8-4a70-991a-9ffe564618b1.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f906f3879a7f",
-      "title": "アニメ『ロメリア戦記』作品情報｜放送日・あらすじ・キャスト 【2026年秋アニメ】",
-      "url": "https://www.oricon.co.jp/anime/1221/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-11-06T06:54:00.000Z",
-      "image": "https://contents.oricon.co.jp/anime/img/1000/1221/base/img1200/tv-program-image-6d648972f949dad3ca233dd6ac7645c02b50739425d942754af2283e4ce5aa5a.jpg",
-      "categories": [
-        "onair",
-        "cast2"
-      ],
-      "series": [
-        "tv",
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c62b950bc9eb",
-      "title": "主演俳優の犯罪歴で“お蔵入り危機”も…日本でもリメイクされたドラマ『シグナル』、続編が12月に放送開始へ",
-      "url": "https://www.rbbtoday.com/article/2026/11/06/255500.html",
-      "host": "rbbtoday.com",
-      "source": "RBB TODAY",
-      "summary": "",
-      "publishedAt": "2026-11-06T06:47:13.000Z",
-      "image": "",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "24daca4d67b4",
-      "title": "【アニメ化出来たのかッ…!?】『はぐれアイドル地獄変』が2027年1月にTVアニメ化決定！メインキャストや制作情報が解禁、記念キャンペーンも",
-      "url": "https://www.chiba-tv.com/plus/detail/2026112198264",
-      "host": "chiba-tv.com",
-      "source": "千葉テレビ放送",
-      "summary": "",
-      "publishedAt": "2026-11-06T06:46:36.000Z",
-      "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1491328344488281114/origin_1.png",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "tv",
-        "cast",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "fd44944a1807",
-      "title": "天原原作の異世界ファンタジーコメディ『33歳独身女騎士隊長。』連載10周年を記念してアニメ化決定。記念MV、キャラデザ、天原先生からのコメントを公開",
-      "url": "https://dengekionline.com/article/202611/93268",
-      "host": "dengekionline.com",
-      "source": "電撃オンライン",
-      "summary": "",
-      "publishedAt": "2026-11-06T06:31:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/93268/ogp_cKmV.jpg?x=1280",
-      "categories": [
-        "manga",
-        "movie2"
-      ],
-      "series": [
-        "movie",
         "adapt"
       ],
       "isOfficial": false,
