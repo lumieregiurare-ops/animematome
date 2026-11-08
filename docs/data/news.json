@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T11:00:17.135Z",
+  "updatedAt": "2026-11-08T11:30:18.324Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
@@ -7,37 +7,37 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 172,
-  "todayCount": 65,
+  "todayCount": 79,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 34
+      "count": 36
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 63
+      "count": 65
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 30
+      "count": 23
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 37
+      "count": 39
     },
     {
       "id": "music2",
       "label": "音楽",
-      "count": 17
+      "count": 19
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 27
+      "count": 32
     },
     {
       "id": "goods2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 12
+      "count": 11
     },
     {
       "id": "biz2",
@@ -57,51 +57,51 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 13
+      "count": 12
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 69
+      "count": 74
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 52
+      "count": 59
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 47
+      "count": 50
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 28
+      "count": 29
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 33
+      "count": 36
     },
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 17
+      "count": 16
     },
     {
       "id": "stream",
       "label": "配信",
-      "count": 9
+      "count": 8
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "Yahoo!ニュース",
-      "count": 24
+      "count": 26
     },
     {
       "name": "アニメ！アニメ！",
@@ -117,23 +117,27 @@
     },
     {
       "name": "山陽新聞",
-      "count": 8
+      "count": 9
     },
     {
       "name": "PASH! PLUS",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "アニメイトタイムズ",
+      "count": 5
     },
     {
       "name": "インサイド",
-      "count": 6
+      "count": 5
     },
     {
       "name": "アットエス",
-      "count": 6
+      "count": 5
     },
     {
       "name": "ナタリー",
-      "count": 5
+      "count": 4
     },
     {
       "name": "アニメージュプラス",
@@ -141,10 +145,6 @@
     },
     {
       "name": "アニメハック",
-      "count": 4
-    },
-    {
-      "name": "アニメイトタイムズ",
       "count": 4
     },
     {
@@ -156,7 +156,7 @@
       "count": 4
     },
     {
-      "name": "ニコニコニュース",
+      "name": "PR TIMES",
       "count": 3
     },
     {
@@ -164,19 +164,19 @@
       "count": 3
     },
     {
-      "name": "au Webポータル",
-      "count": 3
-    },
-    {
       "name": "はてなブログ",
       "count": 3
     },
     {
-      "name": "Dtimes",
-      "count": 3
+      "name": "オリコンニュース",
+      "count": 2
     },
     {
-      "name": "映画.com",
+      "name": "ファミ通",
+      "count": 2
+    },
+    {
+      "name": "au Webポータル",
       "count": 2
     },
     {
@@ -192,11 +192,27 @@
       "count": 2
     },
     {
-      "name": "PR TIMES",
+      "name": "Dtimes",
       "count": 2
     },
     {
+      "name": "にじめん",
+      "count": 1
+    },
+    {
+      "name": "GIGAZINE",
+      "count": 1
+    },
+    {
+      "name": "シネマトゥデイ",
+      "count": 1
+    },
+    {
       "name": "中国新聞デジタル",
+      "count": 1
+    },
+    {
+      "name": "ニコニコニュース",
       "count": 1
     },
     {
@@ -205,10 +221,6 @@
     },
     {
       "name": "J:magazine!",
-      "count": 1
-    },
-    {
-      "name": "ファミ通",
       "count": 1
     },
     {
@@ -248,6 +260,10 @@
       "count": 1
     },
     {
+      "name": "映画.com",
+      "count": 1
+    },
+    {
       "name": "GAME Watch",
       "count": 1
     },
@@ -265,14 +281,6 @@
     },
     {
       "name": "オタク総研",
-      "count": 1
-    },
-    {
-      "name": "TBS NEWS DIG",
-      "count": 1
-    },
-    {
-      "name": "オリコンニュース",
       "count": 1
     },
     {
@@ -296,11 +304,7 @@
       "count": 1
     },
     {
-      "name": "Koubo",
-      "count": 1
-    },
-    {
-      "name": "ABEMA",
+      "name": "日経クロストレンド",
       "count": 1
     },
     {
@@ -314,13 +318,87 @@
     {
       "name": "日刊エンタメクリップ",
       "count": 1
-    },
-    {
-      "name": "V-storage",
-      "count": 1
     }
   ],
   "topics": [
+    {
+      "id": "d029e830bf73",
+      "title": "アニメ『SPY×FAMILY』第4期に加えて“劇場版第2弾”が2027年に展開決定。新シーズンにまつわる要素が散りばめられたティザービジュアルも解禁、エレガント！ベリーエレガント！！",
+      "summary": "TVアニメのティザービジュアルには、新シーズンにまつわる要素が散りばめられている。劇場版第2弾の詳細は不明。第1弾は原作者監修の完全新作ストーリーが展開された",
+      "url": "https://news.denfaminicogamer.jp/news/261108h",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/jumpbnr_s4-kaikin.jpg",
+      "leadSource": "電ファミニコゲーマー",
+      "publishedAt": "2026-11-08T11:12:01.000Z",
+      "sourceCount": 8,
+      "articleCount": 9,
+      "categories": [
+        "movie2",
+        "new"
+      ],
+      "keywords": [
+        "劇場版",
+        "spy",
+        "family"
+      ],
+      "articles": [
+        {
+          "title": "アニメ『SPY×FAMILY』2027年にSeason4放送＆劇場版第2弾公開が決定！ キャラクターデザイン・門脇聡さん描き下ろしのSeason4ティザービジュアルも公開",
+          "url": "https://www.pashplus.jp/anime/502220/",
+          "source": "PASH! PLUS",
+          "publishedAt": "2026-11-08T11:12:01.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『SPY×FAMILY』TVアニメSeason 4が2027年放送決定、劇場版第2弾2027年公開",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アニメ「SPY×FAMILY」Season 4が2027年に放送、劇場版第2弾も2027年公開",
+          "url": "https://natalie.mu/comic/news/697137",
+          "source": "ナタリー",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『SPY×FAMILY』TVアニメSeason 4＆劇場版第2弾の2027年展開が決定",
+          "url": "https://gigazine.net/news/20261108-spy-family-season4-film2/",
+          "source": "GIGAZINE",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "SPY×FAMILY：テレビアニメシーズン4制作 2027年放送 劇場版アニメ第2弾も2027年公開",
+          "url": "https://mantan-web.jp/article/20261108dog00m200015000a.html",
+          "source": "Mantan Web",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【SPY×FAMILY】TVアニメSeason 4は2027年放送！ 劇場版第2弾も2027年公開決定！（アニメージュプラス）",
+          "url": "https://news.yahoo.co.jp/articles/603f984612abf1f3214facebe689ea951adf397f",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『SPY×FAMILY』2027年にTVアニメSeason 4放送＆劇場版第2弾公開が決定（ENCOUNT）",
+          "url": "https://news.yahoo.co.jp/articles/43063065d197db8def5405097d670da46f9fa745",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『SPY×FAMILY』第4期＆劇場版第2弾が製作決定 2027年にテレビ放送＆劇場公開",
+          "url": "https://www.cinematoday.jp/news/N0157870",
+          "source": "シネマトゥデイ",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
     {
       "id": "16dbc8bc9e36",
       "title": "アニメ『ワンパンマン』第3期第2クールのED主題歌、サイタマ役・古川慎が担当 作詞も自ら手がける",
@@ -377,16 +455,16 @@
           "isPR": false
         },
         {
-          "title": "『ワンパンマン』第3期第2クールのED主題歌は古川慎が担当！",
-          "url": "https://www.animatetimes.com/news/details.php?id",
-          "source": "アニメイトタイムズ",
+          "title": "古川慎：「ワンパンマン」第3期 ED主題歌担当 作詞も 「人間臭さを肯定出来るようなものを」",
+          "url": "https://mantan-web.jp/article/20261107dog00m200008000a.html",
+          "source": "Mantan Web",
           "publishedAt": "2026-11-07T10:30:00.000Z",
           "isPR": false
         },
         {
-          "title": "古川慎：「ワンパンマン」第3期 ED主題歌担当 作詞も 「人間臭さを肯定出来るようなものを」",
-          "url": "https://mantan-web.jp/article/20261107dog00m200008000a.html",
-          "source": "Mantan Web",
+          "title": "『ワンパンマン』第3期第2クールのED主題歌は古川慎が担当！",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
           "publishedAt": "2026-11-07T10:30:00.000Z",
           "isPR": false
         },
@@ -395,120 +473,6 @@
           "url": "https://mantan-web.jp/article/20261107dog00m200008000a/photopage/006.html",
           "source": "Mantan Web",
           "publishedAt": "2026-11-07T10:30:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "a3e0b6d15964",
-      "title": "「パラライ」初の劇場アニメが2027年公開！ 超ティザービジュアルや32名集結のMVも公開",
-      "summary": "HIPHOPメディアミックスプロジェクト「Paradox Live」（通称・パラライ）の初の劇場アニメ『Paradox Live THE MOVIE』が、2027年に公開されることがわかった。",
-      "url": "https://animeanime.jp/article/2026/11/07/104554.html",
-      "image": "https://animeanime.jp/imgs/rss/953204.jpg",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-11-07T05:00:00.000Z",
-      "sourceCount": 6,
-      "articleCount": 7,
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "keywords": [
-        "劇場",
-        "年公開",
-        "paradox"
-      ],
-      "articles": [
-        {
-          "title": "【パラライ】初の劇場アニメ『Paradox Live THE MOVIE』が2027年公開。超ティザービジュアル解禁、新チーム参加のMVや6月ライブ情報も",
-          "url": "https://dengekionline.com/article/202611/93354",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-11-07T05:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "初の劇場アニメが2027年公開！『Paradox Live』「Paradox Live THE MOVIE」/「Paradox Live Dope Show 2027」",
-          "url": "https://dtimes.jp/post-1455144/",
-          "source": "Dtimes",
-          "publishedAt": "2026-11-07T01:32:06.000Z",
-          "isPR": false
-        },
-        {
-          "title": "初劇場アニメ化『Paradox Live THE MOVIE』2027年公開決定＆超ティザービジュアル解禁！ 「Paradox Live Dope Show 2027」も発表",
-          "url": "https://www.pashplus.jp/anime/501980/",
-          "source": "PASH! PLUS",
-          "publishedAt": "2026-11-06T23:14:34.000Z",
-          "isPR": false
-        },
-        {
-          "title": "パラライ初の劇場アニメ「Paradox Live THE MOVIE」2027年公開、超ティザービジュアルも",
-          "url": "https://natalie.mu/comic/news/696948",
-          "source": "ナタリー",
-          "publishedAt": "2026-11-06T11:30:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "Paradox Live THE MOVIE：初の劇場版アニメ 2027年公開 ビジュアルに各チームのリーダー",
-          "url": "https://mantan-web.jp/article/20261106dog00m200088000a.html",
-          "source": "Mantan Web",
-          "publishedAt": "2026-11-06T11:30:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【写真・画像 3/5枚】Paradox Live THE MOVIE：初の劇場版アニメ 2027年公開 ビジュアルに各チームのリーダー",
-          "url": "https://mantan-web.jp/article/20261106dog00m200088000a/photopage/003.html",
-          "source": "Mantan Web",
-          "publishedAt": "2026-11-06T11:30:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "5f58ab69ef89",
-      "title": "声優・岡本信彦、ワイルドな視線の虜…♪ 40歳記念写真集の新カットが到着",
-      "summary": "声優・岡本信彦の40歳を記念した写真集「岡本信彦40歳記念写真集（仮）」より、先行カット第2弾が公開。発売記念イベントの詳細も明らかになった。",
-      "url": "https://animeanime.jp/article/2026/11/08/104597.html",
-      "image": "https://animeanime.jp/imgs/rss/953237.jpg",
-      "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-11-08T09:00:03.000Z",
-      "sourceCount": 4,
-      "articleCount": 5,
-      "categories": [
-        "onair",
-        "cast2"
-      ],
-      "keywords": [
-        "カット",
-        "先行",
-        "TVアニメ"
-      ],
-      "articles": [
-        {
-          "title": "テレビアニメ「天は赤い河のほとり」、第19話「いつか来る日の夢を見て」のあらすじと先行カットを公開",
-          "url": "https://www.at-s.com/media/articles/anime/red-river-anime-ep19-synopsis/",
-          "source": "アットエス",
-          "publishedAt": "2026-11-08T04:38:38.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『チー付与』ep.06 あらすじ・先行カット・次回予告公開！（アニメージュプラス）",
-          "url": "https://news.yahoo.co.jp/articles/a4dd5f51ab1e4845b71e74478369f85b44da2a7e",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-08T03:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "錯乱の街へ迷い込む第4話のあらすじと先行カットが到着！TVアニメ「dreamland」第4話「サバ」",
-          "url": "https://dtimes.jp/post-1461735/",
-          "source": "Dtimes",
-          "publishedAt": "2026-11-07T22:42:34.000Z",
-          "isPR": false
-        },
-        {
-          "title": "TVアニメ「ホタルの嫁入り」、11月6日放送の第5話「痛み」のあらすじと先行カットを公開",
-          "url": "https://www.at-s.com/media/articles/anime/hotaruno-yomeiri-anime-ep5-synopsis/",
-          "source": "アットエス",
-          "publishedAt": "2026-11-06T22:45:02.000Z",
           "isPR": false
         }
       ]
@@ -557,6 +521,49 @@
       ]
     },
     {
+      "id": "a3e0b6d15964",
+      "title": "「パラライ」初の劇場アニメが2027年公開！ 超ティザービジュアルや32名集結のMVも公開",
+      "summary": "HIPHOPメディアミックスプロジェクト「Paradox Live」（通称・パラライ）の初の劇場アニメ『Paradox Live THE MOVIE』が、2027年に公開されることがわかった。",
+      "url": "https://animeanime.jp/article/2026/11/07/104554.html",
+      "image": "https://animeanime.jp/imgs/rss/953204.jpg",
+      "leadSource": "アニメ！アニメ！",
+      "publishedAt": "2026-11-07T05:00:00.000Z",
+      "sourceCount": 4,
+      "articleCount": 4,
+      "categories": [
+        "new",
+        "pv"
+      ],
+      "keywords": [
+        "劇場",
+        "年公開",
+        "paradox"
+      ],
+      "articles": [
+        {
+          "title": "【パラライ】初の劇場アニメ『Paradox Live THE MOVIE』が2027年公開。超ティザービジュアル解禁、新チーム参加のMVや6月ライブ情報も",
+          "url": "https://dengekionline.com/article/202611/93354",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-11-07T05:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "初の劇場アニメが2027年公開！『Paradox Live』「Paradox Live THE MOVIE」/「Paradox Live Dope Show 2027」",
+          "url": "https://dtimes.jp/post-1455144/",
+          "source": "Dtimes",
+          "publishedAt": "2026-11-07T01:32:06.000Z",
+          "isPR": false
+        },
+        {
+          "title": "初劇場アニメ化『Paradox Live THE MOVIE』2027年公開決定＆超ティザービジュアル解禁！ 「Paradox Live Dope Show 2027」も発表",
+          "url": "https://www.pashplus.jp/anime/501980/",
+          "source": "PASH! PLUS",
+          "publishedAt": "2026-11-06T23:14:34.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "51be5c60fb04",
       "title": "TVアニメ『みなみけ』第5期、来年4月に放送スタート！ティザービジュアルやPVといった詳細解禁、約14年ぶりの新作で過去シリーズのキャストは全員続投",
       "summary": "約14年ぶりの新作となっており、過去シリーズのキャストは全員続投。この物語は、南家三姉妹の日常を淡々と描く物です。過度な期待はしないでください",
@@ -595,6 +602,42 @@
           "url": "https://news.yahoo.co.jp/articles/4986d817fc5398505f10f082cd2b3981698f4898",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-11-08T06:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "7f855d57e17c",
+      "title": "人気声優・紫月杏朱彩、1st写真集発売へ ギャル姿など先行カット公開（オリコン）",
+      "summary": "",
+      "url": "https://news.yahoo.co.jp/articles/14007dcc8237b64b42c52980b8c7a4cf5d00d7cb",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000412-oric-000-1-view.jpg?exp=10800",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-11-08T11:14:18.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "keywords": [
+        "カット",
+        "先行",
+        "ギャル"
+      ],
+      "articles": [
+        {
+          "title": "人気声優・紫月杏朱彩、1st写真集発売へ 水着やギャル姿などの先行カット公開",
+          "url": "https://www.oricon.co.jp/news/2491541/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-11-08T11:14:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "テレビアニメ「天は赤い河のほとり」、第19話「いつか来る日の夢を見て」のあらすじと先行カットを公開",
+          "url": "https://www.at-s.com/media/articles/anime/red-river-anime-ep19-synopsis/",
+          "source": "アットエス",
+          "publishedAt": "2026-11-08T04:38:38.000Z",
           "isPR": false
         }
       ]
@@ -749,97 +792,416 @@
       ]
     },
     {
-      "id": "31b5b29e537f",
-      "title": "世代差？ 見る人を選ぶ？ 意見が分かれた”2026年秋アニメ” 「平成っぽくて好き」「化ける」と激論",
+      "id": "bdaa2a0b7bc6",
+      "title": "『みなみけ これから』2027年4月放送開始予定！ティザービジュアル＆PV解禁、佐藤利奈・井上麻里奈・茅原実里ら過去シリーズのキャストが続投",
       "summary": "",
-      "url": "https://article.auone.jp/fe98ee21-159a-45de-8688-ae73ba1a8d43",
-      "image": "https://portal.auone.jp/media/thumbnails/2026/11/08/https___magmix_jp_post_384207_w1200.webp",
-      "leadSource": "au Webポータル",
-      "publishedAt": "2026-11-08T06:15:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "世代差",
-        "意見",
-        "年秋"
-      ],
-      "articles": [
-        {
-          "title": "世代差？ 見る人を選ぶ？ 意見分かれた”26年秋アニメ” 「平成っぽくて好き」「化ける」と激論",
-          "url": "https://magmix.jp/post/384207",
-          "source": "マグミクス",
-          "publishedAt": "2026-11-08T06:15:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "19be646b016a",
-      "title": "「攻殻機動隊」4Kリマスター版＆「イノセンス」が2週連続でTV放送",
-      "summary": "",
-      "url": "https://natalie.mu/comic/news/697077",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2153/303/002.jpg",
-      "leadSource": "ナタリー",
-      "publishedAt": "2026-11-08T03:20:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "onair"
-      ],
-      "keywords": [
-        "リマスター",
-        "攻殻機動隊"
-      ],
-      "articles": [
-        {
-          "title": "「GHOST IN THE SHELL / 攻殻機動隊 4Kリマスター版」がBS12「日曜アニメ劇場」にて本日19時から放送",
-          "url": "https://game.watch.impress.co.jp/docs/news/2153303.html",
-          "source": "GAME Watch",
-          "publishedAt": "2026-11-07T15:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "611e9d2d8900",
-      "title": "「ペロペロ★スパ～クルズ」27年1月放送開始 榊原優希、菅野真衣、ファイルーズあいが出演 阿座上洋平がナレーション担当",
-      "summary": "",
-      "url": "https://anime.eiga.com/news/127792/",
-      "image": "https://media.eiga.com/images/anime/news/127792/photo/ec6be7e965942aa1/640.jpg",
-      "leadSource": "アニメハック",
-      "publishedAt": "2026-11-08T03:00:00.000Z",
+      "url": "https://nijimen.kusuguru.co.jp/topics/651534",
+      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/e0054aa596aa4768bb5a8b751bacb3f0.jpg",
+      "leadSource": "にじめん",
+      "publishedAt": "2026-11-08T11:01:00.000Z",
       "sourceCount": 2,
       "articleCount": 2,
       "categories": [
         "onair",
-        "cast2"
+        "pv"
       ],
       "keywords": [
-        "ペロペロ",
-        "クルズ"
+        "キャスト",
+        "解禁",
+        "ティザー"
       ],
       "articles": [
         {
-          "title": "テレ東、『ペロペロ★スパ〜クルズ』のプロデュース・アニメ化を発表 海外展開進める方針",
-          "url": "https://www.sanyonews.jp/article/1978026?rct",
-          "source": "山陽新聞",
-          "publishedAt": "2026-11-07T15:08:49.000Z",
+          "title": "アニメ『みなみけ これから』2027年4月に放送開始予定！ 懐かしいキャストが大集合のティザーPVも解禁",
+          "url": "https://www.pashplus.jp/anime/502173/",
+          "source": "PASH! PLUS",
+          "publishedAt": "2026-11-08T06:12:01.000Z",
           "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "5f58ab69ef89",
+      "title": "声優・岡本信彦、ワイルドな視線の虜…♪ 40歳記念写真集の新カットが到着",
+      "summary": "声優・岡本信彦の40歳を記念した写真集「岡本信彦40歳記念写真集（仮）」より、先行カット第2弾が公開。発売記念イベントの詳細も明らかになった。",
+      "url": "https://animeanime.jp/article/2026/11/08/104597.html",
+      "image": "https://animeanime.jp/imgs/rss/953237.jpg",
+      "leadSource": "アニメ！アニメ！",
+      "publishedAt": "2026-11-08T11:00:04.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "cast2",
+        "onair"
+      ],
+      "keywords": [
+        "声優",
+        "写真集"
+      ],
+      "articles": [
+        {
+          "title": "声優・紫月杏朱彩さんの1st写真集が2027年2月27日(土)に発売決定！",
+          "url": "https://prtimes.jp/main/html/rd/p/000001828.000007785.html",
+          "source": "PR TIMES",
+          "publishedAt": "2026-11-08T11:00:04.000Z",
+          "isPR": true
         }
       ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-08T10:31:23.018Z",
-    "previousCount": 180,
-    "newCount": 5
+    "previousAt": "2026-11-08T11:00:17.135Z",
+    "previousCount": 172,
+    "newCount": 20
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-08T11:30:17.135Z",
+  "nextUpdateAt": "2026-11-08T12:00:18.324Z",
   "items": [
+    {
+      "id": "7f855d57e17c",
+      "title": "人気声優・紫月杏朱彩、1st写真集発売へ ギャル姿など先行カット公開（オリコン）",
+      "url": "https://news.yahoo.co.jp/articles/14007dcc8237b64b42c52980b8c7a4cf5d00d7cb",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:14:18.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000412-oric-000-1-view.jpg?exp=10800",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "movie",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "d17c3d8c1b47",
+      "title": "人気声優・紫月杏朱彩、1st写真集発売へ 水着やギャル姿などの先行カット公開",
+      "url": "https://www.oricon.co.jp/news/2491541/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:14:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491541/20261108_201203_p_o_84845052.jpg",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "movie",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ba4093eadb47",
+      "title": "アニメ『SPY×FAMILY』2027年にSeason4放送＆劇場版第2弾公開が決定！ キャラクターデザイン・門脇聡さん描き下ろしのSeason4ティザービジュアルも公開",
+      "url": "https://www.pashplus.jp/anime/502220/",
+      "host": "pashplus.jp",
+      "source": "PASH! PLUS",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:12:01.000Z",
+      "image": "https://www.pashplus.jp/wp-content/uploads/dbfb1dce1cdd8eac4711319d8e42e98b.jpg",
+      "categories": [
+        "movie2",
+        "new"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "bdaa2a0b7bc6",
+      "title": "『みなみけ これから』2027年4月放送開始予定！ティザービジュアル＆PV解禁、佐藤利奈・井上麻里奈・茅原実里ら過去シリーズのキャストが続投",
+      "url": "https://nijimen.kusuguru.co.jp/topics/651534",
+      "host": "nijimen.kusuguru.co.jp",
+      "source": "にじめん",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:01:00.000Z",
+      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/e0054aa596aa4768bb5a8b751bacb3f0.jpg",
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "series": [
+        "tv",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "d029e830bf73",
+      "title": "アニメ『SPY×FAMILY』第4期に加えて“劇場版第2弾”が2027年に展開決定。新シーズンにまつわる要素が散りばめられたティザービジュアルも解禁、エレガント！ベリーエレガント！！",
+      "url": "https://news.denfaminicogamer.jp/news/261108h",
+      "host": "news.denfaminicogamer.jp",
+      "source": "電ファミニコゲーマー",
+      "summary": "TVアニメのティザービジュアルには、新シーズンにまつわる要素が散りばめられている。劇場版第2弾の詳細は不明。第1弾は原作者監修の完全新作ストーリーが展開された",
+      "publishedAt": "2026-11-08T11:00:15.000Z",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/jumpbnr_s4-kaikin.jpg",
+      "categories": [
+        "new",
+        "pv"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "23c79e9694ee",
+      "title": "声優・紫月杏朱彩さんの1st写真集が2027年2月27日(土)に発売決定！",
+      "url": "https://prtimes.jp/main/html/rd/p/000001828.000007785.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:04.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/7785/1828/7785-1828-607a60a25c25f329c757cdccfee5d496-800x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "58ce0d6b0431",
+      "title": "『SPY×FAMILY』TVアニメSeason 4が2027年放送決定、劇場版第2弾2027年公開",
+      "url": "https://www.animatetimes.com/news/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "movie2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ef4e2586a1b5",
+      "title": "アニメ「SPY×FAMILY」Season 4が2027年に放送、劇場版第2弾も2027年公開",
+      "url": "https://natalie.mu/comic/news/697137",
+      "host": "natalie.mu",
+      "source": "ナタリー",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "",
+      "categories": [
+        "movie2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "bcdb051f6705",
+      "title": "『SPY×FAMILY』新作アニメ2本制作発表 2027年に第4期放送＆映画公開へ",
+      "url": "https://www.oricon.co.jp/news/2491505/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491505/20261108_153123_p_o_53630441.jpg",
+      "categories": [
+        "new",
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5eaf1fdb9986",
+      "title": "『SPY×FAMILY』TVアニメSeason 4＆劇場版第2弾の2027年展開が決定",
+      "url": "https://gigazine.net/news/20261108-spy-family-season4-film2/",
+      "host": "gigazine.net",
+      "source": "GIGAZINE",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "https://i.gzn.jp/img/2026/11/08/spy-family-season4-film2/00.png",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "42ce0eaec09d",
+      "title": "SPY×FAMILY：テレビアニメシーズン4制作 2027年放送 劇場版アニメ第2弾も2027年公開",
+      "url": "https://mantan-web.jp/article/20261108dog00m200015000a.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/08/20261108dog00m200015000a/001.jpg",
+      "categories": [
+        "movie2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "d296906734b5",
+      "title": "【SPY×FAMILY】TVアニメSeason 4は2027年放送！ 劇場版第2弾も2027年公開決定！（アニメージュプラス）",
+      "url": "https://news.yahoo.co.jp/articles/603f984612abf1f3214facebe689ea951adf397f",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00068187-animage-000-1-view.jpg?exp=10800",
+      "categories": [
+        "movie2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "bb04a321bf3a",
+      "title": "『SPY×FAMILY』2027年にTVアニメSeason 4放送＆劇場版第2弾公開が決定（ENCOUNT）",
+      "url": "https://news.yahoo.co.jp/articles/43063065d197db8def5405097d670da46f9fa745",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-01094971-encount-000-1-view.jpg?exp=10800",
+      "categories": [
+        "movie2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "6ce23c51888d",
+      "title": "アニメ『スパイファミリー』4期が2027年に放送決定。劇場版新作も同年に公開。4期ティザービジュアルも公開",
+      "url": "https://www.famitsu.com/article/202611/93420",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/93420/thumbnail_kMYL.jpg?x=1280",
+      "categories": [
+        "new",
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f7f266b4bda5",
+      "title": "『SPY×FAMILY』第4期＆劇場版第2弾が製作決定 2027年にテレビ放送＆劇場公開",
+      "url": "https://www.cinematoday.jp/news/N0157870",
+      "host": "cinematoday.jp",
+      "source": "シネマトゥデイ",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "image": "https://img.cinematoday.jp/a/WfNoISRR_KZN/_size_r1200x630/_v_1794126284/main.jpg",
+      "categories": [
+        "movie2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "c21bd26922e2",
       "title": "声優の森久保祥太郎さんと立花慎之介さん招きイベント 井原市美星町、「星空保護区」5周年で",
@@ -861,7 +1223,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ef83f65b5de9",
@@ -871,7 +1233,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-08T10:16:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00191600-otakulab-000-1-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00191600-otakulab-000-2044-view.jpg?exp=10800",
       "categories": [
         "new",
         "onair"
@@ -924,25 +1286,6 @@
         "movie",
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b6e368cbf52d",
-      "title": "深夜アニメと夕方アニメ、「大人向け」の違いはどこに？",
-      "url": "https://news.nicovideo.jp/watch/nw19969051?news_ref",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-11-08T09:24:10.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1108,12 +1451,12 @@
     {
       "id": "e570e078d751",
       "title": "「コードギアス 星追いのアスパル」アスパル役にフィリピン出身の声優・柴田あいばんを抜てき 謎の女性ゾエ役に山村響",
-      "url": "https://eiga.com/news/20261108/7/",
-      "host": "eiga.com",
-      "source": "映画.com",
+      "url": "https://news.yahoo.co.jp/articles/9d7801496cd63dfaed0e434f7f41357e3d48a7c4",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-08T06:30:00.000Z",
-      "image": "https://media.eiga.com/images/buzz/130386/728a5bc1ebf0cfd2.jpg",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000007-eiga-000-1-view.jpg?exp=10800",
       "categories": [
         "cast2"
       ],
@@ -1280,28 +1623,6 @@
       "isNew": false
     },
     {
-      "id": "8b1c11864f29",
-      "title": "「みなみけ これから」来年4月より放送 おなじみキャラ揃ったビジュアル＆PV（動画あり）",
-      "url": "https://natalie.mu/comic/news/697110",
-      "host": "natalie.mu",
-      "source": "ナタリー",
-      "summary": "",
-      "publishedAt": "2026-11-08T06:00:00.000Z",
-      "image": "",
-      "categories": [
-        "pv",
-        "onair"
-      ],
-      "series": [
-        "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "fa9d6221769c",
       "title": "TVアニメ『みなみけ』第5期、来年4月に放送スタート",
       "url": "https://news.denfaminicogamer.jp/news/261108e",
@@ -1316,6 +1637,28 @@
       "series": [
         "tv",
         "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "8b1c11864f29",
+      "title": "「みなみけ これから」来年4月より放送 おなじみキャラ揃ったビジュアル＆PV（動画あり）",
+      "url": "https://natalie.mu/comic/news/697110",
+      "host": "natalie.mu",
+      "source": "ナタリー",
+      "summary": "",
+      "publishedAt": "2026-11-08T06:00:00.000Z",
+      "image": "",
+      "categories": [
+        "pv",
+        "onair"
+      ],
+      "series": [
+        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1702,28 +2045,6 @@
       "isNew": false
     },
     {
-      "id": "ce2500b0d19e",
-      "title": "『チー付与』ep.06 あらすじ・先行カット・次回予告公開！（アニメージュプラス）",
-      "url": "https://news.yahoo.co.jp/articles/a4dd5f51ab1e4845b71e74478369f85b44da2a7e",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-08T03:00:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00068181-animage-000-1-view.jpg?exp=10800",
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d3eda786c9ad",
       "title": "“ギザ歯”キャラといえば？3位「チェンソーマン」デンジ、2位「Free!」松岡凛、1位は笑顔が特徴的な… ＜26年版＞【いい歯の日】",
       "url": "https://animeanime.jp/article/2026/11/08/104584.html",
@@ -1932,21 +2253,23 @@
       "isNew": false
     },
     {
-      "id": "1365344d8e40",
-      "title": "『NARUTO-ナルト-』完全新作アニメ情報発表へ 10月「ニューヨーク・コミコン」でライブ配信も実施",
-      "url": "https://www.sanyonews.jp/article/1996263",
+      "id": "6db07d768cb0",
+      "title": "『シバつき物件』アニメ化で2027年夏放送 PV公開で出演は中林新夏、田村睦心",
+      "url": "https://www.sanyonews.jp/article/2014167",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-11-08T00:14:42.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/e/9/c/8e9c473f0c16f35087ad425263dad707_1.jpg",
+      "publishedAt": "2026-11-08T00:07:35.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/7/e/9/7/7e970a9ddeecbb338bcc1ec0ffadd5da_1.jpg",
       "categories": [
-        "new",
-        "onair"
+        "onair",
+        "pv"
       ],
       "series": [
-        "music",
-        "stream"
+        "tv",
+        "movie",
+        "cast",
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1967,27 +2290,6 @@
         "manga"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3468fada7ad2",
-      "title": "錯乱の街へ迷い込む第4話のあらすじと先行カットが到着！TVアニメ「dreamland」第4話「サバ」",
-      "url": "https://dtimes.jp/post-1461735/",
-      "host": "dtimes.jp",
-      "source": "Dtimes",
-      "summary": "",
-      "publishedAt": "2026-11-07T22:42:34.000Z",
-      "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-c9717d330bb5f7dd6ff99106ef30c075-20261107-5a8d82.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2102,6 +2404,25 @@
       "isNew": false
     },
     {
+      "id": "ee79fbdce010",
+      "title": "大塚明夫『攻殻機動隊』新作アニメはマレス大佐役 バトー役から変更「作品を心から愛しています」",
+      "url": "https://www.sanyonews.jp/article/1959335?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-07T19:44:06.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/6/6/3/c663e423b8451abb23e3fe6a202dfaa5_1.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "94648d9fc59e",
       "title": "アニメ『ワンパンマン』第3期第2クール、ED主題歌が決定！ - https://onepunchman-anime.net/",
       "url": "https://onepunchman-anime.net/news/archives/7927",
@@ -2125,23 +2446,27 @@
       "isNew": false
     },
     {
-      "id": "ee79fbdce010",
-      "title": "大塚明夫『攻殻機動隊』新作アニメはマレス大佐役 バトー役から変更「作品を心から愛しています」",
-      "url": "https://www.sanyonews.jp/article/1959335?rct",
+      "id": "5eb444c422ad",
+      "title": "『こち亀』10年ぶり新作アニメ、新たな声優陣は9・5発表 派出所メンバー＆こち亀大好き芸人登壇のイベント開催へ",
+      "url": "https://www.sanyonews.jp/article/1966153?kw",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-11-07T17:26:27.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/c/6/6/3/c663e423b8451abb23e3fe6a202dfaa5_1.jpg",
+      "publishedAt": "2026-11-07T16:56:42.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/a/e/8/f/ae8f99d4610ba7c4a760d0e9b8fc25e8_1.jpg",
       "categories": [
-        "new"
+        "new",
+        "cast2"
       ],
-      "series": [],
+      "series": [
+        "cast",
+        "goods"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "b8e3fd77be4f",
@@ -2164,6 +2489,30 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b6377803e8de",
+      "title": "『BLEACH』アニメ完結で放送22年の歴史に幕 スペシャルエンディングムービー公開",
+      "url": "https://www.sanyonews.jp/article/2011061?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-07T16:31:13.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/b/a/c/6bac99ac34ff7304747bd09f7e6a206a_1.jpg",
+      "categories": [
+        "onair",
+        "music2"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d5c915118f76",
@@ -2207,7 +2556,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b1c8db87d3c7",
@@ -2319,27 +2668,6 @@
       "isNew": false
     },
     {
-      "id": "18e37f856b7f",
-      "title": "声優・木村昴「ものすごい衝撃を受けました」 スプレーアートに挑戦したきっかけ",
-      "url": "https://article.auone.jp/370cbd79-dd66-4f94-ac72-58475acbd09d",
-      "host": "article.auone.jp",
-      "source": "au Webポータル",
-      "summary": "",
-      "publishedAt": "2026-11-07T13:42:32.000Z",
-      "image": "https://portal.auone.jp/media/thumbnails/2026/11/07/https___news_jp_i_1491795454933614747_w611.webp",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "eefd7a34c8ee",
       "title": "声優・木村昴「ものすごい衝撃を受けました」 スプレーアートに挑戦したきっかけ（2026年11月7日掲載）｜日テレNEWS NNN",
       "url": "https://news.ntv.co.jp/category/culture/fbfae137c3fa4f808fcf7e03992f5072",
@@ -2441,6 +2769,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b30e405cb9f8",
+      "title": "新宿アニソンスコープ：にじさんじユニットVOLTACTION 初のフルアルバムが首位 「ヤマトよ永遠に REBEL3199」サントラ盤、主題歌集も",
+      "url": "https://mantan-web.jp/article/20261104dog00m200061000a.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
+      "summary": "",
+      "publishedAt": "2026-11-07T11:01:00.000Z",
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/04/20261104dog00m200061000a/001.jpg",
+      "categories": [
+        "music2"
+      ],
+      "series": [
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f4c7fdfe016d",
@@ -2556,6 +2905,28 @@
       "isNew": false
     },
     {
+      "id": "965c9ac159fd",
+      "title": "古川慎：「ワンパンマン」第3期 ED主題歌担当 作詞も 「人間臭さを肯定出来るようなものを」",
+      "url": "https://mantan-web.jp/article/20261107dog00m200008000a.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
+      "summary": "",
+      "publishedAt": "2026-11-07T10:30:00.000Z",
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/07/20261107dog00m200008000a/001.jpg",
+      "categories": [
+        "music2"
+      ],
+      "series": [
+        "music",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "832cffc427d1",
       "title": "『ワンパンマン』第3期第2クールのED主題歌は古川慎が担当！",
       "url": "https://www.animatetimes.com/news/details.php?id",
@@ -2569,28 +2940,6 @@
       ],
       "series": [
         "tv",
-        "music",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "965c9ac159fd",
-      "title": "古川慎：「ワンパンマン」第3期 ED主題歌担当 作詞も 「人間臭さを肯定出来るようなものを」",
-      "url": "https://mantan-web.jp/article/20261107dog00m200008000a.html",
-      "host": "mantan-web.jp",
-      "source": "Mantan Web",
-      "summary": "",
-      "publishedAt": "2026-11-07T10:30:00.000Z",
-      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/07/20261107dog00m200008000a/001.jpg",
-      "categories": [
-        "music2"
-      ],
-      "series": [
         "music",
         "adapt"
       ],
@@ -2923,18 +3272,19 @@
     },
     {
       "id": "8e00837063f7",
-      "title": "【 ALS闘病 】声優・津久井教生さん 表情筋の動きの低下を吐露「久しぶりに動画を撮ってみたら やはり動きが固くなっていて」【ニャンちゅう】",
-      "url": "https://newsdig.tbs.co.jp/articles/-/3069584",
-      "host": "newsdig.tbs.co.jp",
-      "source": "TBS NEWS DIG",
+      "title": "【 ALS闘病 】声優・津久井教生さん 表情筋の動きの低下を吐露「久しぶりに動画を撮ってみたら やはり動きが固くなっていて」【ニャンちゅう】（TBS NEWS DIG Powered by JNN）",
+      "url": "https://news.yahoo.co.jp/articles/f1c4d1eea8df83cda220f46ca386027de21f6617",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-11-07T08:15:00.000Z",
-      "image": "https://newsdig.ismcdn.jp/mwimgs/e/4/1200w/img_e401dda31fdf9ee887348e7a4fcf7a4983952.jpg",
+      "publishedAt": "2026-11-07T08:16:14.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261107-23069584-jnn-000-1-view.jpg?exp=10800",
       "categories": [
         "cast2"
       ],
       "series": [
-        "cast"
+        "cast",
+        "music"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2959,51 +3309,6 @@
         "tv",
         "cast",
         "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "105940e1a14a",
-      "title": "『ブレス』来年1・8放送 キービジュアル＆PV第1弾公開、EDテーマはHIKKA「New Page」",
-      "url": "https://www.oricon.co.jp/news/2491318/full/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-11-07T08:00:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491318/20261107_161952_p_o_87769967.jpg",
-      "categories": [
-        "pv",
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "movie",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4c891ffdb8f5",
-      "title": "アニメ『ブレス』2027年1月8日よりノイタミナで放送決定",
-      "url": "https://news.denfaminicogamer.jp/news/261107f",
-      "host": "news.denfaminicogamer.jp",
-      "source": "電ファミニコゲーマー",
-      "summary": "",
-      "publishedAt": "2026-11-07T08:00:00.000Z",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/5f63f49b6b7d98988e1002a4a4f2d6d5.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3165,35 +3470,12 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-07T05:37:32.000Z",
-      "image": "https://kahoku.news/images/2026/11/07/ori2491420/001_size7.jpg?timestamp=20261108200036",
+      "image": "https://kahoku.news/images/2026/11/07/ori2491420/001_size7.jpg?timestamp=20261108203036",
       "categories": [
         "pv"
       ],
       "series": [
         "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "cbbffac93647",
-      "title": "カフカの「ボンッ」も再現！『ゼンゼロ』×『崩壊：スターレイル』コラボキャラの戦闘PV公開―ロビンたちがオリジナルの動きそのままに本格アクション",
-      "url": "https://www.inside-games.jp/article/2026/11/07/190512.html",
-      "host": "inside-games.jp",
-      "source": "インサイド",
-      "summary": "ロビンは歌唱の力で、カフカは刀・糸・サブマシンガンの2丁撃ちといった『崩壊：スターレイル』の動きそのままに本格アクション！",
-      "publishedAt": "2026-11-07T05:35:02.000Z",
-      "image": "https://www.inside-games.jp/imgs/rss/1804563.jpg",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "movie",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3610,25 +3892,25 @@
       "isNew": false
     },
     {
-      "id": "aa3eeb5cfc51",
-      "title": "【本日予約開始】2027年1月TVアニメ放送『欠けた月のメルセデス』『ゲーム世界転生〈ダン活〉』注目の2作品の新刊が1/15刊発売決定！そのほか新レーベル「LEVIN」の最新巻が続々登場！",
-      "url": "https://koubo.jp/press-release/prtimes/c174060_r231",
-      "host": "koubo.jp",
-      "source": "Koubo",
+      "id": "ce1f9b0947c5",
+      "title": "特集 劇場版『名探偵コナン ハイウェイの堕天使』",
+      "url": "https://xtrend.nikkei.com/atcl/contents/18/01381/",
+      "host": "xtrend.nikkei.com",
+      "source": "日経クロストレンド",
       "summary": "",
-      "publishedAt": "2026-11-07T01:00:37.000Z",
-      "image": "",
+      "publishedAt": "2026-11-07T01:04:17.000Z",
+      "image": "https://xtrend.nikkei.com/atcl/contents/18/01381/nxr_m.jpg",
       "categories": [
-        "onair"
+        "movie2"
       ],
       "series": [
-        "tv"
+        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "eb2afe044d92",
@@ -3676,29 +3958,6 @@
       "isNew": false
     },
     {
-      "id": "78d9b4951016",
-      "title": "劇場版『薬屋のひとりごと』、横浜市＆アニメイトとコラボ決定 横浜イメージ「猫猫＆壬氏」コラボ新ビジュアル解禁",
-      "url": "https://www.sanyonews.jp/article/2013258",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-07T00:59:47.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/f/5/3/6/f536073a3890b3e6552004fbf27626ff_1.jpg",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "movie",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "3e906bc151b7",
       "title": "『MUSIC AWARDS JAPAN 2026』Premiere Ceremony サカナクション「怪獣」が最優秀アニメ楽曲賞「初のアニメ主題歌、本当にありがたい」",
       "url": "https://www.sanyonews.jp/article/1937592?kw",
@@ -3735,27 +3994,6 @@
       "series": [
         "tv",
         "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ccffb6fbd947",
-      "title": "【独自】インドの映画館に『ドラえもん』初登場、早くも”日本アニメ映画2位” 現地の熱量と今上映する意義（オタク総研）",
-      "url": "https://news.yahoo.co.jp/articles/6b77b2dfe58c990124727d0e9fe2211b5e3755f4?page",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-07T00:17:00.000Z",
-      "image": "",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3831,50 +4069,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "48a73835010b",
-      "title": "土曜夕方アニメ枠 読売テレビ/日本テレビ系列にて放送中！",
-      "url": "https://abema.tv/channels/conan/slots/AyqCRY1e3uKFLj",
-      "host": "abema.tv",
-      "source": "ABEMA",
-      "summary": "",
-      "publishedAt": "2026-11-06T22:49:23.000Z",
-      "image": "",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "82f5131ac343",
-      "title": "TVアニメ「ホタルの嫁入り」、11月6日放送の第5話「痛み」のあらすじと先行カットを公開",
-      "url": "https://www.at-s.com/media/articles/anime/hotaruno-yomeiri-anime-ep5-synopsis/",
-      "host": "at-s.com",
-      "source": "アットエス",
-      "summary": "",
-      "publishedAt": "2026-11-06T22:45:02.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "d5ebe5ad7d1d",
@@ -4085,28 +4279,6 @@
       ],
       "series": [
         "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0b0a068d9654",
-      "title": "「とある科学の超電磁砲」19年の連載を経て最終巻発売 アニメ放送に加え実写化も決定した「ホタルの嫁入り」最終巻もランクイン［コミックスベストセラー］（Book Bang）",
-      "url": "https://news.yahoo.co.jp/articles/5a6f855427252c79af688da946f14552f8350794",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-06T21:00:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261107-00838291-bookbang-000-1-view.jpg?exp=10800",
-      "categories": [
-        "manga",
-        "onair"
-      ],
-      "series": [
-        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4379,139 +4551,6 @@
       "series": [
         "movie",
         "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "50df14d9b745",
-      "title": "パラライ初の劇場アニメ「Paradox Live THE MOVIE」2027年公開、超ティザービジュアルも",
-      "url": "https://natalie.mu/comic/news/696948",
-      "host": "natalie.mu",
-      "source": "ナタリー",
-      "summary": "",
-      "publishedAt": "2026-11-06T11:30:00.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3ddfb9334748",
-      "title": "Paradox Live THE MOVIE：初の劇場版アニメ 2027年公開 ビジュアルに各チームのリーダー",
-      "url": "https://mantan-web.jp/article/20261106dog00m200088000a.html",
-      "host": "mantan-web.jp",
-      "source": "Mantan Web",
-      "summary": "",
-      "publishedAt": "2026-11-06T11:30:00.000Z",
-      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/06/20261106dog00m200088000a/001.jpg",
-      "categories": [
-        "movie2",
-        "pv"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "55beb0236c6f",
-      "title": "【写真・画像 3/5枚】Paradox Live THE MOVIE：初の劇場版アニメ 2027年公開 ビジュアルに各チームのリーダー",
-      "url": "https://mantan-web.jp/article/20261106dog00m200088000a/photopage/003.html",
-      "host": "mantan-web.jp",
-      "source": "Mantan Web",
-      "summary": "",
-      "publishedAt": "2026-11-06T11:30:00.000Z",
-      "image": "https://storage.mantan-web.jp/w=1140,h=1013,f=webp:auto/images/2026/11/06/20261106dog00m200088000a/003.jpg",
-      "categories": [
-        "movie2",
-        "pv"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0a8cb892aac2",
-      "title": "河内遙描き下ろしの「涙雨とセレナーデ」アニメ化記念ビジュアル ©河内遙・講談社／「涙雨とセレナーデ」製作委員会",
-      "url": "https://natalie.mu/comic/gallery/news/696924/2800578",
-      "host": "natalie.mu",
-      "source": "ナタリー",
-      "summary": "",
-      "publishedAt": "2026-11-06T11:04:48.000Z",
-      "image": "",
-      "categories": [
-        "pv"
-      ],
-      "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8f8820dda70d",
-      "title": "2027年4月放送決定！『涙雨とセレナーデ』第一弾キービジュアル・ティザーPV・メインキャスト＆スタッフ一挙解禁！原作者・河内遙先生＆メインキャストよりコメント到着！ - V-storage",
-      "url": "https://v-storage.jp/anime/etc-anime/290135/",
-      "host": "v-storage.jp",
-      "source": "V-storage",
-      "summary": "",
-      "publishedAt": "2026-11-06T11:01:03.000Z",
-      "image": "https://v-storage.jp/wp-content/uploads/2026/11/7ca714d6c420333af51fb18889e12b4f.jpg",
-      "categories": [
-        "pv",
-        "new"
-      ],
-      "series": [
-        "tv",
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1aade27b0af6",
-      "title": "TVアニメ『涙雨とセレナーデ』キャストに宮本侑芽、大塚剛央決定！原作・河内遙コメント＆イラスト到着！キービジュアル＆テ",
-      "url": "https://news.nicovideo.jp/watch/nw19964998",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-11-06T11:00:34.000Z",
-      "image": "",
-      "categories": [
-        "pv",
-        "cast2"
-      ],
-      "series": [
-        "tv",
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
