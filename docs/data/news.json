@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-09T19:30:17.952Z",
+  "updatedAt": "2026-11-09T20:00:18.840Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 194,
+  "total": 193,
   "todayCount": 3,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 43
+      "count": 42
     },
     {
       "id": "onair",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 12
+      "count": 11
     },
     {
       "id": "biz2",
@@ -84,7 +84,7 @@
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 34
+      "count": 33
     },
     {
       "id": "goods",
@@ -109,7 +109,7 @@
     },
     {
       "name": "山陽新聞",
-      "count": 12
+      "count": 11
     },
     {
       "name": "電ファミニコゲーマー",
@@ -118,10 +118,6 @@
     {
       "name": "eeo",
       "count": 6
-    },
-    {
-      "name": "ニコニコニュース",
-      "count": 5
     },
     {
       "name": "電撃オンライン",
@@ -140,7 +136,7 @@
       "count": 5
     },
     {
-      "name": "TRILL",
+      "name": "ニコニコニュース",
       "count": 4
     },
     {
@@ -157,6 +153,10 @@
     },
     {
       "name": "NHK",
+      "count": 3
+    },
+    {
+      "name": "TRILL",
       "count": 3
     },
     {
@@ -192,11 +192,19 @@
       "count": 2
     },
     {
+      "name": "GameWith",
+      "count": 2
+    },
+    {
       "name": "映画.com",
       "count": 2
     },
     {
       "name": "クランクイン！",
+      "count": 2
+    },
+    {
+      "name": "PR TIMES",
       "count": 2
     },
     {
@@ -248,10 +256,6 @@
       "count": 1
     },
     {
-      "name": "GameWith",
-      "count": 1
-    },
-    {
       "name": "TuneCore Japan",
       "count": 1
     },
@@ -285,10 +289,6 @@
     },
     {
       "name": "AERA DIGITAL",
-      "count": 1
-    },
-    {
-      "name": "PR TIMES",
       "count": 1
     },
     {
@@ -937,12 +937,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-09T19:00:23.501Z",
-    "previousCount": 193,
-    "newCount": 4
+    "previousAt": "2026-11-09T19:30:17.952Z",
+    "previousCount": 194,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-09T20:00:17.952Z",
+  "nextUpdateAt": "2026-11-09T20:30:18.840Z",
   "items": [
     {
       "id": "86c279374abe",
@@ -1110,25 +1110,6 @@
         "tv",
         "movie"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "eeaaf1ce5ef2",
-      "title": "太平洋戦争に出征…爆撃を受け“意識朦朧”→左腕を失うも『国民的アニメ』を生んだ【天才漫画家】",
-      "url": "https://trilltrill.jp/articles/5140391",
-      "host": "trilltrill.jp",
-      "source": "TRILL",
-      "summary": "",
-      "publishedAt": "2026-11-09T13:35:00.000Z",
-      "image": "https://media.trilltrill.jp/articles/5140391/cover-image.20c0649a04f0c157f3c89873f39201d4?w=1200",
-      "categories": [
-        "manga"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1655,28 +1636,6 @@
       "isNew": false
     },
     {
-      "id": "61e982b0dc6b",
-      "title": "TVアニメ化決定!!!「モンスターの肉を食っていたら王位に就いた件」が表紙で登場！『ヤングアニマルZERO』12/1号",
-      "url": "https://news.nicovideo.jp/watch/nw19971786?news_ref",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-11-09T09:15:18.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "61dd3861f6a3",
       "title": "「カグラバチ」のプライズフィギュアが登場！ 新ブランド「STRAVENTO」の第1弾として六平千鉱、柴登吾を展開",
       "url": "https://animeanime.jp/article/2026/11/09/104634.html",
@@ -1743,7 +1702,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bd6f5b540bd8",
@@ -1765,7 +1724,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cb0f17a040a5",
@@ -3086,6 +3045,27 @@
       "isNew": false
     },
     {
+      "id": "4ab525f483a1",
+      "title": "【ニケ】紅蓮：神殺の評価と声優 | おすすめ編成･キューブ･オバロ【NIKKE】",
+      "url": "https://gamewith.jp/nikke/article/show/584271",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T03:20:25.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/584271.png?date=1793184866",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "4adaf4c8df90",
       "title": "セガプライズよりTVアニメ『カグラバチ』や『プロジェクトセカイ カラフルステージ！ feat. 初音ミク』など新作フィギュアを展示【#AMEXPO2026】",
       "url": "https://hobby.watch.impress.co.jp/docs/news/2154539.html",
@@ -3148,6 +3128,28 @@
       ],
       "isOfficial": false,
       "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "61e982b0dc6b",
+      "title": "TVアニメ化決定!!!「モンスターの肉を食っていたら王位に就いた件」が表紙で登場！『ヤングアニマルZERO』12/1号 11月9日（月）発売！",
+      "url": "https://prtimes.jp/main/html/rd/p/000002510.000046848.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-09T03:00:01.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/46848/2510/46848-2510-9acb485326196bb8aba4f28541613f96-507x729.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -3542,29 +3544,6 @@
       "series": [
         "tv",
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ae551f18fb97",
-      "title": "『キミ戦』第3期が制作決定 スタッフ＆キャスト情報も発表",
-      "url": "https://www.sanyonews.jp/article/2010472?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-09T01:11:54.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/8/f/5/88f553594d1ce0fcfec74cbdcc542931_1.jpg",
-      "categories": [
-        "new",
-        "cast2"
-      ],
-      "series": [
-        "cast",
-        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4065,7 +4044,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b48f34f8fd67",
@@ -4488,7 +4467,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d029e830bf73",
