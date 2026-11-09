@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-09T17:30:18.994Z",
+  "updatedAt": "2026-11-09T18:00:23.456Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 192,
+  "total": 193,
   "todayCount": 3,
   "categories": [
     {
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 44
+      "count": 45
     },
     {
       "id": "music2",
@@ -74,7 +74,7 @@
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 58
+      "count": 59
     },
     {
       "id": "music",
@@ -168,6 +168,10 @@
       "count": 3
     },
     {
+      "name": "ABEMA",
+      "count": 2
+    },
+    {
       "name": "Infoseek",
       "count": 2
     },
@@ -222,10 +226,6 @@
     {
       "name": "アットエス",
       "count": 2
-    },
-    {
-      "name": "ABEMA",
-      "count": 1
     },
     {
       "name": "にじめん",
@@ -945,12 +945,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-09T17:00:18.634Z",
-    "previousCount": 189,
-    "newCount": 3
+    "previousAt": "2026-11-09T17:30:18.994Z",
+    "previousCount": 192,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-09T18:00:18.994Z",
+  "nextUpdateAt": "2026-11-09T18:30:23.456Z",
   "items": [
     {
       "id": "f3cd2cd11b60",
@@ -972,7 +972,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "04e770cc20e5",
@@ -1012,6 +1012,27 @@
       "series": [
         "tv",
         "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "38fe2eca8e0c",
+      "title": "声優と夜あそび 繋【金田朋子×川島零士×そびー】#43",
+      "url": "https://abema.tv/channels/anime-live/slots/AyqCREDe5KgNcf",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-11-09T14:58:17.000Z",
+      "image": "",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1120,7 +1141,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4d5a22f3f553",
@@ -3772,28 +3793,6 @@
       "isNew": false
     },
     {
-      "id": "0a36bf63fe87",
-      "title": "星野源、TVアニメ「ひらやすみ」OPテーマ担当 阿佐ヶ谷を歩いて新曲を書き下ろし（TVガイドWeb）",
-      "url": "https://news.yahoo.co.jp/articles/04f74c5f4d4e464415f78c9954068b9045edf21d",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-08T23:00:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261109-00000004-tvguidew-000-1-view.jpg?exp=10800",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "tv",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "4fffce736a34",
       "title": "アニメ「ひらやすみ」OPテーマは星野源の新曲に決定 「ありがたい縁を感じてとても嬉しく思いました」",
       "url": "https://anime.eiga.com/news/127827/",
@@ -3935,6 +3934,28 @@
         "music2"
       ],
       "series": [
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "0a36bf63fe87",
+      "title": "星野源、TVアニメ「ひらやすみ」OPテーマ担当 阿佐ヶ谷を歩いて新曲を書き下ろし（TVガイドWeb）",
+      "url": "https://news.yahoo.co.jp/articles/04f74c5f4d4e464415f78c9954068b9045edf21d",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-08T23:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261109-00000004-tvguidew-000-1-view.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "tv",
         "music"
       ],
       "isOfficial": false,
