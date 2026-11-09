@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-09T16:00:20.117Z",
+  "updatedAt": "2026-11-09T16:30:20.306Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 193,
+  "total": 194,
   "todayCount": 1,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 44
+      "count": 45
     },
     {
       "id": "onair",
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 45
+      "count": 46
     },
     {
       "id": "music2",
@@ -74,7 +74,7 @@
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 59
+      "count": 60
     },
     {
       "id": "music",
@@ -84,7 +84,7 @@
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 33
+      "count": 34
     },
     {
       "id": "goods",
@@ -109,7 +109,7 @@
     },
     {
       "name": "山陽新聞",
-      "count": 11
+      "count": 12
     },
     {
       "name": "電ファミニコゲーマー",
@@ -132,10 +132,6 @@
       "count": 5
     },
     {
-      "name": "ライブドアニュース",
-      "count": 5
-    },
-    {
       "name": "はてなブログ",
       "count": 5
     },
@@ -145,6 +141,10 @@
     },
     {
       "name": "アニメハック",
+      "count": 4
+    },
+    {
+      "name": "ライブドアニュース",
       "count": 4
     },
     {
@@ -216,10 +216,6 @@
       "count": 2
     },
     {
-      "name": "ｄメニューニュース",
-      "count": 2
-    },
-    {
       "name": "Mantan Web",
       "count": 2
     },
@@ -241,6 +237,10 @@
     },
     {
       "name": "オタク総研",
+      "count": 1
+    },
+    {
+      "name": "Excite エキサイト",
       "count": 1
     },
     {
@@ -308,6 +308,10 @@
       "count": 1
     },
     {
+      "name": "ｄメニューニュース",
+      "count": 1
+    },
+    {
       "name": "Mikiki by TOWER RECORDS",
       "count": 1
     },
@@ -353,6 +357,10 @@
     },
     {
       "name": "YouTube",
+      "count": 1
+    },
+    {
+      "name": "千葉テレビ放送株式会社",
       "count": 1
     },
     {
@@ -746,7 +754,7 @@
       "url": "https://news.livedoor.com/article/detail/32772586/",
       "image": "https://image.news.livedoor.com/newsimage/stf/b/6/b6a3a_1516_1e34ccb8_b1edb40d.png",
       "leadSource": "ライブドアニュース",
-      "publishedAt": "2026-11-09T10:14:21.000Z",
+      "publishedAt": "2026-11-09T09:14:14.000Z",
       "sourceCount": 3,
       "articleCount": 3,
       "categories": [
@@ -899,12 +907,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-09T15:30:19.547Z",
-    "previousCount": 191,
-    "newCount": 4
+    "previousAt": "2026-11-09T16:00:20.117Z",
+    "previousCount": 193,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-09T16:30:20.117Z",
+  "nextUpdateAt": "2026-11-09T17:00:20.306Z",
   "items": [
     {
       "id": "04e770cc20e5",
@@ -1077,7 +1085,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "37ce0a0dcc6c",
@@ -1314,20 +1322,20 @@
       "isNew": false
     },
     {
-      "id": "00ab06e53f7e",
-      "title": "アニメ『ワンパンマン』 第3期第２クール 2027年1月放送！ED主題歌アーティストはサイタマ役・古川慎に決定！",
-      "url": "https://news.livedoor.com/article/detail/32772586/",
-      "host": "news.livedoor.com",
-      "source": "ライブドアニュース",
+      "id": "10838e2c50db",
+      "title": "HIPHOPメディアミックスプロジェクト『Paradox Live』初劇場アニメ化「Paradox Live THE MOVIE」27年公開決定＆超ティザービジュアル解禁！",
+      "url": "http://www.excite.co.jp/news/article/Lisani_0000321779/",
+      "host": "excite.co.jp",
+      "source": "Excite エキサイト",
       "summary": "",
-      "publishedAt": "2026-11-09T10:14:21.000Z",
-      "image": "https://image.news.livedoor.com/newsimage/stf/b/6/b6a3a_1516_1e34ccb8_b1edb40d.png",
+      "publishedAt": "2026-11-09T10:09:38.000Z",
+      "image": "",
       "categories": [
-        "music2",
-        "onair"
+        "new",
+        "pv"
       ],
       "series": [
-        "tv",
+        "movie",
         "music",
         "adapt"
       ],
@@ -1601,30 +1609,6 @@
       "isNew": false
     },
     {
-      "id": "10838e2c50db",
-      "title": "HIPHOPメディアミックスプロジェクト『Paradox Live』初劇場アニメ化「Paradox Live THE MOVIE」27年公開決定＆超ティザービジュアル解禁！",
-      "url": "https://news.livedoor.com/article/detail/32772594/",
-      "host": "news.livedoor.com",
-      "source": "ライブドアニュース",
-      "summary": "",
-      "publishedAt": "2026-11-09T09:15:00.000Z",
-      "image": "https://image.news.livedoor.com/newsimage/stf/5/5/55cb7_1516_a4b6195e_6acf85c9.jpg",
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "series": [
-        "movie",
-        "music",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "6ed3387d3ad7",
       "title": "東京GBの12/5ホームゲームに声優の木村良平さんが今季もゲスト出演！",
       "url": "https://volleyballking.jp/article/96760/",
@@ -1638,6 +1622,30 @@
       ],
       "series": [
         "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "00ab06e53f7e",
+      "title": "アニメ『ワンパンマン』 第3期第２クール 2027年1月放送！ED主題歌アーティストはサイタマ役・古川慎に決定！",
+      "url": "https://news.livedoor.com/article/detail/32772586/",
+      "host": "news.livedoor.com",
+      "source": "ライブドアニュース",
+      "summary": "",
+      "publishedAt": "2026-11-09T09:14:14.000Z",
+      "image": "https://image.news.livedoor.com/newsimage/stf/b/6/b6a3a_1516_1e34ccb8_b1edb40d.png",
+      "categories": [
+        "music2",
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "music",
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1665,7 +1673,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2a6b929ce536",
@@ -2026,7 +2034,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c6c3e5928efb",
@@ -3494,6 +3502,29 @@
       "isNew": false
     },
     {
+      "id": "ae551f18fb97",
+      "title": "『キミ戦』第3期が制作決定 スタッフ＆キャスト情報も発表",
+      "url": "https://www.sanyonews.jp/article/2010472?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-09T01:11:54.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/8/8/f/5/88f553594d1ce0fcfec74cbdcc542931_1.jpg",
+      "categories": [
+        "new",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0ba61f2dcc4b",
       "title": "星野源 書き下ろし新曲が、アニメ『ひらやすみ』オープニングテーマに決定! 原作者・真造圭伍から喜びのコメントも到着!!",
       "url": "https://e.usen.com/news/news-release/post-1663.html",
@@ -4618,7 +4649,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c21bd26922e2",
@@ -5003,12 +5034,12 @@
     {
       "id": "73fec60ff4b4",
       "title": "不祥事で引退した主演俳優をAIで消そうとしたが…『シグナル』続編、異例の放送決定に至った舞台裏",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWklJV2ppcGNrSTlERG1BY2tZaFdnQm9RT181bmhybnNwU3k1M1VROW8xSXR1LTVuTDRPalJ3WkROUjdhcEFPREtHcWxvNmlfdVlISUxZT0tyckhydXJOOVBMUjdhcXhQMkpkUHpUa0h0TmRBc1pfTUY5QXJpc0VuUWdoX2w4Mi1tRzN5R3JsUVBQV1RlVVdtYVNn0gGaAUFVX3lxTE5aSUlXamlwY2tJOUREbUFja1loV2dCb1FPXzVuaHJuc3BTeTUzVVE5bzFJdHUtNW5MNE9qUndaRE5SN2FwQU9ES0dxbG82aV91WUhJTFlPS3JySHJ1ck45UExSN2FxeFAySmRQelRrSHROZEFzWl9NRjlBcmlzRW5RZ2hfbDgyLW1HM3lHcmxRUFBXVGVVV21hU2c?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
+      "url": "https://www.chiba-tv.com/plus/detail/2026112202960",
+      "host": "chiba-tv.com",
+      "source": "千葉テレビ放送株式会社",
       "summary": "",
-      "publishedAt": "2026-11-08T02:30:00.000Z",
-      "image": "",
+      "publishedAt": "2026-11-08T02:42:34.000Z",
+      "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1491991740969567890/origin_1.jpg",
       "categories": [
         "onair"
       ],
@@ -5018,7 +5049,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
