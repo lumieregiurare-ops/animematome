@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T18:00:23.456Z",
+  "updatedAt": "2026-11-09T18:30:19.350Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
@@ -12,7 +12,7 @@
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 42
+      "count": 43
     },
     {
       "id": "onair",
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 45
+      "count": 46
     },
     {
       "id": "music2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 12
+      "count": 11
     },
     {
       "id": "biz2",
@@ -74,7 +74,7 @@
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 59
+      "count": 60
     },
     {
       "id": "music",
@@ -160,6 +160,10 @@
       "count": 3
     },
     {
+      "name": "Mantan Web",
+      "count": 3
+    },
+    {
       "name": "インサイド",
       "count": 3
     },
@@ -181,10 +185,6 @@
     },
     {
       "name": "GameWith",
-      "count": 2
-    },
-    {
-      "name": "PR TIMES",
       "count": 2
     },
     {
@@ -220,7 +220,7 @@
       "count": 2
     },
     {
-      "name": "Mantan Web",
+      "name": "ｄメニューニュース",
       "count": 2
     },
     {
@@ -288,6 +288,10 @@
       "count": 1
     },
     {
+      "name": "PR TIMES",
+      "count": 1
+    },
+    {
       "name": "PONY CANYON NEWS",
       "count": 1
     },
@@ -308,15 +312,7 @@
       "count": 1
     },
     {
-      "name": "ｄメニューニュース",
-      "count": 1
-    },
-    {
       "name": "Mikiki by TOWER RECORDS",
-      "count": 1
-    },
-    {
-      "name": "日刊ゲンダイDIGITAL",
       "count": 1
     },
     {
@@ -945,12 +941,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-09T17:30:18.994Z",
-    "previousCount": 192,
+    "previousAt": "2026-11-09T18:00:23.456Z",
+    "previousCount": 193,
     "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-09T18:30:23.456Z",
+  "nextUpdateAt": "2026-11-09T19:00:19.350Z",
   "items": [
     {
       "id": "f3cd2cd11b60",
@@ -1038,7 +1034,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eb7cfde7a320",
@@ -2369,12 +2365,12 @@
     {
       "id": "7f0f9e6d86f3",
       "title": "『回復術士のやり直し』アニメ放送5周年記念ミュージアム in AKIHABARAゲーマーズ本店を2026年11月20日(金)よりゲーマーズにて開催致します！",
-      "url": "https://prtimes.jp/main/html/rd/p/000009192.000016756.html",
-      "host": "prtimes.jp",
-      "source": "PR TIMES",
+      "url": "https://mantan-web.jp/prtimes/article/20261109prt00m200000778a.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
       "summary": "",
-      "publishedAt": "2026-11-09T08:00:01.000Z",
-      "image": "https://prcdn.freetls.fastly.net/release_image/16756/9192/16756-9192-41707449a97d55baef14ea45f9d0c147-810x425.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "image": "https://prtimes.jp/img/16756/9192/resize/d16756-9192-820da33a788a6a4e4d74-0.png",
       "categories": [
         "onair"
       ],
@@ -2382,7 +2378,7 @@
         "tv"
       ],
       "isOfficial": false,
-      "isPR": true,
+      "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -3533,6 +3529,29 @@
       "isNew": false
     },
     {
+      "id": "ae551f18fb97",
+      "title": "『キミ戦』第3期が制作決定 スタッフ＆キャスト情報も発表",
+      "url": "https://www.sanyonews.jp/article/2010472?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-09T01:11:54.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/8/8/f/5/88f553594d1ce0fcfec74cbdcc542931_1.jpg",
+      "categories": [
+        "new",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0ba61f2dcc4b",
       "title": "星野源 書き下ろし新曲が、アニメ『ひらやすみ』オープニングテーマに決定! 原作者・真造圭伍から喜びのコメントも到着!!",
       "url": "https://e.usen.com/news/news-release/post-1663.html",
@@ -4007,35 +4026,14 @@
       "isNew": false
     },
     {
-      "id": "dffcde538292",
-      "title": "『柊さんちの吸血事情』アニメ化決定 原作者・吉河美希「ダークで耽美な世界観がテーマ」",
-      "url": "https://www.sanyonews.jp/article/2013678?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-08T22:29:40.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/c/b/6/e/cb6e4db002b68aec6314e861d78cae94_1.jpg",
-      "categories": [
-        "manga"
-      ],
-      "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b48f34f8fd67",
-      "title": "「万策尽きた」という聞こえて…声優のMoeMiさん播種性血管内凝固症候群との闘いを語る｜独白 愉快な“病人”たち",
-      "url": "https://www.nikkan-gendai.com/articles/view/health/395171",
-      "host": "nikkan-gendai.com",
-      "source": "日刊ゲンダイDIGITAL",
+      "title": "「万策尽きた」という聞こえて…声優のMoeMiさん播種性血管内凝固症候群との闘いを語る",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm96RV80RHZ6dXNmSWlZdGxtekRDUDNRd3drMmxTaWN1dFpWNU4wajlibXh0U2lnMjdVbWVLYWl2OXZjM0tQcVU4YlVtQXA1S0JGSFZ0YS1xZWxBUGlOSFJHZDRyZ0ZMcUM2c3V0N0UzeGY5SXdYZk9kTjJSNExxRmFqT1DSAYoBQVVfeXFMTVhrbXN2UFpxWlVMRFFUU1ZISGpwbkJxYjE0V1FkOTBzOUpVZGxqSVE3Zkd5dk1zUl9UYnhxbGd4UnE4bFViZDl5SF9hUElxb3dpcjFYejc3dU1FZFZvMzN3eWNBeHFuOS1hNmRIUUVfMWlBbUx5dGw3V1UyQzdfaDdfY2NWb2ZnN1ZR?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
       "summary": "",
-      "publishedAt": "2026-11-08T21:00:00.000Z",
-      "image": "https://jmqvqzo7.user.webaccel.jp/img/article/000/395/171/d335090fd0a8b7e9d9f556dfb8e5e23b20261104111756084.jpg",
+      "publishedAt": "2026-11-08T22:12:21.000Z",
+      "image": "",
       "categories": [
         "cast2"
       ],
@@ -4044,7 +4042,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
