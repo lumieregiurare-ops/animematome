@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-11T05:00:19.459Z",
+  "updatedAt": "2026-11-11T05:30:17.814Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 206,
-  "todayCount": 77,
+  "total": 207,
+  "todayCount": 82,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 42
+      "count": 39
     },
     {
       "id": "onair",
@@ -22,12 +22,12 @@
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 22
+      "count": 23
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 46
+      "count": 48
     },
     {
       "id": "music2",
@@ -37,7 +37,7 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 38
+      "count": 37
     },
     {
       "id": "goods2",
@@ -47,7 +47,7 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 13
+      "count": 14
     },
     {
       "id": "biz2",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 22
+      "count": 23
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 82
+      "count": 79
     },
     {
       "id": "movie",
@@ -74,7 +74,7 @@
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 53
+      "count": 55
     },
     {
       "id": "music",
@@ -94,34 +94,38 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 40
+      "count": 41
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "アニメ！アニメ！",
-      "count": 24
+      "count": 27
     },
     {
       "name": "Yahoo!ニュース",
       "count": 16
     },
     {
-      "name": "電ファミニコゲーマー",
-      "count": 13
+      "name": "山陽新聞",
+      "count": 15
     },
     {
-      "name": "山陽新聞",
-      "count": 13
+      "name": "電ファミニコゲーマー",
+      "count": 12
     },
     {
       "name": "ABEMA TIMES",
-      "count": 9
+      "count": 8
     },
     {
       "name": "TRILL",
-      "count": 8
+      "count": 7
+    },
+    {
+      "name": "ニコニコニュース",
+      "count": 6
     },
     {
       "name": "ナタリー",
@@ -132,20 +136,12 @@
       "count": 6
     },
     {
-      "name": "ニコニコニュース",
+      "name": "オリコンニュース",
       "count": 5
     },
     {
       "name": "eeo",
       "count": 5
-    },
-    {
-      "name": "オリコンニュース",
-      "count": 4
-    },
-    {
-      "name": "PR TIMES",
-      "count": 4
     },
     {
       "name": "Infoseek",
@@ -164,7 +160,7 @@
       "count": 4
     },
     {
-      "name": "Excite エキサイト",
+      "name": "PR TIMES",
       "count": 3
     },
     {
@@ -188,11 +184,11 @@
       "count": 3
     },
     {
-      "name": "おたくま経済新聞",
+      "name": "ファミ通",
       "count": 2
     },
     {
-      "name": "gamebiz【ゲームビズ】",
+      "name": "おたくま経済新聞",
       "count": 2
     },
     {
@@ -201,6 +197,10 @@
     },
     {
       "name": "ｄメニューニュース",
+      "count": 2
+    },
+    {
+      "name": "Excite エキサイト",
       "count": 2
     },
     {
@@ -228,15 +228,15 @@
       "count": 1
     },
     {
+      "name": "RBB TODAY",
+      "count": 1
+    },
+    {
       "name": "めざましmedia",
       "count": 1
     },
     {
       "name": "zakⅡ",
-      "count": 1
-    },
-    {
-      "name": "ファミ通",
       "count": 1
     },
     {
@@ -249,6 +249,10 @@
     },
     {
       "name": "フロントロウ",
+      "count": 1
+    },
+    {
+      "name": "gamebiz【ゲームビズ】",
       "count": 1
     },
     {
@@ -348,10 +352,6 @@
       "count": 1
     },
     {
-      "name": "東洋経済オンライン",
-      "count": 1
-    },
-    {
       "name": "Disney.jp",
       "count": 1
     },
@@ -381,10 +381,6 @@
     },
     {
       "name": "ファッションプレス",
-      "count": 1
-    },
-    {
-      "name": "毎日キレイ",
       "count": 1
     }
   ],
@@ -463,70 +459,6 @@
           "url": "https://mantan-web.jp/article/20261109dog00m200053000a/photopage/001.html",
           "source": "Mantan Web",
           "publishedAt": "2026-11-10T03:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "b9db79dda0c6",
-      "title": "TVアニメ『SPY×FAMILY』Season 4と劇場版第2弾、2027年に放送・公開へ",
-      "summary": "",
-      "url": "https://www.at-s.com/media/articles/anime/spy-family-season4-movie2-2027/",
-      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/13fc04bf3830435c8cfb95e1bbada9b3.jpg",
-      "leadSource": "アットエス",
-      "publishedAt": "2026-11-10T08:51:19.000Z",
-      "sourceCount": 7,
-      "articleCount": 7,
-      "categories": [
-        "movie2",
-        "onair"
-      ],
-      "keywords": [
-        "劇場版",
-        "spy",
-        "family"
-      ],
-      "articles": [
-        {
-          "title": "『SPY×FAMILY』TVアニメSeason 4＆劇場版第2弾が2027年に！門脇聡描き下ろしのティザービジュアルも公開",
-          "url": "https://nijimen.kusuguru.co.jp/topics/652467",
-          "source": "にじめん",
-          "publishedAt": "2026-11-09T13:36:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "アーニャが「4」と「2」を掲げて祝福！ 『SPY×FAMILY』アニメ4期＆劇場版第2弾発表で遠藤達哉がイラスト投稿",
-          "url": "https://realsound.jp/book/2026/11/post-2579060.html",
-          "source": "リアルサウンド",
-          "publishedAt": "2026-11-09T09:49:58.000Z",
-          "isPR": false
-        },
-        {
-          "title": "アーニャとダミアンが遂に!?『SPY×FAMILY』2027年にTVアニメ4期と劇場版2弾が決定「あのシーンがアニメで」と期待の声",
-          "url": "https://news.yahoo.co.jp/articles/5cc646259acfe6d6afe96c8cf9b4ee51b200de6d",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-09T09:48:15.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「SPY×FAMILY」TVアニメ第4期＆劇場版第2弾、27年に放送＆公開決定 : ニュース",
-          "url": "https://anime.eiga.com/news/127829/",
-          "source": "アニメハック",
-          "publishedAt": "2026-11-09T09:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "TVアニメ『SPY×FAMILY』Season4 ＆ 劇場版第2弾 2027年制作決定！！ - NEWS（ニュース）",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93WVhmNWRhY1NUV1NCZ1dsaDFJRW5CSWNwVERKYUlfWDVsUHh3bks5VlliZTBYWVNtaVpnV2t1S0pnY29DOXZWWlRRM1prRm54RFE?oc=5",
-          "source": "WIT STUDIO",
-          "publishedAt": "2026-11-09T08:50:31.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『SPY×FAMILY（スパイファミリー）』TVアニメSeason 4＆劇場版第2弾が2027年制作決定",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5ZUUhVRnVGN1FJYUx5SkR5SGdNXzM3aU5GR2hIR3AzckNObGRIck03NjNZRUxacV9mOTBZSkFGZGljcmYt?oc=5",
-          "source": "gamebiz【ゲームビズ】",
-          "publishedAt": "2026-11-09T05:29:00.000Z",
           "isPR": false
         }
       ]
@@ -641,6 +573,56 @@
           "url": "https://mantan-web.jp/article/20261110dog00m200095000a/photopage/002.html",
           "source": "Mantan Web",
           "publishedAt": "2026-11-10T10:28:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "b9db79dda0c6",
+      "title": "TVアニメ『SPY×FAMILY』Season 4と劇場版第2弾、2027年に放送・公開へ",
+      "summary": "",
+      "url": "https://www.at-s.com/media/articles/anime/spy-family-season4-movie2-2027/",
+      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/13fc04bf3830435c8cfb95e1bbada9b3.jpg",
+      "leadSource": "アットエス",
+      "publishedAt": "2026-11-10T08:51:19.000Z",
+      "sourceCount": 5,
+      "articleCount": 5,
+      "categories": [
+        "movie2",
+        "onair"
+      ],
+      "keywords": [
+        "劇場版",
+        "TVアニメ",
+        "spy"
+      ],
+      "articles": [
+        {
+          "title": "『SPY×FAMILY』TVアニメSeason 4＆劇場版第2弾が2027年に！門脇聡描き下ろしのティザービジュアルも公開",
+          "url": "https://nijimen.kusuguru.co.jp/topics/652467",
+          "source": "にじめん",
+          "publishedAt": "2026-11-09T13:36:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アーニャとダミアンが遂に!?『SPY×FAMILY』2027年にTVアニメ4期と劇場版2弾が決定「あのシーンがアニメで」と期待の声",
+          "url": "https://news.yahoo.co.jp/articles/5cc646259acfe6d6afe96c8cf9b4ee51b200de6d",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-09T09:48:15.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「SPY×FAMILY」TVアニメ第4期＆劇場版第2弾、27年に放送＆公開決定 : ニュース",
+          "url": "https://anime.eiga.com/news/127829/",
+          "source": "アニメハック",
+          "publishedAt": "2026-11-09T09:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "TVアニメ『SPY×FAMILY』Season4 ＆ 劇場版第2弾 2027年制作決定！！ - NEWS（ニュース）",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93WVhmNWRhY1NUV1NCZ1dsaDFJRW5CSWNwVERKYUlfWDVsUHh3bks5VlliZTBYWVNtaVpnV2t1S0pnY29DOXZWWlRRM1prRm54RFE?oc=5",
+          "source": "WIT STUDIO",
+          "publishedAt": "2026-11-09T08:50:31.000Z",
           "isPR": false
         }
       ]
@@ -962,13 +944,121 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-11T04:30:15.963Z",
-    "previousCount": 202,
-    "newCount": 13
+    "previousAt": "2026-11-11T05:00:19.459Z",
+    "previousCount": 206,
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-11T05:30:19.459Z",
+  "nextUpdateAt": "2026-11-11T06:00:17.814Z",
   "items": [
+    {
+      "id": "e2431ddff4c0",
+      "title": "「ヨルムンガンド」の配信はどこで見れる？アニメ1期・2期の見放題サブスクまとめ",
+      "url": "https://animeanime.jp/article/2026/11/11/104688.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "アニメ『ヨルムンガンド』は、DMM TV、U-NEXT、dアニメストア、Huluで第1期と第2期の全24話が見放題配信されています。DMM TVがおすすめの理由や、Amazonプライムビデオ・Netflixの配信状況、全何話かもまとめました。",
+      "publishedAt": "2026-11-11T05:28:29.000Z",
+      "image": "https://animeanime.jp/imgs/rss/954489.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "adapt",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "630a6866c176",
+      "title": "“お仕事アニメ”といえば？ アンケート〆切は11月18日【#勤労感謝の日】",
+      "url": "https://animeanime.jp/article/2026/11/11/104687.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "アニメ！アニメ！では「“お仕事アニメ”といえば？」と題した読者アンケートを昨年に引き続き実施します。〆切は11月18日。",
+      "publishedAt": "2026-11-11T05:15:02.000Z",
+      "image": "https://animeanime.jp/imgs/rss/950258.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5893d4a44014",
+      "title": "「悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。 Season2」の配信はどこで見れる？2期は全何話？",
+      "url": "https://animeanime.jp/article/2026/11/11/104686.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "アニメ『悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。 Season2』は、DMM TV・U-NEXT・Amazonプライムビデオなどで見放題配信中です。TVerで無料の範囲やおすすめのサブスク、あらすじ・声優・全何話かも紹介します。",
+      "publishedAt": "2026-11-11T05:13:59.000Z",
+      "image": "https://animeanime.jp/imgs/rss/954227.jpg",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "0415caf34b71",
+      "title": "【11/13配信】声優・夏川椎菜が雪山で雪を掘り進める一人称ホラーゲーム『雪葬』をプレイ #夏川ずっとゲ",
+      "url": "https://www.famitsu.com/article/202611/93063",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-11T05:10:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/93063/thumbnail_bdxx.jpg?x=1280",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "cast",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "db88460fe827",
+      "title": "岡本信彦＆八代拓、大正ロマン衣装で激しい駆け引き サプライズゲストの乱入も？【声優と夜あそび】",
+      "url": "https://www.oricon.co.jp/news/2492123/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-11T05:08:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2493000/2492123/20261111_133238_p_o_25331436.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "b561d1aeb26d",
       "title": "『生徒会にも穴はある！』尾鳥たんがPOP UP PARADE L sizeシリーズでフィギュア化！Amazonで予約受付中！",
@@ -989,7 +1079,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d77b99e067d5",
@@ -1013,7 +1103,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e7f7ed29a96f",
@@ -1035,7 +1125,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "a5bc7eeb0ba2",
+      "title": "声優・菱川花菜、浦和希がゲストで登場！声優・浦和希、『桃源暗鬼』役作りのため動物園へ行くもまさかの結果に…！？神谷浩史との交流も告白 菱川花菜、『とある暗部の少女共棲』アフレコ秘話を明かす",
+      "url": "https://www.rbbtoday.com/release/prtimes2-today/20261111/1400635.html",
+      "host": "rbbtoday.com",
+      "source": "RBB TODAY",
+      "summary": "",
+      "publishedAt": "2026-11-11T04:46:15.000Z",
+      "image": "",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "e0172dee2c85",
@@ -1058,29 +1169,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "40cc70832088",
-      "title": "【アニメ幻水】シュウが『新同盟軍』のリーダーに指名したのは…!? アニメ『幻想水滸伝』第7話「始動」あらすじ＆先行カット",
-      "url": "http://www.excite.co.jp/news/article/pashplus_EXCITE_502550/",
-      "host": "excite.co.jp",
-      "source": "Excite エキサイト",
-      "summary": "",
-      "publishedAt": "2026-11-11T04:16:52.000Z",
-      "image": "",
-      "categories": [
-        "onair",
-        "new"
-      ],
-      "series": [
-        "tv"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9f76a6143c29",
@@ -1123,6 +1212,28 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "64fee01bb674",
+      "title": "『攻殻機動隊』新作アニメ制作始動 サイエンスSARUが担当、告知ビジュアル公開",
+      "url": "https://www.sanyonews.jp/article/2009787?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-11T03:56:45.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/4/f/3/c/4f3c77c36f98f1216f0559595d98423e_1.jpg",
+      "categories": [
+        "new",
+        "pv"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": true
     },
@@ -1279,7 +1390,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4e8ca0db9e05",
@@ -1651,27 +1762,6 @@
       "isNew": false
     },
     {
-      "id": "a5bc7eeb0ba2",
-      "title": "声優・菱川花菜、浦和希がゲストで登場！声優・浦和希、『桃源暗鬼』役作りのため動物園へ行くもまさかの結果に…！？神谷浩史との交流も告白 菱川花菜、『とある暗部の少女共棲』アフレコ秘話を明かす",
-      "url": "https://prtimes.jp/main/html/rd/p/000004228.000064643.html",
-      "host": "prtimes.jp",
-      "source": "PR TIMES",
-      "summary": "",
-      "publishedAt": "2026-11-11T02:30:02.000Z",
-      "image": "https://prcdn.freetls.fastly.net/release_image/64643/4228/64643-4228-9c37f37f53ac751abb3b93a27dc230f4-1500x1125.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": true,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "4c013d6d5dc2",
       "title": "浪川大輔と下野紘が暴走族姿を披露！『声優と夜あそび』でカラコン装着の仮装姿を公開 | 声優 | アニメフリークス",
       "url": "https://times.abema.tv/articles/-/10287939",
@@ -1714,7 +1804,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2c003adc3d27",
@@ -2304,7 +2394,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f491fc6bcb35",
@@ -3056,7 +3146,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6ce8422e1104",
@@ -3272,27 +3362,6 @@
       "series": [
         "tv",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "40311a8e8b2a",
-      "title": "タヌキがBMXでトリックを決めて郵便配達するゲーム『TANUKI: Pon’s Summer』本日配信開始。日本をモデルにした街で荷物を運んでお金を稼ぎ、町の住民たちと仲良くなって神社の復興を目指そう",
-      "url": "https://news.denfaminicogamer.jp/news/2611102a",
-      "host": "news.denfaminicogamer.jp",
-      "source": "電ファミニコゲーマー",
-      "summary": "日本をモデルにした街で荷物を運んでお金を稼ぎ、住民たちと仲良くなって神社の復興を目指そう。さらに夏の終わりに開かれるお祭りに向けた準備も進めていく",
-      "publishedAt": "2026-11-10T08:14:01.000Z",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/ss_d2fefea04fbd68249ecc1996a4f2a60d1f70c900.1920x1080-1-1024x576.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3719,13 +3788,13 @@
     },
     {
       "id": "b5ea7c3da523",
-      "title": "「あざざます！わくわくっ」「楽しむます！」第4期＆映画第2弾発表の『SPY×FAMILY』作者が投稿したアーニャイラストにファン歓喜 | アニメニュース | アニメフリークス",
-      "url": "https://times.abema.tv/articles/-/10287796",
-      "host": "times.abema.tv",
-      "source": "ABEMA TIMES",
+      "title": "「あざざます！わくわくっ」「楽しむます！」第4期＆映画第2弾発表の『SPY×FAMILY』作者が投稿したアーニャイラス",
+      "url": "https://news.nicovideo.jp/watch/nw19974774?news_ref",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
       "summary": "",
-      "publishedAt": "2026-11-10T05:03:00.000Z",
-      "image": "https://times-abema.ismcdn.jp/mwimgs/2/9/1200w/img_29edc046f3b868a241ab2120a352f37771365.jpg",
+      "publishedAt": "2026-11-10T05:06:37.000Z",
+      "image": "",
       "categories": [
         "new",
         "movie2"
@@ -4323,7 +4392,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d926ec7f4c9f",
@@ -4456,6 +4525,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "5a480a8de64c",
+      "title": "漫画『ギフテッド』アニメ化で来年放送 ドラマ化もされた新感覚バディ・ミステリー",
+      "url": "https://www.sanyonews.jp/article/1932665?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-10T01:32:44.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/b/e/a/5bea234e842eb1198b6c47657347db25_1.jpg",
+      "categories": [
+        "onair",
+        "manga"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "b6377803e8de",
@@ -4756,27 +4848,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "78099d4470e1",
-      "title": "ベテラン声優･中田譲治の\"AI画像\"炎上はなぜ起きた…｢NO MORE 無断生成AIを掲げたのに｣批判する人が見落とす本当の問題",
-      "url": "https://toyokeizai.net/articles/-/964037?page",
-      "host": "toyokeizai.net",
-      "source": "東洋経済オンライン",
-      "summary": "",
-      "publishedAt": "2026-11-09T21:30:00.000Z",
-      "image": "",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -4914,27 +4985,26 @@
       "isNew": false
     },
     {
-      "id": "dd642c0e84ef",
-      "title": "新作アニメ『うちの弟どもがすみません』“ガールズトークSP”、11月14日（土）夜7時30分よりABEMAで独占無料放送決定！",
+      "id": "61e982b0dc6b",
+      "title": "TVアニメ化決定!!!「モンスターの肉を食っていたら王位に就いた件」が表紙で登場！『ヤングアニマルZERO』12/1号 11月9日（月）発売！",
       "url": "https://www.jiji.com/jc/article?k",
       "host": "jiji.com",
       "source": "時事ドットコム",
       "summary": "",
-      "publishedAt": "2026-11-09T14:10:00.000Z",
+      "publishedAt": "2026-11-09T15:10:00.000Z",
       "image": "",
       "categories": [
-        "new",
-        "onair"
+        "other"
       ],
       "series": [
         "tv",
-        "stream"
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9acc439d4655",
@@ -4993,29 +5063,6 @@
         "manga"
       ],
       "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "43f61dfe0728",
-      "title": "「マジで」６ヶ月前、無期限休載を発表した【問題作】突然の、“アニメ化”へ「放送できるの？」SNS激震",
-      "url": "https://trilltrill.jp/articles/5133383",
-      "host": "trilltrill.jp",
-      "source": "TRILL",
-      "summary": "",
-      "publishedAt": "2026-11-09T10:05:00.000Z",
-      "image": "https://media.trilltrill.jp/articles/5133383/cover-image.8e096453a4a459ccf934348264b07ac5?w=1200",
-      "categories": [
-        "new",
-        "onair"
-      ],
-      "series": [
-        "tv",
         "adapt"
       ],
       "isOfficial": false,
@@ -5136,7 +5183,7 @@
     {
       "id": "bc62963fab43",
       "title": "極道×特殊性癖ラブコメ！TVアニメ『傷口と包帯』キービジュアル＆本PV解禁！OP主題歌はMIYAVIに決定！",
-      "url": "https://news.livedoor.com/article/detail/32772598/",
+      "url": "https://news.livedoor.com/topics/detail/32772598/",
       "host": "news.livedoor.com",
       "source": "ライブドアニュース",
       "summary": "",
@@ -5247,12 +5294,12 @@
     {
       "id": "9f023e102b21",
       "title": "茅原実里 インタビュー | 独立後初のアニメ主題歌「No tears here」は“茅原実里が歌わないといけない歌”",
-      "url": "https://magazine.tunecore.co.jp/stories/667575/",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01SE5VUmV1dVdwcjhfZlZmdE1KYUtNUWpKQlpibDZub0JHRkZFVVpOcENQZmlQYWl0c1dNRGJFSmZNOFFFdzFqYjJ6di13WHQ4MU9CdDJYX2pIRmc?oc=5",
       "host": "magazine.tunecore.co.jp",
       "source": "TuneCore Japan",
       "summary": "",
       "publishedAt": "2026-11-09T08:53:49.000Z",
-      "image": "https://magazine.tunecore.co.jp/wp-content/uploads/2026/11/2026-05-02_minorichihara_2560x1440_72-1024x576.jpg",
+      "image": "",
       "categories": [
         "music2"
       ],
@@ -5261,7 +5308,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5434,52 +5481,6 @@
       ],
       "series": [
         "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "61e982b0dc6b",
-      "title": "TVアニメ化決定!!!「モンスターの肉を食っていたら王位に就いた件」が表紙で登場！『ヤングアニマルZERO』12/1号 11月9日（月）発売！",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1VY1dZVWZzbWZYWUNmRWpSbGpmcmJjNlJlc1RoejRsU1huTzB1eXFpSjVOSE1XZlJYQi0tTTNFWGp4UFpqZFhxY3JEMEt2Q2JfaWJaVXVLU1lHbzZHcGNGS3ZMY1dkMVR0YjFLcmo0ZE5KV0Jfdm1yeDhR?oc=5",
-      "host": "mainichikirei.jp",
-      "source": "毎日キレイ",
-      "summary": "",
-      "publishedAt": "2026-11-09T05:30:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7006abe9b530",
-      "title": "『SPY×FAMILY（スパイファミリー）』TVアニメSeason 4＆劇場版第2弾が2027年制作決定",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5ZUUhVRnVGN1FJYUx5SkR5SGdNXzM3aU5GR2hIR3AzckNObGRIck03NjNZRUxacV9mOTBZSkFGZGljcmYt?oc=5",
-      "host": "gamebiz.jp",
-      "source": "gamebiz【ゲームビズ】",
-      "summary": "",
-      "publishedAt": "2026-11-09T05:29:00.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie",
-        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
