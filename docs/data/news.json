@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-11T15:30:23.772Z",
+  "updatedAt": "2026-11-11T16:00:21.757Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 215,
+  "total": 217,
   "todayCount": 0,
   "categories": [
     {
@@ -17,12 +17,12 @@
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 89
+      "count": 90
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 24
+      "count": 25
     },
     {
       "id": "cast2",
@@ -37,7 +37,7 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 38
+      "count": 40
     },
     {
       "id": "goods2",
@@ -69,7 +69,7 @@
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 60
+      "count": 63
     },
     {
       "id": "cast",
@@ -84,7 +84,7 @@
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 45
+      "count": 46
     },
     {
       "id": "goods",
@@ -94,7 +94,7 @@
     {
       "id": "stream",
       "label": "配信",
-      "count": 37
+      "count": 38
     }
   ],
   "weapons": [],
@@ -105,7 +105,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 26
+      "count": 24
     },
     {
       "name": "電ファミニコゲーマー",
@@ -113,7 +113,11 @@
     },
     {
       "name": "山陽新聞",
-      "count": 11
+      "count": 12
+    },
+    {
+      "name": "オリコンニュース",
+      "count": 9
     },
     {
       "name": "電撃オンライン",
@@ -125,10 +129,6 @@
     },
     {
       "name": "ABEMA TIMES",
-      "count": 6
-    },
-    {
-      "name": "オリコンニュース",
       "count": 6
     },
     {
@@ -144,6 +144,10 @@
       "count": 5
     },
     {
+      "name": "ナタリー",
+      "count": 5
+    },
+    {
       "name": "はてなブログ",
       "count": 5
     },
@@ -156,15 +160,11 @@
       "count": 4
     },
     {
+      "name": "アットエス",
+      "count": 4
+    },
+    {
       "name": "アニメハック",
-      "count": 4
-    },
-    {
-      "name": "Mantan Web",
-      "count": 4
-    },
-    {
-      "name": "ナタリー",
       "count": 4
     },
     {
@@ -172,11 +172,11 @@
       "count": 3
     },
     {
-      "name": "アットエス",
+      "name": "おたくま経済新聞",
       "count": 3
     },
     {
-      "name": "おたくま経済新聞",
+      "name": "Mantan Web",
       "count": 3
     },
     {
@@ -357,10 +357,6 @@
     },
     {
       "name": "MOVIE WALKER PRESS",
-      "count": 1
-    },
-    {
-      "name": "ぴあエンタメ情報",
       "count": 1
     }
   ],
@@ -679,7 +675,7 @@
         },
         {
           "title": "アニメ『ひらやすみ』OPテーマは星野源さんの書き下ろし新曲に決定！ 「この主題歌が、ヒロトたちの生活や『ひらやすみ』の世界を温かく彩れるよう願っています」コメントも到着",
-          "url": "https://www.pashplus.jp/anime/502236/",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fcGFEMHh1NDJLSjA5M3JIa0o0S2NjMmhQU0lJMm5YVUUwSXZmM1NQQnZodERIcTNSbjJZUTNOblhQQ1JxNkRCVHA5cnlBZw?oc=5",
           "source": "PASH! PLUS",
           "publishedAt": "2026-11-09T22:18:15.000Z",
           "isPR": false
@@ -917,12 +913,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-11T15:00:20.051Z",
-    "previousCount": 217,
-    "newCount": 4
+    "previousAt": "2026-11-11T15:30:23.772Z",
+    "previousCount": 215,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-11T16:00:23.772Z",
+  "nextUpdateAt": "2026-11-11T16:30:21.757Z",
   "items": [
     {
       "id": "a845061d0162",
@@ -1011,7 +1007,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "56d3b0209a42",
@@ -1140,7 +1136,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7f44f2413538",
@@ -1200,27 +1196,6 @@
       ],
       "series": [
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "5dace23545ec",
-      "title": "アニメ『名探偵コナン』歴代OP・ED国民投票ランキングが話題「納得すぎる」「やっぱり1位はこの曲」【TOP30一覧】（オリコン）",
-      "url": "https://news.yahoo.co.jp/articles/b9934a4b07d5161867034c4e0d5bc91e1d7812b4",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-11T12:00:45.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-00000567-oric-000-6-view.jpg?exp=10800",
-      "categories": [
-        "biz2"
-      ],
-      "series": [
-        "music"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1291,6 +1266,27 @@
         "tv",
         "cast",
         "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "5dace23545ec",
+      "title": "アニメ『名探偵コナン』歴代OP・ED国民投票ランキングが話題「納得すぎる」「やっぱり1位はこの曲」【TOP30一覧】",
+      "url": "https://www.oricon.co.jp/news/2492272/full/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-11T12:00:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2493000/2492272/20261111_205947_o_49323513.jpg",
+      "categories": [
+        "biz2"
+      ],
+      "series": [
+        "music"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1589,6 +1585,29 @@
       "isNew": false
     },
     {
+      "id": "0dfc13f9beff",
+      "title": "TVアニメ『氷の城壁』、第21話「無理解」のあらすじと場面写真を公開",
+      "url": "https://www.at-s.com/media/articles/anime/kori-no-joheki-episode-21-synopsis/",
+      "host": "at-s.com",
+      "source": "アットエス",
+      "summary": "",
+      "publishedAt": "2026-11-11T10:20:05.000Z",
+      "image": "",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b1cb168d4824",
       "title": "オリジナル劇場長編アニメーション『ghost／夜の果て』本予告＆キービジュアル第2弾解禁！羊文学の主題歌CD発売決定＆挿入歌「Sugar」先行配信スタート！",
       "url": "http://www.excite.co.jp/news/article/Lisani_0000321982/",
@@ -1782,7 +1801,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ec2672042add",
@@ -2292,7 +2311,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f9a7c4343a7c",
@@ -3087,13 +3106,13 @@
     },
     {
       "id": "e6296253874b",
-      "title": "『ドラゴンクエスト ダイの大冒険』（1991年版）無料一挙放送へ 場面カット公開（オリコン）",
-      "url": "https://news.yahoo.co.jp/articles/afcb83d3231781d7b9c401f28b9fa1607fed0a5e",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "『ドラゴンクエスト ダイの大冒険』（1991年版）無料一挙放送へ 場面カット公開",
+      "url": "https://www.oricon.co.jp/news/2492093/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
-      "publishedAt": "2026-11-11T03:38:20.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-00000449-oric-000-1-view.jpg?exp=10800",
+      "publishedAt": "2026-11-11T03:38:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2493000/2492093/20261111_123617_p_o_92353595.jpg",
       "categories": [
         "onair",
         "pv"
@@ -3128,6 +3147,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "a696a48bdf3e",
+      "title": "『推しに甘噛み』アニメ化決定でPV公開 吸血鬼とイケメンのブラッディ・ラブコメディ",
+      "url": "https://www.sanyonews.jp/article/2015327",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-11T03:14:18.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/3/4/8/0/34809fba60c69bfcff847d9de5082f66_1.jpg",
+      "categories": [
+        "pv",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4e8ca0db9e05",
@@ -3186,28 +3228,6 @@
         "onair"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d8d17f228522",
-      "title": "【写真・画像 2/7枚】魔法騎士レイアース：29年ぶり新作アニメ 第6話「魔神」 真の魔法騎士になるために 魔神がいる場所へ",
-      "url": "https://mantan-web.jp/article/20261109dog00m200058000a/photopage/002.html",
-      "host": "mantan-web.jp",
-      "source": "Mantan Web",
-      "summary": "",
-      "publishedAt": "2026-11-11T03:02:00.000Z",
-      "image": "https://storage.mantan-web.jp/w=1200,h=675,f=webp:auto/images/2026/11/09/20261109dog00m200058000a/002.jpg",
-      "categories": [
-        "new",
-        "onair"
-      ],
-      "series": [
-        "tv"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3665,7 +3685,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-10T22:50:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491622/20261109_122238_p_o_45337178.jpg",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -3684,7 +3704,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-10T22:35:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491723/20261109_165043_p_o_95620479.jpg",
+      "image": "",
       "categories": [
         "cast2"
       ],
@@ -4042,6 +4062,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "21cbeb4b169d",
+      "title": "ドラクエ新作スマホゲーム来年配信へ 映像公開でキャラデザは鳥山明さん、音楽はすぎやまこういちさん担当 『ドラゴンクエストRPG 魔界樹と導かれし島』",
+      "url": "https://www.oricon.co.jp/news/2491953/full/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-10T11:00:00.000Z",
+      "image": "",
+      "categories": [
+        "new",
+        "onair"
+      ],
+      "series": [
+        "movie",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "cb1e139435a0",
@@ -5433,12 +5476,12 @@
     {
       "id": "22348ac9f3f1",
       "title": "「おお！！」「やったー！！」放送終了から“１４年”…！【大人気アニメ】待望の『続編』決定",
-      "url": "https://trilltrill.jp/articles/5133440",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aWF9yRTNmTnpWMUI4SVRoNzM3eU1qSE5VdzQzNTBKZ2NXaVZZRW12V1ZpT25WdlV2X2FDVkd4dXJOV3lyYjRISUNQYkFfV0k?oc=5",
       "host": "trilltrill.jp",
       "source": "TRILL",
       "summary": "",
       "publishedAt": "2026-11-09T22:35:00.000Z",
-      "image": "https://media.trilltrill.jp/articles/5133440/cover-image.a18914c6f800f2d177416ac9751b6681?w=1200",
+      "image": "",
       "categories": [
         "onair"
       ],
@@ -5448,19 +5491,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "151fa5e6d295",
       "title": "アニメ『ひらやすみ』OPテーマは星野源さんの書き下ろし新曲に決定！ 「この主題歌が、ヒロトたちの生活や『ひらやすみ』の世界を温かく彩れるよう願っています」コメントも到着",
-      "url": "https://www.pashplus.jp/anime/502236/",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fcGFEMHh1NDJLSjA5M3JIa0o0S2NjMmhQU0lJMm5YVUUwSXZmM1NQQnZodERIcTNSbjJZUTNOblhQQ1JxNkRCVHA5cnlBZw?oc=5",
       "host": "pashplus.jp",
       "source": "PASH! PLUS",
       "summary": "",
       "publishedAt": "2026-11-09T22:18:15.000Z",
-      "image": "https://www.pashplus.jp/wp-content/uploads/0fcdc48bfc57fac81615cac331fcd79b.jpg",
+      "image": "",
       "categories": [
         "music2"
       ],
@@ -5469,7 +5512,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5517,9 +5560,9 @@
     {
       "id": "059f872cb178",
       "title": "夏目真悟の劇場アニメ「ghost／夜の果て」予告解禁、大塚剛央ら追加キャスト発表",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UVmhQb2p1ckYzLUZaelk2aUVjbmJpeXhCUTBHNW5FbWZiei1Ndk5BTjNBUDFfVkJ2NXNxdTlGUGJhX04xZUxpN2FPTG90X0FRYktNcnpVckVPNVlralNj?oc=5",
-      "host": "lp.p.pia.jp",
-      "source": "ぴあエンタメ情報",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9EdXZpdmF2RVJiQjkxT2xjd0lxVFBhZDlmVVhzQnlkWkhxRGRoZnNOZ0NyakRxTlNYSzdJRTVSTDRLQ01qTTd4N3lMcw?oc=5",
+      "host": "natalie.mu",
+      "source": "ナタリー",
       "summary": "",
       "publishedAt": "2026-11-09T22:00:00.000Z",
       "image": "",
