@@ -1,43 +1,43 @@
 {
-  "updatedAt": "2026-11-21T05:00:15.853Z",
+  "updatedAt": "2026-11-21T05:30:18.061Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 219,
-  "todayCount": 72,
+  "total": 223,
+  "todayCount": 74,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 41
+      "count": 37
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 92
+      "count": 98
     },
     {
       "id": "pv",
       "label": "PV・ビジュアル",
-      "count": 23
+      "count": 24
     },
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 44
+      "count": 49
     },
     {
       "id": "music2",
       "label": "音楽",
-      "count": 18
+      "count": 16
     },
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 51
+      "count": 54
     },
     {
       "id": "goods2",
@@ -47,12 +47,12 @@
     {
       "id": "manga",
       "label": "原作・漫画",
-      "count": 10
+      "count": 12
     },
     {
       "id": "biz2",
       "label": "業界・記録",
-      "count": 1
+      "count": 0
     },
     {
       "id": "other",
@@ -64,32 +64,32 @@
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 84
+      "count": 87
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 71
+      "count": 74
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 52
+      "count": 57
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 30
+      "count": 31
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 63
+      "count": 60
     },
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 16
+      "count": 18
     },
     {
       "id": "stream",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "アニメ！アニメ！",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Yahoo!ニュース",
@@ -116,12 +116,16 @@
       "count": 13
     },
     {
+      "name": "TVer",
+      "count": 8
+    },
+    {
       "name": "eeo",
       "count": 8
     },
     {
-      "name": "TVer",
-      "count": 7
+      "name": "Mantan Web",
+      "count": 8
     },
     {
       "name": "ナタリー",
@@ -140,7 +144,7 @@
       "count": 6
     },
     {
-      "name": "Mantan Web",
+      "name": "アニメイトタイムズ",
       "count": 5
     },
     {
@@ -148,15 +152,11 @@
       "count": 4
     },
     {
-      "name": "au Webポータル",
+      "name": "電撃オンライン",
       "count": 3
     },
     {
       "name": "インサイド",
-      "count": 3
-    },
-    {
-      "name": "アニメイトタイムズ",
       "count": 3
     },
     {
@@ -172,19 +172,11 @@
       "count": 2
     },
     {
-      "name": "PR TIMES",
-      "count": 2
-    },
-    {
       "name": "Excite エキサイト",
       "count": 2
     },
     {
-      "name": "映画.com",
-      "count": 2
-    },
-    {
-      "name": "電撃オンライン",
+      "name": "au Webポータル",
       "count": 2
     },
     {
@@ -212,15 +204,7 @@
       "count": 2
     },
     {
-      "name": "NHK",
-      "count": 2
-    },
-    {
-      "name": "山陰中央新報デジタル",
-      "count": 2
-    },
-    {
-      "name": "毎日新聞",
+      "name": "ファッションプレス",
       "count": 2
     },
     {
@@ -228,7 +212,15 @@
       "count": 2
     },
     {
+      "name": "映画.com",
+      "count": 1
+    },
+    {
       "name": "ほんのひきだし",
+      "count": 1
+    },
+    {
+      "name": "PR TIMES",
       "count": 1
     },
     {
@@ -236,7 +228,15 @@
       "count": 1
     },
     {
+      "name": "TBSテレビ",
+      "count": 1
+    },
+    {
       "name": "WEBザテレビジョン",
+      "count": 1
+    },
+    {
+      "name": "Dtimes",
       "count": 1
     },
     {
@@ -244,11 +244,11 @@
       "count": 1
     },
     {
-      "name": "テレ朝POST",
+      "name": "MOVIE WALKER PRESS",
       "count": 1
     },
     {
-      "name": "note",
+      "name": "テレ朝POST",
       "count": 1
     },
     {
@@ -268,15 +268,19 @@
       "count": 1
     },
     {
+      "name": "山陰中央新報デジタル",
+      "count": 1
+    },
+    {
       "name": "文化放送",
       "count": 1
     },
     {
-      "name": "レッツエンジョイ東京",
+      "name": "毎日新聞",
       "count": 1
     },
     {
-      "name": "WebNewtype",
+      "name": "レッツエンジョイ東京",
       "count": 1
     },
     {
@@ -296,10 +300,6 @@
       "count": 1
     },
     {
-      "name": "TBS NEWS DIG",
-      "count": 1
-    },
-    {
       "name": "シネマトゥデイ",
       "count": 1
     },
@@ -316,6 +316,10 @@
       "count": 1
     },
     {
+      "name": "NHK",
+      "count": 1
+    },
+    {
       "name": "人鳥日記",
       "count": 1
     },
@@ -328,15 +332,15 @@
       "count": 1
     },
     {
-      "name": "ファッションプレス",
-      "count": 1
-    },
-    {
       "name": "Billboard JAPAN",
       "count": 1
     },
     {
       "name": "USENの音楽情報サイト",
+      "count": 1
+    },
+    {
+      "name": "ファミリーマート",
       "count": 1
     },
     {
@@ -386,84 +390,6 @@
   ],
   "topics": [
     {
-      "id": "afa0818dd348",
-      "title": "ドラマ『地面師たち』Netflixにて新シリーズが制作決定！“綾野剛さん＆豊川悦司さん”がW主演、大根仁氏が監督・脚本を続投",
-      "summary": "ハリソン山中役の豊川さんは「恐ろしい男と再会しました」「彼に乗っ取られる前に、撮影が終わることを祈ってます」とコメント。配信時期などは未発表",
-      "url": "https://news.denfaminicogamer.jp/news/261120h",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/HXfhyNuX0AAO11b-1024x576.jpg",
-      "leadSource": "電ファミニコゲーマー",
-      "publishedAt": "2026-11-20T12:09:37.000Z",
-      "sourceCount": 13,
-      "articleCount": 14,
-      "categories": [
-        "new",
-        "onair"
-      ],
-      "keywords": [
-        "地面師",
-        "制作決定",
-        "綾野剛"
-      ],
-      "articles": [
-        {
-          "title": "Netflix『地面師たち』新シリーズ制作決定！ 2027年配信、綾野剛＆豊川悦司が再びW主演",
-          "url": "https://www.toy-people.com/jp/?p",
-          "source": "玩具人 TOY PEOPLE",
-          "publishedAt": "2026-11-20T12:09:37.000Z",
-          "isPR": false
-        },
-        {
-          "title": "社会現象となった大ヒットシリーズが帰ってくる！綾野剛 × 豊川悦司 W主演 大根仁 監督・脚本 Netflixシリーズ「地面師たち」 新シリーズ制作決定＆ファーストルックも解禁！",
-          "url": "https://about.netflix.com/ja/news/tokyo-swindlers-new-season-announcement",
-          "source": "About Netflix",
-          "publishedAt": "2026-11-20T00:06:09.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「もうええでしょう」では終わらない Netflix「地面師たち」新シリーズ制作決定 2027年配信へ",
-          "url": "https://otakuma.net/archives/2026112001.html",
-          "source": "おたくま経済新聞",
-          "publishedAt": "2026-11-19T23:57:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "Netflix『地面師たち』新シリーズ制作決定！ 綾野剛＆豊川悦司が続投、札束が積まれたファーストルック解禁",
-          "url": "https://news.nicovideo.jp/watch/nw20012699?from",
-          "source": "ニコニコニュース",
-          "publishedAt": "2026-11-19T21:51:24.000Z",
-          "isPR": false
-        },
-        {
-          "title": "地面師たち 新シリーズの制作決定",
-          "url": "https://news.yahoo.co.jp/pickup/6603223",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-19T21:31:41.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『地面師たち』新シリーズ制作決定 綾野剛＆豊川悦司W主演、大根仁監督も続投へ",
-          "url": "https://article.auone.jp/a6eafaf3-1118-4c4b-9d55-e5e7c504c93b",
-          "source": "au Webポータル",
-          "publishedAt": "2026-11-19T21:11:17.000Z",
-          "isPR": false
-        },
-        {
-          "title": "綾野剛×豊川悦司「地面師たち」新シリーズ制作決定！札束と地図のファーストルック解禁 - CINEMAS＋ -",
-          "url": "https://cinema.ne.jp/article/detail/89675",
-          "source": "CINEMAS＋ -",
-          "publishedAt": "2026-11-19T21:11:13.000Z",
-          "isPR": false
-        },
-        {
-          "title": "Netflixドラマ『地面師たち』続編が2027年配信決定 綾野剛と豊川悦司、大根仁監督が続投 - KAI-YOU",
-          "url": "https://kai-you.net/article/97202",
-          "source": "KAI-YOU",
-          "publishedAt": "2026-11-19T21:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "6dd6a404c14a",
       "title": "「ドラえもん」大みそかSPは朝8時から！ 藤子・F・不二雄のメモから「出入口チョーク」を初アニメ化",
       "summary": "TVアニメ『ドラえもん』の年末恒例の特別番組「大みそかだよ！ドラえもん1時間スペシャル」が、12月31日8時より放送される。今年は原作者・藤子・F・不二雄が書き残したひみつ道具メモから、「出入口チョーク」を初アニメ化。オリジナルストーリーとして制作される。",
@@ -471,8 +397,8 @@
       "image": "https://animeanime.jp/imgs/rss/959206.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-11-21T00:45:14.000Z",
-      "sourceCount": 10,
-      "articleCount": 11,
+      "sourceCount": 12,
+      "articleCount": 13,
       "categories": [
         "onair",
         "manga"
@@ -488,6 +414,13 @@
           "url": "https://news.nicovideo.jp/watch/nw20018163?news_ref",
           "source": "ニコニコニュース",
           "publishedAt": "2026-11-21T00:45:14.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『大みそかだよ！ドラえもん』1時間スペシャル放送決定！",
+          "url": "https://www.animatetimes.com/news/details.php?id",
+          "source": "アニメイトタイムズ",
+          "publishedAt": "2026-11-21T00:25:00.000Z",
           "isPR": false
         },
         {
@@ -526,17 +459,88 @@
           "isPR": false
         },
         {
-          "title": "『大みそかだよ！ドラえもん』12月31日に放送！ 藤子・F・不二雄のひみつ道具メモを初アニメ化",
-          "url": "https://www.crank-in.net/news/194655/1",
-          "source": "クランクイン！",
-          "publishedAt": "2026-11-20T21:00:00.000Z",
-          "isPR": false
-        },
-        {
           "title": "「ドラえもん」大みそかSPで藤子・F・不二雄の“ひみつ道具メモ”を初アニメ化",
           "url": "https://natalie.mu/comic/news/699011",
           "source": "ナタリー",
           "publishedAt": "2026-11-20T21:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "afa0818dd348",
+      "title": "ドラマ『地面師たち』Netflixにて新シリーズが制作決定！“綾野剛さん＆豊川悦司さん”がW主演、大根仁氏が監督・脚本を続投",
+      "summary": "ハリソン山中役の豊川さんは「恐ろしい男と再会しました」「彼に乗っ取られる前に、撮影が終わることを祈ってます」とコメント。配信時期などは未発表",
+      "url": "https://news.denfaminicogamer.jp/news/261120h",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/HXfhyNuX0AAO11b-1024x576.jpg",
+      "leadSource": "電ファミニコゲーマー",
+      "publishedAt": "2026-11-20T12:09:37.000Z",
+      "sourceCount": 10,
+      "articleCount": 12,
+      "categories": [
+        "new",
+        "onair"
+      ],
+      "keywords": [
+        "地面師",
+        "制作決定",
+        "綾野剛"
+      ],
+      "articles": [
+        {
+          "title": "Netflix『地面師たち』新シリーズ制作決定！ 2027年配信、綾野剛＆豊川悦司が再びW主演",
+          "url": "https://www.toy-people.com/jp/?p",
+          "source": "玩具人 TOY PEOPLE",
+          "publishedAt": "2026-11-20T12:09:37.000Z",
+          "isPR": false
+        },
+        {
+          "title": "社会現象となった大ヒットシリーズが帰ってくる！綾野剛 × 豊川悦司 W主演 大根仁 監督・脚本 Netflixシリーズ「地面師たち」 新シリーズ制作決定＆ファーストルックも解禁！",
+          "url": "https://about.netflix.com/ja/news/tokyo-swindlers-new-season-announcement",
+          "source": "About Netflix",
+          "publishedAt": "2026-11-20T00:06:09.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「もうええでしょう」では終わらない Netflix「地面師たち」新シリーズ制作決定 2027年配信へ",
+          "url": "https://otakuma.net/archives/2026112001.html",
+          "source": "おたくま経済新聞",
+          "publishedAt": "2026-11-19T23:57:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "地面師たち 新シリーズの制作決定",
+          "url": "https://news.yahoo.co.jp/pickup/6603223",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-19T21:31:41.000Z",
+          "isPR": false
+        },
+        {
+          "title": "綾野剛×豊川悦司「地面師たち」新シリーズ制作決定！札束と地図のファーストルック解禁 - CINEMAS＋ -",
+          "url": "https://cinema.ne.jp/article/detail/89675",
+          "source": "CINEMAS＋ -",
+          "publishedAt": "2026-11-19T21:11:13.000Z",
+          "isPR": false
+        },
+        {
+          "title": "綾野剛＆豊川悦司『地面師たち』新シリーズ制作決定 大根仁監督「配信直後にNetflixからオファー」",
+          "url": "https://news.nicovideo.jp/watch/nw20012549?news_ref",
+          "source": "ニコニコニュース",
+          "publishedAt": "2026-11-19T21:00:30.000Z",
+          "isPR": false
+        },
+        {
+          "title": "Netflix「地面師たち」新シリーズ制作決定、配信は2027年 綾野剛と豊川悦司が続投",
+          "url": "https://natalie.mu/eiga/news/698755",
+          "source": "ナタリー",
+          "publishedAt": "2026-11-19T21:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "Netflix『地面師たち』新シリーズ制作決定 綾野剛＆豊川悦司が再びW主演「さぁ、はじめましょうか」「恐ろしい男と再会しました」【主演／監督・脚本／原作者 コメント全文】（オリコン）",
+          "url": "https://news.yahoo.co.jp/articles/990c929819ab8a78bf566f16c4c73c249457d9c9",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-19T21:00:00.000Z",
           "isPR": false
         }
       ]
@@ -591,7 +595,7 @@
         },
         {
           "title": "TVアニメ『冒険者ライセンスを剥奪されたおっさん』のメインビジュアル＆メインPVが公開！",
-          "url": "https://eeo.today/media/2026/11/19/414292/",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByblZ3Q3FKNUxxbjVuYklmbWJlYU02c3lnb1hVV2tYOHFJRjdVX2wxSUVkUU4yNGl2Qm9FNDY0Q1Jadkhma1RPZThRVmlSTUdYeU5naw?oc=5",
           "source": "eeo",
           "publishedAt": "2026-11-19T09:11:03.000Z",
           "isPR": false
@@ -663,66 +667,87 @@
       ]
     },
     {
-      "id": "b0f74a50b5d1",
-      "title": "5分でわかる「薬屋のひとりごと」映像公開！横浜市＆富山県とのコラボ企画情報も！最新ニュースが一挙発表",
-      "summary": "『劇場版 薬屋のひとりごと 亡妃の秘宝』の公開に先駆けて、を記念してTVアニメ第2期までの物語を詰め込んだ新映像を公開。また、横浜市や富山県とのタイアップやTikTokとの連動企画などの最新情報も到着した。",
-      "url": "https://animeanime.jp/article/2026/11/20/104965.html",
-      "image": "https://animeanime.jp/imgs/rss/959028.jpg",
+      "id": "39dab256e374",
+      "title": "湯あみ後の壬氏さま…だと!?「薬屋のひとりごと」×極楽湯コラボ第2弾！ グッズにグルメ、もちろんコラボ風呂まで楽しめる",
+      "summary": "アニメ『薬屋のひとりごと』と極楽湯・RAKU SPAグループのコラボキャンペーン第2弾「薬屋の湯」の開催が決定。2026年12月10日（木）より極楽湯・RAKU SPAグループ9店舗で行われる。",
+      "url": "https://animeanime.jp/article/2026/11/21/104980.html",
+      "image": "https://animeanime.jp/imgs/rss/957695.jpg",
       "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-11-20T22:26:28.000Z",
+      "publishedAt": "2026-11-21T03:00:03.000Z",
       "sourceCount": 4,
-      "articleCount": 4,
+      "articleCount": 7,
       "categories": [
-        "pv",
+        "goods2",
         "movie2"
       ],
       "keywords": [
         "薬屋",
         "劇場版",
-        "ニュース"
+        "コラボ"
       ],
       "articles": [
         {
-          "title": "劇場版『薬屋のひとりごと』新PV解禁 沢城みゆき＆見上愛が物語の鍵を握るキャラクター演じる",
-          "url": "https://www.sanyonews.jp/article/2004239?kw",
-          "source": "山陽新聞",
-          "publishedAt": "2026-11-20T22:26:28.000Z",
+          "title": "「薬屋のひとりごと」猫猫＆壬氏とファミマで謎解き！ 限定アイテム盛りだくさんのコラボ開催♪",
+          "url": "https://animeanime.jp/article/2026/11/20/104955.html",
+          "source": "アニメ！アニメ！",
+          "publishedAt": "2026-11-20T07:30:04.000Z",
           "isPR": false
         },
         {
-          "title": "アニメシリーズ第2期までを凝縮 『薬屋のひとりごと』が“5分でわかる”振り返り映像公開",
-          "url": "https://realsound.jp/movie/2026/11/post-2590280.html",
-          "source": "リアルサウンド",
-          "publishedAt": "2026-11-20T05:40:54.000Z",
+          "title": "ファミマ、『劇場版 薬屋のひとりごと 亡妃の秘宝』キャンペーンを11月24日から開始 - 謎解きや限定グッズ、コラボ商品などを展開",
+          "url": "https://news.mynavi.jp/article/20261120-5367736/",
+          "source": "マイナビニュース",
+          "publishedAt": "2026-11-20T06:16:41.000Z",
           "isPR": false
         },
         {
-          "title": "「CUT」12月号で劇場版「薬屋のひとりごと」解明特集 バックカバーは同誌独占描き下ろし : ニュース",
-          "url": "https://anime.eiga.com/news/127873/",
-          "source": "アニメハック",
+          "title": "「薬屋のひとりごと」グラサン壬氏＆ハーフツインお団子猫猫をお迎えできる♡横浜中華街ポップアップの事後通販決定！【12月25日より受付】",
+          "url": "https://animeanime.jp/article/2026/11/20/104951.html",
+          "source": "アニメ！アニメ！",
+          "publishedAt": "2026-11-20T05:00:03.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【写真・画像 1/7枚】アニメ「劇場版 薬屋のひとりごと 亡妃の秘宝」のビジュアル（C）2026 劇場版「薬屋のひとりごと」製作委員会 （C）日向夏・イマジカインフォス",
+          "url": "https://mantan-web.jp/article/20261120dog00m200037000a/photopage/001.html",
+          "source": "Mantan Web",
+          "publishedAt": "2026-11-20T05:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【写真・画像 1/4枚】劇場版アニメ「長い長い夜」のビジュアル（c）2026 GOOGGOOG STUDIO， STUDIO EON. ALL RIGHTS RESERVED",
+          "url": "https://mantan-web.jp/article/20261117dog00m200083000a/photopage/001.html",
+          "source": "Mantan Web",
           "publishedAt": "2026-11-20T03:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "シリーズ初の劇場版公開直前！ 『劇場版 薬屋のひとりごと 亡妃の秘宝』とファミマのキャンペーン11月24日（火）開始 SCRAPと初コラボしたファミマ本格謎解きや “描き下ろし”を使用した限定オリジナル景品がもらえる企画も！",
+          "url": "https://www.family.co.jp/company/news_releases/2026/20261120_01.html",
+          "source": "ファミリーマート",
+          "publishedAt": "2026-11-20T01:02:12.000Z",
           "isPR": false
         }
       ]
     },
     {
-      "id": "fa40acc013ca",
-      "title": "11月21日（土）は「イーブイの日」！劇場版短編作品『ピカチュウとイーブイ☆フレンズ』をABEMAで当日午後1時より無",
+      "id": "e7ee5fdecfb2",
+      "title": "「イーブイの日」を記念してお泊まり会の物語をお届け！ABEMA『ピカチュウとイーブイ☆フレンズ』無料放送",
       "summary": "",
-      "url": "https://news.nicovideo.jp/watch/nw20016969?news_ref",
-      "image": "https://times-abema.ismcdn.jp/mwimgs/e/b/1200w/img_ebd51caaedb38614b04068152286aa78462429.jpg",
-      "leadSource": "ニコニコニュース",
-      "publishedAt": "2026-11-20T16:30:21.000Z",
+      "url": "https://dtimes.jp/post-1475755/",
+      "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-c80194ee72c8f64ac0af6a02a826b4db-20261120-17906b.jpg",
+      "leadSource": "Dtimes",
+      "publishedAt": "2026-11-20T21:35:38.000Z",
       "sourceCount": 4,
       "articleCount": 4,
       "categories": [
-        "movie2",
-        "onair"
+        "onair",
+        "movie2"
       ],
       "keywords": [
-        "劇場版",
         "ABEMA",
-        "イーブイ"
+        "イーブイ",
+        "劇場版"
       ],
       "articles": [
         {
@@ -753,7 +778,7 @@
       "title": "『異世界マンチキン』2027年1月7日(木)より放送開始！キービジュアル第2弾＆PV第2弾を解禁！OPはLIL LEAGUE、EDはZAQが担当！",
       "summary": "",
       "url": "http://www.excite.co.jp/news/article/Lisani_0000322506/",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/11/1119eruhu1.jpg",
+      "image": "",
       "leadSource": "Excite エキサイト",
       "publishedAt": "2026-11-20T11:10:00.000Z",
       "sourceCount": 4,
@@ -777,7 +802,7 @@
         },
         {
           "title": "TVアニメ『転生エルフ』2027年1月6日から放送開始！ リース、ミノリ、ラハブが描かれたキービジュアルも公開",
-          "url": "https://eeo.today/media/2026/11/19/414084/",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KRTNpUXJYbGN6Rzd1TlppZTByNXFOR3JlVDN3TUNvN0NyUkxEdU11LWREbkdKaE1JQW01WTVVb0k0alFfQmJvSXJwVHFDc21KdmZyVg?oc=5",
           "source": "eeo",
           "publishedAt": "2026-11-19T09:11:03.000Z",
           "isPR": false
@@ -792,44 +817,44 @@
       ]
     },
     {
-      "id": "4f6e6901cb15",
-      "title": "「地元のいじめっ子達に仕返ししようとしたら、別の戦いが始まった。」2027年TVアニメ化決定！ 勘違いバトルラブコメが開幕",
-      "summary": "マツモトケンゴ氏の漫画『地元のいじめっ子達に仕返ししようとしたら、別の戦いが始まった。』のTVアニメ化が決定し、ティザービジュアルやお祝いイラストが公開された。",
-      "url": "https://animeanime.jp/article/2026/11/20/104963.html",
-      "image": "https://animeanime.jp/imgs/rss/958998.jpg",
+      "id": "b0f74a50b5d1",
+      "title": "5分でわかる「薬屋のひとりごと」映像公開！横浜市＆富山県とのコラボ企画情報も！最新ニュースが一挙発表",
+      "summary": "『劇場版 薬屋のひとりごと 亡妃の秘宝』の公開に先駆けて、を記念してTVアニメ第2期までの物語を詰め込んだ新映像を公開。また、横浜市や富山県とのタイアップやTikTokとの連動企画などの最新情報も到着した。",
+      "url": "https://animeanime.jp/article/2026/11/20/104965.html",
+      "image": "https://animeanime.jp/imgs/rss/959028.jpg",
       "leadSource": "アニメ！アニメ！",
-      "publishedAt": "2026-11-20T09:00:09.000Z",
+      "publishedAt": "2026-11-20T09:45:03.000Z",
       "sourceCount": 4,
       "articleCount": 4,
       "categories": [
-        "new",
-        "pv"
+        "movie2",
+        "new"
       ],
       "keywords": [
-        "バトルラブコメ",
-        "TVアニメ",
-        "地元"
+        "薬屋",
+        "映像公開",
+        "劇場版"
       ],
       "articles": [
         {
-          "title": "マツモトケンゴのバトルラブコメ「いじはじ」2027年にTVアニメ化、監督は熊野千尋（コメントあり）",
-          "url": "https://natalie.mu/comic/news/698959",
-          "source": "ナタリー",
-          "publishedAt": "2026-11-20T09:00:00.000Z",
+          "title": "アニメシリーズ第2期までを凝縮 『薬屋のひとりごと』が“5分でわかる”振り返り映像公開",
+          "url": "https://realsound.jp/movie/2026/11/post-2590280.html",
+          "source": "リアルサウンド",
+          "publishedAt": "2026-11-20T05:40:54.000Z",
           "isPR": false
         },
         {
-          "title": "＜地元のいじめっ子達に仕返ししようとしたら、別の戦いが始まった。＞2027年テレビアニメ化 “勘違い”バトルラブコメマンガ",
-          "url": "https://news.yahoo.co.jp/articles/1d878cb335a0666ce1fb46e6e423ed1641de063e",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-20T09:00:00.000Z",
+          "title": "劇場版 薬屋のひとりごと 亡妃の秘宝：名場面凝縮 5分でわかる「薬屋のひとりごと」映像公開 “薬都”富山コラボ TikTokグローバルキャンペーンも",
+          "url": "https://mantan-web.jp/article/20261120dog00m200037000a.html",
+          "source": "Mantan Web",
+          "publishedAt": "2026-11-20T05:00:00.000Z",
           "isPR": false
         },
         {
-          "title": "『俺の死亡フラグが留まるところを知らない』2027年にテレビアニメ化決定",
-          "url": "https://www.sanyonews.jp/article/2018509?rct",
-          "source": "山陽新聞",
-          "publishedAt": "2026-11-19T18:52:30.000Z",
+          "title": "「CUT」12月号で劇場版「薬屋のひとりごと」解明特集 バックカバーは同誌独占描き下ろし : ニュース",
+          "url": "https://anime.eiga.com/news/127873/",
+          "source": "アニメハック",
+          "publishedAt": "2026-11-20T03:00:00.000Z",
           "isPR": false
         }
       ]
@@ -878,38 +903,38 @@
       ]
     },
     {
-      "id": "2b62b565c339",
-      "title": "ブシロード、「バンドリ！ ゆめ∞みた」新作アニメ制作決定、２０２７年に全国６都市ツアー開催 - https://kabu-ir.com/",
+      "id": "48f042c70209",
+      "title": "城祐輝ら「Soul of Sole」メインキャスト決定 声優オーディション最終回で5人が選出（TVガイドWeb）",
       "summary": "",
-      "url": "https://kabu-ir.com/article/522080271.html",
-      "image": "https://prcdn.freetls.fastly.net/release_image/14827/9896/14827-9896-dd129545016f90fd92c9c652f19c7d39-1500x1125.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "leadSource": "https://kabu-ir.com/",
-      "publishedAt": "2026-11-21T03:00:00.000Z",
+      "url": "https://news.yahoo.co.jp/articles/5f52b6dc38934b636323b51d1124256af4b0aa07",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000013-tvguidew-000-1-view.jpg?exp=10800",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-11-21T05:00:00.000Z",
       "sourceCount": 3,
       "articleCount": 3,
       "categories": [
-        "new",
-        "music2"
+        "cast2",
+        "manga"
       ],
       "keywords": [
-        "バンドリ",
-        "新作",
-        "制作"
+        "soul",
+        "sole",
+        "オーディション"
       ],
       "articles": [
         {
-          "title": "「バンドリ！ ゆめ∞みた」新作アニメーションの制作が決定",
-          "url": "https://natalie.mu/comic/news/699080",
-          "source": "ナタリー",
-          "publishedAt": "2026-11-21T02:36:00.000Z",
-          "isPR": false
+          "title": "未来のスターが誕生！「Step or Stop ～Soul of Sole 声優オーディション～」 | 株式会社テアトルアカデミーのプレスリリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000085.000045176.html",
+          "source": "PR TIMES",
+          "publishedAt": "2026-11-21T03:00:02.000Z",
+          "isPR": true
         },
         {
-          "title": "夢限大みゅーたいぷ デビュー3周年！「バンドリ！ ゆめ∞みた」新作アニメーション制作決定＆ライブツアーKV公開！",
-          "url": "https://prtimes.jp/main/html/rd/p/000009896.000014827.html",
-          "source": "PR TIMES",
-          "publishedAt": "2026-11-20T14:20:01.000Z",
-          "isPR": true
+          "title": "メインキャラクターを演じる5名が決定！「Step or Stop ～Soul of Sole 声優オーディション～」TVerで無料見逃し配信中！",
+          "url": "https://www.excite.co.jp/news/article/Atpress_651167/",
+          "source": "Excite エキサイト",
+          "publishedAt": "2026-11-21T03:00:00.000Z",
+          "isPR": false
         }
       ]
     },
@@ -950,50 +975,93 @@
       ]
     },
     {
-      "id": "457101678a4f",
-      "title": "『ピングー』クレイアニメ版が地上波に帰ってくる！来年1月より関西ローカルで放送決定。TVer配信もあり",
-      "summary": "2027年1月9日よりオリジナルシリーズの「シーズン1」が放送。おちゃめなペンギン「ピングー」と家族や仲間たちのにぎやかな日常が描かれる",
-      "url": "https://news.denfaminicogamer.jp/news/2611202p",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/HMhMPXEbcAARNMJ.jpg",
-      "leadSource": "電ファミニコゲーマー",
-      "publishedAt": "2026-11-20T20:59:58.000Z",
+      "id": "958f017a4d70",
+      "title": "風間俊介＆津田健次郎、劇場版『遊戯王』10年ぶり再上映に感慨 遊戯＆海馬のせりふで登場",
+      "summary": "",
+      "url": "https://www.sanyonews.jp/article/2024848",
+      "image": "https://static.sanyonews.jp/image/article/size1/8/2/2/e/822e4ef799e37306deb702a930ccf083_1.jpg",
+      "leadSource": "山陽新聞",
+      "publishedAt": "2026-11-20T10:31:16.000Z",
       "sourceCount": 3,
       "articleCount": 3,
       "categories": [
-        "onair",
-        "goods2"
+        "movie2",
+        "cast2"
       ],
       "keywords": [
-        "放送決定",
-        "ピングー",
-        "地上波"
+        "風間俊介",
+        "遊戯王",
+        "遊戯"
       ],
       "articles": [
         {
-          "title": "2026年12月31日あさ8時から!! 「大みそかだよ！ドラえもん」 放送決定！",
-          "url": "https://dora-world.com/contents/4453",
-          "source": "ドラえもん公式サイト｜ドラえもんチャンネル",
-          "publishedAt": "2026-11-20T20:59:58.000Z",
+          "title": "風間俊介43歳、10代から遊戯王声優を担当「これからも僕と一緒に遊戯王を愛し続けてくれたら」",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900204816.html",
+          "source": "テレ朝NEWS",
+          "publishedAt": "2026-11-20T10:12:00.000Z",
           "isPR": false
         },
         {
-          "title": "約8年ぶり！「ピングー」地上波放送が復活☆ 27年1月より放送決定 スケートリンク「つるんつるん」とのコラボも♪",
-          "url": "https://animeanime.jp/article/2026/11/20/104957.html",
-          "source": "アニメ！アニメ！",
-          "publishedAt": "2026-11-20T08:00:03.000Z",
+          "title": "風間俊介、劇場版『遊戯王』は“海馬の物語”「遊戯の物語は完全に完結している」",
+          "url": "https://www.agara.co.jp/article/715735",
+          "source": "AGARA 紀伊民報",
+          "publishedAt": "2026-11-20T10:07:00.000Z",
           "isPR": false
         }
       ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-21T04:30:28.546Z",
-    "previousCount": 223,
-    "newCount": 14
+    "previousAt": "2026-11-21T05:00:15.853Z",
+    "previousCount": 219,
+    "newCount": 24
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-21T05:30:15.853Z",
+  "nextUpdateAt": "2026-11-21T06:00:18.061Z",
   "items": [
+    {
+      "id": "48f042c70209",
+      "title": "城祐輝ら「Soul of Sole」メインキャスト決定 声優オーディション最終回で5人が選出（TVガイドWeb）",
+      "url": "https://news.yahoo.co.jp/articles/5f52b6dc38934b636323b51d1124256af4b0aa07",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-21T05:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000013-tvguidew-000-1-view.jpg?exp=10800",
+      "categories": [
+        "cast2",
+        "manga"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "889c4507278a",
+      "title": "ラブル＆クルー IN シアター 2026 : 作品情報・声優・キャスト・あらすじ",
+      "url": "https://eiga.com/movie/106644/",
+      "host": "eiga.com",
+      "source": "映画.com",
+      "summary": "",
+      "publishedAt": "2026-11-21T04:18:33.000Z",
+      "image": "https://media.eiga.com/images/movie/106644/photo/118d249314599287.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "0ea2e590068f",
       "title": "TVアニメ『千歳くんはラムネ瓶のなか』から「七瀬悠月」が憧れの白シャツ＆短パン姿でプライズフィギュア化！眼鏡をはずして振り返る姿が魅力的!!",
@@ -1040,6 +1108,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "cbe0bfe8c2f4",
+      "title": "ぼのぼの 2021年放送 第265話 シャチの島｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題",
+      "url": "https://tver.jp/episodes/ep8q1vvy32",
+      "host": "tver.jp",
+      "source": "TVer",
+      "summary": "",
+      "publishedAt": "2026-11-21T03:47:29.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "a7e575c06d52",
@@ -1099,29 +1189,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0c6e60aff1b4",
-      "title": "『TANK CHAIR-戦車椅子-』第8話 あらすじ＆先行カット公開！（アニメージュプラス）",
-      "url": "https://news.yahoo.co.jp/articles/0648e8450611c75cc48bab4a9461b8b5dc5ca855",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-21T03:30:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00068290-animage-000-2-view.jpg?exp=10800",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1410,29 +1477,6 @@
       "isNew": false
     },
     {
-      "id": "fed6a38212c2",
-      "title": "『薬屋のひとりごと』金ローで特別編集版放送決定 第2期ラストシーンにつながる約4分の新規映像が追加",
-      "url": "https://www.sanyonews.jp/article/2009126?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-21T02:12:57.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/f/7/1/d/f71dee3ccd661920ea7bafdeac4e8b6b_1.jpg",
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "66b4e449c8e7",
       "title": "TVアニメ『進撃の巨人』より、巨人化した「エレン・イェーガー」がセガの新ブランド“GigantiX”に登場！迫力の巨人造形で大型フィギュア化!!",
       "url": "https://hobby.dengeki.com/news/3185573/",
@@ -1490,27 +1534,6 @@
       ],
       "series": [
         "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "889c4507278a",
-      "title": "ラブル＆クルー IN シアター 2026 : 作品情報・声優・キャスト・あらすじ",
-      "url": "https://eiga.com/movie/106644/",
-      "host": "eiga.com",
-      "source": "映画.com",
-      "summary": "",
-      "publishedAt": "2026-11-21T01:56:14.000Z",
-      "image": "https://media.eiga.com/images/movie/106644/photo/118d249314599287.jpg",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1631,29 +1654,6 @@
       "isNew": false
     },
     {
-      "id": "89e7e4ec453c",
-      "title": "謎の新作アニメ18日発表へ 「日常が一変する」映像公開で五十嵐海が初のTVアニメ監督",
-      "url": "https://www.sanyonews.jp/article/2005437?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-21T01:31:06.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/f/9/3/d/f93de3c343f475dbf378e50eb79ea1f5_1.jpg",
-      "categories": [
-        "new",
-        "pv"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "4679d92d9890",
       "title": "ピクサー作品の吹き替えで\"声優以上\"と絶賛された芸能人（1）文句なしに上手い…類を見ない奇跡の名演は？（映画チャンネル）",
       "url": "https://news.yahoo.co.jp/articles/726f6cc6c6478685d616bc33a9763bb3a7ebd4ea",
@@ -1698,6 +1698,30 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "31d90cc54f49",
+      "title": "『SAKAMOTO DAYS』第2期は来年1月放送 PV解禁でOPはCreepy Nuts「パパはいまだにJuvenile」",
+      "url": "https://www.sanyonews.jp/article/2022864",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-21T01:22:45.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/a/d/4/2/ad42968e3e6648e6501c10984c47b41a_1.jpg",
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "series": [
+        "tv",
+        "music",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "aa0fdcfb185f",
@@ -1784,6 +1808,27 @@
       "isNew": false
     },
     {
+      "id": "a7e3340c4349",
+      "title": "『大みそかだよ！ドラえもん』1時間スペシャル放送決定！",
+      "url": "https://www.animatetimes.com/news/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-11-21T00:25:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "2340d50615a7",
       "title": "しまじろうのわお！ 11月21日(土)放送分 えがおの はいたつ｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題",
       "url": "https://tver.jp/episodes/ep9epsfk84",
@@ -1804,6 +1849,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "01371568aec8",
+      "title": "転生貴族、鑑定スキルで成り上がる 第３期 [字] ＃３３【アガルアニメ】「積年の想い」",
+      "url": "https://www.tbs.co.jp/tv/20261122_C66D.html",
+      "host": "tbs.co.jp",
+      "source": "TBSテレビ",
+      "summary": "",
+      "publishedAt": "2026-11-21T00:15:28.000Z",
+      "image": "https://www.tbs.co.jp/tv/img/20261122_C66D_hd1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "e71e89476838",
@@ -1875,25 +1939,6 @@
       "isNew": false
     },
     {
-      "id": "4cbac03da376",
-      "title": "「マジか」 実は原作にはいなかった「アニメ限定キャラ」 令和で激減し「さみしい」の声も（マグミクス）",
-      "url": "https://news.yahoo.co.jp/articles/7ac6278d9c7731d13318f8b45d35b4865d80204d",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-20T23:37:10.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00386618-magmix-000-6-view.jpg?exp=10800",
-      "categories": [
-        "manga"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "2e069357d6b8",
       "title": "『信者ゼロの女神サマと始める異世界攻略』高月マコト役、『18TRIP』畔川幾成役などで活躍中の声優・堀金蒼平が、web",
       "url": "https://news.nicovideo.jp/watch/nw20017987?news_ref",
@@ -1960,48 +2005,6 @@
       "isNew": false
     },
     {
-      "id": "549df7908e09",
-      "title": "“貴族×武将×オタク”異色の組み合わせ異世界ファンタジー「異世界転生騒動記」ABEMAで地上波1週間先行・見放題独占配信決定（WEBザテレビジョン）",
-      "url": "https://news.yahoo.co.jp/articles/6df583d2e245b071c2a2425e387354616ef12b3c",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-20T23:05:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-01459675-the_tv-000-1-view.jpg?exp=10800",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "91b3d063bd95",
-      "title": "市原隼人、先割れスプーン片手に沖縄の海へ 劇場版第5弾『おいしい給食 うまそげ王国』タイトル＆公開日決定",
-      "url": "https://www.sanyonews.jp/article/2022292",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-20T23:04:14.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/d/b/0/7/db07ef7c78583555418eba609da65adb_1.jpg",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "45beed357751",
       "title": "「Re:ゼロ」全シリーズ「幼女戦記」第1期・第2期ほか、異世界アニメ3作品をABEMAで全話無料一挙放送（WEBザテレビジョン）",
       "url": "https://news.yahoo.co.jp/articles/775544bdf340f32a692b5d6932d8f274816c7e27",
@@ -2025,28 +2028,6 @@
       "isNew": false
     },
     {
-      "id": "61711d5b55d2",
-      "title": "劇場版『薬屋のひとりごと』新PV解禁 沢城みゆき＆見上愛が物語の鍵を握るキャラクター演じる",
-      "url": "https://www.sanyonews.jp/article/2004239?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-20T22:26:28.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/4/b/7/a/4b7a7de2f55238bced2fc953a7bd9269_1.jpg",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "49e1f1856350",
       "title": "「このクオリティがずっと続くのか」戸松遥＆小林裕介が語るufotableによる劇場アニメ化＜魔法使いの夜",
       "url": "https://thetv.jp/news/detail/1458630/",
@@ -2068,25 +2049,26 @@
       "isNew": false
     },
     {
-      "id": "dffcde538292",
-      "title": "『柊さんちの吸血事情』アニメ化決定 原作者・吉河美希「ダークで耽美な世界観がテーマ」",
-      "url": "https://www.sanyonews.jp/article/2013678?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
+      "id": "e7ee5fdecfb2",
+      "title": "「イーブイの日」を記念してお泊まり会の物語をお届け！ABEMA『ピカチュウとイーブイ☆フレンズ』無料放送",
+      "url": "https://dtimes.jp/post-1475755/",
+      "host": "dtimes.jp",
+      "source": "Dtimes",
       "summary": "",
-      "publishedAt": "2026-11-20T22:10:57.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/c/b/6/e/cb6e4db002b68aec6314e861d78cae94_1.jpg",
+      "publishedAt": "2026-11-20T21:35:38.000Z",
+      "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-c80194ee72c8f64ac0af6a02a826b4db-20261120-17906b.jpg",
       "categories": [
-        "manga"
+        "onair"
       ],
       "series": [
-        "adapt"
+        "tv",
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "94840726c708",
@@ -2112,6 +2094,51 @@
       "isNew": false
     },
     {
+      "id": "f432c43aa23f",
+      "title": "【国立映画アーカイブ】「韓国アニメーションの冒険 韓国映像資料院セレクション」開催のお知らせ",
+      "url": "https://news.nicovideo.jp/watch/nw20017593?news_ref",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-11-20T21:15:23.000Z",
+      "image": "",
+      "categories": [
+        "pv",
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "7665ccd0079d",
+      "title": "関西の長寿番組『よ～いドン！』史上初のアニメ放送決定 MC・円広志「アカミとAboちゃんが恋愛して…っていったい何を」【キャラ・声優紹介】",
+      "url": "https://www.sanyonews.jp/article/1989769?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-20T21:07:36.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/a/4/6/2/a4623d7c7fa6d36d812c2a9d9cfa009b_1.jpg",
+      "categories": [
+        "onair",
+        "cast2"
+      ],
+      "series": [
+        "tv",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e99e9fd4a6dd",
       "title": "『ドラえもん』大みそかに1時間SP放送 藤子・F・不二雄さんが残した\"ひみつ道具メモ\"を初アニメ化",
       "url": "https://encount.press/archives/1101967/",
@@ -2132,6 +2159,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "2e9c47f10132",
+      "title": "劇場版 アイドルマスター SideM F＠NTASTIC BATTLE FES ～Who goes first～：映画作品情報・あらすじ・評価",
+      "url": "https://press.moviewalker.jp/mv94048/",
+      "host": "press.moviewalker.jp",
+      "source": "MOVIE WALKER PRESS",
+      "summary": "",
+      "publishedAt": "2026-11-20T21:05:43.000Z",
+      "image": "https://press.moviewalker.jp/sp/img/moviewalker_fb.png",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "9417f2b42367",
@@ -2219,28 +2267,6 @@
       "isNew": false
     },
     {
-      "id": "98af68850382",
-      "title": "『大みそかだよ！ドラえもん』12月31日に放送！ 藤子・F・不二雄のひみつ道具メモを初アニメ化",
-      "url": "https://www.crank-in.net/news/194655/1",
-      "host": "crank-in.net",
-      "source": "クランクイン！",
-      "summary": "",
-      "publishedAt": "2026-11-20T21:00:00.000Z",
-      "image": "https://www.crank-in.net/img/db/265112202133429_1200.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7f3356a90357",
       "title": "「ドラえもん」大みそかSPで藤子・F・不二雄の“ひみつ道具メモ”を初アニメ化",
       "url": "https://natalie.mu/comic/news/699011",
@@ -2270,6 +2296,28 @@
       "summary": "",
       "publishedAt": "2026-11-20T21:00:00.000Z",
       "image": "https://times-abema.ismcdn.jp/mwimgs/b/3/1200w/img_b3709edbf110030f2ca3047e25241d5a332708.jpg",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "98af68850382",
+      "title": "『大みそかだよ！ドラえもん』12月31日に放送！ 藤子・F・不二雄のひみつ道具メモを初アニメ化",
+      "url": "https://www.crank-in.net/news/194655/1",
+      "host": "crank-in.net",
+      "source": "クランクイン！",
+      "summary": "",
+      "publishedAt": "2026-11-20T21:00:00.000Z",
+      "image": "https://www.crank-in.net/img/db/265112202133429_1200.jpg",
       "categories": [
         "onair"
       ],
@@ -2367,40 +2415,22 @@
       "isNew": false
     },
     {
-      "id": "3e906bc151b7",
-      "title": "『MUSIC AWARDS JAPAN 2026』Premiere Ceremony サカナクション「怪獣」が最優秀アニメ楽曲賞「初のアニメ主題歌、本当にありがたい」",
-      "url": "https://www.sanyonews.jp/article/1937592?kw",
+      "id": "bfb380c25c0d",
+      "title": "『死して生きるSSS級ハンター』アニメ化で2027年1月放送 出演は大塚剛央、日野聡",
+      "url": "https://www.sanyonews.jp/article/1986552?kw",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-11-20T18:43:35.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/2/1/1/e/211e62aef8cc1c3a6d51106fc9e466b0_1.jpg",
+      "publishedAt": "2026-11-20T20:00:05.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/8/4/8/5/848534fe47330a622e209aaa0bc94e32_1.jpg",
       "categories": [
-        "music2"
+        "onair",
+        "cast2"
       ],
       "series": [
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "44bfff918d16",
-      "title": "「十分満足できる劇場用アニメ。ですが...」 魔法使いの夜 すかちんさんの映画レビュー（感想・評価）",
-      "url": "https://eiga.com/movie/96352/review/07236490/",
-      "host": "eiga.com",
-      "source": "映画.com",
-      "summary": "",
-      "publishedAt": "2026-11-20T16:48:45.000Z",
-      "image": "https://media.eiga.com/images/movie/96352/photo/dbc6963b468956c7.jpg",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
+        "tv",
+        "cast",
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2409,20 +2439,42 @@
       "isNew": true
     },
     {
-      "id": "fa40acc013ca",
-      "title": "11月21日（土）は「イーブイの日」！劇場版短編作品『ピカチュウとイーブイ☆フレンズ』をABEMAで当日午後1時より無",
-      "url": "https://news.nicovideo.jp/watch/nw20016969?news_ref",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
+      "id": "c784961cf76b",
+      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNMF9pMk1iVFA4V3RCMWYtVzJlZXlwZ09TYkdrRG1lTDRpcmpTeEZpNXZvZXVjM2F5Q1RrcFRxY3BYMExmTnBiSGJBX2xod0FlNy1NYjRyLVdOZzFHd1REMXpBZnUxcXlaSjZfaDdTNFc4blBjVXBqZ00zWlVwc2x6SXlxanJ0Y1VFNEw4LXVhajFPS05DVWxGRDROR3JROG5mTzVTX1F4N2RfcjItLXQ1ajlZcGNZZXNsbFhLNUZ6UDM1UVBzLUpIbDEwQktyaktHTWFmWXI0QWxoRVBhbFhsSG40RmFYc0NGSEpNRnlUaURvblVWanFCX19aV2wwN0gtTXF4YWtoRkpXYk5jWFk0bnFsNTN2QVFZbzRlTVl2U2xhMV8zaC1wSVM5TUZ1V1pZVG1JTHhXTUFnWDRSSmtDSVJXUlBrNGRoZGdWZW96SFBjZHRNcXNoVg?oc=5",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-11-20T16:30:21.000Z",
+      "publishedAt": "2026-11-20T17:39:54.000Z",
       "image": "",
       "categories": [
-        "movie2"
+        "onair",
+        "goods2"
       ],
       "series": [
-        "movie",
-        "stream"
+        "tv",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "918fae004359",
+      "title": "『紛争でしたら八田まで』アニメ化決定 世界の情勢がわかる地政学漫画",
+      "url": "https://www.sanyonews.jp/article/1988740?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-20T17:13:04.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/4/3/2/94322cca6e7d742c80153313528b7589_1.jpg",
+      "categories": [
+        "manga"
+      ],
+      "series": [
+        "adapt"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2519,6 +2571,30 @@
       "isNew": false
     },
     {
+      "id": "b6377803e8de",
+      "title": "『BLEACH』アニメ完結で放送22年の歴史に幕 スペシャルエンディングムービー公開",
+      "url": "https://www.sanyonews.jp/article/2011061?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-20T15:19:12.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/b/a/c/6bac99ac34ff7304747bd09f7e6a206a_1.jpg",
+      "categories": [
+        "onair",
+        "music2"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "46e76989fe64",
       "title": "ホタルの嫁入り 11月20日(金)放送分 第7話 鬼と心臓｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題",
       "url": "https://tver.jp/episodes/epl92v819s",
@@ -2598,51 +2674,6 @@
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "83e18c5e7e0d",
-      "title": "劇場アニメ「COWBOY BEBOP 天国の扉」4Kリマスター版の場面カット [画像ギャラリー 1/15]",
-      "url": "https://natalie.mu/comic/gallery/news/698891/3023457",
-      "host": "natalie.mu",
-      "source": "ナタリー",
-      "summary": "",
-      "publishedAt": "2026-11-20T14:22:30.000Z",
-      "image": "",
-      "categories": [
-        "pv"
-      ],
-      "series": [
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "c33d78ff6c1c",
-      "title": "夢限大みゅーたいぷ デビュー3周年！「バンドリ！ ゆめ∞みた」新作アニメーション制作決定＆ライブツアーKV公開！",
-      "url": "https://prtimes.jp/main/html/rd/p/000009896.000014827.html",
-      "host": "prtimes.jp",
-      "source": "PR TIMES",
-      "summary": "",
-      "publishedAt": "2026-11-20T14:20:01.000Z",
-      "image": "https://prcdn.freetls.fastly.net/release_image/14827/9896/14827-9896-dd129545016f90fd92c9c652f19c7d39-1500x1125.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "categories": [
-        "new",
-        "music2"
-      ],
-      "series": [
-        "movie",
-        "music",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -2762,29 +2793,6 @@
       "isNew": false
     },
     {
-      "id": "09662e4b7b37",
-      "title": "【イベント情報】大阪・中之島美術館にて「おおさかアニメーションミーツ」を開催！！｜ネジムラ89 / アニメ映画ライター",
-      "url": "https://note.com/nejimura89/n/nf9d442571b08",
-      "host": "note.com",
-      "source": "note",
-      "summary": "",
-      "publishedAt": "2026-11-20T12:08:20.000Z",
-      "image": "https://assets.st-note.com/production/uploads/images/338529610/rectangle_large_type_2_f789b712076adee9cc4ff0c712822242.png?fit=bounds&quality=85&width=1280",
-      "categories": [
-        "movie2",
-        "goods2"
-      ],
-      "series": [
-        "movie",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "9fb9a3856ffa",
       "title": "「こんなこと起きるんだ…すご…」「ノリがいい」『薬屋のひとりごと』劇場版衣装の猫猫＆壬氏がコミカライズ2誌の表紙にW降臨",
       "url": "https://times.abema.tv/articles/-/10291026",
@@ -2825,6 +2833,30 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b0fda679bfe2",
+      "title": "『七つ屋 志のぶの宝石匣』アニメ化で来年放送 映像公開で制作は『のだめカンタービレ』と同じくJ.C.STAFF",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-20T11:30:46.000Z",
+      "image": "",
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "series": [
+        "tv",
+        "movie",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "58ff348ced96",
@@ -3154,6 +3186,27 @@
       "isNew": false
     },
     {
+      "id": "59fe428f0d7e",
+      "title": "アニメニュースや声優の旬な情報を毎日更新",
+      "url": "https://www.animatetimes.com/tag_img/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-11-20T10:13:17.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "cfc2224b062e",
       "title": "風間俊介43歳、10代から遊戯王声優を担当「これからも僕と一緒に遊戯王を愛し続けてくれたら」",
       "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900204816.html",
@@ -3189,28 +3242,6 @@
       "series": [
         "tv",
         "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ae298e2d0950",
-      "title": "アニメ「アオアシ Season2」 第６話の場面写真を先行公開！ - もっと！アオアシ - アニメ アオアシ",
-      "url": "https://www.nhk.jp/g/ts/7MY7M5YYQ6/blog/bl/pe9p4r6P7j/bp/pN5Wv9GPp4/",
-      "host": "nhk.jp",
-      "source": "NHK",
-      "summary": "",
-      "publishedAt": "2026-11-20T10:09:49.000Z",
-      "image": "https://img.nhk.jp/static/assets/images/newblogposting/ts/7MY7M5YYQ6/7MY7M5YYQ6-eyecatch_c3bd7ac17a7de98de7a68c104fef7316.jpg",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3435,50 +3466,6 @@
       "isNew": false
     },
     {
-      "id": "7f1bf85acb2a",
-      "title": "アニメ初タイアップで描いた“葛藤を抱えたまま進む日々” 結成8年の4人組ロックバンド・明くる夜の羊がメジャー1stシングル「日々を越えて」で掴んだ原点 | アーティスト | レポート",
-      "url": "https://webnewtype.com/report/artist/entry-50035.html",
-      "host": "webnewtype.com",
-      "source": "WebNewtype",
-      "summary": "",
-      "publishedAt": "2026-11-20T09:37:43.000Z",
-      "image": "https://webnewtype.com/media/017/202611/mode2_w630_h630-%E6%98%8E%E5%A4%9C%E7%BE%8A_%E3%82%A2%E3%83%BC%E5%86%99a_1.jpg?v=20261112124513",
-      "categories": [
-        "music2"
-      ],
-      "series": [
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0ef3ddacebab",
-      "title": "押井守監督のアニメ映画『ボトムズ』続編が上映決定 キービジュアルも公開 (KAI-YOU)",
-      "url": "https://news.yahoo.co.jp/articles/5a8214c14749f679461570d30aa5ef70e2ce7121/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-20T09:30:49.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26hFefWAHv6IbYEsdt4MhPcomDTAJro9vhHRf2tV69J-grNn008HCDWGl6oRu-RRfa7q0yQHVd88Wqm6zrqCwzbs6qnHoWtUD35y7xt9dvyjkgFqstzCic5y0dgHgHzsnZQ==",
-      "categories": [
-        "movie2",
-        "pv"
-      ],
-      "series": [
-        "movie",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "85f82c3260c6",
       "title": "11月21日（土）はイーブイの日！劇場版短編作品をABEMA無料放送",
       "url": "https://article.auone.jp/0380297a-0068-482b-9f5b-441f71156a92",
@@ -3607,6 +3594,29 @@
       ],
       "series": [
         "tv",
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "0ef3ddacebab",
+      "title": "押井守監督のアニメ映画『ボトムズ』続編が上映決定 キービジュアルも公開（KAI-YOU）",
+      "url": "https://news.yahoo.co.jp/articles/5a8214c14749f679461570d30aa5ef70e2ce7121",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-20T09:00:32.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-00097222-kaiyou-000-1-view.jpg?exp=10800",
+      "categories": [
+        "movie2",
+        "pv"
+      ],
+      "series": [
+        "movie",
         "adapt"
       ],
       "isOfficial": false,
@@ -3753,6 +3763,28 @@
       "isNew": false
     },
     {
+      "id": "f85cd488e81d",
+      "title": "劇場版「COWBOY BEBOP」4Kリマスター版のBDセット発売 山寺宏一らの新規オーコメ収録",
+      "url": "https://natalie.mu/comic/news/698891",
+      "host": "natalie.mu",
+      "source": "ナタリー",
+      "summary": "",
+      "publishedAt": "2026-11-20T09:00:00.000Z",
+      "image": "",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "cffc0936a7f2",
       "title": "「ペンと手錠と事実婚」追加キャストに小林裕介、諸星すみれ、雨宮天 筆談女子高生役の水瀬いのりはOP主題歌も担当",
       "url": "https://anime.eiga.com/news/127917/",
@@ -3774,28 +3806,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "11adb3403aee",
-      "title": "プレスリリース：［国立映画アーカイブ］「韓国アニメーションの冒険 韓国映像資料院セレクション」開催のお知らせ（PR TIMES）",
-      "url": "https://mainichi.jp/articles/20261121/pr2/00m/020/013000c",
-      "host": "mainichi.jp",
-      "source": "毎日新聞",
-      "summary": "",
-      "publishedAt": "2026-11-20T08:54:12.000Z",
-      "image": "",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "89878ccb2569",
@@ -3845,18 +3855,19 @@
     },
     {
       "id": "e6e07aa12b6c",
-      "title": "【 ALS闘病 】声優・津久井教生さん 最近の体調の理由を明かす「ＡＬＳの進行でまぶたに影響が出ている事に加えて 視力と焦点に影響が出たようです」【ニャンちゅう】",
-      "url": "https://newsdig.tbs.co.jp/articles/-/3101934",
-      "host": "newsdig.tbs.co.jp",
-      "source": "TBS NEWS DIG",
+      "title": "【 ALS闘病 】声優・津久井教生さん 最近の体調の理由を明かす「ALSの進行でまぶたに影響が出ている事に加えて 視力と焦点に影響が出たようです」【ニャンちゅう】（TBS NEWS DIG Powered by JNN）",
+      "url": "https://news.yahoo.co.jp/articles/463f5325a5c7f898274cb1af2665e2cf2398483f",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-11-20T08:32:00.000Z",
-      "image": "https://newsdig.ismcdn.jp/mwimgs/b/b/1200w/img_bbff838a20f2aca9639a0cd1781ed92f74625.jpg",
+      "publishedAt": "2026-11-20T08:33:17.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-23101934-jnn-000-1-view.jpg?exp=10800",
       "categories": [
         "cast2"
       ],
       "series": [
-        "cast"
+        "cast",
+        "music"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4325,6 +4336,51 @@
       "isNew": false
     },
     {
+      "id": "6d625d4eed53",
+      "title": "【写真・画像 1/7枚】アニメ「劇場版 薬屋のひとりごと 亡妃の秘宝」のビジュアル（C）2026 劇場版「薬屋のひとりごと」製作委員会 （C）日向夏・イマジカインフォス",
+      "url": "https://mantan-web.jp/article/20261120dog00m200037000a/photopage/001.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
+      "summary": "",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "image": "https://storage.mantan-web.jp/w=1140,h=855,f=webp:auto/images/2026/11/20/20261120dog00m200037000a/001.jpg",
+      "categories": [
+        "pv",
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "773c6f7df60c",
+      "title": "劇場版 薬屋のひとりごと 亡妃の秘宝：名場面凝縮 5分でわかる「薬屋のひとりごと」映像公開 “薬都”富山コラボ TikTokグローバルキャンペーンも",
+      "url": "https://mantan-web.jp/article/20261120dog00m200037000a.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
+      "summary": "",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/20/20261120dog00m200037000a/001.jpg",
+      "categories": [
+        "movie2",
+        "pv"
+      ],
+      "series": [
+        "movie",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0320d2b6ed36",
       "title": "現役大学生シンガーソングライターao、TVアニメ『転生エルフ』OPテーマ「ブレス」書き下ろし",
       "url": "https://www.billboard-japan.com/d_news/detail/167617",
@@ -4369,6 +4425,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8f934138faeb",
+      "title": "【まほよ】スマホアプリ版が本日発売。劇場版記念セールも開催",
+      "url": "https://dengekionline.com/article/202611/94580",
+      "host": "dengekionline.com",
+      "source": "電撃オンライン",
+      "summary": "",
+      "publishedAt": "2026-11-20T04:27:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/94580/ogp_LAJO.jpg?x=1280",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "09e63f9ea258",
@@ -4573,6 +4650,29 @@
       "isNew": false
     },
     {
+      "id": "ce07d33ed491",
+      "title": "【写真・画像 1/4枚】劇場版アニメ「長い長い夜」のビジュアル（c）2026 GOOGGOOG STUDIO， STUDIO EON. ALL RIGHTS RESERVED",
+      "url": "https://mantan-web.jp/article/20261117dog00m200083000a/photopage/001.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
+      "summary": "",
+      "publishedAt": "2026-11-20T03:00:00.000Z",
+      "image": "https://storage.mantan-web.jp/w=799,h=1140,f=webp:auto/images/2026/11/17/20261117dog00m200083000a/001.jpg",
+      "categories": [
+        "pv",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0d0a632e213e",
       "title": "新たに岡本信彦＆小野大輔が“関西弁”で参戦!? MAPPA制作「MARO17」CMに新キャラ登場「まさか自分が出演することになるとは」 細谷佳正＆宮野真守＆木村良平と共演",
       "url": "https://animeanime.jp/article/2026/11/20/104945.html",
@@ -4639,6 +4739,29 @@
       "isNew": false
     },
     {
+      "id": "30baf0810665",
+      "title": "『侍タイムスリッパー』劇中劇が映画化 『劇場版 心配無用ノ介 天下御免』12・5公開 山口馬木也、竹中直人も5秒だけ出演",
+      "url": "https://www.sanyonews.jp/article/2024416",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-20T02:00:00.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/b/2/2/f/b22f753601a1b57347670673a26200b1_1.jpg",
+      "categories": [
+        "movie2",
+        "cast2"
+      ],
+      "series": [
+        "movie",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "bb43f908a1fb",
       "title": "【50％還元】『ポケットモンスタースペシャル』Kindleにてポイント50％還元セール開催中！既刊64巻、3万6509円の購入で「1万8256」ポイント還元",
       "url": "https://news.denfaminicogamer.jp/news/261120o",
@@ -4680,6 +4803,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "336e7549d235",
+      "title": "シリーズ初の劇場版公開直前！ 『劇場版 薬屋のひとりごと 亡妃の秘宝』とファミマのキャンペーン11月24日（火）開始 SCRAPと初コラボしたファミマ本格謎解きや “描き下ろし”を使用した限定オリジナル景品がもらえる企画も！",
+      "url": "https://www.family.co.jp/company/news_releases/2026/20261120_01.html",
+      "host": "family.co.jp",
+      "source": "ファミリーマート",
+      "summary": "",
+      "publishedAt": "2026-11-20T01:02:12.000Z",
+      "image": "https://www.family.co.jp/content/dam/family/company/news_releases/2026/20261120_fmkusuriya_kv.jpg",
+      "categories": [
+        "movie2",
+        "onair"
+      ],
+      "series": [
+        "movie",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "c7bb29cc7f4c",
@@ -4840,6 +4986,27 @@
       "isNew": false
     },
     {
+      "id": "dffcde538292",
+      "title": "『柊さんちの吸血事情』アニメ化決定 原作者・吉河美希「ダークで耽美な世界観がテーマ」",
+      "url": "https://www.sanyonews.jp/article/2013678?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-19T23:47:12.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/b/6/e/cb6e4db002b68aec6314e861d78cae94_1.jpg",
+      "categories": [
+        "manga"
+      ],
+      "series": [
+        "adapt"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "83366adcd4ac",
       "title": "川島零士、同い年声優3人からの誕生日祝福に感激 梅田修一朗はプレゼントの味噌を忘れコンビニのカップ味噌汁を贈呈＜声優と夜あそび＞（WEBザテレビジョン）",
       "url": "https://news.yahoo.co.jp/articles/5052cf2c70af0b2a5045fd8e298287bd889ddcf4",
@@ -4929,28 +5096,6 @@
       "isNew": false
     },
     {
-      "id": "94b8e499b31b",
-      "title": "Netflix『地面師たち』新シリーズ制作決定！ 綾野剛＆豊川悦司が続投、札束が積まれたファーストルック解禁",
-      "url": "https://news.nicovideo.jp/watch/nw20012699?from",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-11-19T21:51:24.000Z",
-      "image": "",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "adapt",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "51efd5e93c99",
       "title": "地面師たち 新シリーズの制作決定",
       "url": "https://news.yahoo.co.jp/pickup/6603223",
@@ -4970,27 +5115,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "dfb15835e3c4",
-      "title": "『地面師たち』新シリーズ制作決定 綾野剛＆豊川悦司W主演、大根仁監督も続投へ",
-      "url": "https://article.auone.jp/a6eafaf3-1118-4c4b-9d55-e5e7c504c93b",
-      "host": "article.auone.jp",
-      "source": "au Webポータル",
-      "summary": "",
-      "publishedAt": "2026-11-19T21:11:17.000Z",
-      "image": "https://portal.auone.jp/media/thumbnails/2026/11/19/https___news_jp_i_1496257042603819617_w1200.webp",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "4d44e1301147",
@@ -5014,39 +5138,17 @@
       "isNew": false
     },
     {
-      "id": "5348e1dd7ad4",
-      "title": "Netflixドラマ『地面師たち』続編が2027年配信決定 綾野剛と豊川悦司、大根仁監督が続投 - KAI-YOU",
-      "url": "https://kai-you.net/article/97202",
-      "host": "kai-you.net",
-      "source": "KAI-YOU",
+      "id": "d4d30e6e6cde",
+      "title": "綾野剛＆豊川悦司『地面師たち』新シリーズ制作決定 大根仁監督「配信直後にNetflixからオファー」",
+      "url": "https://news.nicovideo.jp/watch/nw20012549?news_ref",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
       "summary": "",
-      "publishedAt": "2026-11-19T21:00:00.000Z",
-      "image": "https://img.kai-you.net/storage/2026/11/5a75b1cf-deef-44b3-a549-ba9880f67f17/jpg/jimenshi.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "adapt",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "27c64a192c31",
-      "title": "Netflix『地面師たち』新シリーズ制作決定 綾野剛＆豊川悦司が再びW主演「さぁ、はじめましょうか」「恐ろしい男と再会しました」【主演／監督・脚本／原作者 コメント全文】",
-      "url": "https://www.sanyonews.jp/article/2024224?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-19T21:00:00.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/a/1/e/3/a1e3132856d3df145b8814942e8c0597_1.jpg",
+      "publishedAt": "2026-11-19T21:00:30.000Z",
+      "image": "",
       "categories": [
         "new",
-        "manga"
+        "onair"
       ],
       "series": [
         "adapt",
@@ -5082,16 +5184,38 @@
       "isNew": false
     },
     {
-      "id": "d4d30e6e6cde",
-      "title": "綾野剛＆豊川悦司『地面師たち』新シリーズ制作決定 大根仁監督「配信直後にNetflixからオファー」",
-      "url": "https://www.sanin-chuo.co.jp/articles/-/1119382",
-      "host": "sanin-chuo.co.jp",
-      "source": "山陰中央新報デジタル",
+      "id": "27c64a192c31",
+      "title": "Netflix『地面師たち』新シリーズ制作決定 綾野剛＆豊川悦司が再びW主演「さぁ、はじめましょうか」「恐ろしい男と再会しました」【主演／監督・脚本／原作者 コメント全文】（オリコン）",
+      "url": "https://news.yahoo.co.jp/articles/990c929819ab8a78bf566f16c4c73c249457d9c9",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-19T21:00:00.000Z",
-      "image": "https://sanin-chuo.ismcdn.jp/mwimgs/8/c/1200m/img_8cfe323e4514cfe5705002ee002c609e70949.jpg",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-00000326-oric-000-7-view.jpg?exp=10800",
       "categories": [
         "new",
+        "manga"
+      ],
+      "series": [
+        "adapt",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "5348e1dd7ad4",
+      "title": "Netflixドラマ『地面師たち』続編が2027年配信決定 綾野剛と豊川悦司、大根仁監督が続投 - KAI-YOU",
+      "url": "https://kai-you.net/article/97202",
+      "host": "kai-you.net",
+      "source": "KAI-YOU",
+      "summary": "",
+      "publishedAt": "2026-11-19T21:00:00.000Z",
+      "image": "https://img.kai-you.net/storage/2026/11/5a75b1cf-deef-44b3-a549-ba9880f67f17/jpg/jimenshi.jpg",
+      "categories": [
         "onair"
       ],
       "series": [
@@ -5123,7 +5247,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b37cac38ad9f",
@@ -5146,28 +5270,6 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "dde8db4a18cb",
-      "title": "『ゆるゆる図鑑』アニメ化で10月放送 “こわいもの”もかわいいイラストと4コマで楽しめる図鑑シリーズ",
-      "url": "https://www.sanyonews.jp/article/1939459?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-19T20:35:45.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/1/7/8/4/1784fb19b1710663c02fff2ddf8a027c_1.jpg",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "e741c212b870",
@@ -5194,6 +5296,27 @@
       "isNew": false
     },
     {
+      "id": "3e906bc151b7",
+      "title": "『MUSIC AWARDS JAPAN 2026』Premiere Ceremony サカナクション「怪獣」が最優秀アニメ楽曲賞「初のアニメ主題歌、本当にありがたい」",
+      "url": "https://www.sanyonews.jp/article/1937592?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-19T20:15:28.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/2/1/1/e/211e62aef8cc1c3a6d51106fc9e466b0_1.jpg",
+      "categories": [
+        "music2"
+      ],
+      "series": [
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "9bd3b5c04b5c",
       "title": "BOOK☆WALKER ブラックフライデーセール11月20日～26日開催対象作品約2,200点を“96円”で販売～今年アニメ化の『炎の闘球女 ドッジ弾子』など話題作も対象に～",
       "url": "https://group.kadokawa.co.jp/information/promotional_topics/article-16167.html",
@@ -5206,52 +5329,6 @@
         "other"
       ],
       "series": [
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1a0871cd139b",
-      "title": "『俺の死亡フラグが留まるところを知らない』2027年にテレビアニメ化決定",
-      "url": "https://www.sanyonews.jp/article/2018509?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-19T18:52:30.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/b/b/4/b/bb4bf69fb6505745fb3db9746945ecf0_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ec72e08e1bac",
-      "title": "ホロライブ、初のテレビアニメ化決定 『おでホロ』制作はスタジオKAI",
-      "url": "https://www.sanyonews.jp/article/1985192?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-19T16:13:35.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/f/3/2/6/f326269d8ddcb4c98d77b3cdb2ef639f_1.jpg",
-      "categories": [
-        "music2",
-        "biz2"
-      ],
-      "series": [
-        "tv",
-        "music",
         "adapt"
       ],
       "isOfficial": false,
@@ -5479,14 +5556,37 @@
       "isNew": false
     },
     {
+      "id": "ff290d9c4d29",
+      "title": "劇場版「チェンソーマン レゼ篇」の配信はどこで見れる？9月19日からAmazonプライムビデオで独占配信",
+      "url": "https://animeanime.jp/article/2026/09/11/102841.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "",
+      "publishedAt": "2026-11-19T09:26:02.000Z",
+      "image": "https://animeanime.jp/imgs/ogp_f/929909.jpg",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a391b7b183c5",
       "title": "TVアニメ『転生エルフ』2027年1月6日から放送開始！ リース、ミノリ、ラハブが描かれたキービジュアルも公開",
-      "url": "https://eeo.today/media/2026/11/19/414084/",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KRTNpUXJYbGN6Rzd1TlppZTByNXFOR3JlVDN3TUNvN0NyUkxEdU11LWREbkdKaE1JQW01WTVVb0k0alFfQmJvSXJwVHFDc21KdmZyVg?oc=5",
       "host": "eeo.today",
       "source": "eeo",
       "summary": "",
       "publishedAt": "2026-11-19T09:11:03.000Z",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/11/1119eruhu1.jpg",
+      "image": "",
       "categories": [
         "onair",
         "pv"
@@ -5497,19 +5597,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "f12d4d771f4f",
       "title": "TVアニメ『冒険者ライセンスを剥奪されたおっさん』のメインビジュアル＆メインPVが公開！",
-      "url": "https://eeo.today/media/2026/11/19/414292/",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByblZ3Q3FKNUxxbjVuYklmbWJlYU02c3lnb1hVV2tYOHFJRjdVX2wxSUVkUU4yNGl2Qm9FNDY0Q1Jadkhma1RPZThRVmlSTUdYeU5naw?oc=5",
       "host": "eeo.today",
       "source": "eeo",
       "summary": "",
       "publishedAt": "2026-11-19T09:11:03.000Z",
-      "image": "https://eeo.today/media/wp-content/uploads/2026/11/1119raisensu1.jpg",
+      "image": "",
       "categories": [
         "pv",
         "movie2"
@@ -5520,19 +5620,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "e73ff12b8c30",
       "title": "らんま1／2＞新作アニメ第32話「突撃！紅つばさ」 らんまに果たし状 差出人は紅つばさ 何者なのか！？ (MANTANWEB)",
-      "url": "https://news.yahoo.co.jp/articles/a28b97e5b3c567fb826e0fd7c7d835b1423d4973/images/000",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNEtRcXVqem1NZVBVQTNsaXlxUU5aanlqT3hBQURBNG50Q1ZJaE85ZWtNdzNmX0FIS0UtTl9mOTRqZUdDQ3ltVkRaSEZvUU1tclVpaFBhemI4ZkM4WU9uVEl4ZWhCLWNBUThjQ1A2Nm5nVlBsRjZ0WWNrR05kTGZRN1lYM0stdmJydGtrVTJn?oc=5",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-19T09:11:00.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26pO3YW1i6LkOQufzlUPG9ia9QDVp0MC9uCQJwX4RRj1P0VDi-qJW2rYs9DBGh2NO5gdgHFVP9ypWXjwEjwpOXBspMtj5gQZy2wQBS_n4OlVCbhWN3pw2RIp2pWfenboJ6Q==",
+      "image": "",
       "categories": [
         "new",
         "onair"
@@ -5542,7 +5642,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -5569,11 +5669,11 @@
       "isNew": false
     },
     {
-      "id": "2f7592a5bd99",
-      "title": "美味しんぼ＞35年ぶり新作テレビアニメ 2027年1月4日放送開始 新章開幕！！ “恋のライバル”団一郎役は小野大輔 たくみ靖明、藤田茜、関智一も出演（MANTANWEB）",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUmpEbGNnbldqT3VncHFINkhKMkh1RWdMR2pDOW90S2dKQnRpeThETV82RWdtdVNKTHZfYkxsNVF4YTU1cnhOTU1wV3Y2ZHpwYUxaZzRjc2dCTWVOWGNPdkNlczJ0cDU4SkFMMFdYdmNncnB5UDNXcjR0a3REWk1TSGJXTFRjaDdP?oc=5",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "b11dd0284dde",
+      "title": "美味しんぼ：35年ぶり新作テレビアニメ 2027年1月4日放送開始 新章開幕！！ “恋のライバル”団一郎役は小野大輔 たくみ靖明、藤田茜、関智一も出演",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FWnBBanJrbzhDWFQzckFrVEQ5ckl3aDI4MjFtc3dsd21FU2drX3l0OU9aamoyZzFUaTZtNUNUczNoc2NmR3Y2aktja1BGTkh5LV9udHdTbXZ4NkQycmdMNk9Ub1QtckdZZ0ZJ?oc=5",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
       "summary": "",
       "publishedAt": "2026-11-19T09:00:00.000Z",
       "image": "",
@@ -5592,11 +5692,11 @@
       "isNew": false
     },
     {
-      "id": "b11dd0284dde",
-      "title": "美味しんぼ：35年ぶり新作テレビアニメ 2027年1月4日放送開始 新章開幕！！ “恋のライバル”団一郎役は小野大輔 たくみ靖明、藤田茜、関智一も出演",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FWnBBanJrbzhDWFQzckFrVEQ5ckl3aDI4MjFtc3dsd21FU2drX3l0OU9aamoyZzFUaTZtNUNUczNoc2NmR3Y2aktja1BGTkh5LV9udHdTbXZ4NkQycmdMNk9Ub1QtckdZZ0ZJ?oc=5",
-      "host": "mantan-web.jp",
-      "source": "Mantan Web",
+      "id": "2f7592a5bd99",
+      "title": "美味しんぼ＞35年ぶり新作テレビアニメ 2027年1月4日放送開始 新章開幕！！ “恋のライバル”団一郎役は小野大輔 たくみ靖明、藤田茜、関智一も出演（MANTANWEB）",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUmpEbGNnbldqT3VncHFINkhKMkh1RWdMR2pDOW90S2dKQnRpeThETV82RWdtdVNKTHZfYkxsNVF4YTU1cnhOTU1wV3Y2ZHpwYUxaZzRjc2dCTWVOWGNPdkNlczJ0cDU4SkFMMFdYdmNncnB5UDNXcjR0a3REWk1TSGJXTFRjaDdP?oc=5",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-19T09:00:00.000Z",
       "image": "",
@@ -5727,6 +5827,28 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8dc7295f257a",
+      "title": "2027年公開予定「注目映画」一覧｜マーベル・ディズニーから邦画・洋画、人気原作の実写化やアニメも",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oZnVyYW0tNll5Z3JjTmhtUDBDRGNndGRIN2xfcjJoRVZOVWlORW1HVkI4blozMUhfampxWlNRMjJFSG8zYjIxRFptMk1kZVJEMTBr?oc=5",
+      "host": "fashion-press.net",
+      "source": "ファッションプレス",
+      "summary": "",
+      "publishedAt": "2026-11-19T08:05:17.000Z",
+      "image": "",
+      "categories": [
+        "movie2",
+        "manga"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "158e6e6f317c",
