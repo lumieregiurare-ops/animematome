@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-23T18:00:20.400Z",
+  "updatedAt": "2026-11-23T18:30:22.846Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 163,
-  "todayCount": 2,
+  "total": 164,
+  "todayCount": 3,
   "categories": [
     {
       "id": "new",
@@ -37,7 +37,7 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 29
+      "count": 30
     },
     {
       "id": "goods2",
@@ -69,7 +69,7 @@
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 44
+      "count": 45
     },
     {
       "id": "cast",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "Yahoo!ニュース",
-      "count": 32
+      "count": 33
     },
     {
       "name": "アニメ！アニメ！",
@@ -152,10 +152,6 @@
       "count": 3
     },
     {
-      "name": "アニメージュプラス",
-      "count": 3
-    },
-    {
       "name": "株式会社ピクセラ",
       "count": 3
     },
@@ -180,6 +176,10 @@
       "count": 2
     },
     {
+      "name": "アニメージュプラス",
+      "count": 2
+    },
+    {
       "name": "電撃ホビーウェブ",
       "count": 2
     },
@@ -190,6 +190,10 @@
     {
       "name": "ファミ通",
       "count": 2
+    },
+    {
+      "name": "note",
+      "count": 1
     },
     {
       "name": "WEBザテレビジョン",
@@ -809,13 +813,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-23T17:30:21.367Z",
-    "previousCount": 172,
-    "newCount": 7
+    "previousAt": "2026-11-23T18:00:20.400Z",
+    "previousCount": 163,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-23T18:30:20.400Z",
+  "nextUpdateAt": "2026-11-23T19:00:22.846Z",
   "items": [
+    {
+      "id": "843500fc4ae8",
+      "title": "【映画レビュー】強烈キャラに全部印象を持ってかれた『どこよりも遠い場所にいる君へ』の感想｜ネジムラ89 / アニメ映画ライター",
+      "url": "https://note.com/nejimura89/n/n27f998b9727e",
+      "host": "note.com",
+      "source": "note",
+      "summary": "",
+      "publishedAt": "2026-11-23T18:16:09.000Z",
+      "image": "https://assets.st-note.com/production/uploads/images/339910418/rectangle_large_type_2_b46070ebc44532c392ae94a9d2a5a590.png?fit=bounds&quality=85&width=1280",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "02c7b25c9442",
       "title": "乃木坂46井上和・中西アルノ・一ノ瀬美空・冨里奈央が声優挑戦で見つけた“声の魅力”＜GROTESQQQUE-グロテスク",
@@ -1874,29 +1899,6 @@
       "isNew": false
     },
     {
-      "id": "d013bad68ed3",
-      "title": "【テニスの王子様】25周年記念イベントに豪華声優陣が集結！",
-      "url": "https://animageplus.jp/articles/detail/68303",
-      "host": "animageplus.jp",
-      "source": "アニメージュプラス",
-      "summary": "",
-      "publishedAt": "2026-11-23T03:19:51.000Z",
-      "image": "",
-      "categories": [
-        "cast2",
-        "goods2"
-      ],
-      "series": [
-        "cast",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7d77c9a2afa5",
       "title": "「パンどろぼう」がオンラインくじに登場！描き下ろしイラストのクッションやタオルなど豪華賞品が勢ぞろい♪",
       "url": "https://animeanime.jp/article/2026/11/23/105023.html",
@@ -1909,6 +1911,29 @@
         "goods2"
       ],
       "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d013bad68ed3",
+      "title": "【テニスの王子様】25周年記念イベントに豪華声優陣が集結！ (アニメージュプラス)",
+      "url": "https://news.yahoo.co.jp/articles/c58c28df92c95d105c14180e99b1cade67a23155/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-23T03:15:00.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26nTOdI5vKnDYL-9y1EaxLeUDtiXEpKJCXRTCAboZL443XL7vlNKffeMfi6aATEwcHe4S_Jf0s_EcHkBvQfrQL5zjFcbvDApqy5w1malWbguT0yB7_rLlpxZmVoHZPEfVrw==",
+      "categories": [
+        "cast2",
+        "goods2"
+      ],
+      "series": [
+        "cast",
         "goods"
       ],
       "isOfficial": false,
@@ -2093,28 +2118,6 @@
       "isNew": false
     },
     {
-      "id": "733fd2a4cfbc",
-      "title": "TVアニメ『一式さんは恋を知りたい。』いい夫婦の日にウェディングドレス姿のリンナを公開！",
-      "url": "https://article.auone.jp/4788602b-7282-424e-9c8e-e06fd2827b82",
-      "host": "article.auone.jp",
-      "source": "au Webポータル",
-      "summary": "",
-      "publishedAt": "2026-11-23T01:37:32.000Z",
-      "image": "https://portal.auone.jp/media/thumbnails/2026/11/23/https___news_jp_i_1497411211037524192_w724.webp",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "tv",
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "2ca27262c942",
       "title": "なにわ男子、TVアニメ『結界師の一輪華』OP主題歌を担当！大橋和也「めちゃくちゃ嬉しすぎる～！！！！！！！」",
       "url": "https://article.auone.jp/f8e90628-fe15-472d-a4d7-9ba8c51d933b",
@@ -2129,6 +2132,28 @@
       "series": [
         "tv",
         "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "733fd2a4cfbc",
+      "title": "TVアニメ『一式さんは恋を知りたい。』いい夫婦の日にウェディングドレス姿のリンナを公開！",
+      "url": "https://article.auone.jp/4788602b-7282-424e-9c8e-e06fd2827b82",
+      "host": "article.auone.jp",
+      "source": "au Webポータル",
+      "summary": "",
+      "publishedAt": "2026-11-23T01:37:32.000Z",
+      "image": "https://portal.auone.jp/media/thumbnails/2026/11/23/https___news_jp_i_1497411211037524192_w724.webp",
+      "categories": [
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2519,7 +2544,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b539c3c3def0",
@@ -2722,7 +2747,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e72053d18173",
@@ -2920,7 +2945,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9b9ed8cccd67",
@@ -3102,7 +3127,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59289a072058",
@@ -3212,7 +3237,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "808f2cc511c8",
@@ -3297,7 +3322,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "02036136218c",
@@ -3871,7 +3896,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b21652a8d120",
@@ -3943,7 +3968,7 @@
       "source": "エンタメ特化型情報メディア スパイス",
       "summary": "",
       "publishedAt": "2026-11-22T02:30:00.000Z",
-      "image": "",
+      "image": "https://spice.eplus.jp/images/iCdoEuazIiAFrXT4Fz4kzxrWHRQsYvW1w6HbAhZb2nRmCMzI00kLSKEXFGhRFIa5",
       "categories": [
         "new",
         "music2"
