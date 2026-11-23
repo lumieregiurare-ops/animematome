@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-23T12:00:23.934Z",
+  "updatedAt": "2026-11-23T12:30:26.240Z",
   "site": {
     "title": "アニメ速報",
     "tagline": "きょう放送のアニメと、アニメまわりのニュースをまとめています。",
     "url": "https://animematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 174,
-  "todayCount": 67,
+  "total": 173,
+  "todayCount": 82,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 50
+      "count": 46
     },
     {
       "id": "onair",
       "label": "放送・配信",
-      "count": 48
+      "count": 45
     },
     {
       "id": "pv",
@@ -27,7 +27,7 @@
     {
       "id": "cast2",
       "label": "キャスト",
-      "count": 39
+      "count": 41
     },
     {
       "id": "music2",
@@ -37,12 +37,12 @@
     {
       "id": "movie2",
       "label": "劇場版",
-      "count": 33
+      "count": 30
     },
     {
       "id": "goods2",
       "label": "グッズ・イベント",
-      "count": 20
+      "count": 21
     },
     {
       "id": "manga",
@@ -57,83 +57,87 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 16
+      "count": 17
     }
   ],
   "series": [
     {
       "id": "tv",
       "label": "TVアニメ",
-      "count": 53
+      "count": 51
     },
     {
       "id": "movie",
       "label": "劇場版・映画",
-      "count": 51
+      "count": 49
     },
     {
       "id": "cast",
       "label": "声優・キャスト",
-      "count": 43
+      "count": 45
     },
     {
       "id": "music",
       "label": "主題歌・音楽",
-      "count": 20
+      "count": 19
     },
     {
       "id": "adapt",
       "label": "アニメ化・続編",
-      "count": 46
+      "count": 44
     },
     {
       "id": "goods",
       "label": "グッズ・イベント",
-      "count": 24
+      "count": 25
     },
     {
       "id": "stream",
       "label": "配信",
-      "count": 21
+      "count": 22
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "Yahoo!ニュース",
-      "count": 36
+      "count": 25
     },
     {
       "name": "アニメ！アニメ！",
       "count": 19
     },
     {
-      "name": "電ファミニコゲーマー",
-      "count": 14
-    },
-    {
       "name": "山陽新聞",
-      "count": 11
+      "count": 19
     },
     {
-      "name": "Mantan Web",
-      "count": 8
+      "name": "電ファミニコゲーマー",
+      "count": 13
     },
     {
       "name": "インサイド",
       "count": 8
     },
     {
+      "name": "Mantan Web",
+      "count": 8
+    },
+    {
+      "name": "au Webポータル",
+      "count": 7
+    },
+    {
       "name": "電撃オンライン",
       "count": 7
     },
     {
-      "name": "au Webポータル",
+      "name": "アニメイトタイムズ",
       "count": 6
     },
     {
-      "name": "アニメイトタイムズ",
-      "count": 5
+      "name": "ニコニコニュース",
+      "count": 3
     },
     {
       "name": "映画.com",
@@ -152,7 +156,7 @@
       "count": 3
     },
     {
-      "name": "ニコニコニュース",
+      "name": "TVer",
       "count": 2
     },
     {
@@ -168,19 +172,15 @@
       "count": 2
     },
     {
-      "name": "アニメージュプラス",
-      "count": 2
-    },
-    {
       "name": "エンタのおはなし",
       "count": 2
     },
     {
-      "name": "ファミ通",
-      "count": 2
+      "name": "Dellows News",
+      "count": 1
     },
     {
-      "name": "Dellows News",
+      "name": "Dressy(ドレシー)",
       "count": 1
     },
     {
@@ -196,11 +196,15 @@
       "count": 1
     },
     {
-      "name": "TVer",
+      "name": "ABEMA TIMES",
       "count": 1
     },
     {
       "name": "スポニチ Sponichi Annex",
+      "count": 1
+    },
+    {
+      "name": "ウォーカープラス",
       "count": 1
     },
     {
@@ -209,6 +213,10 @@
     },
     {
       "name": "PASH! PLUS",
+      "count": 1
+    },
+    {
+      "name": "アニメージュプラス",
       "count": 1
     },
     {
@@ -224,11 +232,11 @@
       "count": 1
     },
     {
-      "name": "GIGAZINE",
+      "name": "日刊スポーツ",
       "count": 1
     },
     {
-      "name": "日刊スポーツ",
+      "name": "GIGAZINE",
       "count": 1
     },
     {
@@ -244,11 +252,11 @@
       "count": 1
     },
     {
-      "name": "AUTOMATON",
+      "name": "ファミ通",
       "count": 1
     },
     {
-      "name": "NHK",
+      "name": "AUTOMATON",
       "count": 1
     },
     {
@@ -293,10 +301,6 @@
     },
     {
       "name": "TBSテレビ",
-      "count": 1
-    },
-    {
-      "name": "レッツエンジョイ東京",
       "count": 1
     },
     {
@@ -430,13 +434,6 @@
           "isPR": false
         },
         {
-          "title": "ショートアニメ『緋弾のアリアCorto』2027年4月より配信開始。おなじみアリア（釘宮理恵）らに加え、新キャラのビジュアル・声優も公開",
-          "url": "https://www.famitsu.com/article/202611/94729",
-          "source": "ファミ通",
-          "publishedAt": "2026-11-22T08:30:00.000Z",
-          "isPR": false
-        },
-        {
           "title": "『緋弾のアリアCorto』新作ショートアニメ来年4月配信 初登場キャラ＆キャスト発表",
           "url": "https://www.oricon.co.jp/news/2494548/full/",
           "source": "オリコンニュース",
@@ -447,6 +444,13 @@
           "title": "「緋弾のアリア」新作ショートアニメ、2027年4月配信開始 ビジュアル＆キャスト情報も",
           "url": "https://natalie.mu/comic/news/699179",
           "source": "ナタリー",
+          "publishedAt": "2026-11-22T08:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ショートアニメ『緋弾のアリアCorto』2027年4月より配信開始。おなじみアリア（釘宮理恵）らに加え、新キャラのビジュアル・声優も公開",
+          "url": "https://www.famitsu.com/article/202611/94729",
+          "source": "ファミ通",
           "publishedAt": "2026-11-22T08:30:00.000Z",
           "isPR": false
         },
@@ -602,6 +606,42 @@
       ]
     },
     {
+      "id": "979d8ac07f07",
+      "title": "ファミマで「薬屋のひとりごと」コラボが開催！猫猫や壬氏のグッズ、“本格謎解き”に挑戦できる体験型キャンペーンも",
+      "summary": "「劇場版 薬屋のひとりごと 亡妃の秘宝」とコラボした「劇場版 薬屋のひとりごと「ファミマで謎を解き明かせ」キャンペーン」が2026年11月24日より開催！",
+      "url": "https://www.inside-games.jp/article/2026/11/23/191441.html",
+      "image": "https://www.inside-games.jp/imgs/rss/1810031.jpg",
+      "leadSource": "インサイド",
+      "publishedAt": "2026-11-23T12:30:03.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "goods2",
+        "movie2"
+      ],
+      "keywords": [
+        "薬屋",
+        "劇場版",
+        "ファミマ"
+      ],
+      "articles": [
+        {
+          "title": "【ファミマ限定】『劇場版 薬屋のひとりごと 亡妃の秘宝』とのコラボキャンペーンが11/24スタート！",
+          "url": "https://www.asahi.com/and/w/article/17067893",
+          "source": "朝日新聞",
+          "publishedAt": "2026-11-23T01:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ぷちげき『劇場版 薬屋のひとりごと 亡妃の秘宝』」猫猫と壬氏 [画像ギャラリー 1/4]",
+          "url": "https://natalie.mu/comic/gallery/news/698865/3023164",
+          "source": "ナタリー",
+          "publishedAt": "2026-11-22T05:18:30.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "ec89eba45c5d",
       "title": "名作ノベルゲーム『魔法使いの夜』のSteam版が半額セールで「6600円→3300円」に。11月20日公開の劇場アニメを観た人も、これから観る人も、未プレイならこの機会に",
       "summary": "『Fate』『月姫』のTYPE-MOONが描く、少年と二人の魔女の物語。Steam版はフルボイス化。セールは12月4日まで",
@@ -638,63 +678,6 @@
       ]
     },
     {
-      "id": "c1ca0ac25770",
-      "title": "吉野北斗が結婚 「いい夫婦の日」近辺に芸能界から幸せ報告続々 人気モデル、「ヒロアカ」声優も",
-      "summary": "",
-      "url": "https://www.sponichi.co.jp/entertainment/news/2026/11/23/kiji/20261123s00041000167000c.html",
-      "image": "https://www.sponichi.co.jp/entertainment/news/2026/11/23/jpeg/20261123s10041000202000p_view.webp",
-      "leadSource": "スポニチ Sponichi Annex",
-      "publishedAt": "2026-11-23T07:00:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 6,
-      "categories": [
-        "cast2",
-        "new"
-      ],
-      "keywords": [
-        "声優",
-        "結婚",
-        "報告"
-      ],
-      "articles": [
-        {
-          "title": "「いい夫婦の日」に結婚発表相次ぐ ヒロアカ声優、モデル、元アイドル、ボクシング世界王者らが幸せ報告 (スポニチアネックス)",
-          "url": "https://news.yahoo.co.jp/articles/c53aafb6fc7e165f4bfa390d430c9016080c726b/images/000",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-22T13:20:50.000Z",
-          "isPR": false
-        },
-        {
-          "title": "8月に結婚の「ウマ娘」声優が“いい夫婦の日”に笑顔のウェディングドレス姿を公開（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/d200a09cbffe8386195cd1c6951cb91271fc8d1c",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-22T10:04:11.000Z",
-          "isPR": false
-        },
-        {
-          "title": "声優・安野希世乃 結婚を発表「温かく見守っていただけますと幸い」 人気アニメ「ヒロアカ」波動ねじれ役（スポニチアネックス）",
-          "url": "https://news.yahoo.co.jp/articles/2cf19b9b628fc8a229eab50bcf31393fc21d60a5",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-22T10:03:06.000Z",
-          "isPR": false
-        },
-        {
-          "title": "今年５月に「結婚＆妊娠」発表の31歳声優 第１子出産を報告（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/f36444c153cea1ea69fd96f47c13ffce63d63575",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-22T07:46:38.000Z",
-          "isPR": false
-        },
-        {
-          "title": "声優・佐藤舞 第1子出産を報告 「これから始まる新しい毎日を大切に過ごしていきたい」（スポニチアネックス）",
-          "url": "https://news.yahoo.co.jp/articles/10631b99da3ac802c67ac28c229baedb19d08316",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-22T06:10:15.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "6af89e4aa89f",
       "title": "テレビ朝日で新作アニメ「モモモ！ニニモ」2027年1月10日放送開始",
       "summary": "",
@@ -723,10 +706,38 @@
       ]
     },
     {
+      "id": "db73bfbe1420",
+      "title": "声優 結婚まとめ｜人気声優カップル続々誕生！人気声優の結婚情報年代別一覧",
+      "summary": "",
+      "url": "https://dressy.pla-cole.wedding/voiceactor-wedding/",
+      "image": "https://dressy.pla-cole.wedding/wp-content/uploads/2023/05/051300.jpg",
+      "leadSource": "Dressy(ドレシー)",
+      "publishedAt": "2026-11-23T10:28:12.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "cast2",
+        "new"
+      ],
+      "keywords": [
+        "声優",
+        "結婚"
+      ],
+      "articles": [
+        {
+          "title": "声優・安野希世乃が結婚を発表",
+          "url": "https://news.yahoo.co.jp/pickup/6603586",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-22T10:25:24.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "9e8f9c766efc",
       "title": "ゾンビランドサガで伝統工芸に興味を 声優・本渡さんらイベント [写真特集1/5]",
       "summary": "",
-      "url": "https://mainichi.jp/graphs/20261123/mpj/00m/310/063000f",
+      "url": "https://mainichi.jp/graphs/20261123/mpj/00m/310/063000f/20261123mpj00m310061000p",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000028-mai-000-2-view.jpg?exp=10800",
       "leadSource": "毎日新聞",
       "publishedAt": "2026-11-23T10:08:52.000Z",
@@ -747,6 +758,35 @@
           "url": "https://news.yahoo.co.jp/articles/515b96979dece36f8b302631562a6934ea3c56ce",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-11-23T10:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "c1ca0ac25770",
+      "title": "吉野北斗が結婚 「いい夫婦の日」近辺に芸能界から幸せ報告続々 人気モデル、「ヒロアカ」声優も",
+      "summary": "",
+      "url": "https://www.sponichi.co.jp/entertainment/news/2026/11/23/kiji/20261123s00041000167000c.html",
+      "image": "https://www.sponichi.co.jp/entertainment/news/2026/11/23/jpeg/20261123s10041000202000p_view.webp",
+      "leadSource": "スポニチ Sponichi Annex",
+      "publishedAt": "2026-11-23T07:00:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "cast2",
+        "new"
+      ],
+      "keywords": [
+        "ヒロアカ",
+        "結婚",
+        "人気"
+      ],
+      "articles": [
+        {
+          "title": "声優・安野希世乃 結婚を発表「温かく見守っていただけますと幸い」 人気アニメ「ヒロアカ」波動ねじれ役（スポニチアネックス）",
+          "url": "https://news.yahoo.co.jp/articles/2cf19b9b628fc8a229eab50bcf31393fc21d60a5",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-22T10:03:06.000Z",
           "isPR": false
         }
       ]
@@ -806,73 +846,39 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "5ae54db59523",
-      "title": "まだ間に合う！『遊戯王OCG』劇場版「THE DARK SIDE OF DIMENSIONS」10周年記念商品が抽選販売、一人3点まで",
-      "summary": "新規カード「王の記憶－オベリスクの巨神兵」「黒金の暴竜ガンドラX」など、劇場版関連のカードを多数収録！",
-      "url": "https://www.inside-games.jp/article/2026/11/23/191433.html",
-      "image": "https://www.inside-games.jp/imgs/rss/1806107.jpg",
-      "leadSource": "インサイド",
-      "publishedAt": "2026-11-23T03:30:26.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "movie2"
-      ],
-      "keywords": [
-        "劇場版",
-        "the",
-        "dark"
-      ],
-      "articles": [
-        {
-          "title": "劇場版『遊☆戯☆王THE DARK SIDE OF DIMENSIONS』舞台挨拶に風間俊介と津田健次郎が登壇！",
-          "url": "https://animageplus.jp/articles/detail/68304",
-          "source": "アニメージュプラス",
-          "publishedAt": "2026-11-23T03:30:26.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "329f4ef1d614",
-      "title": "【ファミマ限定】『劇場版 薬屋のひとりごと 亡妃の秘宝』とのコラボキャンペーンが11/24スタート！",
-      "summary": "",
-      "url": "https://www.asahi.com/and/w/article/17067893",
-      "image": "",
-      "leadSource": "朝日新聞",
-      "publishedAt": "2026-11-23T01:00:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "keywords": [
-        "劇場版",
-        "薬屋",
-        "亡妃"
-      ],
-      "articles": [
-        {
-          "title": "「ぷちげき『劇場版 薬屋のひとりごと 亡妃の秘宝』」猫猫と壬氏 [画像ギャラリー 1/4]",
-          "url": "https://natalie.mu/comic/gallery/news/698865/3023164",
-          "source": "ナタリー",
-          "publishedAt": "2026-11-22T05:18:30.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-23T11:30:20.850Z",
+    "previousAt": "2026-11-23T12:00:23.934Z",
     "previousCount": 174,
-    "newCount": 9
+    "newCount": 16
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-23T12:30:23.934Z",
+  "nextUpdateAt": "2026-11-23T13:00:26.240Z",
   "items": [
+    {
+      "id": "979d8ac07f07",
+      "title": "ファミマで「薬屋のひとりごと」コラボが開催！猫猫や壬氏のグッズ、“本格謎解き”に挑戦できる体験型キャンペーンも",
+      "url": "https://www.inside-games.jp/article/2026/11/23/191441.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "「劇場版 薬屋のひとりごと 亡妃の秘宝」とコラボした「劇場版 薬屋のひとりごと「ファミマで謎を解き明かせ」キャンペーン」が2026年11月24日より開催！",
+      "publishedAt": "2026-11-23T12:30:03.000Z",
+      "image": "https://www.inside-games.jp/imgs/rss/1810031.jpg",
+      "categories": [
+        "goods2",
+        "movie2"
+      ],
+      "series": [
+        "movie",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "6af89e4aa89f",
       "title": "テレビ朝日で新作アニメ「モモモ！ニニモ」2027年1月10日放送開始",
@@ -888,6 +894,28 @@
       ],
       "series": [
         "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "51ef379c1995",
+      "title": "結界師 2006年放送 第3話 美しき鬼使い｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題",
+      "url": "https://tver.jp/episodes/epiblgx9ls",
+      "host": "tver.jp",
+      "source": "TVer",
+      "summary": "",
+      "publishedAt": "2026-11-23T11:35:34.000Z",
+      "image": "",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv",
+        "stream"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -990,6 +1018,27 @@
       "isNew": false
     },
     {
+      "id": "db73bfbe1420",
+      "title": "声優 結婚まとめ｜人気声優カップル続々誕生！人気声優の結婚情報年代別一覧",
+      "url": "https://dressy.pla-cole.wedding/voiceactor-wedding/",
+      "host": "dressy.pla-cole.wedding",
+      "source": "Dressy(ドレシー)",
+      "summary": "",
+      "publishedAt": "2026-11-23T10:28:12.000Z",
+      "image": "https://dressy.pla-cole.wedding/wp-content/uploads/2023/05/051300.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "02c7b25c9442",
       "title": "乃木坂46井上和・中西アルノ・一ノ瀬美空・冨里奈央が声優挑戦で見つけた“声の魅力”＜GROTESQQQUE-グロテスク",
       "url": "https://thetv.jp/news/detail/1458106/",
@@ -1013,7 +1062,7 @@
     {
       "id": "9e8f9c766efc",
       "title": "ゾンビランドサガで伝統工芸に興味を 声優・本渡さんらイベント [写真特集1/5]",
-      "url": "https://mainichi.jp/graphs/20261123/mpj/00m/310/063000f",
+      "url": "https://mainichi.jp/graphs/20261123/mpj/00m/310/063000f/20261123mpj00m310061000p",
       "host": "mainichi.jp",
       "source": "毎日新聞",
       "summary": "",
@@ -1145,24 +1194,43 @@
     },
     {
       "id": "b39faa3f706c",
-      "title": "能登の祭りをアニメに! 中高生と大学生がタッグ組み“生成AI”活用（MRO北陸放送）",
-      "url": "https://news.yahoo.co.jp/articles/2dac66aaedeb47fdaf9ab1ad283a1ba9e02d2406",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "能登の祭りをアニメに！ 中高生と大学生がタッグ組み“生成AI”活用",
+      "url": "https://article.auone.jp/9ea737b2-c895-43ac-b104-178e8cf39216",
+      "host": "article.auone.jp",
+      "source": "au Webポータル",
       "summary": "",
-      "publishedAt": "2026-11-23T09:35:24.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-23105423-mrov-000-1-view.jpg?exp=10800",
+      "publishedAt": "2026-11-23T09:37:16.000Z",
+      "image": "https://portal.auone.jp/media/thumbnails/2026/11/23/https___news_jp_i_1497531937946895254_w1200.webp",
       "categories": [
-        "onair"
+        "other"
       ],
-      "series": [
-        "tv"
-      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3f59efdf4978",
+      "title": "井口裕香、鮮やかな青ビキニで圧巻のグラマラスボディー披露！声優界No.1グラビアンの美貌に「女神降臨」の声",
+      "url": "https://news.nicovideo.jp/watch/nw20022509?from",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-11-23T09:30:12.000Z",
+      "image": "",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "048856b88e3c",
@@ -1338,6 +1406,27 @@
       "isNew": false
     },
     {
+      "id": "eddce94474a9",
+      "title": "アニメ『ホタルの嫁入り』声優・キャラクター一覧｜全キャスト43人を網羅＆随時更新 | アニメニュース | アニメフリークス",
+      "url": "https://times.abema.tv/articles/-/10280038",
+      "host": "times.abema.tv",
+      "source": "ABEMA TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-23T07:59:00.000Z",
+      "image": "https://times-abema.ismcdn.jp/mwimgs/e/d/1200w/img_edbcf2e9d028c4f343329b302533a485353859.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "c229752d2439",
       "title": "「だんだんつまらなくなってきている…」劇場版 魔法少女まどか☆マギカ ワルプルギスの廻天 BUBIさんの映画レビュー（感想・評価）",
       "url": "https://eiga.com/movie/94928/review/07249770/",
@@ -1382,13 +1471,13 @@
     },
     {
       "id": "959b6b97b435",
-      "title": "「こんなに肌荒れが改善されることあるんだ！」会社員辞めて声優に…〝ビフォーアフター〟写真公開の宇野心晴に「今が幸せってことやね」（西スポWEB OTTO!）",
-      "url": "https://news.yahoo.co.jp/articles/2ee19479ef626715755417fc3a27e96b5bf234a2",
+      "title": "「こんなに肌荒れが改善されることあるんだ！」会社員辞めて声優に…〝ビフォーアフター〟写真公開の宇野心晴に「今が幸せってことやね」 (西スポWEB OTTO!)",
+      "url": "https://news.yahoo.co.jp/articles/2ee19479ef626715755417fc3a27e96b5bf234a2/images/000",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-23T07:30:02.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00010049-nishispo-000-1-view.jpg?exp=10800",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26h6Xg68CI1jh7ZxcoPC3Hg5tF9eRWGcCBz2ijzkhZji1_FRLp5vLzAgBtIcH_sFZxq1lMtMeWdkYlutDoXY_UkAA56sKotozntOfPEDFSYy7-6KWnrjh26WwbOBh8qstWg==",
       "categories": [
         "cast2",
         "movie2"
@@ -1534,6 +1623,27 @@
       "isNew": false
     },
     {
+      "id": "05d19f886684",
+      "title": "『よう実 5th Season 2年生編2学期＜前半＞』2027年放送決定！",
+      "url": "https://www.animatetimes.com/news/details.php?id",
+      "host": "animatetimes.com",
+      "source": "アニメイトタイムズ",
+      "summary": "",
+      "publishedAt": "2026-11-23T05:55:00.000Z",
+      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "categories": [
+        "onair"
+      ],
+      "series": [
+        "tv"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "14583944cd74",
       "title": "アニメ『結界師の一輪華』OP主題歌がなにわ男子に決定！ メインPV公開",
       "url": "https://dengekionline.com/article/202611/94790",
@@ -1598,6 +1708,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "faa1abd52503",
+      "title": "空条徐倫を演じる声優・ファイルーズあいが、ジョジョに教えてもらったこととは？「人と違うことは個性で、個性は力」",
+      "url": "https://www.walkerplus.com/article/1110373/image11312089.html",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-11-23T05:01:15.000Z",
+      "image": "",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1f2068ca41f6",
@@ -1710,29 +1841,6 @@
       "isNew": false
     },
     {
-      "id": "91e41c0e662e",
-      "title": "ビストロボイス＞津田健次郎×大塚明夫出演「魅惑の低音ボイス」 アンコール放送決定 山寺宏一と語り合う声の神髄 役を引き継ぐこだわり（MANTANWEB）",
-      "url": "https://news.yahoo.co.jp/articles/1f21be7f83bb4acc8f60ed40da00947f0e1ab55d",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-23T03:31:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000026-mantan-000-1-view.jpg?exp=10800",
-      "categories": [
-        "onair",
-        "cast2"
-      ],
-      "series": [
-        "tv",
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "f08b169ce5b9",
       "title": "劇場版『遊☆戯☆王THE DARK SIDE OF DIMENSIONS』舞台挨拶に風間俊介と津田健次郎が登壇！",
       "url": "https://animageplus.jp/articles/detail/68304",
@@ -1751,7 +1859,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5ae54db59523",
@@ -1767,29 +1875,6 @@
       ],
       "series": [
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d013bad68ed3",
-      "title": "【テニスの王子様】25周年記念イベントに豪華声優陣が集結！",
-      "url": "https://animageplus.jp/articles/detail/68303",
-      "host": "animageplus.jp",
-      "source": "アニメージュプラス",
-      "summary": "",
-      "publishedAt": "2026-11-23T03:19:51.000Z",
-      "image": "",
-      "categories": [
-        "cast2",
-        "goods2"
-      ],
-      "series": [
-        "cast",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1819,6 +1904,29 @@
       "isNew": false
     },
     {
+      "id": "d013bad68ed3",
+      "title": "【テニスの王子様】25周年記念イベントに豪華声優陣が集結！ (アニメージュプラス)",
+      "url": "https://news.yahoo.co.jp/articles/c58c28df92c95d105c14180e99b1cade67a23155/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-23T03:15:00.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26nTOdI5vKnDYL-9y1EaxLeUDtiXEpKJCXRTCAboZL443XL7vlNKffeMfi6aATEwcHe4S_Jf0s_EcHkBvQfrQL5zjFcbvDApqy5w1malWbguT0yB7_rLlpxZmVoHZPEfVrw==",
+      "categories": [
+        "cast2",
+        "goods2"
+      ],
+      "series": [
+        "cast",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "3bea397b36fd",
       "title": "【勤労感謝の日】“お仕事アニメ”といえば？ 2位は「NEW GAME!」＆「文豪ストレイドッグス」、1位は…「お仕事アニメらしいタイトル」 ＜26年版＞",
       "url": "https://animeanime.jp/article/2026/11/23/105022.html",
@@ -1836,6 +1944,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "d47cd060f59a",
+      "title": "『妖狐×僕SS』15周年！キャラ8人集結の記念ビジュアル公開 来年1・8から再放送決定",
+      "url": "https://www.sanyonews.jp/article/2023305",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-23T03:04:54.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/8/a/e/58aea2e451ae7a127badbbc797c03c80_1.jpg",
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "67fe176b0cd0",
@@ -1966,6 +2097,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "bdbe976d04d4",
+      "title": "劇場版アニメ『AKIRA』再放送決定 製作期間3年、総制作費10億円の衝撃作",
+      "url": "https://www.sanyonews.jp/article/1950107?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-23T02:11:23.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/4/5/9/c/459c03e1037729fcdf15ff13bd27caa7_1.jpg",
+      "categories": [
+        "onair",
+        "movie2"
+      ],
+      "series": [
+        "tv",
+        "movie"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f937d45ee336",
@@ -2205,36 +2359,14 @@
       "isNew": false
     },
     {
-      "id": "e15d9846fe62",
-      "title": "『ようこそ実力至上主義の教室へ』アニメ第5期に到達、続編は前後編と判明 前半は2027年放送決定（オタク総研）",
-      "url": "https://news.yahoo.co.jp/articles/91d7808a2e42fb8a88f10d0e068adcfa689edfcd",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T22:06:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00070600-otakulab-000-1-view.jpg?exp=10800",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9172144b97ae",
-      "title": "2019年にALSと告知。ニャンちゅう声優・津久井教生さんの妻が語る「19歳のときの出会い」（FRaU）",
-      "url": "https://news.yahoo.co.jp/articles/cecaa52e83fb7a9da17fdac5d7c5cead58e9e3cd",
+      "title": "2019年にALSと告知。ニャンちゅう声優・津久井教生さんの妻が語る「19歳のときの出会い」 (FRaU)",
+      "url": "https://news.yahoo.co.jp/articles/cecaa52e83fb7a9da17fdac5d7c5cead58e9e3cd/images/001",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-22T22:01:36.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000004-kjn-000-1-view.jpg?exp=10800",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26r5LmCC_r3EwJJMeVU7o8RIuP1txnvLCjjr9GaMGCQPo6sCs80IAnCQ0y5T--6jqAypoPDn7p0aJxKNpA7Bzs3f18fpj5MizRewEdqLQG3tc",
       "categories": [
         "cast2"
       ],
@@ -2269,6 +2401,50 @@
       "isNew": false
     },
     {
+      "id": "72b066c595ec",
+      "title": "声優・花江夏樹、結婚してから10年！当時の式場で家族と記念撮影 「幸せな写真が見れて嬉しい」と大反響",
+      "url": "https://www.sanyonews.jp/article/1986257?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-22T21:47:51.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/f/e/7/7/fe77a730ea9079219cf43a770be9ee6d_1.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "abcf2c7c5e77",
+      "title": "アイススケートショー『刀剣乱舞』スケーター＆声優キャストのソロビジュアル公開",
+      "url": "https://www.sanyonews.jp/article/1987542?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-22T21:30:38.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/d/b/8/a/db8afa8628810bf5fc4107bc675f4007_1.jpg",
+      "categories": [
+        "cast2",
+        "pv"
+      ],
+      "series": [
+        "movie",
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "7747f2537575",
       "title": "カップリング自由自在な「忍たま乱太郎 カスタムチャームビスケットの段」！チャームは全20種、ビスケットの絵柄は全60種",
       "url": "https://www.inside-games.jp/article/2026/11/23/191415.html",
@@ -2288,6 +2464,136 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8dab51637e0d",
+      "title": "声優の楠木ともり、13日のライブ公演中止 本人＆来場者の「安全に支障をきたす事案が生じました」",
+      "url": "https://www.sanyonews.jp/article/1987371?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-22T20:57:24.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/e/f/8/cef848fb9df459f97dbb2547267b75db_1.jpg",
+      "categories": [
+        "cast2",
+        "music2"
+      ],
+      "series": [
+        "cast",
+        "music"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ab02af93edec",
+      "title": "人気声優・小倉唯、30代初の写真集発売「沖縄で成長した私の姿を楽しんで」",
+      "url": "https://www.sanyonews.jp/article/1991402?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-22T20:28:37.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/9/d/6/59d61b1337d363e01456684228c35d10_1.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5be301133156",
+      "title": "声優・戸谷菊之介、初の写真集が発売決定 無防備な横顔から美ボディ、インタビューまで今のすべて詰め込む",
+      "url": "https://www.sanyonews.jp/article/1991162?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-22T20:25:52.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/a/b/d/6abd5c3ababc32eac5642e88dbcc4275_1.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "bfb5556d326a",
+      "title": "今年５月に「結婚＆妊娠」発表の31歳声優 第１子出産を報告",
+      "url": "https://www.nikkansports.com/entertainment/photonews/photonews_nsInc_202611220001332-1.html",
+      "host": "nikkansports.com",
+      "source": "日刊スポーツ",
+      "summary": "",
+      "publishedAt": "2026-11-22T20:03:45.000Z",
+      "image": "https://www.nikkansports.com/entertainment/news/img/202611220001332-w1300_1.jpg",
+      "categories": [
+        "new",
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "600894ebddc5",
+      "title": "女性声優グラビア企画『Love Voice』始動 表紙は伊達さゆり 遠藤璃菜・前田佳織里・澤田姫も集結",
+      "url": "https://www.sanyonews.jp/article/2009298?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-22T18:32:24.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/0/f/c/f/0fcf9f84005158f0276f10cc70ff4f90_1.jpg",
+      "categories": [
+        "new",
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "91c4ee44c85d",
+      "title": "関智一＆仲村宗悟、約3年8ヶ月ぶりMCコンビ再結成 思い出のカラオケデュエットも【声優と夜あそび】",
+      "url": "https://www.sanyonews.jp/article/2024076",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-22T18:30:19.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/3/4/6/1/34616986a323be4e5cbe65ddfe415228_1.jpg",
+      "categories": [
+        "cast2"
+      ],
+      "series": [
+        "cast"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "9f9b3124784f",
@@ -2354,50 +2660,6 @@
       "isNew": false
     },
     {
-      "id": "c10bc0e3d93f",
-      "title": "37歳声優が結婚を発表「まだまだ未熟者ですが、ひとりの人間としても成長できるよう」",
-      "url": "https://www.nikkansports.com/entertainment/photonews/photonews_nsInc_202611220002268-1.html",
-      "host": "nikkansports.com",
-      "source": "日刊スポーツ",
-      "summary": "",
-      "publishedAt": "2026-11-22T14:40:55.000Z",
-      "image": "https://www.nikkansports.com/entertainment/news/img/202611220002268-w1300_1.jpg",
-      "categories": [
-        "new",
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a240308231fc",
-      "title": "「いい夫婦の日」に結婚発表相次ぐ ヒロアカ声優、モデル、元アイドル、ボクシング世界王者らが幸せ報告 (スポニチアネックス)",
-      "url": "https://news.yahoo.co.jp/articles/c53aafb6fc7e165f4bfa390d430c9016080c726b/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T13:20:50.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26lqiW2Kw26FzqXUrsXvf3bxVlIf9N_gOKI3Ceuq_T9K3Ow-Aeo69BOxZG4Wji_7a8pOr2H1jJniy82EDess0QI5UnRh3wE-BqpVcEYHIKp0WooAZ4HKDiD1RbDVIc63iUg==",
-      "categories": [
-        "new",
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7f99e64b8735",
       "title": "『緋弾のアリア』新作ショートアニメ『緋弾のアリア Corto』が2027年4月より配信決定！本作で初登場となるリサ（CV：岩井映美里 ）、メヌエット（CV：根本京里）、ネモ（CV：春野杏 ）が描かれたキービジュアルも公開",
       "url": "https://news.denfaminicogamer.jp/news/261122g",
@@ -2456,28 +2718,6 @@
       ],
       "series": [
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "41cc8d3acca7",
-      "title": "声優・安野希世乃、結婚発表「表現者として一層精進してまいります」【全文】（モデルプレス）",
-      "url": "https://news.yahoo.co.jp/articles/3bd532675ee48c67529af49b6d0a7dfa47fabde7",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T11:46:43.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-04881524-mdpr-000-1-view.jpg?exp=10800",
-      "categories": [
-        "new",
-        "cast2"
-      ],
-      "series": [
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2690,28 +2930,6 @@
       "isNew": false
     },
     {
-      "id": "e72053d18173",
-      "title": "声優の安野希世乃が結婚を発表…「感謝の気持ちでいっぱいです」（テレビ朝日系（ANN））",
-      "url": "https://news.yahoo.co.jp/articles/373672ebecee439fd0dccbbaec8b611ad63497a9",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T10:39:15.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204989-ann-000-1-view.jpg?exp=10800",
-      "categories": [
-        "new",
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "4a2d94a9b03c",
       "title": "「ハイキュー!!」や「呪術廻戦」、「銀魂」など盛りだくさん♪「ジャンプフェスタ2027」AMNIBUSブースグッズ情報",
       "url": "https://animeanime.jp/article/2026/11/22/105014.html",
@@ -2792,29 +3010,6 @@
       ],
       "series": [
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6e8a089863e0",
-      "title": "8月に結婚の「ウマ娘」声優が“いい夫婦の日”に笑顔のウェディングドレス姿を公開（日刊スポーツ）",
-      "url": "https://news.yahoo.co.jp/articles/d200a09cbffe8386195cd1c6951cb91271fc8d1c",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T10:04:11.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-41221889-nksports-000-2-view.jpg?exp=10800",
-      "categories": [
-        "cast2",
-        "movie2"
-      ],
-      "series": [
-        "movie",
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3007,30 +3202,6 @@
       "isNew": false
     },
     {
-      "id": "1740190685ce",
-      "title": "ショートアニメ『緋弾のアリアCorto』2027年4月より配信開始。おなじみアリア（釘宮理恵）らに加え、新キャラのビジュアル・声優も公開",
-      "url": "https://www.famitsu.com/article/202611/94729",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-11-22T08:30:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/94729/thumbnail_htdZ.jpg?x=1280",
-      "categories": [
-        "onair",
-        "pv"
-      ],
-      "series": [
-        "movie",
-        "cast",
-        "stream"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "2954dbf5b181",
       "title": "『緋弾のアリアCorto』新作ショートアニメ来年4月配信 初登場キャラ＆キャスト発表",
       "url": "https://www.oricon.co.jp/news/2494548/full/",
@@ -3067,6 +3238,30 @@
         "new"
       ],
       "series": [
+        "cast",
+        "stream"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "1740190685ce",
+      "title": "ショートアニメ『緋弾のアリアCorto』2027年4月より配信開始。おなじみアリア（釘宮理恵）らに加え、新キャラのビジュアル・声優も公開",
+      "url": "https://www.famitsu.com/article/202611/94729",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-22T08:30:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/94729/thumbnail_htdZ.jpg?x=1280",
+      "categories": [
+        "onair",
+        "pv"
+      ],
+      "series": [
+        "movie",
         "cast",
         "stream"
       ],
@@ -3135,50 +3330,6 @@
       ],
       "series": [
         "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "182ef3a5af7c",
-      "title": "アニメ「アオアシ Season2」 第９話の場面写真を先行公開！ - もっと！アオアシ - アニメ アオアシ",
-      "url": "https://www.nhk.jp/g/ts/7MY7M5YYQ6/blog/bl/pe9p4r6P7j/bp/p7g4AjNVkb/",
-      "host": "nhk.jp",
-      "source": "NHK",
-      "summary": "",
-      "publishedAt": "2026-11-22T08:25:01.000Z",
-      "image": "https://img.nhk.jp/static/assets/images/newblogposting/ts/7MY7M5YYQ6/7MY7M5YYQ6-eyecatch_d53baf88f8677bf90afa62d5a152327e.jpg",
-      "categories": [
-        "onair",
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b7e52741c56f",
-      "title": "今年５月に結婚＆妊娠発表の声優が出産…（テレビ朝日系（ANN））",
-      "url": "https://news.yahoo.co.jp/articles/61cdadfd8ca9047664c7ea278310108fb4e19dbb",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T08:21:17.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204979-ann-000-3-view.jpg?exp=10800",
-      "categories": [
-        "new",
-        "cast2"
-      ],
-      "series": [
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3275,28 +3426,6 @@
       "isNew": false
     },
     {
-      "id": "bfb5556d326a",
-      "title": "今年５月に「結婚＆妊娠」発表の31歳声優 第１子出産を報告（日刊スポーツ）",
-      "url": "https://news.yahoo.co.jp/articles/f36444c153cea1ea69fd96f47c13ffce63d63575",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T07:46:38.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-41221332-nksports-000-2-view.jpg?exp=10800",
-      "categories": [
-        "new",
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "808f2cc511c8",
       "title": "量産型イケメンに飽きたあなたへ。アニメ化で人気爆発の岩本ナオ『マロニエ王国の七人の騎士』が全巻50%還元【Amazonマンガ週末祭】",
       "url": "https://ascii.jp/elem/000/004/453/4453845/",
@@ -3332,27 +3461,6 @@
       ],
       "series": [
         "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f5a1e3ab713a",
-      "title": "声優・佐藤舞 第1子出産を報告 「これから始まる新しい毎日を大切に過ごしていきたい」（スポニチアネックス）",
-      "url": "https://news.yahoo.co.jp/articles/10631b99da3ac802c67ac28c229baedb19d08316",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T06:10:15.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000253-spnannex-000-12-view.jpg?exp=10800",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3958,28 +4066,6 @@
       "isNew": false
     },
     {
-      "id": "b21652a8d120",
-      "title": "アニメ『ようこそ実力至上主義の教室へ』第5期が2027年に放送決定。2年生編の2学期は前半・後半の2部構成",
-      "url": "https://www.famitsu.com/article/202611/94705",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-11-22T03:15:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/94705/thumbnail_WhOw.jpg?x=1280",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv",
-        "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "90c868eeea8b",
       "title": "わたしの幸せな結婚：新作アニメ「特別篇」 顎木あくみ、上田麗奈、石川界人が“結婚”を祝福 「いい夫婦の日」企画も",
       "url": "https://mantan-web.jp/article/20261120dog00m200091000a.html",
@@ -4105,48 +4191,6 @@
       "isNew": false
     },
     {
-      "id": "af09e5785d9f",
-      "title": "同級生男子からの告白メールに「反射的に『気持ち悪い』と…」デレマス声優・青木志貴（36）が「僕は自分のことを男だと思ってる」と気づいた瞬間（文春オンライン）",
-      "url": "https://news.yahoo.co.jp/articles/8b0d3dab525bc3c7740ee821b4f8fe2b3e582ce9",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-22T01:12:16.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00093007-bunshun-000-1-view.jpg?exp=10800",
-      "categories": [
-        "cast2"
-      ],
-      "series": [
-        "cast"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c27bf47825d0",
-      "title": "「マクロスF」劇場版など全8種！二次元コード付きで実際に聴けるミニCDコレクションがガシャポン展開",
-      "url": "https://www.inside-games.jp/article/2026/11/22/191391.html",
-      "host": "inside-games.jp",
-      "source": "インサイド",
-      "summary": "ガシャポン「マクロスF(フロンティア) ミニCDコレクション2」が11月第4週より発売！",
-      "publishedAt": "2026-11-22T00:30:03.000Z",
-      "image": "https://www.inside-games.jp/imgs/rss/1802188.jpg",
-      "categories": [
-        "movie2"
-      ],
-      "series": [
-        "movie"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d83bf863d143",
       "title": "『魔女と猟犬』アニメ化決定でPV解禁 スタッフ発表で制作はTriFスタジオ",
       "url": "https://www.sanyonews.jp/article/1948172?kw",
@@ -4166,7 +4210,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dffcde538292",
@@ -4187,7 +4231,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1eb15be99b5a",
@@ -4209,30 +4253,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "b6377803e8de",
-      "title": "『BLEACH』アニメ完結で放送22年の歴史に幕 スペシャルエンディングムービー公開",
-      "url": "https://www.sanyonews.jp/article/2011061?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-21T19:30:13.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/6/b/a/c/6bac99ac34ff7304747bd09f7e6a206a_1.jpg",
-      "categories": [
-        "onair",
-        "music2"
-      ],
-      "series": [
-        "tv",
-        "movie",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "01371568aec8",
@@ -4294,7 +4314,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3d0e82f7deb3",
@@ -4311,27 +4331,6 @@
       "series": [
         "movie",
         "adapt"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "8f666b731b66",
-      "title": "TVアニメ放送30周年記念 「名探偵コナン」芸術花火2026｜レッツエンジョイ東京",
-      "url": "https://www.enjoytokyo.jp/event/2082871/",
-      "host": "enjoytokyo.jp",
-      "source": "レッツエンジョイ東京",
-      "summary": "",
-      "publishedAt": "2026-11-21T17:17:30.000Z",
-      "image": "https://rstatic.enjoytokyo.jp/assets/images/event/42/2082871/img_3.jpg?1793087921&p=t&w=1200",
-      "categories": [
-        "onair"
-      ],
-      "series": [
-        "tv"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -4358,7 +4357,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0e371f2e4d41",
@@ -4443,7 +4442,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e7a3f2e66267",
@@ -4483,51 +4482,6 @@
       "series": [
         "movie",
         "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "422b76d62194",
-      "title": "劇場アニメ『魔法使いの夜』第3弾キービジュアルと原作ED曲「星が瞬くこんな夜に」が彩るCM公開",
-      "url": "https://news.denfaminicogamer.jp/news/261121p",
-      "host": "news.denfaminicogamer.jp",
-      "source": "電ファミニコゲーマー",
-      "summary": "",
-      "publishedAt": "2026-11-21T12:09:00.000Z",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/bd998c225e60cda2cf269f5fe13dbc74.jpg",
-      "categories": [
-        "pv",
-        "movie2"
-      ],
-      "series": [
-        "movie",
-        "music"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "5a21f79d7cf3",
-      "title": "公開初日にIMAX上映で映像乱れが発生、劇場アニメ『魔法使いの夜』即日復旧で招待券対応へ（オタク総研）",
-      "url": "https://news.yahoo.co.jp/articles/eebfcde96ed2d562407e017db175c939b9a7d990",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-21T12:04:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00210400-otakulab-000-118-view.jpg?exp=10800",
-      "categories": [
-        "movie2",
-        "pv"
-      ],
-      "series": [
-        "movie"
       ],
       "isOfficial": false,
       "isPR": false,
